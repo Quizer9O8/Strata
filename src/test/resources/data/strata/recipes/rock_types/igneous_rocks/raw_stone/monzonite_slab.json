@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:monzonite"
+    }
+  },
+  "result": {
+    "item": "strata:monzonite_slab",
+    "count": 6
+  }
+}

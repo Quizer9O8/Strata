@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:pegmatite"
+    }
+  },
+  "result": {
+    "item": "strata:pegmatite_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "strata:block/aa_slab" },
+        "type=top": { "model": "strata:block/aa_slab_top" },
+        "type=double": { "model": "strata:block/aa" }
+    }
+}

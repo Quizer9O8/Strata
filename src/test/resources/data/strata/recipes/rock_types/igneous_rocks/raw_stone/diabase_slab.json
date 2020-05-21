@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:diabase"
+    }
+  },
+  "result": {
+    "item": "strata:diabase_slab",
+    "count": 6
+  }
+}

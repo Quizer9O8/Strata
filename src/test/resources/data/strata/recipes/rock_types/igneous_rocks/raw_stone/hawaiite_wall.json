@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:hawaiite"
+    }
+  },
+  "result": {
+    "item": "strata:hawaiite_wall",
+    "count": 6
+  }
+}

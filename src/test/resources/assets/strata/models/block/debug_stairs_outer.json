@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "strata:blocks/debug_block",
+    "top": "strata:blocks/debug_block",
+    "side": "strata:blocks/debug_block"
+    }
+}

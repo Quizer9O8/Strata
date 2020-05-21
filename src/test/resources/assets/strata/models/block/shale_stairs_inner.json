@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "strata:blocks/shale",
+    "top": "strata:blocks/shale",
+    "side": "strata:blocks/shale"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:hyaloclastit"
+    }
+  },
+  "result": {
+    "item": "strata:hyaloclastit_slab",
+    "count": 6
+  }
+}

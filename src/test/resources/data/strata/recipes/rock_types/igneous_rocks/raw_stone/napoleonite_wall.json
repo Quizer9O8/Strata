@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:napoleonite"
+    }
+  },
+  "result": {
+    "item": "strata:napoleonite_wall",
+    "count": 6
+  }
+}

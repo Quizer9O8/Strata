@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:basaltic_trachyandesite"
+    }
+  },
+  "result": {
+    "item": "strata:basaltic_trachyandesite_slab",
+    "count": 6
+  }
+}

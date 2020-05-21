@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:enderbite"
+    }
+  },
+  "result": {
+    "item": "strata:enderbite_wall",
+    "count": 6
+  }
+}

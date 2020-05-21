@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:icelandite"
+    }
+  },
+  "result": {
+    "item": "strata:icelandite_stairs",
+    "count": 4
+  }
+}

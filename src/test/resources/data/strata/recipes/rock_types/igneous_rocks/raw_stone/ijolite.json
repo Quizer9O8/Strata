@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "strata:ijolite_cobblestone"
+  },
+  "result": "strata:ijolite",
+  "experience": 0.1,
+  "cookingtime": 200
+}

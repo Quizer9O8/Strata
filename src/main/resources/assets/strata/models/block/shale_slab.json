@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "strata:blocks/sedimentary_rocks/shale",
+    "top": "strata:blocks/sedimentary_rocks/shale",
+    "side": "strata:blocks/sedimentary_rocks/shale"
+  }
+}

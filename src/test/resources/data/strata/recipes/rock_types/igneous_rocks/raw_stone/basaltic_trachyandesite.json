@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "strata:basaltic_trachyandesite_cobblestone"
+  },
+  "result": "strata:basaltic_trachyandesite",
+  "experience": 0.1,
+  "cookingtime": 200
+}

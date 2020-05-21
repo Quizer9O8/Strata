@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:nephelinite"
+    }
+  },
+  "result": {
+    "item": "strata:nephelinite_wall",
+    "count": 6
+  }
+}

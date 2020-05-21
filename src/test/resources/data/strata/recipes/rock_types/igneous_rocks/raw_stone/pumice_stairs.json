@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:pumice"
+    }
+  },
+  "result": {
+    "item": "strata:pumice_stairs",
+    "count": 4
+  }
+}

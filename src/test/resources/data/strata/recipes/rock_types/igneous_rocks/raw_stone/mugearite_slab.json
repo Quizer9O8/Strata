@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:mugearite"
+    }
+  },
+  "result": {
+    "item": "strata:mugearite_slab",
+    "count": 6
+  }
+}

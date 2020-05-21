@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "strata:blocks/basalt",
+    "top": "strata:blocks/basalt",
+    "side": "strata:blocks/basalt"
+    }
+}

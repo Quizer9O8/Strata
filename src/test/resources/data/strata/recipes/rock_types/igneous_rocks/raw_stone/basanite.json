@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:basanite"
+    }
+  },
+  "result": {
+    "item": "strata:basanite",
+    "count": 6
+  }
+}

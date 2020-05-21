@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:alkali_fieldspar_granite"
+    }
+  },
+  "result": {
+    "item": "strata:alkali_fieldspar_granite_stairs",
+    "count": 4
+  }
+}

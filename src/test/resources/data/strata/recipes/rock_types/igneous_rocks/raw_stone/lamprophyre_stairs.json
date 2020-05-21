@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:lamprophyre"
+    }
+  },
+  "result": {
+    "item": "strata:lamprophyre_stairs",
+    "count": 4
+  }
+}

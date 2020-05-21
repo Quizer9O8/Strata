@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "strata:comendite_cobblestone"
+  },
+  "result": "strata:comendite",
+  "experience": 0.1,
+  "cookingtime": 200
+}

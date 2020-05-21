@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:carbonatite"
+    }
+  },
+  "result": {
+    "item": "strata:carbonatite_stairs",
+    "count": 4
+  }
+}

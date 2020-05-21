@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:latite"
+    }
+  },
+  "result": {
+    "item": "strata:latite_wall",
+    "count": 6
+  }
+}

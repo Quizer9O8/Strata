@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "strata:granophyre_cobblestone"
+  },
+  "result": "strata:granophyre",
+  "experience": 0.1,
+  "cookingtime": 200
+}

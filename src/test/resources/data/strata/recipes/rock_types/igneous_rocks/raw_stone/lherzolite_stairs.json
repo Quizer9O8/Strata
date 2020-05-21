@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:lherzolite"
+    }
+  },
+  "result": {
+    "item": "strata:lherzolite_stairs",
+    "count": 4
+  }
+}
