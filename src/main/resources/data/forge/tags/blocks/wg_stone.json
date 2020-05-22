@@ -5,6 +5,8 @@
     "strata:basalt",
     "strata:gneiss",
     "strata:schist",
-    "strata:amphibolite"
+    "strata:amphibolite",
+    "strata:limestone",
+    "strata:shale"
   ]
 }
