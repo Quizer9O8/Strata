@@ -1,6 +1,7 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Help improve Strataby reporting bugs and mod compatibility problems. If this
+  doesn’t look right, [choose a different type.](https://github.com/Quizer9O8/Strata/issues/new/choose)
 title: "[Bug]"
 labels: Bug
 assignees: Quizer9O8
