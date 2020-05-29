@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Help improve Strataby reporting bugs and mod compatibility problems.
+about: Help improve Strata by reporting bugs and mod compatibility problems.
 title: "[Bug]"
 labels: Bug
 assignees: Quizer9O8
