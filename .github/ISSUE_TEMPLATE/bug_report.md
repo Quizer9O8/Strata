@@ -7,7 +7,7 @@ assignees: Quizer9O8
 
 ---
 
-Before reporting a bug please read if you haven't already
+Before reporting a bug please read [Writing Helpful Bug Reports](https://github.com/Quizer9O8/Strata/wiki/Writing-Helpful-Bug-Reports) if you haven't already
 ---
 
 **Minecraft Version**
