@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Help improve Strata by reporting bugs and mod compatibility problems.
-title: "[Bug]"
+title: ''
 labels: Bug
 assignees: Quizer9O8
 
@@ -22,7 +22,7 @@ Please describe the problem clearly and concisely.
 **How to reproduce**
 - Describe your setup if using anything other than the Mojang launcher or standard forge server
 - List any third-party mods (& their version number) that may be relevant to the issue
-- Provide a simple step-by-step guide to recreate the problem. If applicable, add screenshots to help explain your problem.
+- Provide a simple step-by-step guide to recreate the problem. If applicable, add screenshots to help explain your problem
 
 **Additional information**
-Add screenshots, world-seeds, co-ordinates, log files, links to conflicting mods
+Add screenshots, world-seeds, co-ordinates, log files, links to conflicting mods.
