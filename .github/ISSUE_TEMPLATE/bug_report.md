@@ -2,7 +2,7 @@
 name: Bug report
 about: Help improve Strata by reporting bugs and mod compatibility problems.
 title: ''
-labels: Bug
+labels: Bug, Review
 assignees: Quizer9O8
 
 ---

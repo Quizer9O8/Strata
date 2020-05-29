@@ -2,7 +2,7 @@
 name: Question
 about: A question about the mod.
 title: ''
-labels: Question
+labels: Question, Review
 assignees: Quizer9O8
 
 ---
