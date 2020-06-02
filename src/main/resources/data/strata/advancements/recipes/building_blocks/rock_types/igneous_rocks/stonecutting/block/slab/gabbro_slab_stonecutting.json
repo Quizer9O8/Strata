@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/igneous_rocks/stonecutting/block/slab/gabbro_slab_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_gabbro": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:gabbro"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "gabbro_slab_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gabbro",
+      "has_the_recipe"
+    ]
+  ]
+}

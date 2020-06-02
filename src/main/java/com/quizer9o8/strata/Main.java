@@ -32,8 +32,8 @@ public class Main
     //Creative Tab
     //public static final ItemGroup DEBUG_TAB = new Main.DebugItemGroup("debug");
     public static final ItemGroup IGNEOUS_TAB = new Main.IgneousRocksItemGroup("igneous");
-    public static final ItemGroup SEDIMENTARY_TAB = new Main.SedimentaryRocksItemGroup("sedimentary");
     public static final ItemGroup METAMORPHIC_TAB = new Main.MetamorphicRocksItemGroup("metamorphic");
+    public static final ItemGroup SEDIMENTARY_TAB = new Main.SedimentaryRocksItemGroup("sedimentary");
     //public static final ItemGroup MISCELLANEOUS_TAB = new Main.MiscellaneousRocksItemGroup("miscellaneous");
 
     //Logger

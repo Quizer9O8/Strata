@@ -48,6 +48,10 @@
   "block.strata.basalt_stairs": "Basalt Stairs",
   "block.strata.basalt_wall": "Basalt Wall",
 
+  "block.strata.polished_basalt": "Polished Basalt",
+  "block.strata.polished_basalt_slab": "Polished Basalt Slab",
+  "block.strata.polished_basalt_stairs": "Polished Basalt Stairs",
+
   "block.strata.basaltic_trachyandesite": "Basaltic Trachyandesite",
   "block.strata.basaltic_trachyandesite_slab": "Basaltic Trachyandesite Slab",
   "block.strata.basaltic_trachyandesite_stairs": "Basaltic Trachyandesite Stairs",
@@ -122,6 +126,10 @@
   "block.strata.gabbro_slab": "Gabbro Slab",
   "block.strata.gabbro_stairs": "Gabbro Stairs",
   "block.strata.gabbro_wall": "Gabbro Wall",
+
+  "block.strata.polished_gabbro": "Polished Gabbro",
+  "block.strata.polished_gabbro_slab": "Polished Gabbro Slab",
+  "block.strata.polished_gabbro_stairs": "Polished Gabbro Stairs",
 
   "block.strata.granodiorite": "Granodiorite",
   "block.strata.granodiorite_slab": "Granodiorite Slab",
@@ -480,6 +488,10 @@
   "block.strata.limestone_stairs": "Limestone Stairs",
   "block.strata.limestone_wall": "Limestone Wall",
 
+  "block.strata.polished_limestone": "Polished Limestone",
+  "block.strata.polished_limestone_slab": "Polished Limestone Slab",
+  "block.strata.polished_limestone_stairs": "Polished Limestone Stairs",
+
   "block.strata.marl": "Marl",
   "block.strata.marl_slab": "Marl Slab",
   "block.strata.marl_stairs": "Marl Stairs",
@@ -509,6 +521,10 @@
   "block.strata.shale_slab": "Shale Slab",
   "block.strata.shale_stairs": "Shale Stairs",
   "block.strata.shale_wall": "Shale Wall",
+
+  "block.strata.polished_shale": "Polished Shale",
+  "block.strata.polished_shale_slab": "Polished Shale Slab",
+  "block.strata.polished_shale_stairs": "Polished Shale Stairs",
 
   "block.strata.siltstone": "Siltstone",
   "block.strata.siltstone_slab": "Siltstone Slab",
@@ -552,6 +568,10 @@
   "block.strata.amphibolite_stairs": "Amphibolite Stairs",
   "block.strata.amphibolite_wall": "Amphibolite Wall",
 
+  "block.strata.polished_amphibolite": "Polished Amphibolite",
+  "block.strata.polished_amphibolite_slab": "Polished Amphibolite Slab",
+  "block.strata.polished_amphibolite_stairs": "Polished Amphibolite Stairs",
+
   "block.strata.blueschist": "Blueschist",
   "block.strata.blueschist_slab": "Blueschist Slab",
   "block.strata.blueschist_stairs": "Blueschist Stairs",
@@ -571,6 +591,10 @@
   "block.strata.gneiss_slab": "Gneiss Slab",
   "block.strata.gneiss_stairs": "Gneiss Stairs",
   "block.strata.gneiss_wall": "Gneiss Wall",
+
+  "block.strata.polished_gneiss": "Polished Gneiss",
+  "block.strata.polished_gneiss_slab": "Polished Gneiss Slab",
+  "block.strata.polished_gneiss_stairs": "Polished Gneiss Stairs",
 
   "block.strata.granulite": "Granulite",
   "block.strata.granulite_slab": "Granulite Slab",
@@ -636,6 +660,10 @@
   "block.strata.schist_slab": "Schist Slab",
   "block.strata.schist_stairs": "Schist Stairs",
   "block.strata.schist_wall": "Schist Wall",
+
+  "block.strata.polished_schist": "Polished Schist",
+  "block.strata.polished_schist_slab": "Polished Schist Slab",
+  "block.strata.polished_schist_stairs": "Polished Schist Stairs",
 
   "block.strata.serpentinite": "Serpentinite",
   "block.strata.serpentinite_slab": "Serpentinite Slab",
