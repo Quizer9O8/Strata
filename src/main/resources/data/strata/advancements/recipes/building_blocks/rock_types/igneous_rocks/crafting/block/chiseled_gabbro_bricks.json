@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/igneous_rocks/crafting/block/chiseled_gabbro_bricks"
+    ]
+  },
+  "criteria": {
+    "has_gabbro_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:gabbro_bricks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:chiseled_gabbro_bricks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gabbro_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}
+

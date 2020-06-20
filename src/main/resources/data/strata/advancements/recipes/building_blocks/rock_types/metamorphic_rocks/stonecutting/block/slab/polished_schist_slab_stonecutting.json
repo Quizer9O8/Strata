@@ -6,7 +6,7 @@
     ]
   },
   "criteria": {
-    "has_polished_polished_schist": {
+    "has_polished_schist": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

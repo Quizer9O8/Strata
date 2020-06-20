@@ -8,6 +8,20 @@
     "strata:limestone_slab",
     "strata:schist_slab",
     "strata:shale_slab",
+    "strata:amphibolite_brick_slab",
+    "strata:basalt_brick_slab",
+    "strata:gabbro_brick_slab",
+    "strata:gneiss_brick_slab",
+    "strata:limestone_brick_slab",
+    "strata:schist_brick_slab",
+    "strata:shale_brick_slab",
+    "strata:mossy_amphibolite_brick_slab",
+    "strata:mossy_basalt_brick_slab",
+    "strata:mossy_gabbro_brick_slab",
+    "strata:mossy_gneiss_brick_slab",
+    "strata:mossy_limestone_brick_slab",
+    "strata:mossy_schist_brick_slab",
+    "strata:mossy_shale_brick_slab",
     "strata:polished_amphibolite_slab",
     "strata:polished_basalt_slab",
     "strata:polished_gabbro_slab",
@@ -15,5 +29,6 @@
     "strata:polished_limestone_slab",
     "strata:polished_schist_slab",
     "strata:polished_shale_slab"
+    
   ]
 }

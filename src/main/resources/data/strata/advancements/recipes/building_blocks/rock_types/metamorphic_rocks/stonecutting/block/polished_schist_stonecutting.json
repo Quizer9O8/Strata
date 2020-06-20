@@ -2,11 +2,11 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "strata:rock_types/metamorphic_rocks/stonecutting/block/polished_schist"
+      "strata:rock_types/metamorphic_rocks/stonecutting/block/polished_schist_stonecutting"
     ]
   },
   "criteria": {
-    "has_polished_schist": {
+    "has_schist": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_polished_schist",
+      "has_schist",
       "has_the_recipe"
     ]
   ]

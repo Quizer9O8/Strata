@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "strata:rock_types/sedimentary_rocks/stonecutting/block/polished_shale_stonecutting"
+      "strata:rock_types/sedimentary_rocks/stonecutting/block/polished_stone_stonecutting"
     ]
   },
   "criteria": {

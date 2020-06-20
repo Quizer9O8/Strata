@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:limestone_bricks"
+    }
+  },
+  "result": {
+    "item": "strata:limestone_brick_slab",
+    "count": 6
+  }
+}

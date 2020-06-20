@@ -7,6 +7,20 @@
     "strata:gneiss_wall",
     "strata:limestone_wall",
     "strata:schist_wall",
-    "strata:shale_wall"
+    "strata:shale_wall",
+    "strata:amphibolite_brick_wall",
+    "strata:basalt_brick_wall",
+    "strata:gabbro_brick_wall",
+    "strata:gneiss_brick_wall",
+    "strata:limestone_brick_wall",
+    "strata:schist_brick_wall",
+    "strata:shale_brick_wall",
+    "strata:mossy_amphibolite_brick_wall",
+    "strata:mossy_basalt_brick_wall",
+    "strata:mossy_gabbro_brick_wall",
+    "strata:mossy_gneiss_brick_wall",
+    "strata:mossy_limestone_brick_wall",
+    "strata:mossy_schist_brick_wall",
+    "strata:mossy_shale_brick_wall"
   ]
 }

@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_schist",
+      "has_polished_schist",
       "has_the_recipe"
     ]
   ]

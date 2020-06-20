@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "strata:amphibolite_bricks"
+  },
+  "result": "strata:cracked_amphibolite_bricks",
+  "experience": 0.1,
+  "cookingtime": 200
+}

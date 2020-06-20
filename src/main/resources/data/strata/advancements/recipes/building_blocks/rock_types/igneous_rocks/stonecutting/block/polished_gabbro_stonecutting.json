@@ -6,7 +6,7 @@
     ]
   },
   "criteria": {
-    "has_polished_gabbro": {
+    "has_gabbro": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -25,8 +25,9 @@
   },
   "requirements": [
     [
-      "has_polished_gabbro",
+      "has_gabbro",
       "has_the_recipe"
     ]
-      ]
-    }
+  ]
+}
+
