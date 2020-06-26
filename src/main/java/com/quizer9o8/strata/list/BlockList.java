@@ -1,9 +1,13 @@
 package com.quizer9o8.strata.list;
 
 import com.quizer9o8.strata.Main;
+import com.quizer9o8.strata.objects.blocks.StrataButtonBlock;
+import com.quizer9o8.strata.objects.blocks.StrataPressurePlateBlock;
 import com.quizer9o8.strata.objects.blocks.StrataStairsBlock;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -31,6 +35,12 @@ public class BlockList
         public static final RegistryObject<Block> BASALT_STAIRS = BLOCKS.register("basalt_stairs", () -> new StrataStairsBlock(BASALT.get().getDefaultState(), Block.Properties.from(BASALT.get())));
         public static final RegistryObject<Block> BASALT_WALL = BLOCKS.register("basalt_wall", () -> new WallBlock(Block.Properties.from(BASALT.get())));
 
+        //Buttons
+        public static final RegistryObject<Block> BASALT_BUTTON = BLOCKS.register("basalt_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+        
+        //Pressure Plates
+        public static final RegistryObject<Block> BASALT_PRESSURE_PLATE = BLOCKS.register("basalt_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+        
         //Bricks
         public static final RegistryObject<Block> BASALT_BRICKS = BLOCKS.register("basalt_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
         public static final RegistryObject<Block> BASALT_BRICK_SLAB = BLOCKS.register("basalt_brick_slab", () -> new SlabBlock(Block.Properties.from(BASALT_BRICKS.get())));
@@ -53,6 +63,12 @@ public class BlockList
         public static final RegistryObject<Block> GABBRO_SLAB = BLOCKS.register("gabbro_slab", () -> new SlabBlock(Block.Properties.from(GABBRO.get())));
         public static final RegistryObject<Block> GABBRO_STAIRS = BLOCKS.register("gabbro_stairs", () -> new StrataStairsBlock(GABBRO.get().getDefaultState(), Block.Properties.from(GABBRO.get())));
         public static final RegistryObject<Block> GABBRO_WALL = BLOCKS.register("gabbro_wall", () -> new WallBlock(Block.Properties.from(GABBRO.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> GABBRO_BUTTON = BLOCKS.register("gabbro_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> GABBRO_PRESSURE_PLATE = BLOCKS.register("gabbro_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
 
         //Bricks
         public static final RegistryObject<Block> GABBRO_BRICKS = BLOCKS.register("gabbro_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
@@ -79,6 +95,12 @@ public class BlockList
         public static final RegistryObject<Block> AMPHIBOLITE_STAIRS = BLOCKS.register("amphibolite_stairs", () -> new StrataStairsBlock(AMPHIBOLITE.get().getDefaultState(), Block.Properties.from(AMPHIBOLITE.get())));
         public static final RegistryObject<Block> AMPHIBOLITE_WALL = BLOCKS.register("amphibolite_wall", () -> new WallBlock(Block.Properties.from(AMPHIBOLITE.get())));
 
+        //Buttons
+        public static final RegistryObject<Block> AMPHIBOLITE_BUTTON = BLOCKS.register("amphibolite_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> AMPHIBOLITE_PRESSURE_PLATE = BLOCKS.register("amphibolite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
         //Bricks
         public static final RegistryObject<Block> AMPHIBOLITE_BRICKS = BLOCKS.register("amphibolite_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
         public static final RegistryObject<Block> AMPHIBOLITE_BRICK_SLAB = BLOCKS.register("amphibolite_brick_slab", () -> new SlabBlock(Block.Properties.from(AMPHIBOLITE_BRICKS.get())));
@@ -102,6 +124,12 @@ public class BlockList
         public static final RegistryObject<Block> GNEISS_STAIRS = BLOCKS.register("gneiss_stairs", () -> new StrataStairsBlock(GNEISS.get().getDefaultState(), Block.Properties.from(GNEISS.get())));
         public static final RegistryObject<Block> GNEISS_WALL = BLOCKS.register("gneiss_wall", () -> new WallBlock(Block.Properties.from(GNEISS.get())));
 
+        //Buttons
+        public static final RegistryObject<Block> GNEISS_BUTTON = BLOCKS.register("gneiss_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> GNEISS_PRESSURE_PLATE = BLOCKS.register("gneiss_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
         //Bricks
         public static final RegistryObject<Block> GNEISS_BRICKS = BLOCKS.register("gneiss_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
         public static final RegistryObject<Block> GNEISS_BRICK_SLAB = BLOCKS.register("gneiss_brick_slab", () -> new SlabBlock(Block.Properties.from(GNEISS_BRICKS.get())));
@@ -124,6 +152,12 @@ public class BlockList
         public static final RegistryObject<Block> SCHIST_SLAB = BLOCKS.register("schist_slab", () -> new SlabBlock(Block.Properties.from(SCHIST.get())));
         public static final RegistryObject<Block> SCHIST_STAIRS = BLOCKS.register("schist_stairs", () -> new StrataStairsBlock(SCHIST.get().getDefaultState(), Block.Properties.from(SCHIST.get())));
         public static final RegistryObject<Block> SCHIST_WALL = BLOCKS.register("schist_wall", () -> new WallBlock(Block.Properties.from(SCHIST.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> SCHIST_BUTTON = BLOCKS.register("schist_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> SCHIST_PRESSURE_PLATE = BLOCKS.register("schist_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
 
         //Bricks
         public static final RegistryObject<Block> SCHIST_BRICKS = BLOCKS.register("schist_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
@@ -150,6 +184,12 @@ public class BlockList
         public static final RegistryObject<Block> LIMESTONE_STAIRS = BLOCKS.register("limestone_stairs", () -> new StrataStairsBlock(LIMESTONE.get().getDefaultState(), Block.Properties.from(LIMESTONE.get())));
         public static final RegistryObject<Block> LIMESTONE_WALL = BLOCKS.register("limestone_wall", () -> new WallBlock(Block.Properties.from(LIMESTONE.get())));
 
+        //Buttons
+        public static final RegistryObject<Block> LIMESTONE_BUTTON = BLOCKS.register("limestone_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> LIMESTONE_PRESSURE_PLATE = BLOCKS.register("limestone_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
         //Bricks
         public static final RegistryObject<Block> LIMESTONE_BRICKS = BLOCKS.register("limestone_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
         public static final RegistryObject<Block> LIMESTONE_BRICK_SLAB = BLOCKS.register("limestone_brick_slab", () -> new SlabBlock(Block.Properties.from(LIMESTONE_BRICKS.get())));
@@ -172,6 +212,12 @@ public class BlockList
         public static final RegistryObject<Block> SHALE_SLAB = BLOCKS.register("shale_slab", () -> new SlabBlock(Block.Properties.from(SHALE.get())));
         public static final RegistryObject<Block> SHALE_STAIRS = BLOCKS.register("shale_stairs", () -> new StrataStairsBlock(SHALE.get().getDefaultState(), Block.Properties.from(SHALE.get())));
         public static final RegistryObject<Block> SHALE_WALL = BLOCKS.register("shale_wall", () -> new WallBlock(Block.Properties.from(SHALE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> SHALE_BUTTON = BLOCKS.register("shale_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> SHALE_PRESSURE_PLATE = BLOCKS.register("shale_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
 
         //Bricks
         public static final RegistryObject<Block> SHALE_BRICKS = BLOCKS.register("shale_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));

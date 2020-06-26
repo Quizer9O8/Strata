@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:amphibolite"
+  },
+  "result": "strata:amphibolite_bricks",
+  "count": 1
+}

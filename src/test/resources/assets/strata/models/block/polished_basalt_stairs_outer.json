@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "strata:blocks/igneous_rocks/polished_basalt",
+    "top": "strata:blocks/igneous_rocks/polished_basalt",
+    "side": "strata:blocks/igneous_rocks/polished_basalt"
+    }
+}

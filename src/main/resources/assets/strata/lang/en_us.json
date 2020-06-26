@@ -47,7 +47,9 @@
   "block.strata.basalt_slab": "Basalt Slab",
   "block.strata.basalt_stairs": "Basalt Stairs",
   "block.strata.basalt_wall": "Basalt Wall",
-
+  "block.strata.basalt_button": "Basalt Button",
+  "block.strata.basalt_pressure_plate": "Basalt Pressure Plate",
+  
   "block.strata.basalt_bricks": "Basalt Bricks",
   "block.strata.basalt_brick_slab": "Basalt Brick Slab",
   "block.strata.basalt_brick_stairs": "Basalt Brick Stairs",
@@ -137,6 +139,8 @@
   "block.strata.gabbro_slab": "Gabbro Slab",
   "block.strata.gabbro_stairs": "Gabbro Stairs",
   "block.strata.gabbro_wall": "Gabbro Wall",
+  "block.strata.gabbro_button": "Gabbro Button",
+  "block.strata.gabbro_pressure_plate": "Gabbro Pressure Plate",
 
   "block.strata.gabbro_bricks": "Gabbro Bricks",
   "block.strata.gabbro_brick_slab": "Gabbro Brick Slab",
@@ -509,6 +513,8 @@
   "block.strata.limestone_slab": "Limestone Slab",
   "block.strata.limestone_stairs": "Limestone Stairs",
   "block.strata.limestone_wall": "Limestone Wall",
+  "block.strata.limestone_button": "Limestone Button",
+  "block.strata.limestone_pressure_plate": "Limestone Pressure Plate",
 
   "block.strata.limestone_bricks": "Limestone Bricks",
   "block.strata.limestone_brick_slab": "Limestone Brick Slab",
@@ -554,6 +560,8 @@
   "block.strata.shale_slab": "Shale Slab",
   "block.strata.shale_stairs": "Shale Stairs",
   "block.strata.shale_wall": "Shale Wall",
+  "block.strata.shale_button": "Shale Button",
+  "block.strata.shale_pressure_plate": "Shale Pressure Plate",
 
   "block.strata.shale_bricks": "Shale Bricks",
   "block.strata.shale_brick_slab": "Shale Brick Slab",
@@ -611,6 +619,8 @@
   "block.strata.amphibolite_slab": "Amphibolite Slab",
   "block.strata.amphibolite_stairs": "Amphibolite Stairs",
   "block.strata.amphibolite_wall": "Amphibolite Wall",
+  "block.strata.amphibolite_button": "Amphibolite Button",
+  "block.strata.amphibolite_pressure_plate": "Amphibolite Pressure Plate",
 
   "block.strata.amphibolite_bricks": "Amphibolite Bricks",
   "block.strata.amphibolite_brick_slab": "Amphibolite Brick Slab",
@@ -646,6 +656,8 @@
   "block.strata.gneiss_slab": "Gneiss Slab",
   "block.strata.gneiss_stairs": "Gneiss Stairs",
   "block.strata.gneiss_wall": "Gneiss Wall",
+  "block.strata.gneiss_button": "Gneiss Button",
+  "block.strata.gneiss_pressure_plate": "Gneiss Pressure Plate",
 
   "block.strata.gneiss_bricks": "Gneiss Bricks",
   "block.strata.gneiss_brick_slab": "Gneiss Brick Slab",
@@ -726,6 +738,8 @@
   "block.strata.schist_slab": "Schist Slab",
   "block.strata.schist_stairs": "Schist Stairs",
   "block.strata.schist_wall": "Schist Wall",
+  "block.strata.schist_button": "Schist Button",
+  "block.strata.schist_pressure_plate": "Schist Pressure Plate",
 
   "block.strata.schist_bricks": "Schist Bricks",
   "block.strata.schist_brick_slab": "Schist Brick Slab",

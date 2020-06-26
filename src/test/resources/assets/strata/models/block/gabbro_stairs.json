@@ -1,8 +1,8 @@
 {
   "parent": "block/stairs",
   "textures": {
-    "bottom": "strata:blocks/gabbro",
-    "top": "strata:blocks/gabbro",
-    "side": "strata:blocks/gabbro"
+    "bottom": "strata:blocks/igneous_rocks/gabbro",
+    "top": "strata:blocks/igneous_rocks/gabbro",
+    "side": "strata:blocks/igneous_rocks/gabbro"
     }
 }

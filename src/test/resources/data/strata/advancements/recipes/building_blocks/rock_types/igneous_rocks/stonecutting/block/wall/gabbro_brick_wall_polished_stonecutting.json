@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/igneous_rocks/stonecutting/block/wall/gabbro_brick_wall_polished_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_polished_gabbro": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_gabbro"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "gabbro_brick_wall_polished_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_gabbro",
+      "has_the_recipe"
+    ]
+  ]
+}

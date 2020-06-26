@@ -1,0 +1,6 @@
+{
+    "parent": "block/pressure_plate_up",
+    "textures": {
+        "texture": "strata:blocks/igneous_rocks/gabbro"
+	}
+}

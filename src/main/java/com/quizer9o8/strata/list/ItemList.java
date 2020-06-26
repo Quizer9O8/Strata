@@ -30,6 +30,12 @@ public class ItemList
     public static final RegistryObject<Item> BASALT_STAIRS = ITEMS.register("basalt_stairs", () -> new BlockItem(BlockList.BASALT_STAIRS.get(), new Item.Properties().group(Main.IGNEOUS_TAB)));
     public static final RegistryObject<Item> BASALT_WALL = ITEMS.register("basalt_wall", () -> new BlockItem(BlockList.BASALT_WALL.get(), new Item.Properties().group(Main.IGNEOUS_TAB)));
 
+    //Buttons
+    public static final RegistryObject<Item> BASALT_BUTTON = ITEMS.register("basalt_button", () -> new BlockItem(BlockList.BASALT_BUTTON.get(), new Item.Properties().group(Main.IGNEOUS_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> BASALT_PRESSURE_PLATE = ITEMS.register("basalt_pressure_plate", () -> new BlockItem(BlockList.BASALT_PRESSURE_PLATE.get(), new Item.Properties().group(Main.IGNEOUS_TAB)));
+
     //Bricks
     public static final RegistryObject<Item> BASALT_BRICKS = ITEMS.register("basalt_bricks", () -> new BlockItem(BlockList.BASALT_BRICKS.get(), new Item.Properties().group(Main.IGNEOUS_TAB)));
     public static final RegistryObject<Item> BASALT_BRICK_SLAB = ITEMS.register("basalt_brick_slab", () -> new BlockItem(BlockList.BASALT_BRICK_SLAB.get(), new Item.Properties().group(Main.IGNEOUS_TAB)));
@@ -52,6 +58,12 @@ public class ItemList
     public static final RegistryObject<Item> GABBRO_SLAB = ITEMS.register("gabbro_slab", () -> new BlockItem(BlockList.GABBRO_SLAB.get(), new Item.Properties().group(Main.IGNEOUS_TAB)));
     public static final RegistryObject<Item> GABBRO_STAIRS = ITEMS.register("gabbro_stairs", () -> new BlockItem(BlockList.GABBRO_STAIRS.get(), new Item.Properties().group(Main.IGNEOUS_TAB)));
     public static final RegistryObject<Item> GABBRO_WALL = ITEMS.register("gabbro_wall", () -> new BlockItem(BlockList.GABBRO_WALL.get(), new Item.Properties().group(Main.IGNEOUS_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> GABBRO_BUTTON = ITEMS.register("gabbro_button", () -> new BlockItem(BlockList.GABBRO_BUTTON.get(), new Item.Properties().group(Main.IGNEOUS_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> GABBRO_PRESSURE_PLATE = ITEMS.register("gabbro_pressure_plate", () -> new BlockItem(BlockList.GABBRO_PRESSURE_PLATE.get(), new Item.Properties().group(Main.IGNEOUS_TAB)));
 
     //Bricks
     public static final RegistryObject<Item> GABBRO_BRICKS = ITEMS.register("gabbro_bricks", () -> new BlockItem(BlockList.GABBRO_BRICKS.get(), new Item.Properties().group(Main.IGNEOUS_TAB)));
@@ -78,6 +90,12 @@ public class ItemList
     public static final RegistryObject<Item> AMPHIBOLITE_STAIRS = ITEMS.register("amphibolite_stairs", () -> new BlockItem(BlockList.AMPHIBOLITE_STAIRS.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
     public static final RegistryObject<Item> AMPHIBOLITE_WALL = ITEMS.register("amphibolite_wall", () -> new BlockItem(BlockList.AMPHIBOLITE_WALL.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
 
+    //Buttons
+    public static final RegistryObject<Item> AMPHIBOLITE_BUTTON = ITEMS.register("amphibolite_button", () -> new BlockItem(BlockList.AMPHIBOLITE_BUTTON.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> AMPHIBOLITE_PRESSURE_PLATE = ITEMS.register("amphibolite_pressure_plate", () -> new BlockItem(BlockList.AMPHIBOLITE_PRESSURE_PLATE.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
+
     //Bricks
     public static final RegistryObject<Item> AMPHIBOLITE_BRICKS = ITEMS.register("amphibolite_bricks", () -> new BlockItem(BlockList.AMPHIBOLITE_BRICKS.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
     public static final RegistryObject<Item> AMPHIBOLITE_BRICK_SLAB = ITEMS.register("amphibolite_brick_slab", () -> new BlockItem(BlockList.AMPHIBOLITE_BRICK_SLAB.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
@@ -101,6 +119,12 @@ public class ItemList
     public static final RegistryObject<Item> GNEISS_STAIRS = ITEMS.register("gneiss_stairs", () -> new BlockItem(BlockList.GNEISS_STAIRS.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
     public static final RegistryObject<Item> GNEISS_WALL = ITEMS.register("gneiss_wall", () -> new BlockItem(BlockList.GNEISS_WALL.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
 
+    //Buttons
+    public static final RegistryObject<Item> GNEISS_BUTTON = ITEMS.register("gneiss_button", () -> new BlockItem(BlockList.GNEISS_BUTTON.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> GNEISS_PRESSURE_PLATE = ITEMS.register("gneiss_pressure_plate", () -> new BlockItem(BlockList.GNEISS_PRESSURE_PLATE.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
+
     //Bricks
     public static final RegistryObject<Item> GNEISS_BRICKS = ITEMS.register("gneiss_bricks", () -> new BlockItem(BlockList.GNEISS_BRICKS.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
     public static final RegistryObject<Item> GNEISS_BRICK_SLAB = ITEMS.register("gneiss_brick_slab", () -> new BlockItem(BlockList.GNEISS_BRICK_SLAB.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
@@ -123,6 +147,12 @@ public class ItemList
     public static final RegistryObject<Item> SCHIST_SLAB = ITEMS.register("schist_slab", () -> new BlockItem(BlockList.SCHIST_SLAB.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
     public static final RegistryObject<Item> SCHIST_STAIRS = ITEMS.register("schist_stairs", () -> new BlockItem(BlockList.SCHIST_STAIRS.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
     public static final RegistryObject<Item> SCHIST_WALL = ITEMS.register("schist_wall", () -> new BlockItem(BlockList.SCHIST_WALL.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> SCHIST_BUTTON = ITEMS.register("schist_button", () -> new BlockItem(BlockList.SCHIST_BUTTON.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> SCHIST_PRESSURE_PLATE = ITEMS.register("schist_pressure_plate", () -> new BlockItem(BlockList.SCHIST_PRESSURE_PLATE.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
 
     //Bricks
     public static final RegistryObject<Item> SCHIST_BRICKS = ITEMS.register("schist_bricks", () -> new BlockItem(BlockList.SCHIST_BRICKS.get(), new Item.Properties().group(Main.METAMORPHIC_TAB)));
@@ -149,6 +179,12 @@ public class ItemList
     public static final RegistryObject<Item> LIMESTONE_STAIRS = ITEMS.register("limestone_stairs", () -> new BlockItem(BlockList.LIMESTONE_STAIRS.get(), new Item.Properties().group(Main.SEDIMENTARY_TAB)));
     public static final RegistryObject<Item> LIMESTONE_WALL = ITEMS.register("limestone_wall", () -> new BlockItem(BlockList.LIMESTONE_WALL.get(), new Item.Properties().group(Main.SEDIMENTARY_TAB)));
 
+    //Buttons
+    public static final RegistryObject<Item> LIMESTONE_BUTTON = ITEMS.register("limestone_button", () -> new BlockItem(BlockList.LIMESTONE_BUTTON.get(), new Item.Properties().group(Main.SEDIMENTARY_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> LIMESTONE_PRESSURE_PLATE = ITEMS.register("limestone_pressure_plate", () -> new BlockItem(BlockList.LIMESTONE_PRESSURE_PLATE.get(), new Item.Properties().group(Main.SEDIMENTARY_TAB)));
+
     //Bricks
     public static final RegistryObject<Item> LIMESTONE_BRICKS = ITEMS.register("limestone_bricks", () -> new BlockItem(BlockList.LIMESTONE_BRICKS.get(), new Item.Properties().group(Main.SEDIMENTARY_TAB)));
     public static final RegistryObject<Item> LIMESTONE_BRICK_SLAB = ITEMS.register("limestone_brick_slab", () -> new BlockItem(BlockList.LIMESTONE_BRICK_SLAB.get(), new Item.Properties().group(Main.SEDIMENTARY_TAB)));
@@ -171,6 +207,12 @@ public class ItemList
     public static final RegistryObject<Item> SHALE_SLAB = ITEMS.register("shale_slab", () -> new BlockItem(BlockList.SHALE_SLAB.get(), new Item.Properties().group(Main.SEDIMENTARY_TAB)));
     public static final RegistryObject<Item> SHALE_STAIRS = ITEMS.register("shale_stairs", () -> new BlockItem(BlockList.SHALE_STAIRS.get(), new Item.Properties().group(Main.SEDIMENTARY_TAB)));
     public static final RegistryObject<Item> SHALE_WALL = ITEMS.register("shale_wall", () -> new BlockItem(BlockList.SHALE_WALL.get(), new Item.Properties().group(Main.SEDIMENTARY_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> SHALE_BUTTON = ITEMS.register("shale_button", () -> new BlockItem(BlockList.SHALE_BUTTON.get(), new Item.Properties().group(Main.SEDIMENTARY_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> SHALE_PRESSURE_PLATE = ITEMS.register("shale_pressure_plate", () -> new BlockItem(BlockList.SHALE_PRESSURE_PLATE.get(), new Item.Properties().group(Main.SEDIMENTARY_TAB)));
 
     //Bricks
     public static final RegistryObject<Item> SHALE_BRICKS = ITEMS.register("shale_bricks", () -> new BlockItem(BlockList.SHALE_BRICKS.get(), new Item.Properties().group(Main.SEDIMENTARY_TAB)));

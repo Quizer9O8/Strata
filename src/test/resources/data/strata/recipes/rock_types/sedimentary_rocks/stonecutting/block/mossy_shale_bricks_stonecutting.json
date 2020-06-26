@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:mossy_shale_bricks"
+  },
+  "result": "strata:mossy_shale_bricks",
+  "count": 1
+}

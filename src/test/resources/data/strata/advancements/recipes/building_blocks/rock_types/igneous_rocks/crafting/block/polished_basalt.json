@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/igneous_rocks/crafting/block/polished_basalt"
+    ]
+  },
+  "criteria": {
+    "has_polished_basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:basalt"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:polished_basalt"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_basalt",
+      "has_the_recipe"
+    ]
+  ]
+}
+

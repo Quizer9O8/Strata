@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/crafting/block/slab/amphibolite_slab"
+    ]
+  },
+  "criteria": {
+    "has_amphibolite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:amphibolite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:amphibolite_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_amphibolite",
+      "has_the_recipe"
+    ]
+  ]
+}

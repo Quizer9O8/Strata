@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "strata:gneiss"
+    }
+  ],
+  "result": {
+    "item": "strata:gneiss_button"
+  }
+}

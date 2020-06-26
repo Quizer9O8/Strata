@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "strata:basalt",
+    "strata:gabbro",
+    "strata:amphibolite",
+    "strata:gneiss",
+    "strata:schist",
+    "strata:limestone",
+    "strata:shale"
+  ]
+}

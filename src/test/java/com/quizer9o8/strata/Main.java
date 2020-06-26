@@ -9,6 +9,7 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -32,8 +33,8 @@ public class Main
     //Creative Tab
     //public static final ItemGroup DEBUG_TAB = new Main.DebugItemGroup("debug");
     public static final ItemGroup IGNEOUS_TAB = new Main.IgneousRocksItemGroup("igneous");
-    public static final ItemGroup SEDIMENTARY_TAB = new Main.SedimentaryRocksItemGroup("sedimentary");
     public static final ItemGroup METAMORPHIC_TAB = new Main.MetamorphicRocksItemGroup("metamorphic");
+    public static final ItemGroup SEDIMENTARY_TAB = new Main.SedimentaryRocksItemGroup("sedimentary");
     //public static final ItemGroup MISCELLANEOUS_TAB = new Main.MiscellaneousRocksItemGroup("miscellaneous");
 
     //Logger
@@ -67,7 +68,7 @@ public class Main
 
     }
 
-    //Should tell you if the blocks are correctly being read into the tag or not for TerraForged
+    //Should tell in the logs if the blocks are correctly being read into the tag or not for TerraForged
     @SubscribeEvent
     public static void started(FMLServerStartedEvent event) {
         new BlockTags.Wrapper(new ResourceLocation("forge:wg_stone")).getAllElements().forEach(System.out::println);
@@ -138,7 +139,7 @@ public class Main
 
         @Override
         public ItemStack createIcon(){
-            return new ItemStack(ItemList.AA_WALL.get());
+            return new ItemStack(ItemList.[BLOCK_NAME].get());
         }
     }
 */

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/igneous_rocks/crafting/pressure_plate/gabbro_pressure_plate"
+    ]
+  },
+  "criteria": {
+    "has_gabbro": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:gabbro"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:gabbro_pressure_plate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gabbro",
+      "has_the_recipe"
+    ]
+  ]
+}

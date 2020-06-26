@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "strata:blocks/amphibolite"
+    "all": "strata:blocks/metamorphic_rocks/amphibolite"
   }
 }

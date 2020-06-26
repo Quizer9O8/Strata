@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "strata:blocks/gabbro"
+    "all": "strata:blocks/igneous_rocks/gabbro"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "strata:blocks/basalt"
+    "all": "strata:blocks/igneous_rocks/basalt"
   }
 }

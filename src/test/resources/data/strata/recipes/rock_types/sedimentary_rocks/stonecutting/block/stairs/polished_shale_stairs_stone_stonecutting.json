@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:shale"
+  },
+  "result": "strata:polished_shale_stairs",
+  "count": 1
+}

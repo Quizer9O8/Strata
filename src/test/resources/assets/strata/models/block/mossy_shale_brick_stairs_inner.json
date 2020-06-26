@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "strata:blocks/sedimentary_rocks/mossy_shale_bricks",
+    "top": "strata:blocks/sedimentary_rocks/mossy_shale_bricks",
+    "side": "strata:blocks/sedimentary_rocks/mossy_shale_bricks"
+    }
+}

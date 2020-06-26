@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:gneiss_bricks"
+    }
+  },
+  "result": {
+    "item": "strata:gneiss_brick_slab",
+    "count": 6
+  }
+}

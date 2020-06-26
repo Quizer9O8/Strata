@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:polished_basalt"
+    }
+  },
+  "result": {
+    "item": "strata:polished_basalt_stairs",
+    "count": 4
+  }
+}

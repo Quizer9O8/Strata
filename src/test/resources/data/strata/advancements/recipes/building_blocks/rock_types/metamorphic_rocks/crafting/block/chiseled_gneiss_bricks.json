@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/crafting/block/chiseled_gneiss_bricks"
+    ]
+  },
+  "criteria": {
+    "has_gneiss_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:gneiss_bricks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:chiseled_gneiss_bricks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gneiss_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}
+
