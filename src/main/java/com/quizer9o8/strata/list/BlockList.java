@@ -1,13 +1,11 @@
 package com.quizer9o8.strata.list;
 
-import com.quizer9o8.strata.Main;
+import com.quizer9o8.strata.Strata;
 import com.quizer9o8.strata.objects.blocks.StrataButtonBlock;
 import com.quizer9o8.strata.objects.blocks.StrataPressurePlateBlock;
 import com.quizer9o8.strata.objects.blocks.StrataStairsBlock;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,7 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class BlockList
 {
         //Deferred Registries Method
-        public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<Block>(ForgeRegistries.BLOCKS, Main.MOD_ID);
+        public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<Block>(ForgeRegistries.BLOCKS, Strata.MOD_ID);
 
 /*
         //Debug Blocks
@@ -35,6 +33,18 @@ public class BlockList
         public static final RegistryObject<Block> BASALT_STAIRS = BLOCKS.register("basalt_stairs", () -> new StrataStairsBlock(BASALT.get().getDefaultState(), Block.Properties.from(BASALT.get())));
         public static final RegistryObject<Block> BASALT_WALL = BLOCKS.register("basalt_wall", () -> new WallBlock(Block.Properties.from(BASALT.get())));
 
+        //Cobblestone
+        public static final RegistryObject<Block> BASALT_COBBLESTONE = BLOCKS.register("basalt_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> BASALT_COBBLESTONE_SLAB = BLOCKS.register("basalt_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(BASALT_COBBLESTONE.get())));
+        public static final RegistryObject<Block> BASALT_COBBLESTONE_STAIRS = BLOCKS.register("basalt_cobblestone_stairs", () -> new StrataStairsBlock(BASALT_COBBLESTONE.get().getDefaultState(), Block.Properties.from(BASALT_COBBLESTONE.get())));
+        public static final RegistryObject<Block> BASALT_COBBLESTONE_WALL = BLOCKS.register("basalt_cobblestone_wall", () -> new WallBlock(Block.Properties.from(BASALT_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_BASALT_COBBLESTONE = BLOCKS.register("mossy_basalt_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_BASALT_COBBLESTONE_SLAB = BLOCKS.register("mossy_basalt_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_BASALT_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_BASALT_COBBLESTONE_STAIRS = BLOCKS.register("mossy_basalt_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_BASALT_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_BASALT_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_BASALT_COBBLESTONE_WALL = BLOCKS.register("mossy_basalt_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_BASALT_COBBLESTONE.get())));
+        
         //Buttons
         public static final RegistryObject<Block> BASALT_BUTTON = BLOCKS.register("basalt_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
         
@@ -63,6 +73,18 @@ public class BlockList
         public static final RegistryObject<Block> GABBRO_SLAB = BLOCKS.register("gabbro_slab", () -> new SlabBlock(Block.Properties.from(GABBRO.get())));
         public static final RegistryObject<Block> GABBRO_STAIRS = BLOCKS.register("gabbro_stairs", () -> new StrataStairsBlock(GABBRO.get().getDefaultState(), Block.Properties.from(GABBRO.get())));
         public static final RegistryObject<Block> GABBRO_WALL = BLOCKS.register("gabbro_wall", () -> new WallBlock(Block.Properties.from(GABBRO.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> GABBRO_COBBLESTONE = BLOCKS.register("gabbro_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> GABBRO_COBBLESTONE_SLAB = BLOCKS.register("gabbro_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(GABBRO_COBBLESTONE.get())));
+        public static final RegistryObject<Block> GABBRO_COBBLESTONE_STAIRS = BLOCKS.register("gabbro_cobblestone_stairs", () -> new StrataStairsBlock(GABBRO_COBBLESTONE.get().getDefaultState(), Block.Properties.from(GABBRO_COBBLESTONE.get())));
+        public static final RegistryObject<Block> GABBRO_COBBLESTONE_WALL = BLOCKS.register("gabbro_cobblestone_wall", () -> new WallBlock(Block.Properties.from(GABBRO_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_GABBRO_COBBLESTONE = BLOCKS.register("mossy_gabbro_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_GABBRO_COBBLESTONE_SLAB = BLOCKS.register("mossy_gabbro_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_GABBRO_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_GABBRO_COBBLESTONE_STAIRS = BLOCKS.register("mossy_gabbro_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_GABBRO_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_GABBRO_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_GABBRO_COBBLESTONE_WALL = BLOCKS.register("mossy_gabbro_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_GABBRO_COBBLESTONE.get())));
 
         //Buttons
         public static final RegistryObject<Block> GABBRO_BUTTON = BLOCKS.register("gabbro_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
@@ -95,6 +117,18 @@ public class BlockList
         public static final RegistryObject<Block> AMPHIBOLITE_STAIRS = BLOCKS.register("amphibolite_stairs", () -> new StrataStairsBlock(AMPHIBOLITE.get().getDefaultState(), Block.Properties.from(AMPHIBOLITE.get())));
         public static final RegistryObject<Block> AMPHIBOLITE_WALL = BLOCKS.register("amphibolite_wall", () -> new WallBlock(Block.Properties.from(AMPHIBOLITE.get())));
 
+        //Cobblestone
+        public static final RegistryObject<Block> AMPHIBOLITE_COBBLESTONE = BLOCKS.register("amphibolite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> AMPHIBOLITE_COBBLESTONE_SLAB = BLOCKS.register("amphibolite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(AMPHIBOLITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> AMPHIBOLITE_COBBLESTONE_STAIRS = BLOCKS.register("amphibolite_cobblestone_stairs", () -> new StrataStairsBlock(AMPHIBOLITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(AMPHIBOLITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> AMPHIBOLITE_COBBLESTONE_WALL = BLOCKS.register("amphibolite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(AMPHIBOLITE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_AMPHIBOLITE_COBBLESTONE = BLOCKS.register("mossy_amphibolite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_AMPHIBOLITE_COBBLESTONE_SLAB = BLOCKS.register("mossy_amphibolite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_AMPHIBOLITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_AMPHIBOLITE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_amphibolite_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_AMPHIBOLITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_AMPHIBOLITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_AMPHIBOLITE_COBBLESTONE_WALL = BLOCKS.register("mossy_amphibolite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_AMPHIBOLITE_COBBLESTONE.get())));
+
         //Buttons
         public static final RegistryObject<Block> AMPHIBOLITE_BUTTON = BLOCKS.register("amphibolite_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
 
@@ -124,6 +158,18 @@ public class BlockList
         public static final RegistryObject<Block> GNEISS_STAIRS = BLOCKS.register("gneiss_stairs", () -> new StrataStairsBlock(GNEISS.get().getDefaultState(), Block.Properties.from(GNEISS.get())));
         public static final RegistryObject<Block> GNEISS_WALL = BLOCKS.register("gneiss_wall", () -> new WallBlock(Block.Properties.from(GNEISS.get())));
 
+        //Cobblestone
+        public static final RegistryObject<Block> GNEISS_COBBLESTONE = BLOCKS.register("gneiss_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> GNEISS_COBBLESTONE_SLAB = BLOCKS.register("gneiss_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(GNEISS_COBBLESTONE.get())));
+        public static final RegistryObject<Block> GNEISS_COBBLESTONE_STAIRS = BLOCKS.register("gneiss_cobblestone_stairs", () -> new StrataStairsBlock(GNEISS_COBBLESTONE.get().getDefaultState(), Block.Properties.from(GNEISS_COBBLESTONE.get())));
+        public static final RegistryObject<Block> GNEISS_COBBLESTONE_WALL = BLOCKS.register("gneiss_cobblestone_wall", () -> new WallBlock(Block.Properties.from(GNEISS_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_GNEISS_COBBLESTONE = BLOCKS.register("mossy_gneiss_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_GNEISS_COBBLESTONE_SLAB = BLOCKS.register("mossy_gneiss_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_GNEISS_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_GNEISS_COBBLESTONE_STAIRS = BLOCKS.register("mossy_gneiss_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_GNEISS_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_GNEISS_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_GNEISS_COBBLESTONE_WALL = BLOCKS.register("mossy_gneiss_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_GNEISS_COBBLESTONE.get())));
+
         //Buttons
         public static final RegistryObject<Block> GNEISS_BUTTON = BLOCKS.register("gneiss_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
 
@@ -152,6 +198,18 @@ public class BlockList
         public static final RegistryObject<Block> SCHIST_SLAB = BLOCKS.register("schist_slab", () -> new SlabBlock(Block.Properties.from(SCHIST.get())));
         public static final RegistryObject<Block> SCHIST_STAIRS = BLOCKS.register("schist_stairs", () -> new StrataStairsBlock(SCHIST.get().getDefaultState(), Block.Properties.from(SCHIST.get())));
         public static final RegistryObject<Block> SCHIST_WALL = BLOCKS.register("schist_wall", () -> new WallBlock(Block.Properties.from(SCHIST.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> SCHIST_COBBLESTONE = BLOCKS.register("schist_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> SCHIST_COBBLESTONE_SLAB = BLOCKS.register("schist_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(SCHIST_COBBLESTONE.get())));
+        public static final RegistryObject<Block> SCHIST_COBBLESTONE_STAIRS = BLOCKS.register("schist_cobblestone_stairs", () -> new StrataStairsBlock(SCHIST_COBBLESTONE.get().getDefaultState(), Block.Properties.from(SCHIST_COBBLESTONE.get())));
+        public static final RegistryObject<Block> SCHIST_COBBLESTONE_WALL = BLOCKS.register("schist_cobblestone_wall", () -> new WallBlock(Block.Properties.from(SCHIST_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_SCHIST_COBBLESTONE = BLOCKS.register("mossy_schist_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_SCHIST_COBBLESTONE_SLAB = BLOCKS.register("mossy_schist_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_SCHIST_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_SCHIST_COBBLESTONE_STAIRS = BLOCKS.register("mossy_schist_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_SCHIST_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_SCHIST_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_SCHIST_COBBLESTONE_WALL = BLOCKS.register("mossy_schist_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_SCHIST_COBBLESTONE.get())));
 
         //Buttons
         public static final RegistryObject<Block> SCHIST_BUTTON = BLOCKS.register("schist_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
@@ -184,6 +242,18 @@ public class BlockList
         public static final RegistryObject<Block> LIMESTONE_STAIRS = BLOCKS.register("limestone_stairs", () -> new StrataStairsBlock(LIMESTONE.get().getDefaultState(), Block.Properties.from(LIMESTONE.get())));
         public static final RegistryObject<Block> LIMESTONE_WALL = BLOCKS.register("limestone_wall", () -> new WallBlock(Block.Properties.from(LIMESTONE.get())));
 
+        //Cobblestone
+        public static final RegistryObject<Block> LIMESTONE_COBBLESTONE = BLOCKS.register("limestone_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> LIMESTONE_COBBLESTONE_SLAB = BLOCKS.register("limestone_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(LIMESTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> LIMESTONE_COBBLESTONE_STAIRS = BLOCKS.register("limestone_cobblestone_stairs", () -> new StrataStairsBlock(LIMESTONE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(LIMESTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> LIMESTONE_COBBLESTONE_WALL = BLOCKS.register("limestone_cobblestone_wall", () -> new WallBlock(Block.Properties.from(LIMESTONE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_LIMESTONE_COBBLESTONE = BLOCKS.register("mossy_limestone_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_LIMESTONE_COBBLESTONE_SLAB = BLOCKS.register("mossy_limestone_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_LIMESTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_LIMESTONE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_limestone_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_LIMESTONE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_LIMESTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_LIMESTONE_COBBLESTONE_WALL = BLOCKS.register("mossy_limestone_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_LIMESTONE_COBBLESTONE.get())));
+
         //Buttons
         public static final RegistryObject<Block> LIMESTONE_BUTTON = BLOCKS.register("limestone_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
 
@@ -212,6 +282,18 @@ public class BlockList
         public static final RegistryObject<Block> SHALE_SLAB = BLOCKS.register("shale_slab", () -> new SlabBlock(Block.Properties.from(SHALE.get())));
         public static final RegistryObject<Block> SHALE_STAIRS = BLOCKS.register("shale_stairs", () -> new StrataStairsBlock(SHALE.get().getDefaultState(), Block.Properties.from(SHALE.get())));
         public static final RegistryObject<Block> SHALE_WALL = BLOCKS.register("shale_wall", () -> new WallBlock(Block.Properties.from(SHALE.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> SHALE_COBBLESTONE = BLOCKS.register("shale_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> SHALE_COBBLESTONE_SLAB = BLOCKS.register("shale_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(SHALE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> SHALE_COBBLESTONE_STAIRS = BLOCKS.register("shale_cobblestone_stairs", () -> new StrataStairsBlock(SHALE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(SHALE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> SHALE_COBBLESTONE_WALL = BLOCKS.register("shale_cobblestone_wall", () -> new WallBlock(Block.Properties.from(SHALE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_SHALE_COBBLESTONE = BLOCKS.register("mossy_shale_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_SHALE_COBBLESTONE_SLAB = BLOCKS.register("mossy_shale_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_SHALE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_SHALE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_shale_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_SHALE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_SHALE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_SHALE_COBBLESTONE_WALL = BLOCKS.register("mossy_shale_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_SHALE_COBBLESTONE.get())));
 
         //Buttons
         public static final RegistryObject<Block> SHALE_BUTTON = BLOCKS.register("shale_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));

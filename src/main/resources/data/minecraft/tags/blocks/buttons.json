@@ -1,8 +1,12 @@
 {
-  "_comment": "Stone Buttons maybe?",
   "replace": false,
   "values": [
-    "#minecraft:wooden_buttons",
-    "minecraft:stone_button"
+    "strata:amphibolite_button",
+    "strata:basalt_button",
+    "strata:gabbro_button",
+    "strata:gneiss_button",
+    "strata:limestone_button",
+    "strata:schist_button",
+    "strata:shale_button"
   ]
 }

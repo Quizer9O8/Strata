@@ -1,0 +1,7 @@
+{
+   "variants": {
+        "type=bottom": { "model": "strata:block/gabbro_cobblestone_slab" },
+        "type=top": { "model": "strata:block/gabbro_cobblestone_slab_top" },
+        "type=double": { "model": "strata:block/gabbro_cobblestone" }
+    }
+}

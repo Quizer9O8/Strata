@@ -33,7 +33,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "strata:gabbro"
+              "name": "strata:gabbro_cobblestone"
             }
           ]
         }

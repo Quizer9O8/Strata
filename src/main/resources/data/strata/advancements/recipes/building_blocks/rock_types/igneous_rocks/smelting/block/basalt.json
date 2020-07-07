@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/igneous_rocks/smelting/block/basalt"
+    ]
+  },
+  "criteria": {
+    "has_basalt_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:basalt_cobblestone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:basalt"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_basalt_cobblestone",
+      "has_the_recipe"
+    ]
+  ]
+}

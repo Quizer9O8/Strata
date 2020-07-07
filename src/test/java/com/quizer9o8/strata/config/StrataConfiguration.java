@@ -1,6 +1,6 @@
   package com.quizer9o8.strata.config;
 
-  import com.quizer9o8.strata.Main;
+  import com.quizer9o8.strata.Strata;
   import net.minecraftforge.common.MinecraftForge;
   import net.minecraftforge.common.config.Configuration;
   import net.minecraftforge.common.config.Property;

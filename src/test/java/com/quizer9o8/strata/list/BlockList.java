@@ -1,13 +1,11 @@
 package com.quizer9o8.strata.list;
 
-import com.quizer9o8.strata.Main;
+import com.quizer9o8.strata.Strata;
 import com.quizer9o8.strata.objects.blocks.StrataButtonBlock;
 import com.quizer9o8.strata.objects.blocks.StrataPressurePlateBlock;
 import com.quizer9o8.strata.objects.blocks.StrataStairsBlock;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,7 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class BlockList
 {
         //Deferred Registries Method
-        public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<Block>(ForgeRegistries.BLOCKS, Main.MOD_ID);
+        public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<Block>(ForgeRegistries.BLOCKS, Strata.MOD_ID);
 
 /*
         //Debug Blocks

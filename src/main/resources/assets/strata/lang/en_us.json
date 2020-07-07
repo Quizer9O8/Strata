@@ -47,6 +47,17 @@
   "block.strata.basalt_slab": "Basalt Slab",
   "block.strata.basalt_stairs": "Basalt Stairs",
   "block.strata.basalt_wall": "Basalt Wall",
+
+  "block.strata.basalt_cobblestone": "Basalt Cobblestone",
+  "block.strata.basalt_cobblestone_slab": "Basalt Cobblestone Slab",
+  "block.strata.basalt_cobblestone_stairs": "Basalt Cobblestone Stairs",
+  "block.strata.basalt_cobblestone_wall": "Basalt Cobblestone Wall",
+
+  "block.strata.mossy_basalt_cobblestone": "Mossy Basalt Cobblestone",
+  "block.strata.mossy_basalt_cobblestone_slab": "Mossy Basalt Cobblestone Slab",
+  "block.strata.mossy_basalt_cobblestone_stairs": "Mossy Basalt Cobblestone Stairs",
+  "block.strata.mossy_basalt_cobblestone_wall": "Mossy Basalt Cobblestone Wall",
+  
   "block.strata.basalt_button": "Basalt Button",
   "block.strata.basalt_pressure_plate": "Basalt Pressure Plate",
   
@@ -139,6 +150,17 @@
   "block.strata.gabbro_slab": "Gabbro Slab",
   "block.strata.gabbro_stairs": "Gabbro Stairs",
   "block.strata.gabbro_wall": "Gabbro Wall",
+
+  "block.strata.gabbro_cobblestone": "Gabbro Cobblestone",
+  "block.strata.gabbro_cobblestone_slab": "Gabbro Cobblestone Slab",
+  "block.strata.gabbro_cobblestone_stairs": "Gabbro Cobblestone Stairs",
+  "block.strata.gabbro_cobblestone_wall": "Gabbro Cobblestone Wall",
+
+  "block.strata.mossy_gabbro_cobblestone": "Mossy Gabbro Cobblestone",
+  "block.strata.mossy_gabbro_cobblestone_slab": "Mossy Gabbro Cobblestone Slab",
+  "block.strata.mossy_gabbro_cobblestone_stairs": "Mossy Gabbro Cobblestone Stairs",
+  "block.strata.mossy_gabbro_cobblestone_wall": "Mossy Gabbro Cobblestone Wall",
+  
   "block.strata.gabbro_button": "Gabbro Button",
   "block.strata.gabbro_pressure_plate": "Gabbro Pressure Plate",
 
@@ -513,6 +535,17 @@
   "block.strata.limestone_slab": "Limestone Slab",
   "block.strata.limestone_stairs": "Limestone Stairs",
   "block.strata.limestone_wall": "Limestone Wall",
+
+  "block.strata.limestone_cobblestone": "Limestone Cobblestone",
+  "block.strata.limestone_cobblestone_slab": "Limestone Cobblestone Slab",
+  "block.strata.limestone_cobblestone_stairs": "Limestone Cobblestone Stairs",
+  "block.strata.limestone_cobblestone_wall": "Limestone Cobblestone Wall",
+
+  "block.strata.mossy_limestone_cobblestone": "Mossy Limestone Cobblestone",
+  "block.strata.mossy_limestone_cobblestone_slab": "Mossy Limestone Cobblestone Slab",
+  "block.strata.mossy_limestone_cobblestone_stairs": "Mossy Limestone Cobblestone Stairs",
+  "block.strata.mossy_limestone_cobblestone_wall": "Mossy Limestone Cobblestone Wall",
+  
   "block.strata.limestone_button": "Limestone Button",
   "block.strata.limestone_pressure_plate": "Limestone Pressure Plate",
 
@@ -560,6 +593,17 @@
   "block.strata.shale_slab": "Shale Slab",
   "block.strata.shale_stairs": "Shale Stairs",
   "block.strata.shale_wall": "Shale Wall",
+
+  "block.strata.shale_cobblestone": "Shale Cobblestone",
+  "block.strata.shale_cobblestone_slab": "Shale Cobblestone Slab",
+  "block.strata.shale_cobblestone_stairs": "Shale Cobblestone Stairs",
+  "block.strata.shale_cobblestone_wall": "Shale Cobblestone Wall",
+
+  "block.strata.mossy_shale_cobblestone": "Mossy Shale Cobblestone",
+  "block.strata.mossy_shale_cobblestone_slab": "Mossy Shale Cobblestone Slab",
+  "block.strata.mossy_shale_cobblestone_stairs": "Mossy Shale Cobblestone Stairs",
+  "block.strata.mossy_shale_cobblestone_wall": "Mossy Shale Cobblestone Wall",
+  
   "block.strata.shale_button": "Shale Button",
   "block.strata.shale_pressure_plate": "Shale Pressure Plate",
 
@@ -619,6 +663,17 @@
   "block.strata.amphibolite_slab": "Amphibolite Slab",
   "block.strata.amphibolite_stairs": "Amphibolite Stairs",
   "block.strata.amphibolite_wall": "Amphibolite Wall",
+
+  "block.strata.amphibolite_cobblestone": "Amphibolite Cobblestone",
+  "block.strata.amphibolite_cobblestone_slab": "Amphibolite Cobblestone Slab",
+  "block.strata.amphibolite_cobblestone_stairs": "Amphibolite Cobblestone Stairs",
+  "block.strata.amphibolite_cobblestone_wall": "Amphibolite Cobblestone Wall",
+
+  "block.strata.mossy_amphibolite_cobblestone": "Mossy Amphibolite Cobblestone",
+  "block.strata.mossy_amphibolite_cobblestone_slab": "Mossy Amphibolite Cobblestone Slab",
+  "block.strata.mossy_amphibolite_cobblestone_stairs": "Mossy Amphibolite Cobblestone Stairs",
+  "block.strata.mossy_amphibolite_cobblestone_wall": "Mossy Amphibolite Cobblestone Wall",
+  
   "block.strata.amphibolite_button": "Amphibolite Button",
   "block.strata.amphibolite_pressure_plate": "Amphibolite Pressure Plate",
 
@@ -656,6 +711,17 @@
   "block.strata.gneiss_slab": "Gneiss Slab",
   "block.strata.gneiss_stairs": "Gneiss Stairs",
   "block.strata.gneiss_wall": "Gneiss Wall",
+
+  "block.strata.gneiss_cobblestone": "Gneiss Cobblestone",
+  "block.strata.gneiss_cobblestone_slab": "Gneiss Cobblestone Slab",
+  "block.strata.gneiss_cobblestone_stairs": "Gneiss Cobblestone Stairs",
+  "block.strata.gneiss_cobblestone_wall": "Gneiss Cobblestone Wall",
+
+  "block.strata.mossy_gneiss_cobblestone": "Mossy Gneiss Cobblestone",
+  "block.strata.mossy_gneiss_cobblestone_slab": "Mossy Gneiss Cobblestone Slab",
+  "block.strata.mossy_gneiss_cobblestone_stairs": "Mossy Gneiss Cobblestone Stairs",
+  "block.strata.mossy_gneiss_cobblestone_wall": "Mossy Gneiss Cobblestone Wall",
+  
   "block.strata.gneiss_button": "Gneiss Button",
   "block.strata.gneiss_pressure_plate": "Gneiss Pressure Plate",
 
@@ -738,6 +804,17 @@
   "block.strata.schist_slab": "Schist Slab",
   "block.strata.schist_stairs": "Schist Stairs",
   "block.strata.schist_wall": "Schist Wall",
+
+  "block.strata.schist_cobblestone": "Schist Cobblestone",
+  "block.strata.schist_cobblestone_slab": "Schist Cobblestone Slab",
+  "block.strata.schist_cobblestone_stairs": "Schist Cobblestone Stairs",
+  "block.strata.schist_cobblestone_wall": "Schist Cobblestone Wall",
+
+  "block.strata.mossy_schist_cobblestone": "Mossy Schist Cobblestone",
+  "block.strata.mossy_schist_cobblestone_slab": "Mossy Schist Cobblestone Slab",
+  "block.strata.mossy_schist_cobblestone_stairs": "Mossy Schist Cobblestone Stairs",
+  "block.strata.mossy_schist_cobblestone_wall": "Mossy Schist Cobblestone Wall",
+  
   "block.strata.schist_button": "Schist Button",
   "block.strata.schist_pressure_plate": "Schist Pressure Plate",
 

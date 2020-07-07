@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:mossy_basalt_cobblestone"
+    }
+  },
+  "result": {
+    "item": "strata:mossy_basalt_cobblestone_wall",
+    "count": 6
+  }
+}

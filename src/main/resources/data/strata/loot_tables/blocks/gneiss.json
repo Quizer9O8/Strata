@@ -33,7 +33,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "strata:gneiss"
+              "name": "strata:gneiss_cobblestone"
             }
           ]
         }

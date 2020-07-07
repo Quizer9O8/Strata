@@ -9,7 +9,6 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -20,22 +19,22 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 // @Mod tells everything this is the main class.
-@Mod(Main.MOD_ID)
-@Mod.EventBusSubscriber(modid = Main.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod(Strata.MOD_ID)
+@Mod.EventBusSubscriber(modid = Strata.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Main
 {
     //This line below makes it possible to call upon this class from other places.
-    public static Main instance;
+    public static Strata instance;
 
     //Universal variables.
     public static final String MOD_ID = "strata";
 
     //Creative Tab
-    //public static final ItemGroup DEBUG_TAB = new Main.DebugItemGroup("debug");
-    public static final ItemGroup IGNEOUS_TAB = new Main.IgneousRocksItemGroup("igneous");
-    public static final ItemGroup METAMORPHIC_TAB = new Main.MetamorphicRocksItemGroup("metamorphic");
-    public static final ItemGroup SEDIMENTARY_TAB = new Main.SedimentaryRocksItemGroup("sedimentary");
-    //public static final ItemGroup MISCELLANEOUS_TAB = new Main.MiscellaneousRocksItemGroup("miscellaneous");
+    //public static final ItemGroup DEBUG_TAB = new Strata.DebugItemGroup("debug");
+    public static final ItemGroup IGNEOUS_TAB = new Strata.IgneousRocksItemGroup("igneous");
+    public static final ItemGroup METAMORPHIC_TAB = new Strata.MetamorphicRocksItemGroup("metamorphic");
+    public static final ItemGroup SEDIMENTARY_TAB = new Strata.SedimentaryRocksItemGroup("sedimentary");
+    //public static final ItemGroup MISCELLANEOUS_TAB = new Strata.MiscellaneousRocksItemGroup("miscellaneous");
 
     //Logger
     public static final Logger LOGGER = LogManager.getLogger();

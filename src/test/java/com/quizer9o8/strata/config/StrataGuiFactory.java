@@ -1,6 +1,5 @@
 package com.quizer9o8.strata.config;
 
-import com.quizer9o8.strata.Main;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.resources.I18n;

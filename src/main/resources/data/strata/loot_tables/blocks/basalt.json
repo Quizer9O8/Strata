@@ -33,7 +33,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "strata:basalt"
+              "name": "strata:basalt_cobblestone"
             }
           ]
         }

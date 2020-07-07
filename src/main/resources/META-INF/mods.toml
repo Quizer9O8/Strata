@@ -8,7 +8,11 @@ issueTrackerURL="https://github.com/Quizer9O8/Strata/issues" #optional
 
 modId="strata" #mandatory
 
+<<<<<<< Updated upstream
 version="1.0.2" #mandatory
+=======
+version="1.0.3" #mandatory
+>>>>>>> Stashed changes
 
 displayName="Strata" #mandatory
 

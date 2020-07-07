@@ -8,6 +8,19 @@
     "strata:limestone_wall",
     "strata:schist_wall",
     "strata:shale_wall",
+    "strata:basalt_cobblestone_wall",
+    "strata:gabbro_cobblestone_wall",
+    "strata:gneiss_cobblestone_wall",
+    "strata:limestone_cobblestone_wall",
+    "strata:schist_cobblestone_wall",
+    "strata:shale_cobblestone_wall",
+    "strata:mossy_amphibolite_cobblestone_wall",
+    "strata:mossy_basalt_cobblestone_wall",
+    "strata:mossy_gabbro_cobblestone_wall",
+    "strata:mossy_gneiss_cobblestone_wall",
+    "strata:mossy_limestone_cobblestone_wall",
+    "strata:mossy_schist_cobblestone_wall",
+    "strata:mossy_shale_cobblestone_wall",
     "strata:amphibolite_brick_wall",
     "strata:basalt_brick_wall",
     "strata:gabbro_brick_wall",
@@ -21,6 +34,7 @@
     "strata:mossy_gneiss_brick_wall",
     "strata:mossy_limestone_brick_wall",
     "strata:mossy_schist_brick_wall",
-    "strata:mossy_shale_brick_wall"
+    "strata:mossy_shale_brick_wall",
+    "strata:amphibolite_brick_wall"
   ]
 }
