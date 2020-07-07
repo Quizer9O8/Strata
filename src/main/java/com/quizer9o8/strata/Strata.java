@@ -1,9 +1,5 @@
 package com.quizer9o8.strata;
 
-<<<<<<< Updated upstream:src/main/java/com/quizer9o8/strata/Main.java
-=======
-
->>>>>>> Stashed changes:src/main/java/com/quizer9o8/strata/Strata.java
 import com.quizer9o8.strata.list.BlockList;
 import com.quizer9o8.strata.list.ItemList;
 import com.quizer9o8.strata.world.gen.StrataGeneration;
@@ -13,10 +9,7 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-<<<<<<< Updated upstream:src/main/java/com/quizer9o8/strata/Main.java
-import net.minecraftforge.fml.ModLoadingContext;
-=======
->>>>>>> Stashed changes:src/main/java/com/quizer9o8/strata/Strata.java
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;

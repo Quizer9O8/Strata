@@ -13,11 +13,8 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-<<<<<<< Updated upstream
-version = '1.15.2-1.0.2'
-=======
 version = '1.15.2-1.0.3'
->>>>>>> Stashed changes
+
 group = 'com.quizer9o8.strata' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'strata'
 
