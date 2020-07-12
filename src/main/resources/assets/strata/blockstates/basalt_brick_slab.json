@@ -2,6 +2,6 @@
     "variants": {
         "type=bottom": { "model": "strata:block/basalt_brick_slab" },
         "type=top": { "model": "strata:block/basalt_brick_slab_top" },
-        "type=double": { "model": "strata:block/basalt_brick" }
+        "type=double": { "model": "strata:block/basalt_bricks" }
     }
 }
