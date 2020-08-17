@@ -1,0 +1,1027 @@
+{
+  "_comment": "Item Groups",
+
+  "itemGroup.debug": "Pestaña debug",
+  "itemGroup.igneous": "Rocas ígneas",
+  "itemGroup.sedimentary": "Rocas sedimentarias",
+  "itemGroup.metamorphic": "Rocas metamórficas",
+  "itemGroup.miscellaneous": "Rocas varias",
+
+  "_comment": "Debug Blocks and Items",
+
+  "item.strata.debug_item": "Objeto debug",
+  "block.strata.debug_block": "Bloque debug",
+  "block.strata.debug_slab": "Losa debug",
+  "block.strata.debug_stairs": "Escaleras debug",
+  "block.strata.debug_wall": "Muro debug",
+  "block.strata.debug_ore": "Mena debug",
+
+  "_comment": "Igneous Rocks",
+
+  "block.strata.aa": "Aa",
+  "block.strata.aa_slab": "Losa de aa",
+  "block.strata.aa_stairs": "Escaleras de aa",
+  "block.strata.aa_wall": "Muro de aa",
+
+  "block.strata.adakite": "Adakita",
+  "block.strata.adakite_slab": "Losa de adakita",
+  "block.strata.adakite_stairs": "Escaleras de adakita",
+  "block.strata.adakite_wall": "Muro de adakita",
+
+  "block.strata.alkali_fieldspar_granite": "Granito de feldespato alcalino",
+  "block.strata.akali_fieldspar_granite_slab": "Losa de granito de feldespato alcalino",
+  "block.strata.akali_fieldspar_granite_stairs": "Escaleras de granito de feldespato alcalino",
+  "block.strata.akali_fieldspar_granite_wall": "Muro de granito de feldespato alcalino",
+
+  "block.strata.anorthosite": "Anortosita",
+  "block.strata.anorthosite_slab": "Losa de anortosita",
+  "block.strata.anorthosite_stairs": "Escaleras de anortosita",
+  "block.strata.anorthosite_wall": "Muro de anortosita",
+
+  "block.strata.aplite": "Aplita",
+  "block.strata.aplite_slab": "Losa de aplita",
+  "block.strata.aplite_stairs": "Escaleras de aplita",
+  "block.strata.aplite_wall": "Muro de aplita",
+
+  "block.strata.basalt": "Basalto",
+  "block.strata.basalt_slab": "Losa de basalto",
+  "block.strata.basalt_stairs": "Escaleras de basalto",
+  "block.strata.basalt_wall": "Muro de basalto",
+
+  "block.strata.basalt_cobblestone": "Roca de basalto",
+  "block.strata.basalt_cobblestone_slab": "Losa de roca de basalto",
+  "block.strata.basalt_cobblestone_stairs": "Escaleras de roca de basalto",
+  "block.strata.basalt_cobblestone_wall": "Muro de roca de basalto",
+
+  "block.strata.mossy_basalt_cobblestone": "Roca de basalto musgosa",
+  "block.strata.mossy_basalt_cobblestone_slab": "Losa de roca de basalto musgosa",
+  "block.strata.mossy_basalt_cobblestone_stairs": "Escaleras de roca de basalto musgosa",
+  "block.strata.mossy_basalt_cobblestone_wall": "Muro de roca de basalto musgosa",
+  
+  "block.strata.basalt_button": "Botón de basalto",
+  "block.strata.basalt_pressure_plate": "Placa de presión de basalto",
+  
+  "block.strata.basalt_bricks": "Ladrillos de basalto",
+  "block.strata.basalt_brick_slab": "Losa de ladrillos de basalto",
+  "block.strata.basalt_brick_stairs": "Escaleras de ladrillos de basalto",
+  "block.strata.basalt_brick_wall": "Muro de ladrillos de basalto",
+  "block.strata.chiseled_basalt_bricks": "Ladrillos de basalto cincelados",
+  "block.strata.cracked_basalt_bricks": "Ladrillos de basalto agrietados",
+  "block.strata.mossy_basalt_bricks": "Ladrillos de basalto musgosos",
+  "block.strata.mossy_basalt_brick_slab": "Losa de ladrillos de basalto musgosos",
+  "block.strata.mossy_basalt_brick_stairs": "Escaleras de ladrillos de basalto musgosos",
+  "block.strata.mossy_basalt_brick_wall": "Muro de ladrillos de basalto musgosos",
+
+  "block.strata.polished_basalt": "Basalto pulido",
+  "block.strata.polished_basalt_slab": "Losa de basalto pulido",
+  "block.strata.polished_basalt_stairs": "Escaleras de basalto pulido",
+
+  "block.strata.basaltic_trachyandesite": "Traquiandesita basáltica",
+  "block.strata.basaltic_trachyandesite_slab": "Losa de traquiandesita basáltica",
+  "block.strata.basaltic_trachyandesite_stairs": "Escaleras de traquiandesita basáltica",
+  "block.strata.basaltic_trachyandesite_wall": "Muro de traquiandesita basáltica",
+
+  "block.strata.basanite": "Basanita",
+  "block.strata.basanite_slab": "Losa de basanita",
+  "block.strata.basanite_stairs": "Escaleras de basanita",
+  "block.strata.basanite_wall": "Muro de basanita",
+
+  "block.strata.benmoreite": "Benmoreita",
+  "block.strata.benmoreite_slab": "Losa de benmoreita",
+  "block.strata.benmoreite_stairs": "Escaleras de benmoreita",
+  "block.strata.benmoreite_wall": "Muro de benmoreita",
+
+  "block.strata.blairmorite": "Blairmorita",
+  "block.strata.blairmorite_slab": "Losa de blairmorita",
+  "block.strata.blairmorite_stairs": "Escaleras de blairmorita",
+  "block.strata.blairmorite_wall": "Muro de blairmorita",
+
+  "block.strata.boninite": "Boninita",
+  "block.strata.boninite_slab": "Losa de boninita",
+  "block.strata.boninite_stairs": "Escaleras de boninita",
+  "block.strata.boninite_wall": "Muro de boninita",
+
+  "block.strata.carbonatite": "Carbonatita",
+  "block.strata.carbonatite_slab": "Losa de carbonatita",
+  "block.strata.carbonatite_stairs": "Escaleras de carbonatita",
+  "block.strata.carbonatite_wall": "Muro de carbonatita",
+
+  "block.strata.charnockite": "Charnockita",
+  "block.strata.charnockite_slab": "Losa de charnockita",
+  "block.strata.charnockite_stairs": "Escaleras de charnockita",
+  "block.strata.charnockite_wall": "Muro de charnockita",
+
+  "block.strata.comendite": "Comendita",
+  "block.strata.comendite_slab": "Losa de comendita",
+  "block.strata.comendite_stairs": "Escaleras de comendita",
+  "block.strata.comendite_wall": "Muro de comendita",
+
+  "block.strata.dacite": "Dacita",
+  "block.strata.dacite_slab": "Losa de dacita",
+  "block.strata.dacite_stairs": "Escaleras de dacita",
+    "block.strata.dacite_wall": "Muro de dacita",
+
+  "block.strata.diabase": "Diabasa",
+  "block.strata.diabase_slab": "Losa de diabasa",
+  "block.strata.diabase_stairs": "Escaleras de diabasa",
+  "block.strata.diabase_wall": "Muro de diabasa",
+
+  "block.strata.dunite": "Dunita",
+  "block.strata.dunite_slab": "Losa de dunita",
+  "block.strata.dunite_stairs": "Escaleras de dunita",
+  "block.strata.dunite_wall": "Muro de dunita",
+
+  "block.strata.enderbite": "Enderbita",
+  "block.strata.enderbite_slab": "Losa de enderbita",
+  "block.strata.enderbite_stairs": "Escaleras de enderbita",
+  "block.strata.enderbite_wall": "Muro de enderbita",
+
+  "block.strata.essexite": "Essexita",
+  "block.strata.essexite_slab": "Losa de essexita",
+  "block.strata.essexite_stairs": "Escaleras de essexita",
+  "block.strata.essexite_wall": "Muro de essexita",
+
+  "block.strata.foidolite": "Foidolita",
+  "block.strata.foidolite_slab": "Losa de foidolita",
+  "block.strata.foidolite_stairs": "Escaleras de foidolita",
+  "block.strata.foidolite_wall": "Muro de foidolita",
+
+  "block.strata.gabbro": "Gabro",
+  "block.strata.gabbro_slab": "Losa de gabro",
+  "block.strata.gabbro_stairs": "Escaleras de gabro",
+  "block.strata.gabbro_wall": "Muro de gabro",
+
+  "block.strata.gabbro_cobblestone": "Roca de gabro",
+  "block.strata.gabbro_cobblestone_slab": "Losa de roca de gabro",
+  "block.strata.gabbro_cobblestone_stairs": "Escaleras de roca de gabro",
+  "block.strata.gabbro_cobblestone_wall": "Muro de roca de gabro",
+
+  "block.strata.mossy_gabbro_cobblestone": "Roca de gabro musgosa",
+  "block.strata.mossy_gabbro_cobblestone_slab": "Losa de roca de gabro musgosa",
+  "block.strata.mossy_gabbro_cobblestone_stairs": "Escaleras de roca de gabro musgosa",
+  "block.strata.mossy_gabbro_cobblestone_wall": "Muro de roca de gabro musgosa",
+  
+  "block.strata.gabbro_button": "Botón de gabro",
+  "block.strata.gabbro_pressure_plate": "Placa de presión de gabro",
+
+  "block.strata.gabbro_bricks": "Ladrillos de gabro",
+  "block.strata.gabbro_brick_slab": "Losa de ladrillos de gabro",
+  "block.strata.gabbro_brick_stairs": "Escaleras de ladrillos de gabro",
+  "block.strata.gabbro_brick_wall": "Muro de ladrillos de gabro",
+  "block.strata.chiseled_gabbro_bricks": "Ladrillos de gabro cincelados",
+  "block.strata.cracked_gabbro_bricks": "Ladrillos de gabro agrietados",
+  "block.strata.mossy_gabbro_bricks": "Ladrillos de gabro musgosos",
+  "block.strata.mossy_gabbro_brick_slab": "Losa de ladrillos de gabro musgosos",
+  "block.strata.mossy_gabbro_brick_stairs": "Escaleras de ladrillos de gabro musgosos",
+  "block.strata.mossy_gabbro_brick_wall": "Muro de ladrillos de gabro musgosos",
+
+  "block.strata.polished_gabbro": "Gabro pulido",
+  "block.strata.polished_gabbro_slab": "Losa de gabro pulido",
+  "block.strata.polished_gabbro_stairs": "Escaleras de gabro pulido",
+
+  "block.strata.granodiorite": "Granodiorita",
+  "block.strata.granodiorite_slab": "Losa de granodiorita",
+  "block.strata.granodiorite_stairs": "Escaleras de granodiorita",
+  "block.strata.granodiorite_wall": "Muro de granodiorita",
+
+  "block.strata.granophyre": "Granófiro",
+  "block.strata.granophyre_slab": "Losa de granófiro",
+  "block.strata.granophyre_stairs": "Escaleras de granófiro",
+  "block.strata.granophyre_wall": "Muro de de granófiro",
+
+  "block.strata.hawaiite": "Hawaiita",
+  "block.strata.hawaiite_slab": "Losa de hawaiita",
+  "block.strata.hawaiite_stairs": "Escaleras de hawaiita",
+  "block.strata.hawaiite_wall": "Muro de hawaiita",
+
+  "block.strata.hazburgite": "Harzburgita",
+  "block.strata.hazburgite_slab": "Losa de harzburgita",
+  "block.strata.hazburgite_stairs": "Escaleras de harzburgita",
+  "block.strata.hazburgite_wall": "Muro de harzburgita",
+
+  "block.strata.hornblendite": "Hornblendita",
+  "block.strata.hornblendite_slab": "Losa de hornblendita",
+  "block.strata.hornblendite_stairs": "Escaleras de hornblendita",
+  "block.strata.hornblendite_wall": "Muro de hornblendita",
+
+  "block.strata.hyaloclastit": "Hialoclastita",
+  "block.strata.hyaloclastit_slab": "Losa de hialoclastita",
+  "block.strata.hyaloclastit_stairs": "Escaleras de hialoclastita",
+  "block.strata.hyaloclastit_wall": "Muro de hialoclastita",
+
+  "block.strata.icelandite": "Islandita",
+  "block.strata.icelandite_slab": "Losa de islandita",
+  "block.strata.icelandite_stairs": "Escaleras de islandita",
+  "block.strata.icelandite_wall": "Muro de islandita",
+
+  "block.strata.ijolite": "Ijolita",
+  "block.strata.ijolite_slab": "Losa de ijolita",
+  "block.strata.ijolite_stairs": "Escaleras de ijolita",
+  "block.strata.ijolite_wall": "Muro de ijolita",
+
+  "block.strata.kimberlite": "Kimberlita",
+  "block.strata.kimberlite_slab": "Losa de kimberlita",
+  "block.strata.kimberlite_stairs": "Escaleras de kimberlita",
+  "block.strata.kimberlite_wall": "Muro de kimberlita",
+
+  "block.strata.komatiite": "Komatita",
+  "block.strata.komatiite_slab": "Losa de komatita",
+  "block.strata.komatiite_stairs": "Escaleras de komatita",
+  "block.strata.komatiite_wall": "Muro de komatita",
+
+  "block.strata.lamprophyre": "Lamprófiro",
+  "block.strata.lamprophyre_slab": "Losa de lamprófiro",
+  "block.strata.lamprophyre_stairs": "Escaleras de lamprófiro",
+  "block.strata.lamprophyre_wall": "Muro de lamprófiro",
+
+  "block.strata.latite": "Latita",
+  "block.strata.latite_slab": "Losa de latita",
+  "block.strata.latite_stairs": "Escaleras de latita",
+  "block.strata.latite_wall": "Muro de latita",
+
+  "block.strata.lherzolite": "Lherzolita",
+  "block.strata.lherzolite_slab": "Losa de lherzolita",
+  "block.strata.lherzolite_stairs": "Escaleras de lherzolita",
+  "block.strata.lherzolite_wall": "Muro de lherzolita",
+
+  "block.strata.monzogranite": "Monzogranito",
+  "block.strata.monzogranite_slab": "Losa de monzogranito",
+  "block.strata.monzogranite_stairs": "Escaleras de monzogranito",
+  "block.strata.monzogranite_wall": "Muro de monzogranito",
+
+  "block.strata.monzonite": "Monzonita",
+  "block.strata.monzonite_slab": "Losa de monzonita",
+  "block.strata.monzonite_stairs": "Escaleras de monzonita",
+  "block.strata.monzonite_wall": "Muro de monzonita",
+
+  "block.strata.mugearite": "Mugearita",
+  "block.strata.mugearite_slab": "Losa de mugearita",
+  "block.strata.mugearite_stairs": "Escaleras de mugearita",
+  "block.strata.mugearite_wall": "Muro de mugearita",
+
+  "block.strata.napoleonite": "Napoleonita",
+  "block.strata.napoleonite_slab": "Losa de napoleonita",
+  "block.strata.napoleonite_stairs": "Escaleras de napoleonita",
+  "block.strata.napoleonite_wall": "Muro de napoleonita",
+
+  "block.strata.nephelinite": "Nefelinita",
+  "block.strata.nephelinite_slab": "Losa de nefelinita",
+  "block.strata.nephelinite_stairs": "Escaleras de nefelinita",
+  "block.strata.nephelinite_wall": "Muro de nefelinita",
+
+  "block.strata.norite": "Norita",
+  "block.strata.norite_slab": "Losa de norita",
+  "block.strata.norite_stairs": "Escaleras de norita",
+  "block.strata.norite_wall": "Muro de norita",
+
+  "block.strata.pahoehoe": "Pahoehoe",
+  "block.strata.pahoehoe_slab": "Losa de pahoehoe",
+  "block.strata.pahoehoe_stairs": "Escaleras de pahoehoe",
+  "block.strata.pahoehoe_wall": "Muro de pahoehoe",
+
+  "block.strata.pantellerite": "Pantelarita",
+  "block.strata.pantellerite_slab": "Losa de pantelarita",
+  "block.strata.pantellerite_stairs": "Escaleras de pantelarita",
+  "block.strata.pantellerite_wall": "Muro de pantelarita",
+
+  "block.strata.pegmatite": "Pegmatita",
+  "block.strata.pegmatite_slab": "Losa de pegmatita",
+  "block.strata.pegmatite_stairs": "Escaleras de pegmatita",
+  "block.strata.pegmatite_wall": "Muro de pegmatita",
+
+  "block.strata.peridotite":"Peridotita",
+  "block.strata.peridotite_slab": "Losa de peridotita",
+  "block.strata.peridotite_stairs": "Escaleras de peridotita",
+  "block.strata.peridotite_wall": "Muro de peridotita",
+
+  "block.strata.phonolite": "Fonolita",
+  "block.strata.phonolite_slab": "Losa de fonolita",
+  "block.strata.phonolite_stairs": "Escaleras de fonolita",
+  "block.strata.phonolite_wall": "Muro de fonolita",
+
+  "block.strata.phonotephrite": "Fonotefrita",
+  "block.strata.phonotephrite_slab": "Losa de fonotefrita",
+  "block.strata.phonotephrite_stairs": "Escaleras de fonotefrita",
+  "block.strata.phonotephrite_wall": "Muro de fonotefrita",
+
+  "block.strata.picrite": "Picrita",
+  "block.strata.picrite_slab": "Losa de picrita",
+  "block.strata.picrite_stairs": "Escaleras de picrita",
+  "block.strata.picrite_wall": "Muro de picrita",
+
+  "block.strata.porphyry": "Pórfido",
+  "block.strata.porphyry_slab": "Losa de pórfido",
+  "block.strata.porphyry_stairs": "Escaleras de pórfido",
+  "block.strata.porphyry_wall": "Muro de pórfido",
+
+  "block.strata.pumice": "Pumita",
+  "block.strata.pumice_slab": "Losa de pumita",
+  "block.strata.pumice_stairs": "Escaleras de pumita",
+  "block.strata.pumice_wall": "Muro de pumita",
+
+  "block.strata.pyroxenite": "Piroxenita",
+  "block.strata.pyroxenite_slab": "Losa de piroxenita",
+  "block.strata.pyroxenite_stairs": "Escaleras de piroxenita",
+  "block.strata.pyroxenite_wall": "Muro de piroxenita",
+
+  "block.strata.quartz_diorite": "Diorita de cuarzo",
+  "block.strata.quartz_diorite_slab": "Losa de diorita de cuarzo",
+  "block.strata.quartz_diorite_stairs": "Escaleras de diorita de cuarzo",
+  "block.strata.quartz_diorite_wall": "Muro de diorita de cuarzo",
+
+  "block.strata.quartz_monzonite": "Monzonita de cuarzo",
+  "block.strata.quartz_monzonite_slab": "Losa de monzonita de cuarzo",
+  "block.strata.quartz_monzonite_stairs": "Escaleras de monzonita de cuarzo",
+  "block.strata.quartz_monzonite_wall": "Muro de monzonita de cuarzo",
+
+  "block.strata.quartzolite": "Cuarzolita",
+  "block.strata.quartzolite_slab": "Losa de cuarzolita",
+  "block.strata.quartzolite_stairs": "Escaleras de cuarzolita",
+  "block.strata.quartzolite_wall": "Muro de cuarzolita",
+
+  "block.strata.rhyodacite": "Riodacita",
+  "block.strata.rhyodacite_slab": "Losa de riodacita",
+  "block.strata.rhyodacite_stairs": "Escaleras de riodacita",
+  "block.strata.rhyodacite_wall": "Muro de riodacita",
+
+  "block.strata.rhyolite": "Riolita",
+  "block.strata.rhyolite_slab": "Losa de riolita",
+  "block.strata.rhyolite_stairs": "Escaleras de riolita",
+  "block.strata.rhyolite_wall": "Muro de riolita",
+
+  "block.strata.scoria": "Escoria volcánica",
+  "block.strata.scoria_slab": "Losa de escoria volcánica",
+  "block.strata.scoria_stairs": "Escaleras de escoria volcánica",
+  "block.strata.scoria_wall": "Muro de escoria volcánica",
+
+  "block.strata.shonkinite": "Shonkinita",
+  "block.strata.shonkinite_slab": "Losa de shonkinita",
+  "block.strata.shonkinite_stairs": "Escaleras de shonkinita",
+  "block.strata.shonkinite_wall": "Muro de shonkinita",
+
+  "block.strata.shoshonite": "Shoshonita",
+  "block.strata.shoshonite_slab": "Losa de shoshonita",
+  "block.strata.shoshonite_stairs": "Escaleras de shoshonita",
+  "block.strata.shoshonite_wall": "Muro de shoshonita",
+
+  "block.strata.sovite": "Sovita",
+  "block.strata.sovite_slab": "Losa de sovita",
+  "block.strata.sovite_stairs": "Escaleras de sovita",
+  "block.strata.sovite_wall": "Muro de sovita",
+
+  "block.strata.syenite": "Sienita",
+  "block.strata.syenite_slab": "Losa de sienita",
+  "block.strata.syenite_stairs": "Escaleras de sienita",
+  "block.strata.syenite_wall": "Muro de sienita",
+
+  "block.strata.tachylite": "Taquilita",
+  "block.strata.tachylite_slab": "Losa de taquilita",
+  "block.strata.tachylite_stairs": "Escaleras de taquilita",
+  "block.strata.tachylite_wall": "Muro de taquilita",
+
+  "block.strata.tephriphonolite": "Tefrifonolita",
+  "block.strata.tephriphonolite_slab": "Losa de tefrifonolita",
+  "block.strata.tephriphonolite_stairs": "Escaleras de tefrifonolita",
+  "block.strata.tephriphonolite_wall": "Muro de tefrifonolita",
+
+  "block.strata.tephrite": "Tefrita",
+  "block.strata.tephrite_slab": "Losa de tefrita",
+  "block.strata.tephrite_stairs": "Escaleras de tefrita",
+  "block.strata.tephrite_wall": "Muro de tefrita",
+
+  "block.strata.tonalite": "Tonalita",
+  "block.strata.tonalite_slab": "Losa de tonalita",
+  "block.strata.tonalite_stairs": "Escaleras de tonalita",
+  "block.strata.tonalite_wall": "Muro de tonalita",
+
+  "block.strata.trachyandesite": "Traquiandesita",
+  "block.strata.trachyandesite_slab": "Losa de traquiandesita",
+  "block.strata.trachyandesite_stairs": "Escaleras de traquiandesita",
+  "block.strata.trachyandesite_wall": "Muro de traquiandesita",
+
+  "block.strata.trachybasalt": "Traquibasalto",
+  "block.strata.trachybasalt_slab": "Losa de traquibasalto",
+  "block.strata.trachybasalt_stairs": "Escaleras de traquibasalto",
+  "block.strata.trachybasalt_wall": "Muro de traquibasalto",
+
+  "block.strata.trachyte": "Traquita",
+  "block.strata.trachyte_slab": "Losa de traquita",
+  "block.strata.trachyte_stairs": "Escaleras de traquita",
+  "block.strata.trachyte_wall": "Muro de traquita",
+
+  "block.strata.troctolite": "Troctolita",
+  "block.strata.troctolite_slab": "losa de troctolita",
+  "block.strata.troctolite_stairs": "Escaleras de troctolita",
+  "block.strata.troctolite_wall": "Muro de troctolita",
+
+  "block.strata.trondhjemite": "Trondhjemita",
+  "block.strata.trondhjemite_slab": "Losa de trondhjemita",
+  "block.strata.trondhjemite_stairs": "Escaleras de trondhjemita",
+  "block.strata.trondhjemite_wall": "Muro de trondhjemita",
+
+  "block.strata.tuff": "Tufo volcánico",
+  "block.strata.tuff_slab": "Losa de tufo volcánico",
+  "block.strata.tuff_stairs": "Escaleras de tufo volcánico",
+  "block.strata.tuff_wall": "Muro de tufo volcánico",
+
+  "block.strata.websterite": "Websterita",
+  "block.strata.websterite_slab": "Losa de websterita",
+  "block.strata.websterite_stairs": "Escaleras de websterita",
+  "block.strata.websterite_wall": "Muro de websterita",
+
+  "block.strata.wehrlite": "Wehrlita",
+  "block.strata.wehrlite_slab": "Losa de wehrlita",
+  "block.strata.wehrlite_stairs": "Escaleras de wehrlita",
+  "block.strata.wehrlite_wall": "Muro de wehrlita",
+
+  "_comment": "Sedimentary Rocks",
+
+  "block.strata.argillite": "Argilita",
+  "block.strata.argillite_slab": "Losa de argilita",
+  "block.strata.argillite_stairs": "Escaleras de argilita",
+  "block.strata.argillite_wall": "Muro de argilita",
+
+  "block.strata.arkose": "Arcosa",
+  "block.strata.arkose_slab": "Losa de arcosa",
+  "block.strata.arkose_stairs": "Escaleras de arcosa",
+  "block.strata.arkose_wall": "Muro de arcosa",
+
+  "block.strata.breccia": "Brecha",
+  "block.strata.breccia_slab": "Losa de brecha",
+  "block.strata.breccia_stairs": "Escaleras de brecha",
+  "block.strata.breccia_wall": "Muro de brecha",
+
+  "block.strata.calcarenite": "Calcarenita",
+  "block.strata.calcarenite_slab": "Losa de calcarenita",
+  "block.strata.calcarenite_stairs": "Escaleras de calcarenita",
+  "block.strata.calcarenite_wall": "Muro de calcarenita",
+
+  "block.strata.chalk": "Creta",
+  "block.strata.chalk_slab": "Losa de creta",
+  "block.strata.chalk_stairs": "Escaleras de creta",
+  "block.strata.chalk_wall": "Muro de creta",
+
+  "block.strata.chert": "Chert",
+  "block.strata.chert_slab": "Losa de chert",
+  "block.strata.chert_stairs": "Escaleras de chert",
+  "block.strata.chert_wall": "Muro de chert",
+
+  "block.strata.claystone": "Arcilla",
+  "block.strata.claystone_slab": "Losa de arcilla",
+  "block.strata.claystone_stairs": "Escaleras de arcilla",
+  "block.strata.claystone_wall": "Muro de arcilla",
+
+  "block.strata.conglomerate": "Conglomerado",
+  "block.strata.conglomerate_slab": "Losa de conglomerado",
+  "block.strata.conglomerate_stairs": "Escaleras de conglomerado",
+  "block.strata.conglomerate_wall": "Muro de conglomerado",
+
+  "block.strata.coquina": "Coquina",
+  "block.strata.coquina_slab": "Losa de coquina",
+  "block.strata.coquina_stairs": "Escaleras de coquina",
+  "block.strata.coquina_wall": "Muro de coquina",
+
+  "block.strata.diamictite": "Diamictita",
+  "block.strata.diamictite_slab": "Losa de diamictita",
+  "block.strata.diamictite_stairs": "Escaleras de diamictita",
+  "block.strata.diamictite_wall": "Muro de diamictita",
+
+  "block.strata.diatomite": "Diatomita",
+  "block.strata.diatomite_slab": "Losa de diatomita",
+  "block.strata.diatomite_stairs": "Escaleras de diatomita",
+  "block.strata.diatomite_wall": "Muro de diatomita",
+
+  "block.strata.dolomite": "Dolomía",
+  "block.strata.dolomite_slab": "Losa de dolomía",
+  "block.strata.dolomite_stairs": "Escaleras de dolomía",
+  "block.strata.dolomite_wall": "Muro de dolomía",
+
+  "block.strata.evaporite": "Evaporita",
+  "block.strata.evaporite_slab": "Losa de evaporita",
+  "block.strata.evaporite_stairs": "Escaleras de evaporita",
+  "block.strata.evaporite_wall": "Muro de evaporita",
+
+  "block.strata.geyserite": "Geiserita",
+  "block.strata.geyserite_slab": "Losa de geiserita",
+  "block.strata.geyserite_stairs": "Escaleras de geiserita",
+  "block.strata.geyserite_wall": "Muro de geiserita",
+
+  "block.strata.greywacke": "Grauvaca",
+  "block.strata.greywacke_slab": "Losa de grauvaca",
+  "block.strata.greywacke_stairs": "Escaleras de grauvaca",
+  "block.strata.greywacke_wall": "Muro de grauvaca",
+
+  "block.strata.gritstone": "Gritstone",
+  "block.strata.gritstone_slab": "Losa de gritstone",
+  "block.strata.gritstone_stairs": "Escaleras de gritstone",
+  "block.strata.gritstone_wall": "Muro de gritstone",
+
+  "block.strata.itacolumite": "Itacolumita",
+  "block.strata.itacolumite_slab": "Losa de itacolumita",
+  "block.strata.itacolumite_stairs": "Escaleras de itacolumita",
+  "block.strata.itacolumite_wall": "Muro de itacolumita",
+
+  "block.strata.jaspillite": "Jaspilita",
+  "block.strata.jaspillite_slab": "Losa de jaspilita",
+  "block.strata.jaspillite_stairs": "Escaleras de jaspilita",
+  "block.strata.jaspillite_wall": "Muro de jaspilita",
+
+  "block.strata.laterite": "Laterita",
+  "block.strata.laterite_slab": "Losa de laterita",
+  "block.strata.laterite_stairs": "Escaleras de laterita",
+  "block.strata.laterite_wall": "Muro de laterita",
+
+  "block.strata.limestone": "Caliza",
+  "block.strata.limestone_slab": "Losa de caliza",
+  "block.strata.limestone_stairs": "Escaleras de caliza",
+  "block.strata.limestone_wall": "Muro de caliza",
+
+  "block.strata.limestone_cobblestone": "Roca de caliza",
+  "block.strata.limestone_cobblestone_slab": "Losa de roca de caliza",
+  "block.strata.limestone_cobblestone_stairs": "Escaleras de roca de caliza",
+  "block.strata.limestone_cobblestone_wall": "Muro de roca de caliza",
+
+  "block.strata.mossy_limestone_cobblestone": "Roca de caliza musgosa",
+  "block.strata.mossy_limestone_cobblestone_slab": "Losa de roca de caliza musgosa",
+  "block.strata.mossy_limestone_cobblestone_stairs": "Escaleras de roca de caliza musgosa",
+  "block.strata.mossy_limestone_cobblestone_wall": "Muro de roca de caliza musgosa",
+  
+  "block.strata.limestone_button": "Botón de caliza",
+  "block.strata.limestone_pressure_plate": "Placa de presión de caliza",
+
+  "block.strata.limestone_bricks": "Ladrillos de caliza",
+  "block.strata.limestone_brick_slab": "Losa de ladrillos de caliza",
+  "block.strata.limestone_brick_stairs": "Escaleras de ladrillos de caliza",
+  "block.strata.limestone_brick_wall": "Muro de ladrillos de caliza",
+  "block.strata.chiseled_limestone_bricks": "Ladrillos de caliza cincelados",
+  "block.strata.cracked_limestone_bricks": "Ladrillos de caliza agrietados",
+  "block.strata.mossy_limestone_bricks": "Ladrillos de caliza musgosos",
+  "block.strata.mossy_limestone_brick_slab": "Losa de ladrillos de caliza musgosos",
+  "block.strata.mossy_limestone_brick_stairs": "Escaleras de ladrillos de caliza musgosos",
+  "block.strata.mossy_limestone_brick_wall": "Muro de ladrillos de caliza musgosos",
+
+  "block.strata.polished_limestone": "Caliza pulida",
+  "block.strata.polished_limestone_slab": "Losa de caliza pulida",
+  "block.strata.polished_limestone_stairs": "Escaleras de caliza pulida",
+
+  "block.strata.marl": "Marga",
+  "block.strata.marl_slab": "Losa de marga",
+  "block.strata.marl_stairs": "Escaleras de marga",
+  "block.strata.marl_wall": "Muro de marga",
+
+  "block.strata.mudstone": "Mudstone",
+  "block.strata.mudstone_slab": "Losa de mudstone",
+  "block.strata.mudstone_stairs": "Escaleras de mudstone",
+  "block.strata.mudstone_wall": "Muro de mudstone",
+
+  "block.strata.oil_shale": "Lutita bituminosa",
+  "block.strata.oil_shale_slab": "Losa de lutita bituminosa",
+  "block.strata.oil_shale_stairs": "Escaleras de lutita bituminosa",
+  "block.strata.oil_shale_wall": "Muro de lutita bituminosa",
+
+  "block.strata.oolite": "Oolito",
+  "block.strata.oolite_slab": "Losa de oolito",
+  "block.strata.oolite_stairs": "Escaleras de oolito",
+  "block.strata.oolite_wall": "Muro de oolito",
+
+  "block.strata.phosphorite": "Fosforita",
+  "block.strata.phosphorite_slab": "Losa de fosforita",
+  "block.strata.phosphorite_stairs": "Escaleras de fosforita",
+  "block.strata.phosphorite_wall": "Muro de fosforita",
+
+  "block.strata.shale": "Shale",
+  "block.strata.shale_slab": "Losa de shale",
+  "block.strata.shale_stairs": "Escaleras de shale",
+  "block.strata.shale_wall": "Muro de shale",
+
+  "block.strata.shale_cobblestone": "Roca de shale",
+  "block.strata.shale_cobblestone_slab": "Losa de roca de shale",
+  "block.strata.shale_cobblestone_stairs": "Escaleras de roca de shale",
+  "block.strata.shale_cobblestone_wall": "Muro de roca de shale",
+
+  "block.strata.mossy_shale_cobblestone": "Roca de shale musgosa",
+  "block.strata.mossy_shale_cobblestone_slab": "Losa de roca de shale musgosa",
+  "block.strata.mossy_shale_cobblestone_stairs": "Escaleras de roca de shale musgosa",
+  "block.strata.mossy_shale_cobblestone_wall": "Muro de roca de shale musgosa",
+  
+  "block.strata.shale_button": "Botón de shale",
+  "block.strata.shale_pressure_plate": "Placa de presión de shale",
+
+  "block.strata.shale_bricks": "Ladrillos de shale",
+  "block.strata.shale_brick_slab": "Losa de ladrillos de shale",
+  "block.strata.shale_brick_stairs": "Escaleras de ladrillos de shale",
+  "block.strata.shale_brick_wall": "Muro de ladrillos de shale",
+  "block.strata.chiseled_shale_bricks": "Ladrillos de shale cincelados",
+  "block.strata.cracked_shale_bricks": "Ladrillos de shale agrietados",
+  "block.strata.mossy_shale_bricks": "Ladrillos de shale musgosos",
+  "block.strata.mossy_shale_brick_slab": "Losa de ladrillos de shale musgosos",
+  "block.strata.mossy_shale_brick_stairs": "Escaleras de ladrillos de shale musgosos",
+  "block.strata.mossy_shale_brick_wall": "Muro de ladrillos de shale musgosos",
+
+  "block.strata.polished_shale": "Shale pulido",
+  "block.strata.polished_shale_slab": "Losa de shale pulido",
+  "block.strata.polished_shale_stairs": "Escaleras de shale pulido",
+
+  "block.strata.siltstone": "Limolita",
+  "block.strata.siltstone_slab": "Losa de limolita",
+  "block.strata.siltstone_stairs": "Escaleras de limolita",
+  "block.strata.siltstone_wall": "Muro de limolita",
+
+  "block.strata.sylvinite": "Silvita",
+  "block.strata.sylvinite_slab": "Losa de silvita",
+  "block.strata.sylvinite_stairs": "Escaleras de silvita",
+  "block.strata.sylvinite_wall": "Muro de silvita",
+
+  "block.strata.tillite": "Tillita",
+  "block.strata.tillite_slab": "Losa de tillita",
+  "block.strata.tillite_stairs": "Escaleras de tillita",
+  "block.strata.tillite_wall": "Muro de tillita",
+
+  "block.strata.travertine": "Travertino",
+  "block.strata.travertine_slab": "Losa de travertino",
+  "block.strata.travertine_stairs": "Escaleras de travertino",
+  "block.strata.travertine_wall": "Muro de travertino",
+
+  "block.strata.turbidite": "Turbidita",
+  "block.strata.turbidite_slab": "Losa de turbidita",
+  "block.strata.turbidite_stairs": "Escaleras de turbidita",
+  "block.strata.turbidite_wall": "Muro de turbidita",
+
+  "block.strata.wackestone": "Wackestone",
+  "block.strata.wackestone_slab": "Losa de wackestone",
+  "block.strata.wackestone_stairs": "Escaleras de wackestone",
+  "block.strata.wackestone_wall": "Muro de wackestone",
+
+  "_comment": "Metamorphic Rocks",
+
+  "block.strata.anthracite": "Antracita",
+  "block.strata.anthracite_slab": "Losa de antracita",
+  "block.strata.anthracite_stairs": "Escaleras de antracita",
+  "block.strata.anthracite_wall": "Muro de antracita",
+
+  "block.strata.amphibolite": "Anfibolita",
+  "block.strata.amphibolite_slab": "Losa de anfibolita",
+  "block.strata.amphibolite_stairs": "Escaleras de anfibolita",
+  "block.strata.amphibolite_wall": "Muro de anfibolita",
+
+  "block.strata.amphibolite_cobblestone": "Roca de anfibolita",
+  "block.strata.amphibolite_cobblestone_slab": "Losa de roca de anfibolita",
+  "block.strata.amphibolite_cobblestone_stairs": "Escaleras de roca de anfibolita",
+  "block.strata.amphibolite_cobblestone_wall": "Muro de roca de anfibolita",
+
+  "block.strata.mossy_amphibolite_cobblestone": "Roca de anfibolita musgosa",
+  "block.strata.mossy_amphibolite_cobblestone_slab": "Losa de roca de anfibolita musgosa",
+  "block.strata.mossy_amphibolite_cobblestone_stairs": "Escaleras de roca de anfibolita musgosa",
+  "block.strata.mossy_amphibolite_cobblestone_wall": "Muro de roca de anfibolita musgosa",
+  
+  "block.strata.amphibolite_button": "Botón de anfibolita",
+  "block.strata.amphibolite_pressure_plate": "Placa de presión de anfibolita",
+
+  "block.strata.amphibolite_bricks": "Ladrillos de anfibolita",
+  "block.strata.amphibolite_brick_slab": "Losa de ladrillos de anfibolita",
+  "block.strata.amphibolite_brick_stairs": "Escaleras de ladrillos de anfibolita",
+  "block.strata.amphibolite_brick_wall": "Muro de ladrillos de anfibolita",
+  "block.strata.chiseled_amphibolite_bricks": "Ladrillos de anfibolita cincelados",
+  "block.strata.cracked_amphibolite_bricks": "Ladrillos de anfibolita agrietados",
+  "block.strata.mossy_amphibolite_bricks": "Ladrillos de anfibolita musgosos",
+  "block.strata.mossy_amphibolite_brick_slab": "Losa de ladrillos de anfibolita musgosos",
+  "block.strata.mossy_amphibolite_brick_stairs": "Escaleras de ladrillos de anfibolita musgosos",
+  "block.strata.mossy_amphibolite_brick_wall": "Muro de ladrillos de anfibolita musgosos",
+
+  "block.strata.polished_amphibolite": "Anfibolita pulida",
+  "block.strata.polished_amphibolite_slab": "Losa de anfibolita pulida",
+  "block.strata.polished_amphibolite_stairs": "Escaleras de anfibolita pulida",
+
+  "block.strata.blueschist": "Esquisto azul",
+  "block.strata.blueschist_slab": "Losa de esquisto azul",
+  "block.strata.blueschist_stairs": "Escaleras de esquisto azul",
+  "block.strata.blueschist_wall": "Muro de esquisto azul",
+
+  "block.strata.cataclasite": "Cataclasita",
+  "block.strata.cataclasite_slab": "Losa de cataclasita",
+  "block.strata.cataclasite_stairs": "Escaleras de cataclasita",
+  "block.strata.cataclasite_wall": "Muro de cataclasita",
+
+  "block.strata.eclogite": "Eclogita",
+  "block.strata.eclogite_slab": "Losa de eclogita",
+  "block.strata.eclogite_stairs": "Escaleras de eclogita",
+  "block.strata.eclogite_wall": "Muro de eclogita",
+
+  "block.strata.gneiss": "Gneis",
+  "block.strata.gneiss_slab": "Losa de gneis",
+  "block.strata.gneiss_stairs": "Escaleras de gneis",
+  "block.strata.gneiss_wall": "Muro de gneis",
+
+  "block.strata.gneiss_cobblestone": "Roca de gneis",
+  "block.strata.gneiss_cobblestone_slab": "Losa de roca de gneis",
+  "block.strata.gneiss_cobblestone_stairs": "Escaleras de roca de gneis",
+  "block.strata.gneiss_cobblestone_wall": "Muro de roca de gneis",
+
+  "block.strata.mossy_gneiss_cobblestone": "Roca de gneis musgosa",
+  "block.strata.mossy_gneiss_cobblestone_slab": "Losa de roca de gneis musgosa",
+  "block.strata.mossy_gneiss_cobblestone_stairs": "Escaleras de roca de gneis musgosa",
+  "block.strata.mossy_gneiss_cobblestone_wall": "Muro de roca de gneis musgosa",
+  
+  "block.strata.gneiss_button": "Botón de gneis",
+  "block.strata.gneiss_pressure_plate": "Placa de presión de gneis",
+
+  "block.strata.gneiss_bricks": "Ladrillos de gneis",
+  "block.strata.gneiss_brick_slab": "Losa de ladrillos de gneis",
+  "block.strata.gneiss_brick_stairs": "Escaleras de ladrillos de gneis",
+  "block.strata.gneiss_brick_wall": "Muro de ladrillos de gneis",
+  "block.strata.chiseled_gneiss_bricks": "Ladrillos de gneis cincelados",
+  "block.strata.cracked_gneiss_bricks": "Ladrillos de gneis agrietados",
+  "block.strata.mossy_gneiss_bricks": "Ladrillos de gneis musgosos",
+  "block.strata.mossy_gneiss_brick_slab": "Losa de ladrillos de gneis musgosos",
+  "block.strata.mossy_gneiss_brick_stairs": "Escaleras de ladrillos de gneis musgosos",
+  "block.strata.mossy_gneiss_brick_wall": "Muro de ladrillos de gneis musgosos",
+
+  "block.strata.polished_gneiss": "Gneis pulido",
+  "block.strata.polished_gneiss_slab": "Losa de gneis pulido",
+  "block.strata.polished_gneiss_stairs": "Escaleras de gneis pulido",
+
+  "block.strata.granulite": "Granulita",
+  "block.strata.granulite_slab": "Losa de granulita",
+  "block.strata.granulite_stairs": "Escaleras de granulita",
+  "block.strata.granulite_wall": "Muro de granulita",
+
+  "block.strata.greenschist": "Esquisto verde",
+  "block.strata.greenschist_slab": "Losa de esquisto verde",
+  "block.strata.greenschist_stairs": "Escaleras de esquisto verde",
+  "block.strata.greenschist_wall": "Muro de esquisto verde",
+
+  "block.strata.hornfels": "Corneana",
+  "block.strata.hornfels_slab": "Losa de corneana",
+  "block.strata.hornfels_stairs": "Escaleras de corneana",
+  "block.strata.hornfels_wall": "Muro de corneana",
+
+  "block.strata.calcflinta": "Calcflinta",
+  "block.strata.calcflinta_slab": "Losa de calcflinta",
+  "block.strata.calcflinta_stairs": "Escaleras de calcflinta",
+  "block.strata.calcflinta_wall": "Muro de calcflinta",
+
+  "block.strata.litchfieldite": "Litchfieldita",
+  "block.strata.litchfieldite_slab": "Losa de litchfieldita",
+  "block.strata.litchfieldite_stairs": "Escaleras de litchfieldita",
+  "block.strata.litchfieldite_wall": "Muro de litchfieldita",
+
+  "block.strata.marble": "Mármol",
+  "block.strata.marble_slab": "Losa de mármol",
+  "block.strata.marble_stairs": "Escaleras de mármol",
+  "block.strata.marble_wall": "Muro de mármol",
+
+  "block.strata.migmatite": "Migmatita",
+  "block.strata.migmatite_slab": "Losa de migmatita",
+  "block.strata.migmatite_stairs": "Escaleras de migmatita",
+  "block.strata.migmatite_wall": "Muro de migmatita",
+
+  "block.strata.mylonite": "Milonita",
+  "block.strata.mylonite_slab": "Losa de milonita",
+  "block.strata.mylonite_stairs": "Escaleras de milonita",
+  "block.strata.mylonite_wall": "Muro de milonita",
+
+  "block.strata.metapelite": "Metapelita",
+  "block.strata.metapelite_slab": "Losa de metapelita",
+  "block.strata.metapelite_stairs": "Escaleras de metapelita",
+  "block.strata.metapelite_wall": "Muro de metapelita",
+
+  "block.strata.metapsammite": "Metapsamita",
+  "block.strata.metapsammite_slab": "Losa de metapsamita",
+  "block.strata.metapsammite_stairs": "Escaleras de metapsamita",
+  "block.strata.metapsammite_wall": "Muro de metapsamita",
+
+  "block.strata.phyllite": "Filita",
+  "block.strata.phyllite_slab": "Losa de filita",
+  "block.strata.phyllite_stairs": "Escaleras de filita",
+  "block.strata.phyllite_wall": "Muro de filita",
+
+  "block.strata.quartzite": "Cuarcita",
+  "block.strata.quartzite_slab": "Losa de cuarcita",
+  "block.strata.quartzite_stairs": "Escaleras de cuarcita",
+  "block.strata.quartzite_wall": "Muro de cuarcita",
+
+  "block.strata.schist": "Esquisto",
+  "block.strata.schist_slab": "Losa de esquisto",
+  "block.strata.schist_stairs": "Escaleras de esquisto",
+  "block.strata.schist_wall": "Muro de esquisto",
+
+  "block.strata.schist_cobblestone": "Roca de esquisto",
+  "block.strata.schist_cobblestone_slab": "Losa de roca de esquisto",
+  "block.strata.schist_cobblestone_stairs": "Escaleras de roca de esquisto",
+  "block.strata.schist_cobblestone_wall": "Muro de roca de esquisto",
+
+  "block.strata.mossy_schist_cobblestone": "Roca de esquisto musgosa",
+  "block.strata.mossy_schist_cobblestone_slab": "Losa de roca de esquisto musgosa",
+  "block.strata.mossy_schist_cobblestone_stairs": "Escaleras de roca de esquisto musgosa",
+  "block.strata.mossy_schist_cobblestone_wall": "Muro de roca de esquisto musgosa",
+  
+  "block.strata.schist_button": "Botón de esquisto",
+  "block.strata.schist_pressure_plate": "Placa de presión de esquisto",
+
+  "block.strata.schist_bricks": "Ladrillos de esquisto",
+  "block.strata.schist_brick_slab": "Losa de ladrillos de esquisto",
+  "block.strata.schist_brick_stairs": "Escaleras de ladrillos de esquisto",
+  "block.strata.schist_brick_wall": "Muro de ladrillos de esquisto",
+  "block.strata.chiseled_schist_bricks": "Ladrillos de esquisto cincelados",
+  "block.strata.cracked_schist_bricks": "Ladrillos de esquisto agrietados",
+  "block.strata.mossy_schist_bricks": "Ladrillos de esquisto musgosos",
+  "block.strata.mossy_schist_brick_slab": "Losa de ladrillos de esquisto musgosos",
+  "block.strata.mossy_schist_brick_stairs": "Escaleras de ladrillos de esquisto musgosos",
+  "block.strata.mossy_schist_brick_wall": "Muro de ladrillos de esquisto musgosos",
+
+  "block.strata.polished_schist": "Esquisto pulido",
+  "block.strata.polished_schist_slab": "Losa de esquisto pulido",
+  "block.strata.polished_schist_stairs": "Escaleras de esquisto pulidoz",
+
+  "block.strata.serpentinite": "Serpentinita",
+  "block.strata.serpentinite_slab": "Losa de serpentinita",
+  "block.strata.serpentinite_stairs": "Escaleras de serpentinita",
+  "block.strata.serpentinite_wall": "Muro de serpentinita",
+
+  "block.strata.skarn": "Skarn",
+  "block.strata.skarn_slab": "Losa de skarn",
+  "block.strata.skarn_stairs": "Escaleras de skarn",
+  "block.strata.skarn_wall": "Muro de skarn",
+
+  "block.strata.slate": "Pizarra",
+  "block.strata.slate_slab": "Losa de pizarra",
+  "block.strata.slate_stairs": "Escaleras de pizarra",
+  "block.strata.slate_wall": "Muro de pizarra",
+
+  "block.strata.suevite": "Suevita",
+  "block.strata.suevite_slab": "Losa de suevita",
+  "block.strata.suevite_stairs": "Escaleras de suevita",
+  "block.strata.suevite_wall": "Muro de suevita",
+
+  "block.strata.talc_carbonate": "Carbonato de talco",
+  "block.strata.talc_carbonate_slab": "Losa de carbonato de talco",
+  "block.strata.talc_carbonate_stairs": "Escaleras de carbonato de talco",
+  "block.strata.talc_carbonate_wall": "Muro de carbonato de talco",
+
+  "block.strata.soapstone": "Esteatita",
+  "block.strata.soapstone_slab": "Losa de esteatita",
+  "block.strata.soapstone_stairs": "Escaleras de esteatita",
+  "block.strata.soapstone_wall": "Muro de esteatita",
+
+  "block.strata.tectonite": "Tectonita",
+  "block.strata.tectonite_slab": "Losa de tectonita",
+  "block.strata.tectonite_stairs": "Escaleras de tectonita",
+  "block.strata.tectonite_wall": "Muro de tectonita",
+
+  "block.strata.whiteschist": "Esquisto blanco",
+  "block.strata.whiteschist_slab": "Losa de esquisto blanco",
+  "block.strata.whiteschist_stairs": "Escaleras de esquisto blanco",
+  "block.strata.whiteschist_wall": "Muro de esquisto blanco",
+
+  "_comment": "Miscellaneous Rocks",
+
+  "block.strata.adamellite": "Adamelita",
+  "block.strata.adamellite_slab": "Losa de adamelita",
+  "block.strata.adamellite_stairs": "Escaleras de adamelita",
+  "block.strata.adamellite_wall": "Muro de adamelita",
+
+  "block.strata.appinite": "Appinita",
+  "block.strata.appinite_slab": "Losa de appinita",
+  "block.strata.appinite_stairs": "Escaleras de appinita",
+  "block.strata.appinite_wall": "Muro de appinita",
+
+  "block.strata.aphanite": "Afanita",
+  "block.strata.aphanite_slab": "Losa de afanita",
+  "block.strata.aphanite_stairs": "Escaleras de afanita",
+  "block.strata.aphanite_wall": "Muro de afanita",
+
+  "block.strata.borolanite": "Borolanita",
+  "block.strata.borolanite_slab": "Losa de borolanita",
+  "block.strata.borolanite_stairs": "Escaleras de borolanita",
+  "block.strata.borolanite_wall": "Muro de borolanita",
+
+  "block.strata.blue_granite": "Granito azul",
+  "block.strata.blue_granite_slab": "Losa de granito azul",
+  "block.strata.blue_granite_stairs": "Escaleras de granito azul",
+  "block.strata.blue_granite_wall": "Muro de granito azul",
+
+  "block.strata.epidosite": "Epidosita",
+  "block.strata.epidosite_slab": "Losa de epidosita",
+  "block.strata.epidosite_stairs": "Escaleras de epidosita",
+  "block.strata.epidosite_wall": "Muro de epidosita",
+
+  "block.strata.felsite": "Felsita",
+  "block.strata.felsite_slab": "Losa de felsita",
+  "block.strata.felsite_stairs": "Escaleras de felsita",
+  "block.strata.felsite_wall": "Muro de felsita",
+
+  "block.strata.ganister": "Ganister",
+  "block.strata.ganister_slab": "Losa de ganister",
+  "block.strata.ganister_stairs": "Escaleras de ganister",
+  "block.strata.ganister_wall": "Muro de ganister",
+
+  "block.strata.gossan": "Gossan",
+  "block.strata.gossan_slab": "Losa de gossan",
+  "block.strata.gossan_stairs": "Escaleras de gossan",
+  "block.strata.gossan_wall": "Muro de gossan",
+
+  "block.strata.hyaloclastite": "Hialoclastita",
+  "block.strata.hyaloclastite_slab": "Losa de hialoclastita",
+  "block.strata.hyaloclastite_stairs": "Escaleras de hialoclastita",
+  "block.strata.hyaloclastite_wall": "Muro de hialoclastita",
+
+  "block.strata.jadeitite": "Jadeitita",
+  "block.strata.jadeitite_slab": "Losa de jadeitita",
+  "block.strata.jadeitite_stairs": "Escaleras de jadeitita",
+  "block.strata.jadeitite_wall": "Muro de jadeitita",
+
+  "block.strata.jasperoid": "Jasperoide",
+  "block.strata.jasperoid_slab": "Losa de jasperoide",
+  "block.strata.jasperoid_stairs": "Escaleras de jasperoide",
+  "block.strata.jasperoid_wall": "Muro de jasperoide",
+
+  "block.strata.kenyte": "Kenyita",
+  "block.strata.kenyte_slab": "Losa de kenyita",
+  "block.strata.kenyte_stairs": "Escaleras de kenyita",
+  "block.strata.kenyte_wall": "Muro de kenyita",
+
+  "block.strata.larvikite": "Larvikita",
+  "block.strata.larvikite_slab": "Losa de larvikita",
+  "block.strata.larvikite_stairs": "Escaleras de larvikita",
+  "block.strata.larvikite_wall": "Muro de larvikita",
+
+  "block.strata.llanite": "Llanita",
+  "block.strata.llanite_slab": "Losa de llanita",
+  "block.strata.llanite_stairs": "Escaleras de llanita",
+  "block.strata.llanite_wall": "Muro de llanita",
+
+  "block.strata.luxullianite": "Luxulianita",
+  "block.strata.luxullianite_slab": "Losa de luxulianita",
+  "block.strata.luxullianite_stairs": "Escaleras de luxulianita",
+  "block.strata.luxullianite_wall": "Muro de luxulianita",
+
+  "block.strata.mangerite": "Mangerita",
+  "block.strata.mangerite_slab": "Losa de mangerita",
+  "block.strata.mangerite_stairs": "Escaleras de mangerita",
+  "block.strata.mangerite_wall": "Muro de mangerita",
+
+  "block.strata.minette": "Minetta",
+  "block.strata.minette_slab": "Losa de minetta",
+  "block.strata.minette_stairs": "Escaleras de minetta",
+  "block.strata.minette_wall": "Muro de minetta",
+
+  "block.strata.novaculite": "Novaculita",
+  "block.strata.novaculite_slab": "Losa de novaculita",
+  "block.strata.novaculite_stairs": "Escaleras de novaculita",
+  "block.strata.novaculite_wall": "Muro de novaculita",
+
+  "block.strata.pietersite": "Pietersita",
+  "block.strata.pietersite_slab": "Losa de pietersita",
+  "block.strata.pietersite_stairs": "Escaleras de pietersita",
+  "block.strata.pietersite_wall": "Muro de pietersita",
+
+  "block.strata.pyrolite": "Pirolita",
+  "block.strata.pyrolite_slab": "Losa de pirolita",
+  "block.strata.pyrolite_stairs": "Escaleras de pirolita",
+  "block.strata.pyrolite_wall": "Muro de pirolita",
+
+  "block.strata.rapakivi_granite": "Granito rapakivi",
+  "block.strata.rapakivi_granite_slab": "Losa de granito rapakivi",
+  "block.strata.rapakivi_granite_stairs": "Escaleras de granito rapakivi",
+  "block.strata.rapakivi_granite_wall": "Muro de granito rapakivi",
+
+  "block.strata.rhomb_porphyry": "Pórfido de rombo",
+  "block.strata.rhomb_porphyry_slab": "Losa de pórfido de rombo",
+  "block.strata.rhomb_porphyry_stairs": "Escaleras de pórfido de rombo",
+  "block.strata.rhomb_porphyry_wall": "Muro de pórfido de rombo",
+
+  "block.strata.rodingite": "Rodingita",
+  "block.strata.rodingite_slab": "Losa de rodingita",
+  "block.strata.rodingite_stairs": "Escaleras de rodingita",
+  "block.strata.rodingite_wall": "Muro de rodingita",
+
+  "block.strata.taconite": "Taconita",
+  "block.strata.taconite_slab": "Losa de taconita",
+  "block.strata.taconite_stairs": "Escaleras de taconita",
+  "block.strata.taconite_wall": "Muro de taconita",
+
+  "block.strata.teschenite": "Teschenita",
+  "block.strata.teschenite_slab": "Losa de teschenita",
+  "block.strata.teschenite_stairs": "Escaleras de teschenita",
+  "block.strata.teschenite_wall": "Muro de teschenita",
+
+  "block.strata.theralite": "Theralita",
+  "block.strata.theralite_slab": "Losa de theralita",
+  "block.strata.theralite_stairs": "Escaleras de theralita",
+  "block.strata.theralite_wall": "Muro de theralita",
+
+  "block.strata.unakite": "Unakita",
+  "block.strata.unakite_slab": "Losa de unakita",
+  "block.strata.unakite_stairs": "Escaleras de unakita",
+  "block.strata.unakite_wall": "Muro de unakita",
+
+  "block.strata.variolite": "Variolita",
+  "block.strata.variolite_slab": "Losa de variolita",
+  "block.strata.variolite_stairs": "Escaleras de variolita",
+  "block.strata.variolite_wall": "Muro de variolita",
+
+  "block.strata.vogesite": "Vogesita",
+  "block.strata.vogesite_slab": "Losa de vogesita",
+  "block.strata.vogesite_stairs": "Escaleras de vogesita",
+  "block.strata.vogesite_wall": "Muro de vogesita"
+}
