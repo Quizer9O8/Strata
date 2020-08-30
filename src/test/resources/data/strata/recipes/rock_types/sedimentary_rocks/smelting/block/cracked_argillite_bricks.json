@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "strata:argillite_bricks"
+  },
+  "result": "strata:cracked_argillite_bricks",
+  "experience": 0.1,
+  "cookingtime": 200
+}

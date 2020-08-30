@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/crafting/block/stairs/polished_marble_stairs"
+    ]
+  },
+  "criteria": {
+    "has_polished_marble": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_marble"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:polished_marble_stairs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_marble",
+      "has_the_recipe"
+    ]
+  ]
+}

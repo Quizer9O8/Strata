@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+	"###",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:adakite_bricks"
+    }
+  },
+  "result": {
+    "item": "strata:adakite_brick_wall"
+    "count": 4
+  }
+}

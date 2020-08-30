@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_post",
+    "textures": {
+        "wall": "strata:blocks/sedimentary_rocks/chalk_cobblestone"
+  }
+}

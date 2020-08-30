@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+	"###",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:jaspillite_cobblestone"
+    }
+  },
+  "result": {
+    "item": "strata:jaspillite_cobblestone_wall",
+    "count": 4
+  }
+}

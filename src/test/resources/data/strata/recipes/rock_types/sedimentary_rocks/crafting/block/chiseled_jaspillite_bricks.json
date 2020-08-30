@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "strata:jaspillite_slab_brick"
+    }
+  },
+  "result": {
+    "item": "strata:chiseled_jaspillite_bricks"
+    "count": 1
+  }
+}

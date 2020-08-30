@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+	"## ",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:adakite"
+    }
+  },
+  "result": {
+    "item": "strata:adakite_stairs"
+    "count": 4
+  }
+}

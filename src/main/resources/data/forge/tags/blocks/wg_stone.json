@@ -1,12 +1,20 @@
 {
   "replace": false,
   "values": [
-    "strata:gabbro",
-    "strata:basalt",
-    "strata:gneiss",
-    "strata:schist",
+    "strata:aa",
+    "strata:adakite",
     "strata:amphibolite",
+    "strata:argillite",
+    "strata:basalt",
+    "strata:chalk",
+    "strata:eclogite",
+    "strata:gabbro",
+    "strata:gneiss",
+    "strata:jaspillite",
+    "strata:marble",
     "strata:limestone",
+    "strata:pahoehoe",
+    "strata:schist",
     "strata:shale"
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "strata:argillite"
+    }
+  },
+  "result": {
+    "item": "strata:argillite_pressure_plate"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_side",
+    "textures": {
+        "wall": "strata:blocks/igneous_rocks/pahoehoe_bricks"
+  }
+}

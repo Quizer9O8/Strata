@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_side",
+    "textures": {
+        "wall": "strata:blocks/sedimentary_rocks/jaspillite_bricks"
+  }
+}

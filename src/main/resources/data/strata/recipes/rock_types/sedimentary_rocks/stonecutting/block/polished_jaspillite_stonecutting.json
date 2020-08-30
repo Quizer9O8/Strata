@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:jaspillite"
+  },
+  "result": "strata:polished_jaspillite",
+  "count": 1
+}

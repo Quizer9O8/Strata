@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_post",
+    "textures": {
+        "wall": "strata:blocks/igneous_rocks/mossy_aa_cobblestone"
+  }
+}

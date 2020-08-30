@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "strata:blocks/igneous_rocks/adakite_bricks"
+		"top": "strata:blocks/igneous_rocks/adakite_bricks"
+		"side": "strata:blocks/igneous_rocks/adakite_bricks"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/igneous_rocks/stonecutting/block/stairs/argillite_brick_stairs_polished_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_polished_argillite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_argillite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:argillite_brick_stairs_polished_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_argillite",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:mossy_eclogite_bricks"
+  },
+  "result": "strata:mossy_eclogite_brick_stairs",
+  "count": 1
+}

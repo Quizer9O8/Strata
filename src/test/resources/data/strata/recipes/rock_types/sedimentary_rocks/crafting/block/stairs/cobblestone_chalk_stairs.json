@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+	"## ",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:cobblestone_chalk"
+    }
+  },
+  "result": {
+    "item": "strata:cobblestone_chalk_stairs"
+    "count": 4
+  }
+}

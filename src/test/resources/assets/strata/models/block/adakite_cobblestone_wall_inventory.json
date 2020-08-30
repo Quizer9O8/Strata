@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_inventory",
+    "textures": {
+        "wall": "strata:blocks/igneous_rocks/adakite_cobblestone"
+  }
+}

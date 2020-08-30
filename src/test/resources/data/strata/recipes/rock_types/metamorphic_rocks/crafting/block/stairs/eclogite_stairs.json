@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+	"## ",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:eclogite"
+    }
+  },
+  "result": {
+    "item": "strata:eclogite_stairs"
+    "count": 4
+  }
+}

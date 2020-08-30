@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:adakite_cobblestone"
+  },
+  "result": "strata:adakite_cobblestone_wall",
+  "count": 1
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/crafting/block/wall/mossy_eclogite_brick_wall"
+    ]
+  },
+  "criteria": {
+    "has_mossy_eclogite_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:mossy_eclogite_bricks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:mossy_eclogite_brick_wall"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mossy_eclogite_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}

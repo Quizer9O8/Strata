@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_post",
+    "textures": {
+        "wall": "strata:blocks/metamorphic_rocks/mossy_eclogite_cobblestone"
+  }
+}

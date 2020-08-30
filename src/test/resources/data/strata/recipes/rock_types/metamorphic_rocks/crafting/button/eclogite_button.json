@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "strata:eclogite"
+    }
+  ],
+  "result": {
+    "item": "strata:eclogite_button"
+  }
+}

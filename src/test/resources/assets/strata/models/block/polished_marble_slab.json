@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "strata:blocks/metamorphic_rocks/polished_marble"
+		"top": "strata:blocks/metamorphic_rocks/polished_marble"
+		"side": "strata:blocks/metamorphic_rocks/polished_marble"
+  }
+}

@@ -23,10 +23,66 @@
   "block.strata.aa_stairs": "Aa Stairs",
   "block.strata.aa_wall": "Aa Wall",
 
+  "block.strata.aa_cobblestone": "Aa Cobblestone",
+  "block.strata.aa_cobblestone_slab": "Aa Cobblestone Slab",
+  "block.strata.aa_cobblestone_stairs": "Aa Cobblestone Stairs",
+  "block.strata.aa_cobblestone_wall": "Aa Cobblestone Wall",
+
+  "block.strata.mossy_aa_cobblestone": "Mossy Aa Cobblestone",
+  "block.strata.mossy_aa_cobblestone_slab": "Mossy Aa Cobblestone Slab",
+  "block.strata.mossy_aa_cobblestone_stairs": "Mossy Aa Cobblestone Stairs",
+  "block.strata.mossy_aa_cobblestone_wall": "Mossy Aa Cobblestone Wall",
+
+  "block.strata.aa_button": "Aa Button",
+  "block.strata.aa_pressure_plate": "Aa Pressure Plate",
+
+  "block.strata.aa_bricks": "Aa Bricks",
+  "block.strata.aa_brick_slab": "Aa Brick Slab",
+  "block.strata.aa_brick_stairs": "Aa Brick Stairs",
+  "block.strata.aa_brick_wall": "Aa Brick Wall",
+  "block.strata.chiseled_aa_bricks": "Chiseled Aa Bricks",
+  "block.strata.cracked_aa_bricks": "Cracked Aa Bricks",
+  "block.strata.mossy_aa_bricks": "Mossy Aa Bricks",
+  "block.strata.mossy_aa_brick_slab": "Mossy Aa Brick Slab",
+  "block.strata.mossy_aa_brick_stairs": "Mossy Aa Brick Stairs",
+  "block.strata.mossy_aa_brick_wall": "Mossy Aa Brick Wall",
+
+  "block.strata.polished_aa": "Polished Aa",
+  "block.strata.polished_aa_slab": "Polished Aa Slab",
+  "block.strata.polished_aa_stairs": "Polished Aa Stairs",
+
   "block.strata.adakite": "Adakite",
   "block.strata.adakite_slab": "Adakite Slab",
   "block.strata.adakite_stairs": "Adakite Stairs",
   "block.strata.adakite_wall": "Adakite Wall",
+
+  "block.strata.adakite_cobblestone": "Adakite Cobblestone",
+  "block.strata.adakite_cobblestone_slab": "Adakite Cobblestone Slab",
+  "block.strata.adakite_cobblestone_stairs": "Adakite Cobblestone Stairs",
+  "block.strata.adakite_cobblestone_wall": "Adakite Cobblestone Wall",
+
+  "block.strata.mossy_adakite_cobblestone": "Mossy Adakite Cobblestone",
+  "block.strata.mossy_adakite_cobblestone_slab": "Mossy Adakite Cobblestone Slab",
+  "block.strata.mossy_adakite_cobblestone_stairs": "Mossy Adakite Cobblestone Stairs",
+  "block.strata.mossy_adakite_cobblestone_wall": "Mossy Adakite Cobblestone Wall",
+
+  "block.strata.adakite_button": "Adakite Button",
+  "block.strata.adakite_pressure_plate": "Adakite Pressure Plate",
+
+  "block.strata.adakite_bricks": "Adakite Bricks",
+  "block.strata.adakite_brick_slab": "Adakite Brick Slab",
+  "block.strata.adakite_brick_stairs": "Adakite Brick Stairs",
+  "block.strata.adakite_brick_wall": "Adakite Brick Wall",
+  "block.strata.chiseled_adakite_bricks": "Chiseled Adakite Bricks",
+  "block.strata.cracked_adakite_bricks": "Cracked Adakite Bricks",
+  "block.strata.mossy_adakite_bricks": "Mossy Adakite Bricks",
+  "block.strata.mossy_adakite_brick_slab": "Mossy Adakite Brick Slab",
+  "block.strata.mossy_adakite_brick_stairs": "Mossy Adakite Brick Stairs",
+  "block.strata.mossy_adakite_brick_wall": "Mossy Adakite Brick Wall",
+
+  "block.strata.polished_adakite": "Polished Adakite",
+  "block.strata.polished_adakite_slab": "Polished Adakite Slab",
+  "block.strata.polished_adakite_stairs": "Polished Adakite Stairs",
 
   "block.strata.alkali_fieldspar_granite": "Alkali Fieldspar Granite",
   "block.strata.akali_fieldspar_granite_slab": "Akali Fieldspar Granite Slab",
@@ -279,6 +335,34 @@
   "block.strata.pahoehoe_stairs": "Pahoehoe Stairs",
   "block.strata.pahoehoe_wall": "Pahoehoe Wall",
 
+  "block.strata.pahoehoe_cobblestone": "Pahoehoe Cobblestone",
+  "block.strata.pahoehoe_cobblestone_slab": "Pahoehoe Cobblestone Slab",
+  "block.strata.pahoehoe_cobblestone_stairs": "Pahoehoe Cobblestone Stairs",
+  "block.strata.pahoehoe_cobblestone_wall": "Pahoehoe Cobblestone Wall",
+
+  "block.strata.mossy_pahoehoe_cobblestone": "Mossy Pahoehoe Cobblestone",
+  "block.strata.mossy_pahoehoe_cobblestone_slab": "Mossy Pahoehoe Cobblestone Slab",
+  "block.strata.mossy_pahoehoe_cobblestone_stairs": "Mossy Pahoehoe Cobblestone Stairs",
+  "block.strata.mossy_pahoehoe_cobblestone_wall": "Mossy Pahoehoe Cobblestone Wall",
+
+  "block.strata.pahoehoe_button": "Pahoehoe Button",
+  "block.strata.pahoehoe_pressure_plate": "Pahoehoe Pressure Plate",
+
+  "block.strata.pahoehoe_bricks": "Pahoehoe Bricks",
+  "block.strata.pahoehoe_brick_slab": "Pahoehoe Brick Slab",
+  "block.strata.pahoehoe_brick_stairs": "Pahoehoe Brick Stairs",
+  "block.strata.pahoehoe_brick_wall": "Pahoehoe Brick Wall",
+  "block.strata.chiseled_pahoehoe_bricks": "Chiseled Pahoehoe Bricks",
+  "block.strata.cracked_pahoehoe_bricks": "Cracked Pahoehoe Bricks",
+  "block.strata.mossy_pahoehoe_bricks": "Mossy Pahoehoe Bricks",
+  "block.strata.mossy_pahoehoe_brick_slab": "Mossy Pahoehoe Brick Slab",
+  "block.strata.mossy_pahoehoe_brick_stairs": "Mossy Pahoehoe Brick Stairs",
+  "block.strata.mossy_pahoehoe_brick_wall": "Mossy Pahoehoe Brick Wall",
+
+  "block.strata.polished_pahoehoe": "Polished Pahoehoe",
+  "block.strata.polished_pahoehoe_slab": "Polished Pahoehoe Slab",
+  "block.strata.polished_pahoehoe_stairs": "Polished Pahoehoe Stairs",
+
   "block.strata.pantellerite": "Pantellerite",
   "block.strata.pantellerite_slab": "Pantellerite Slab",
   "block.strata.pantellerite_stairs": "Pantellerite Stairs",
@@ -441,6 +525,34 @@
   "block.strata.argillite_stairs": "Argillite Stairs",
   "block.strata.argillite_wall": "Argillite Wall",
 
+  "block.strata.argillite_cobblestone": "Argillite Cobblestone",
+  "block.strata.argillite_cobblestone_slab": "Argillite Cobblestone Slab",
+  "block.strata.argillite_cobblestone_stairs": "Argillite Cobblestone Stairs",
+  "block.strata.argillite_cobblestone_wall": "Argillite Cobblestone Wall",
+
+  "block.strata.mossy_argillite_cobblestone": "Mossy Argillite Cobblestone",
+  "block.strata.mossy_argillite_cobblestone_slab": "Mossy Argillite Cobblestone Slab",
+  "block.strata.mossy_argillite_cobblestone_stairs": "Mossy Argillite Cobblestone Stairs",
+  "block.strata.mossy_argillite_cobblestone_wall": "Mossy Argillite Cobblestone Wall",
+
+  "block.strata.argillite_button": "Argillite Button",
+  "block.strata.argillite_pressure_plate": "Argillite Pressure Plate",
+
+  "block.strata.argillite_bricks": "Argillite Bricks",
+  "block.strata.argillite_brick_slab": "Argillite Brick Slab",
+  "block.strata.argillite_brick_stairs": "Argillite Brick Stairs",
+  "block.strata.argillite_brick_wall": "Argillite Brick Wall",
+  "block.strata.chiseled_argillite_bricks": "Chiseled Argillite Bricks",
+  "block.strata.cracked_argillite_bricks": "Cracked Argillite Bricks",
+  "block.strata.mossy_argillite_bricks": "Mossy Argillite Bricks",
+  "block.strata.mossy_argillite_brick_slab": "Mossy Argillite Brick Slab",
+  "block.strata.mossy_argillite_brick_stairs": "Mossy Argillite Brick Stairs",
+  "block.strata.mossy_argillite_brick_wall": "Mossy Argillite Brick Wall",
+
+  "block.strata.polished_argillite": "Polished Argillite",
+  "block.strata.polished_argillite_slab": "Polished Argillite Slab",
+  "block.strata.polished_argillite_stairs": "Polished Argillite Stairs",
+
   "block.strata.arkose": "Arkose",
   "block.strata.arkose_slab": "Arkose Slab",
   "block.strata.arkose_stairs": "Arkose Stairs",
@@ -460,6 +572,34 @@
   "block.strata.chalk_slab": "Chalk Slab",
   "block.strata.chalk_stairs": "Chalk Stairs",
   "block.strata.chalk_wall": "Chalk Wall",
+
+  "block.strata.chalk_cobblestone": "Chalk Cobblestone",
+  "block.strata.chalk_cobblestone_slab": "Chalk Cobblestone Slab",
+  "block.strata.chalk_cobblestone_stairs": "Chalk Cobblestone Stairs",
+  "block.strata.chalk_cobblestone_wall": "Chalk Cobblestone Wall",
+
+  "block.strata.mossy_chalk_cobblestone": "Mossy Chalk Cobblestone",
+  "block.strata.mossy_chalk_cobblestone_slab": "Mossy Chalk Cobblestone Slab",
+  "block.strata.mossy_chalk_cobblestone_stairs": "Mossy Chalk Cobblestone Stairs",
+  "block.strata.mossy_chalk_cobblestone_wall": "Mossy Chalk Cobblestone Wall",
+
+  "block.strata.chalk_button": "Chalk Button",
+  "block.strata.chalk_pressure_plate": "Chalk Pressure Plate",
+
+  "block.strata.chalk_bricks": "Chalk Bricks",
+  "block.strata.chalk_brick_slab": "Chalk Brick Slab",
+  "block.strata.chalk_brick_stairs": "Chalk Brick Stairs",
+  "block.strata.chalk_brick_wall": "Chalk Brick Wall",
+  "block.strata.chiseled_chalk_bricks": "Chiseled Chalk Bricks",
+  "block.strata.cracked_chalk_bricks": "Cracked Chalk Bricks",
+  "block.strata.mossy_chalk_bricks": "Mossy Chalk Bricks",
+  "block.strata.mossy_chalk_brick_slab": "Mossy Chalk Brick Slab",
+  "block.strata.mossy_chalk_brick_stairs": "Mossy Chalk Brick Stairs",
+  "block.strata.mossy_chalk_brick_wall": "Mossy Chalk Brick Wall",
+
+  "block.strata.polished_chalk": "Polished Chalk",
+  "block.strata.polished_chalk_slab": "Polished Chalk Slab",
+  "block.strata.polished_chalk_stairs": "Polished Chalk Stairs",
 
   "block.strata.chert": "Chert",
   "block.strata.chert_slab": "Chert Slab",
@@ -525,6 +665,34 @@
   "block.strata.jaspillite_slab": "Jaspillite Slab",
   "block.strata.jaspillite_stairs": "Jaspillite Stairs",
   "block.strata.jaspillite_wall": "Jaspillite Wall",
+
+  "block.strata.jaspillite_cobblestone": "Jaspillite Cobblestone",
+  "block.strata.jaspillite_cobblestone_slab": "Jaspillite Cobblestone Slab",
+  "block.strata.jaspillite_cobblestone_stairs": "Jaspillite Cobblestone Stairs",
+  "block.strata.jaspillite_cobblestone_wall": "Jaspillite Cobblestone Wall",
+
+  "block.strata.mossy_jaspillite_cobblestone": "Mossy Jaspillite Cobblestone",
+  "block.strata.mossy_jaspillite_cobblestone_slab": "Mossy Jaspillite Cobblestone Slab",
+  "block.strata.mossy_jaspillite_cobblestone_stairs": "Mossy Jaspillite Cobblestone Stairs",
+  "block.strata.mossy_jaspillite_cobblestone_wall": "Mossy Jaspillite Cobblestone Wall",
+
+  "block.strata.jaspillite_button": "Jaspillite Button",
+  "block.strata.jaspillite_pressure_plate": "Jaspillite Pressure Plate",
+
+  "block.strata.jaspillite_bricks": "Jaspillite Bricks",
+  "block.strata.jaspillite_brick_slab": "Jaspillite Brick Slab",
+  "block.strata.jaspillite_brick_stairs": "Jaspillite Brick Stairs",
+  "block.strata.jaspillite_brick_wall": "Jaspillite Brick Wall",
+  "block.strata.chiseled_jaspillite_bricks": "Chiseled Jaspillite Bricks",
+  "block.strata.cracked_jaspillite_bricks": "Cracked Jaspillite Bricks",
+  "block.strata.mossy_jaspillite_bricks": "Mossy Jaspillite Bricks",
+  "block.strata.mossy_jaspillite_brick_slab": "Mossy Jaspillite Brick Slab",
+  "block.strata.mossy_jaspillite_brick_stairs": "Mossy Jaspillite Brick Stairs",
+  "block.strata.mossy_jaspillite_brick_wall": "Mossy Jaspillite Brick Wall",
+
+  "block.strata.polished_jaspillite": "Polished Jaspillite",
+  "block.strata.polished_jaspillite_slab": "Polished Jaspillite Slab",
+  "block.strata.polished_jaspillite_stairs": "Polished Jaspillite Stairs",
 
   "block.strata.laterite": "Laterite",
   "block.strata.laterite_slab": "Laterite Slab",
@@ -707,6 +875,34 @@
   "block.strata.eclogite_stairs": "Eclogite Stairs",
   "block.strata.eclogite_wall": "Eclogite Wall",
 
+  "block.strata.eclogite_cobblestone": "Eclogite Cobblestone",
+  "block.strata.eclogite_cobblestone_slab": "Eclogite Cobblestone Slab",
+  "block.strata.eclogite_cobblestone_stairs": "Eclogite Cobblestone Stairs",
+  "block.strata.eclogite_cobblestone_wall": "Eclogite Cobblestone Wall",
+
+  "block.strata.mossy_eclogite_cobblestone": "Mossy Eclogite Cobblestone",
+  "block.strata.mossy_eclogite_cobblestone_slab": "Mossy Eclogite Cobblestone Slab",
+  "block.strata.mossy_eclogite_cobblestone_stairs": "Mossy Eclogite Cobblestone Stairs",
+  "block.strata.mossy_eclogite_cobblestone_wall": "Mossy Eclogite Cobblestone Wall",
+
+  "block.strata.eclogite_button": "Eclogite Button",
+  "block.strata.eclogite_pressure_plate": "Eclogite Pressure Plate",
+
+  "block.strata.eclogite_bricks": "Eclogite Bricks",
+  "block.strata.eclogite_brick_slab": "Eclogite Brick Slab",
+  "block.strata.eclogite_brick_stairs": "Eclogite Brick Stairs",
+  "block.strata.eclogite_brick_wall": "Eclogite Brick Wall",
+  "block.strata.chiseled_eclogite_bricks": "Chiseled Eclogite Bricks",
+  "block.strata.cracked_eclogite_bricks": "Cracked Eclogite Bricks",
+  "block.strata.mossy_eclogite_bricks": "Mossy Eclogite Bricks",
+  "block.strata.mossy_eclogite_brick_slab": "Mossy Eclogite Brick Slab",
+  "block.strata.mossy_eclogite_brick_stairs": "Mossy Eclogite Brick Stairs",
+  "block.strata.mossy_eclogite_brick_wall": "Mossy Eclogite Brick Wall",
+
+  "block.strata.polished_eclogite": "Polished Eclogite",
+  "block.strata.polished_eclogite_slab": "Polished Eclogite Slab",
+  "block.strata.polished_eclogite_stairs": "Polished Eclogite Stairs",
+
   "block.strata.gneiss": "Gneiss",
   "block.strata.gneiss_slab": "Gneiss Slab",
   "block.strata.gneiss_stairs": "Gneiss Stairs",
@@ -769,6 +965,34 @@
   "block.strata.marble_slab": "Marble Slab",
   "block.strata.marble_stairs": "Marble Stairs",
   "block.strata.marble_wall": "Marble Wall",
+
+  "block.strata.marble_cobblestone": "Marble Cobblestone",
+  "block.strata.marble_cobblestone_slab": "Marble Cobblestone Slab",
+  "block.strata.marble_cobblestone_stairs": "Marble Cobblestone Stairs",
+  "block.strata.marble_cobblestone_wall": "Marble Cobblestone Wall",
+
+  "block.strata.mossy_marble_cobblestone": "Mossy Marble Cobblestone",
+  "block.strata.mossy_marble_cobblestone_slab": "Mossy Marble Cobblestone Slab",
+  "block.strata.mossy_marble_cobblestone_stairs": "Mossy Marble Cobblestone Stairs",
+  "block.strata.mossy_marble_cobblestone_wall": "Mossy Marble Cobblestone Wall",
+
+  "block.strata.marble_button": "Marble Button",
+  "block.strata.marble_pressure_plate": "Marble Pressure Plate",
+
+  "block.strata.marble_bricks": "Marble Bricks",
+  "block.strata.marble_brick_slab": "Marble Brick Slab",
+  "block.strata.marble_brick_stairs": "Marble Brick Stairs",
+  "block.strata.marble_brick_wall": "Marble Brick Wall",
+  "block.strata.chiseled_marble_bricks": "Chiseled Marble Bricks",
+  "block.strata.cracked_marble_bricks": "Cracked Marble Bricks",
+  "block.strata.mossy_marble_bricks": "Mossy Marble Bricks",
+  "block.strata.mossy_marble_brick_slab": "Mossy Marble Brick Slab",
+  "block.strata.mossy_marble_brick_stairs": "Mossy Marble Brick Stairs",
+  "block.strata.mossy_marble_brick_wall": "Mossy Marble Brick Wall",
+
+  "block.strata.polished_marble": "Polished Marble",
+  "block.strata.polished_marble_slab": "Polished Marble Slab",
+  "block.strata.polished_marble_stairs": "Polished Marble Stairs",
 
   "block.strata.migmatite": "Migmatite",
   "block.strata.migmatite_slab": "Migmatite Slab",

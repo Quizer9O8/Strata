@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:polished_eclogite"
+    }
+  },
+  "result": {
+    "item": "strata:polished_eclogite_slab"
+    "count": 4
+  }
+}

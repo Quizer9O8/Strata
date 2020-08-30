@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:polished_pahoehoe"
+  },
+  "result": "strata:chiseled_pahoehoe_bricks",
+  "count": 1
+}

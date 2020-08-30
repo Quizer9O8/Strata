@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "strata:jaspillite"
+    }
+  ],
+  "result": {
+    "item": "strata:jaspillite_button"
+  }
+}

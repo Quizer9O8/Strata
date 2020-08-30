@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:argillite"
+  },
+  "result": "strata:chiseled_argillite_bricks",
+  "count": 1
+}

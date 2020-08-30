@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "strata:blocks/igneous_rocks/polished_pahoehoe"
+		"top": "strata:blocks/igneous_rocks/polished_pahoehoe"
+		"side": "strata:blocks/igneous_rocks/polished_pahoehoe"
+  }
+}

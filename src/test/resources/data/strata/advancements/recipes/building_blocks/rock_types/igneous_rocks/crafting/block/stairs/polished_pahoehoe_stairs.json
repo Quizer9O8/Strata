@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/igneous_rocks/crafting/block/stairs/polished_pahoehoe_stairs"
+    ]
+  },
+  "criteria": {
+    "has_polished_pahoehoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_pahoehoe"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:polished_pahoehoe_stairs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_pahoehoe",
+      "has_the_recipe"
+    ]
+  ]
+}
