@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_jaspillite_bricks",
+      "has_jaspillite",
       "has_the_recipe"
     ]
   ]

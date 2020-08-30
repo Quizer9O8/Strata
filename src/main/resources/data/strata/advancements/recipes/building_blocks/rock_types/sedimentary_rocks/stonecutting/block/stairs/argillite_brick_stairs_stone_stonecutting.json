@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_argillite_bricks",
+      "has_argillite",
       "has_the_recipe"
     ]
   ]
