@@ -23,10 +23,66 @@
   "block.strata.aa_stairs": "Escaleras de aa",
   "block.strata.aa_wall": "Pared de aa",
 
+  "block.strata.aa_cobblestone": "Adoquín de aa",
+  "block.strata.aa_cobblestone_slab": "Baldosa de adoquín de aa",
+  "block.strata.aa_cobblestone_stairs": "Escaleras de adoquín de aa",
+  "block.strata.aa_cobblestone_wall": "Pared de adoquín de aa",
+
+  "block.strata.mossy_aa_cobblestone": "Adoquín de aa musgoso",
+  "block.strata.mossy_aa_cobblestone_slab": "Baldosa de adoquín de aa musgoso",
+  "block.strata.mossy_aa_cobblestone_stairs": "Escaleras de adoquín de aa musgoso",
+  "block.strata.mossy_aa_cobblestone_wall": "Pared de adoquín de aa musgoso",
+
+  "block.strata.aa_button": "Botón de aa",
+  "block.strata.aa_pressure_plate": "Placa de presión de aa",
+
+  "block.strata.aa_bricks": "Ladrillos de aa",
+  "block.strata.aa_brick_slab": "Baldosa de ladrillos de aa",
+  "block.strata.aa_brick_stairs": "Escaleras de ladrillos de aa",
+  "block.strata.aa_brick_wall": "Pared de ladrillos de aa",
+  "block.strata.chiseled_aa_bricks": "Ladrillos de aa cincelados",
+  "block.strata.cracked_aa_bricks": "Ladrillos de aa quebrados",
+  "block.strata.mossy_aa_bricks": "Ladrillos de aa musgosos",
+  "block.strata.mossy_aa_brick_slab": "Baldosa de ladrillos de aa musgosos",
+  "block.strata.mossy_aa_brick_stairs": "Escaleras de ladrillos de aa musgosos",
+  "block.strata.mossy_aa_brick_wall": "Pared de ladrillos de aa musgosos",
+
+  "block.strata.polished_aa": "Aa pulida",
+  "block.strata.polished_aa_slab": "Baldosa de aa pulida",
+  "block.strata.polished_aa_stairs": "Escaleras de aa pulida",
+
   "block.strata.adakite": "Adakita",
   "block.strata.adakite_slab": "Baldosa de adakita",
   "block.strata.adakite_stairs": "Escaleras de adakita",
   "block.strata.adakite_wall": "Pared de adakita",
+
+  "block.strata.adakite_cobblestone": "Adoquín de adakita",
+  "block.strata.adakite_cobblestone_slab": "Baldosa de adoquín de adakita",
+  "block.strata.adakite_cobblestone_stairs": "Escaleras de adoquín de adakita",
+  "block.strata.adakite_cobblestone_wall": "Pared de adoquín de adakita",
+
+  "block.strata.mossy_adakite_cobblestone": "Adoquín de adakita musgoso",
+  "block.strata.mossy_adakite_cobblestone_slab": "Baldosa de adoquín de adakita musgoso",
+  "block.strata.mossy_adakite_cobblestone_stairs": "Escaleras de adoquín de adakita musgoso",
+  "block.strata.mossy_adakite_cobblestone_wall": "Pared de adoquín de adakita musgoso",
+
+  "block.strata.adakite_button": "Botón de adakita",
+  "block.strata.adakite_pressure_plate": "Placa de presión de adakita",
+
+  "block.strata.adakite_bricks": "Ladrillos de adakita",
+  "block.strata.adakite_brick_slab": "Baldosa de ladrillos de adakita",
+  "block.strata.adakite_brick_stairs": "Escaleras de ladrillos de adakita",
+  "block.strata.adakite_brick_wall": "Pared de ladrillos de adakita",
+  "block.strata.chiseled_adakite_bricks": "Ladrillos de adakita cincelados",
+  "block.strata.cracked_adakite_bricks": "Ladrillos de adakita quebrados",
+  "block.strata.mossy_adakite_bricks": "Ladrillos de adakita musgosos",
+  "block.strata.mossy_adakite_brick_slab": "Baldosa de ladrillos de adakita musgosos",
+  "block.strata.mossy_adakite_brick_stairs": "Escaleras de ladrillos de adakita musgosos",
+  "block.strata.mossy_adakite_brick_wall": "Pared de ladrillos de adakita musgosos",
+
+  "block.strata.polished_adakite": "Adakita pulida",
+  "block.strata.polished_adakite_slab": "Baldosa de adakita pulida",
+  "block.strata.polished_adakite_stairs": "Escaleras de adakita pulida",
 
   "block.strata.alkali_fieldspar_granite": "Granito de feldespato alcalino",
   "block.strata.akali_fieldspar_granite_slab": "Baldosa de granito de feldespato alcalino",
@@ -279,6 +335,34 @@
   "block.strata.pahoehoe_stairs": "Escaleras de pahoehoe",
   "block.strata.pahoehoe_wall": "Pared de pahoehoe",
 
+  "block.strata.pahoehoe_cobblestone": "Adoquín de pahoehoe",
+  "block.strata.pahoehoe_cobblestone_slab": "Baldosa de adoquín de pahoehoe",
+  "block.strata.pahoehoe_cobblestone_stairs": "Escaleras de adoquín de pahoehoe",
+  "block.strata.pahoehoe_cobblestone_wall": "Pared de adoquín de pahoehoe",
+
+  "block.strata.mossy_pahoehoe_cobblestone": "Adoquín de pahoehoe musgoso",
+  "block.strata.mossy_pahoehoe_cobblestone_slab": "Baldosa de adoquín de pahoehoe musgoso",
+  "block.strata.mossy_pahoehoe_cobblestone_stairs": "Escaleras de adoquín de pahoehoe musgoso",
+  "block.strata.mossy_pahoehoe_cobblestone_wall": "Pared de adoquín de pahoehoe musgoso",
+
+  "block.strata.pahoehoe_button": "Botón de pahoehoe",
+  "block.strata.pahoehoe_pressure_plate": "Placa de presión de pahoehoe",
+
+  "block.strata.pahoehoe_bricks": "Ladrillos de pahoehoe",
+  "block.strata.pahoehoe_brick_slab": "Baldosa de ladrillos de pahoehoe",
+  "block.strata.pahoehoe_brick_stairs": "Escaleras de ladrillos de pahoehoe",
+  "block.strata.pahoehoe_brick_wall": "Pared de ladrillos de pahoehoe",
+  "block.strata.chiseled_pahoehoe_bricks": "Ladrillos de pahoehoe cincelados",
+  "block.strata.cracked_pahoehoe_bricks": "Ladrillos de pahoehoe quebrados",
+  "block.strata.mossy_pahoehoe_bricks": "Ladrillos de pahoehoe musgosos",
+  "block.strata.mossy_pahoehoe_brick_slab": "Baldosa de ladrillos de pahoehoe musgosos",
+  "block.strata.mossy_pahoehoe_brick_stairs": "Escaleras de ladrillos de pahoehoe musgosos",
+  "block.strata.mossy_pahoehoe_brick_wall": "Pared de ladrillos de pahoehoe musgosos",
+
+  "block.strata.polished_pahoehoe": "Pahoehoe pulida",
+  "block.strata.polished_pahoehoe_slab": "Baldosa de pahoehoe pulida",
+  "block.strata.polished_pahoehoe_stairs": "Escaleras de pahoehoe pulida",
+
   "block.strata.pantellerite": "Pantelarita",
   "block.strata.pantellerite_slab": "Baldosa de pantelarita",
   "block.strata.pantellerite_stairs": "Escaleras de pantelarita",
@@ -441,6 +525,34 @@
   "block.strata.argillite_stairs": "Escaleras de argilita",
   "block.strata.argillite_wall": "Pared de argilita",
 
+  "block.strata.argillite_cobblestone": "Adoquín de argilita",
+  "block.strata.argillite_cobblestone_slab": "Baldosa de adoquín de argilita",
+  "block.strata.argillite_cobblestone_stairs": "Escaleras de adoquín de argilita",
+  "block.strata.argillite_cobblestone_wall": "Pared de adoquín de argilita",
+
+  "block.strata.mossy_argillite_cobblestone": "Adoquín de argilita musgoso",
+  "block.strata.mossy_argillite_cobblestone_slab": "Baldosa de adoquín de argilita musgoso",
+  "block.strata.mossy_argillite_cobblestone_stairs": "Escaleras de adoquín de argilita musgoso",
+  "block.strata.mossy_argillite_cobblestone_wall": "Pared de adoquín de argilita musgoso",
+
+  "block.strata.argillite_button": "Botón de argilita",
+  "block.strata.argillite_pressure_plate": "Placa de presión de argilita",
+
+  "block.strata.argillite_bricks": "Ladrillos de argilita",
+  "block.strata.argillite_brick_slab": "Baldosa de ladrillos de argilita",
+  "block.strata.argillite_brick_stairs": "Escaleras de ladrillos de argilita",
+  "block.strata.argillite_brick_wall": "Pared de ladrillos de argilita",
+  "block.strata.chiseled_argillite_bricks": "Ladrillos de argilita cincelados",
+  "block.strata.cracked_argillite_bricks": "Ladrillos de argilita quebrados",
+  "block.strata.mossy_argillite_bricks": "Ladrillos de argilita musgosos",
+  "block.strata.mossy_argillite_brick_slab": "Baldosa de ladrillos de argilita musgosos",
+  "block.strata.mossy_argillite_brick_stairs": "Escaleras de ladrillos de argilita musgosos",
+  "block.strata.mossy_argillite_brick_wall": "Pared de ladrillos de argilita musgosos",
+
+  "block.strata.polished_argillite": "Argilita pulida",
+  "block.strata.polished_argillite_slab": "Baldosa de argilita pulida",
+  "block.strata.polished_argillite_stairs": "Escaleras de argilita pulida",
+
   "block.strata.arkose": "Arcosa",
   "block.strata.arkose_slab": "Baldosa de arcosa",
   "block.strata.arkose_stairs": "Escaleras de arcosa",
@@ -460,6 +572,34 @@
   "block.strata.chalk_slab": "Baldosa de creta",
   "block.strata.chalk_stairs": "Escaleras de creta",
   "block.strata.chalk_wall": "Pared de creta",
+
+  "block.strata.chalk_cobblestone": "Adoquín de creta",
+  "block.strata.chalk_cobblestone_slab": "Baldosa de adoquín de creta",
+  "block.strata.chalk_cobblestone_stairs": "Escaleras de adoquín de creta",
+  "block.strata.chalk_cobblestone_wall": "Pared de adoquín de creta",
+
+  "block.strata.mossy_chalk_cobblestone": "Adoquín de creta musgoso",
+  "block.strata.mossy_chalk_cobblestone_slab": "Baldosa de adoquín de creta musgoso",
+  "block.strata.mossy_chalk_cobblestone_stairs": "Escaleras de adoquín de creta musgoso",
+  "block.strata.mossy_chalk_cobblestone_wall": "Pared de adoquín de creta musgoso",
+
+  "block.strata.chalk_button": "Botón de creta",
+  "block.strata.chalk_pressure_plate": "Placa de presión de creta",
+
+  "block.strata.chalk_bricks": "Ladrillos de creta",
+  "block.strata.chalk_brick_slab": "Baldosa de ladrillos de creta",
+  "block.strata.chalk_brick_stairs": "Escaleras de ladrillos de creta",
+  "block.strata.chalk_brick_wall": "Pared de ladrillos de creta",
+  "block.strata.chiseled_chalk_bricks": "Ladrillos de creta cincelados",
+  "block.strata.cracked_chalk_bricks": "Ladrillos de creta quebrados",
+  "block.strata.mossy_chalk_bricks": "Ladrillos de creta musgosos",
+  "block.strata.mossy_chalk_brick_slab": "Baldosa de ladrillos de creta musgosos",
+  "block.strata.mossy_chalk_brick_stairs": "Escaleras de ladrillos de creta musgosos",
+  "block.strata.mossy_chalk_brick_wall": "Pared de ladrillos de creta musgosos",
+
+  "block.strata.polished_chalk": "Creta pulida",
+  "block.strata.polished_chalk_slab": "Baldosa de creta pulida",
+  "block.strata.polished_chalk_stairs": "Escaleras de creta pulida",
 
   "block.strata.chert": "Chert",
   "block.strata.chert_slab": "Baldosa de chert",
@@ -525,6 +665,34 @@
   "block.strata.jaspillite_slab": "Baldosa de jaspilita",
   "block.strata.jaspillite_stairs": "Escaleras de jaspilita",
   "block.strata.jaspillite_wall": "Pared de jaspilita",
+
+  "block.strata.jaspillite_cobblestone": "Adoquín de jaspilita",
+  "block.strata.jaspillite_cobblestone_slab": "Baldosa de adoquín de jaspilita",
+  "block.strata.jaspillite_cobblestone_stairs": "Escaleras de adoquín de jaspilita",
+  "block.strata.jaspillite_cobblestone_wall": "Pared de adoquín de jaspilita",
+
+  "block.strata.mossy_jaspillite_cobblestone": "Adoquín de jaspilita musgoso",
+  "block.strata.mossy_jaspillite_cobblestone_slab": "Baldosa de adoquín de jaspilita musgoso",
+  "block.strata.mossy_jaspillite_cobblestone_stairs": "Escaleras de adoquín de jaspilita musgoso",
+  "block.strata.mossy_jaspillite_cobblestone_wall": "Pared de adoquín de jaspilita musgoso",
+
+  "block.strata.jaspillite_button": "Botón de jaspilita",
+  "block.strata.jaspillite_pressure_plate": "Placa de presión de jaspilita",
+
+  "block.strata.jaspillite_bricks": "Ladrillos de jaspilita",
+  "block.strata.jaspillite_brick_slab": "Baldosa de ladrillos de jaspilita",
+  "block.strata.jaspillite_brick_stairs": "Escaleras de ladrillos de jaspilita",
+  "block.strata.jaspillite_brick_wall": "Pared de ladrillos de jaspilita",
+  "block.strata.chiseled_jaspillite_bricks": "Ladrillos de jaspilita cincelados",
+  "block.strata.cracked_jaspillite_bricks": "Ladrillos de jaspilita quebrados",
+  "block.strata.mossy_jaspillite_bricks": "Ladrillos de jaspilita musgosos",
+  "block.strata.mossy_jaspillite_brick_slab": "Baldosa de ladrillos de jaspilita musgosos",
+  "block.strata.mossy_jaspillite_brick_stairs": "Escaleras de ladrillos de jaspilita musgosos",
+  "block.strata.mossy_jaspillite_brick_wall": "Pared de ladrillos de jaspilita musgosos",
+
+  "block.strata.polished_jaspillite": "Jaspilita pulida",
+  "block.strata.polished_jaspillite_slab": "Baldosa de jaspilita pulida",
+  "block.strata.polished_jaspillite_stairs": "Escaleras de jaspilita pulida",
 
   "block.strata.laterite": "Laterita",
   "block.strata.laterite_slab": "Baldosa de laterita",
@@ -707,6 +875,34 @@
   "block.strata.eclogite_stairs": "Escaleras de eclogita",
   "block.strata.eclogite_wall": "Pared de eclogita",
 
+  "block.strata.eclogite_cobblestone": "Adoquín de eclogita",
+  "block.strata.eclogite_cobblestone_slab": "Baldosa de adoquín de eclogita",
+  "block.strata.eclogite_cobblestone_stairs": "Escaleras de adoquín de eclogita",
+  "block.strata.eclogite_cobblestone_wall": "Pared de adoquín de eclogita",
+
+  "block.strata.mossy_eclogite_cobblestone": "Adoquín de eclogita musgoso",
+  "block.strata.mossy_eclogite_cobblestone_slab": "Baldosa de adoquín de eclogita musgoso",
+  "block.strata.mossy_eclogite_cobblestone_stairs": "Escaleras de adoquín de eclogita musgoso",
+  "block.strata.mossy_eclogite_cobblestone_wall": "Pared de adoquín de eclogita musgoso",
+
+  "block.strata.eclogite_button": "Botón de eclogita",
+  "block.strata.eclogite_pressure_plate": "Placa de presión de eclogita",
+
+  "block.strata.eclogite_bricks": "Ladrillos de eclogita",
+  "block.strata.eclogite_brick_slab": "Baldosa de ladrillos de eclogita",
+  "block.strata.eclogite_brick_stairs": "Escaleras de ladrillos de eclogita",
+  "block.strata.eclogite_brick_wall": "Pared de ladrillos de eclogita",
+  "block.strata.chiseled_eclogite_bricks": "Ladrillos de eclogita cincelados",
+  "block.strata.cracked_eclogite_bricks": "Ladrillos de eclogita quebrados",
+  "block.strata.mossy_eclogite_bricks": "Ladrillos de eclogita musgosos",
+  "block.strata.mossy_eclogite_brick_slab": "Baldosa de ladrillos de eclogita musgosos",
+  "block.strata.mossy_eclogite_brick_stairs": "Escaleras de ladrillos de eclogita musgosos",
+  "block.strata.mossy_eclogite_brick_wall": "Pared de ladrillos de eclogita musgosos",
+
+  "block.strata.polished_eclogite": "Eclogita pulida",
+  "block.strata.polished_eclogite_slab": "Baldosa de eclogita pulida",
+  "block.strata.polished_eclogite_stairs": "Escaleras de eclogita pulida",
+
   "block.strata.gneiss": "Gneis",
   "block.strata.gneiss_slab": "Baldosa de gneis",
   "block.strata.gneiss_stairs": "Escaleras de gneis",
@@ -769,6 +965,34 @@
   "block.strata.marble_slab": "Baldosa de mármol",
   "block.strata.marble_stairs": "Escaleras de mármol",
   "block.strata.marble_wall": "Pared de mármol",
+
+  "block.strata.marble_cobblestone": "Adoquín de mármol",
+  "block.strata.marble_cobblestone_slab": "Baldosa de adoquín de mármol",
+  "block.strata.marble_cobblestone_stairs": "Escaleras de adoquín de mármol",
+  "block.strata.marble_cobblestone_wall": "Pared de adoquín de mármol",
+
+  "block.strata.mossy_marble_cobblestone": "Adoquín de mármol musgoso",
+  "block.strata.mossy_marble_cobblestone_slab": "Baldosa de adoquín de mármol musgoso",
+  "block.strata.mossy_marble_cobblestone_stairs": "Escaleras de adoquín de mármol musgoso",
+  "block.strata.mossy_marble_cobblestone_wall": "Pared de adoquín de mármol musgoso",
+  
+  "block.strata.marble_button": "Botón de mármol",
+  "block.strata.marble_pressure_plate": "Placa de presión de mármol",
+  
+  "block.strata.marble_bricks": "Ladrillos de mármol",
+  "block.strata.marble_brick_slab": "Baldosa de ladrillos de mármol",
+  "block.strata.marble_brick_stairs": "Escaleras de ladrillos de mármol",
+  "block.strata.marble_brick_wall": "Pared de ladrillos de mármol",
+  "block.strata.chiseled_marble_bricks": "Ladrillos de mármol cincelados",
+  "block.strata.cracked_marble_bricks": "Ladrillos de mármol quebrados",
+  "block.strata.mossy_marble_bricks": "Ladrillos de mármol musgosos",
+  "block.strata.mossy_marble_brick_slab": "Baldosa de ladrillos de mármol musgosos",
+  "block.strata.mossy_marble_brick_stairs": "Escaleras de ladrillos de mármol musgosos",
+  "block.strata.mossy_marble_brick_wall": "Pared de ladrillos de mármol musgosos",
+
+  "block.strata.polished_marble": "Mármol pulido",
+  "block.strata.polished_marble_slab": "Baldosa de mármol pulido",
+  "block.strata.polished_marble_stairs": "Escaleras de mármol pulido",
 
   "block.strata.migmatite": "Migmatita",
   "block.strata.migmatite_slab": "Baldosa de migmatita",
