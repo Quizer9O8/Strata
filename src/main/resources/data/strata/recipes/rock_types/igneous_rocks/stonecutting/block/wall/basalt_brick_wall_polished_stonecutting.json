@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:polished_basalt"
+  },
+  "result": "strata:basalt_brick_wall",
+  "count": 1
+}
