@@ -15,6 +15,21 @@
     "strata:limestone",
     "strata:pahoehoe",
     "strata:schist",
-    "strata:shale"
+    "strata:shale",
+    "strata:dacite",
+    "strata:dunite",
+    "strata:komatiite",
+    "strata:pegmatiite",
+    "strata:phonolite",
+    "strata:cataclasite",
+    "strata:migmatite",
+    "strata:slate",
+    "strata:soepstone",
+    "strata:phyllite",
+    "strata:arkose",
+    "strata:breccia",
+    "strata:claystone",
+    "strata:dolomite",
+    "strata:mudstone"
   ]
 }
