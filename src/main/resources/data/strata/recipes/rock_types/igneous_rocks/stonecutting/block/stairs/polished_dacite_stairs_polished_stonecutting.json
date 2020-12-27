@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:polished_dacite"
+  },
+  "result": "strata:polished_dacite_stairs",
+  "count": 1
+}

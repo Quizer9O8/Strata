@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+	"## ",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:phyllite_bricks"
+    }
+  },
+  "result": {
+    "item": "strata:phyllite_brick_stairs",
+    "count": 4
+  }
+}

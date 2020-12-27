@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:migmatite"
+  },
+  "result": "strata:migmatite_wall",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "strata:blocks/igneous_rocks/dacite_bricks",
+		"top": "strata:blocks/igneous_rocks/dacite_bricks",
+		"side": "strata:blocks/igneous_rocks/dacite_bricks"
+  }
+}

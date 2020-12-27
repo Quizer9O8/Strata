@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:dacite_cobblestone"
+    }
+  },
+  "result": {
+    "item": "strata:dacite_cobblestone_slab",
+    "count": 6
+  }
+}

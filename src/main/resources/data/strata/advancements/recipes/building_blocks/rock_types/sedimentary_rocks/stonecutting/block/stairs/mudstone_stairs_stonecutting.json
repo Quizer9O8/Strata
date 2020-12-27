@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/sedimentary_rocks/stonecutting/block/stairs/mudstone_stairs_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_mudstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:mudstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:mudstone_stairs_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mudstone",
+      "has_the_recipe"
+    ]
+  ]
+}

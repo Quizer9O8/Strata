@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/sedimentary_rocks/crafting/block/mossy_breccia_cobblestone"
+    ]
+  },
+  "criteria": {
+    "has_vine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:vine"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:mossy_breccia_cobblestone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_vine",
+      "has_the_recipe"
+    ]
+  ]
+}

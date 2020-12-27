@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:dacite_bricks"
+  },
+  "result": "strata:dacite_brick_wall",
+  "count": 1
+}

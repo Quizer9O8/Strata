@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "strata:blocks/igneous_rocks/mossy_phonolite_bricks",
+		"top": "strata:blocks/igneous_rocks/mossy_phonolite_bricks",
+		"side": "strata:blocks/igneous_rocks/mossy_phonolite_bricks"
+  }
+}

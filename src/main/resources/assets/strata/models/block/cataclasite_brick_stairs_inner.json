@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "strata:blocks/metamorphic_rocks/cataclasite_bricks",
+		"top": "strata:blocks/metamorphic_rocks/cataclasite_bricks",
+		"side": "strata:blocks/metamorphic_rocks/cataclasite_bricks"
+  }
+}

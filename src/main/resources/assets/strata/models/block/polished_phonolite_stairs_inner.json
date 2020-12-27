@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "strata:blocks/igneous_rocks/polished_phonolite",
+		"top": "strata:blocks/igneous_rocks/polished_phonolite",
+		"side": "strata:blocks/igneous_rocks/polished_phonolite"
+  }
+}

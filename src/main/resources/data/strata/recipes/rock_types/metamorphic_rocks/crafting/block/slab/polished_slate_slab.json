@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:polished_slate"
+    }
+  },
+  "result": {
+    "item": "strata:polished_slate_slab",
+    "count": 4
+  }
+}

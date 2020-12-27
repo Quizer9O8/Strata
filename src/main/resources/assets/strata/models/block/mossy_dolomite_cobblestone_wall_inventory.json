@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_inventory",
+    "textures": {
+        "wall": "strata:blocks/sedimentary_rocks/mossy_dolomite_cobblestone"
+  }
+}

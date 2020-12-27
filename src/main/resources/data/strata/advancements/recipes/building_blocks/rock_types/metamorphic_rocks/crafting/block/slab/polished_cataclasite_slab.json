@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/crafting/block/slab/polished_cataclasite_slab"
+    ]
+  },
+  "criteria": {
+    "has_polished_cataclasite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_cataclasite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:polished_cataclasite_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_cataclasite",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:soapstone_cobblestone"
+  },
+  "result": "strata:soapstone_cobblestone_slab",
+  "count": 2
+}

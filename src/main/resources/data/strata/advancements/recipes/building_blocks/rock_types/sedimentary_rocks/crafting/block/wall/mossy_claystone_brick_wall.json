@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/sedimentary_rocks/crafting/block/wall/mossy_claystone_brick_wall"
+    ]
+  },
+  "criteria": {
+    "has_mossy_claystone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:mossy_claystone_bricks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:mossy_claystone_brick_wall"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mossy_claystone_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}

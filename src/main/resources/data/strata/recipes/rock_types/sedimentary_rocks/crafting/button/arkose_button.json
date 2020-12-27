@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "strata:arkose"
+    }
+  ],
+  "result": {
+    "item": "strata:arkose_button"
+  }
+}

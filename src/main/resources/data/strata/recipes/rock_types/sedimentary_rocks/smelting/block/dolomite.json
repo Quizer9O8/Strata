@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "strata:dolomite_cobblestone"
+  },
+  "result": "strata:dolomite",
+  "experience": 0.1,
+  "cookingtime": 200
+}

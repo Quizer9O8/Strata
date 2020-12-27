@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/igneous_rocks/smelting/block/dunite"
+    ]
+  },
+  "criteria": {
+    "has_dunite_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:dunite_cobblestone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:dunite"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dunite_cobblestone",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/igneous_rocks/crafting/block/stairs/komatiite_cobblestone_stairs"
+    ]
+  },
+  "criteria": {
+    "has_komatiite_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:komatiite_cobblestone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:komatiite_cobblestone_stairs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_komatiite_cobblestone",
+      "has_the_recipe"
+    ]
+  ]
+}

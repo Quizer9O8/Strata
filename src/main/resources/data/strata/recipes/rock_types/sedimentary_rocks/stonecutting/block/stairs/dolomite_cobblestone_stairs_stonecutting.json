@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:dolomite_cobblestone"
+  },
+  "result": "strata:dolomite_cobblestone_stairs",
+  "count": 1
+}

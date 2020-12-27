@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/stonecutting/block/stairs/polished_cataclasite_stairs_polished_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_polished_cataclasite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_cataclasite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:polished_cataclasite_stairs_polished_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_cataclasite",
+      "has_the_recipe"
+    ]
+  ]
+}

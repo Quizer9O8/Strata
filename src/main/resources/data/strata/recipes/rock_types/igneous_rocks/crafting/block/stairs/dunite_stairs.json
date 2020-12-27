@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+	"## ",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:dunite"
+    }
+  },
+  "result": {
+    "item": "strata:dunite_stairs",
+    "count": 4
+  }
+}

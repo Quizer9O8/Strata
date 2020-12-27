@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/sedimentary_rocks/crafting/block/stairs/polished_mudstone_stairs"
+    ]
+  },
+  "criteria": {
+    "has_polished_mudstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_mudstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:polished_mudstone_stairs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_mudstone",
+      "has_the_recipe"
+    ]
+  ]
+}

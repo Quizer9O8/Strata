@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:phonolite_cobblestone"
+  },
+  "result": "strata:phonolite_cobblestone_slab",
+  "count": 2
+}

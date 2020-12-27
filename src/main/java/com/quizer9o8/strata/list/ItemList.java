@@ -147,6 +147,88 @@ public class ItemList
     public static final RegistryObject<Item> POLISHED_BASALT_SLAB = ITEMS.register("polished_basalt_slab", () -> new BlockItem(BlockList.POLISHED_BASALT_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
     public static final RegistryObject<Item> POLISHED_BASALT_STAIRS = ITEMS.register("polished_basalt_stairs", () -> new BlockItem(BlockList.POLISHED_BASALT_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
 
+    /*-Dacite-*/
+    public static final RegistryObject<Item> DACITE = ITEMS.register("dacite", () -> new BlockItem(BlockList.DACITE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DACITE_SLAB = ITEMS.register("dacite_slab", () -> new BlockItem(BlockList.DACITE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DACITE_STAIRS = ITEMS.register("dacite_stairs", () -> new BlockItem(BlockList.DACITE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DACITE_WALL = ITEMS.register("dacite_wall", () -> new BlockItem(BlockList.DACITE_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Cobblestone
+    public static final RegistryObject<Item> DACITE_COBBLESTONE = ITEMS.register("dacite_cobblestone", () -> new BlockItem(BlockList.DACITE_COBBLESTONE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DACITE_COBBLESTONE_SLAB = ITEMS.register("dacite_cobblestone_slab", () -> new BlockItem(BlockList.DACITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DACITE_COBBLESTONE_STAIRS = ITEMS.register("dacite_cobblestone_stairs", () -> new BlockItem(BlockList.DACITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DACITE_COBBLESTONE_WALL = ITEMS.register("dacite_cobblestone_wall", () -> new BlockItem(BlockList.DACITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Mossy Cobblestone
+    public static final RegistryObject<Item> MOSSY_DACITE_COBBLESTONE = ITEMS.register("mossy_dacite_cobblestone", () -> new BlockItem(BlockList.MOSSY_DACITE_COBBLESTONE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_DACITE_COBBLESTONE_SLAB = ITEMS.register("mossy_dacite_cobblestone_slab", () -> new BlockItem(BlockList.MOSSY_DACITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_DACITE_COBBLESTONE_STAIRS = ITEMS.register("mossy_dacite_cobblestone_stairs", () -> new BlockItem(BlockList.MOSSY_DACITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_DACITE_COBBLESTONE_WALL = ITEMS.register("mossy_dacite_cobblestone_wall", () -> new BlockItem(BlockList.MOSSY_DACITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> DACITE_BUTTON = ITEMS.register("dacite_button", () -> new BlockItem(BlockList.DACITE_BUTTON.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> DACITE_PRESSURE_PLATE = ITEMS.register("dacite_pressure_plate", () -> new BlockItem(BlockList.DACITE_PRESSURE_PLATE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Bricks
+    public static final RegistryObject<Item> DACITE_BRICKS = ITEMS.register("dacite_bricks", () -> new BlockItem(BlockList.DACITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DACITE_BRICK_SLAB = ITEMS.register("dacite_brick_slab", () -> new BlockItem(BlockList.DACITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DACITE_BRICK_STAIRS = ITEMS.register("dacite_brick_stairs", () -> new BlockItem(BlockList.DACITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DACITE_BRICK_WALL = ITEMS.register("dacite_brick_wall", () -> new BlockItem(BlockList.DACITE_BRICK_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> CHISELED_DACITE_BRICKS = ITEMS.register("chiseled_dacite_bricks", () -> new BlockItem(BlockList.CHISELED_DACITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> CRACKED_DACITE_BRICKS = ITEMS.register("cracked_dacite_bricks", () -> new BlockItem(BlockList.CRACKED_DACITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_DACITE_BRICKS = ITEMS.register("mossy_dacite_bricks", () -> new BlockItem(BlockList.MOSSY_DACITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_DACITE_BRICK_SLAB = ITEMS.register("mossy_dacite_brick_slab", () -> new BlockItem(BlockList.MOSSY_DACITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_DACITE_BRICK_STAIRS = ITEMS.register("mossy_dacite_brick_stairs", () -> new BlockItem(BlockList.MOSSY_DACITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_DACITE_BRICK_WALL = ITEMS.register("mossy_dacite_brick_wall", () -> new BlockItem(BlockList.MOSSY_DACITE_BRICK_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Polished
+    public static final RegistryObject<Item> POLISHED_DACITE = ITEMS.register("polished_dacite", () -> new BlockItem(BlockList.POLISHED_DACITE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> POLISHED_DACITE_SLAB = ITEMS.register("polished_dacite_slab", () -> new BlockItem(BlockList.POLISHED_DACITE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> POLISHED_DACITE_STAIRS = ITEMS.register("polished_dacite_stairs", () -> new BlockItem(BlockList.POLISHED_DACITE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    /*-Dunite-*/
+    public static final RegistryObject<Item> DUNITE = ITEMS.register("dunite", () -> new BlockItem(BlockList.DUNITE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DUNITE_SLAB = ITEMS.register("dunite_slab", () -> new BlockItem(BlockList.DUNITE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DUNITE_STAIRS = ITEMS.register("dunite_stairs", () -> new BlockItem(BlockList.DUNITE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DUNITE_WALL = ITEMS.register("dunite_wall", () -> new BlockItem(BlockList.DUNITE_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Cobblestone
+    public static final RegistryObject<Item> DUNITE_COBBLESTONE = ITEMS.register("dunite_cobblestone", () -> new BlockItem(BlockList.DUNITE_COBBLESTONE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DUNITE_COBBLESTONE_SLAB = ITEMS.register("dunite_cobblestone_slab", () -> new BlockItem(BlockList.DUNITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DUNITE_COBBLESTONE_STAIRS = ITEMS.register("dunite_cobblestone_stairs", () -> new BlockItem(BlockList.DUNITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DUNITE_COBBLESTONE_WALL = ITEMS.register("dunite_cobblestone_wall", () -> new BlockItem(BlockList.DUNITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Mossy Cobblestone
+    public static final RegistryObject<Item> MOSSY_DUNITE_COBBLESTONE = ITEMS.register("mossy_dunite_cobblestone", () -> new BlockItem(BlockList.MOSSY_DUNITE_COBBLESTONE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_DUNITE_COBBLESTONE_SLAB = ITEMS.register("mossy_dunite_cobblestone_slab", () -> new BlockItem(BlockList.MOSSY_DUNITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_DUNITE_COBBLESTONE_STAIRS = ITEMS.register("mossy_dunite_cobblestone_stairs", () -> new BlockItem(BlockList.MOSSY_DUNITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_DUNITE_COBBLESTONE_WALL = ITEMS.register("mossy_dunite_cobblestone_wall", () -> new BlockItem(BlockList.MOSSY_DUNITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> DUNITE_BUTTON = ITEMS.register("dunite_button", () -> new BlockItem(BlockList.DUNITE_BUTTON.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> DUNITE_PRESSURE_PLATE = ITEMS.register("dunite_pressure_plate", () -> new BlockItem(BlockList.DUNITE_PRESSURE_PLATE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Bricks
+    public static final RegistryObject<Item> DUNITE_BRICKS = ITEMS.register("dunite_bricks", () -> new BlockItem(BlockList.DUNITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DUNITE_BRICK_SLAB = ITEMS.register("dunite_brick_slab", () -> new BlockItem(BlockList.DUNITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DUNITE_BRICK_STAIRS = ITEMS.register("dunite_brick_stairs", () -> new BlockItem(BlockList.DUNITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> DUNITE_BRICK_WALL = ITEMS.register("dunite_brick_wall", () -> new BlockItem(BlockList.DUNITE_BRICK_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> CHISELED_DUNITE_BRICKS = ITEMS.register("chiseled_dunite_bricks", () -> new BlockItem(BlockList.CHISELED_DUNITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> CRACKED_DUNITE_BRICKS = ITEMS.register("cracked_dunite_bricks", () -> new BlockItem(BlockList.CRACKED_DUNITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_DUNITE_BRICKS = ITEMS.register("mossy_dunite_bricks", () -> new BlockItem(BlockList.MOSSY_DUNITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_DUNITE_BRICK_SLAB = ITEMS.register("mossy_dunite_brick_slab", () -> new BlockItem(BlockList.MOSSY_DUNITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_DUNITE_BRICK_STAIRS = ITEMS.register("mossy_dunite_brick_stairs", () -> new BlockItem(BlockList.MOSSY_DUNITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_DUNITE_BRICK_WALL = ITEMS.register("mossy_dunite_brick_wall", () -> new BlockItem(BlockList.MOSSY_DUNITE_BRICK_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Polished
+    public static final RegistryObject<Item> POLISHED_DUNITE = ITEMS.register("polished_dunite", () -> new BlockItem(BlockList.POLISHED_DUNITE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> POLISHED_DUNITE_SLAB = ITEMS.register("polished_dunite_slab", () -> new BlockItem(BlockList.POLISHED_DUNITE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> POLISHED_DUNITE_STAIRS = ITEMS.register("polished_dunite_stairs", () -> new BlockItem(BlockList.POLISHED_DUNITE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
     /*-Gabbro-*/
     public static final RegistryObject<Item> GABBRO = ITEMS.register("gabbro", () -> new BlockItem(BlockList.GABBRO.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
     public static final RegistryObject<Item> GABBRO_SLAB = ITEMS.register("gabbro_slab", () -> new BlockItem(BlockList.GABBRO_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
@@ -189,6 +271,47 @@ public class ItemList
     public static final RegistryObject<Item> POLISHED_GABBRO_SLAB = ITEMS.register("polished_gabbro_slab", () -> new BlockItem(BlockList.POLISHED_GABBRO_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
     public static final RegistryObject<Item> POLISHED_GABBRO_STAIRS = ITEMS.register("polished_gabbro_stairs", () -> new BlockItem(BlockList.POLISHED_GABBRO_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
 
+    /*-Komatiite-*/
+    public static final RegistryObject<Item> KOMATIITE = ITEMS.register("komatiite", () -> new BlockItem(BlockList.KOMATIITE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> KOMATIITE_SLAB = ITEMS.register("komatiite_slab", () -> new BlockItem(BlockList.KOMATIITE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> KOMATIITE_STAIRS = ITEMS.register("komatiite_stairs", () -> new BlockItem(BlockList.KOMATIITE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> KOMATIITE_WALL = ITEMS.register("komatiite_wall", () -> new BlockItem(BlockList.KOMATIITE_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Cobblestone
+    public static final RegistryObject<Item> KOMATIITE_COBBLESTONE = ITEMS.register("komatiite_cobblestone", () -> new BlockItem(BlockList.KOMATIITE_COBBLESTONE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> KOMATIITE_COBBLESTONE_SLAB = ITEMS.register("komatiite_cobblestone_slab", () -> new BlockItem(BlockList.KOMATIITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> KOMATIITE_COBBLESTONE_STAIRS = ITEMS.register("komatiite_cobblestone_stairs", () -> new BlockItem(BlockList.KOMATIITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> KOMATIITE_COBBLESTONE_WALL = ITEMS.register("komatiite_cobblestone_wall", () -> new BlockItem(BlockList.KOMATIITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Mossy Cobblestone
+    public static final RegistryObject<Item> MOSSY_KOMATIITE_COBBLESTONE = ITEMS.register("mossy_komatiite_cobblestone", () -> new BlockItem(BlockList.MOSSY_KOMATIITE_COBBLESTONE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_KOMATIITE_COBBLESTONE_SLAB = ITEMS.register("mossy_komatiite_cobblestone_slab", () -> new BlockItem(BlockList.MOSSY_KOMATIITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_KOMATIITE_COBBLESTONE_STAIRS = ITEMS.register("mossy_komatiite_cobblestone_stairs", () -> new BlockItem(BlockList.MOSSY_KOMATIITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_KOMATIITE_COBBLESTONE_WALL = ITEMS.register("mossy_komatiite_cobblestone_wall", () -> new BlockItem(BlockList.MOSSY_KOMATIITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> KOMATIITE_BUTTON = ITEMS.register("komatiite_button", () -> new BlockItem(BlockList.KOMATIITE_BUTTON.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> KOMATIITE_PRESSURE_PLATE = ITEMS.register("komatiite_pressure_plate", () -> new BlockItem(BlockList.KOMATIITE_PRESSURE_PLATE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Bricks
+    public static final RegistryObject<Item> KOMATIITE_BRICKS = ITEMS.register("komatiite_bricks", () -> new BlockItem(BlockList.KOMATIITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> KOMATIITE_BRICK_SLAB = ITEMS.register("komatiite_brick_slab", () -> new BlockItem(BlockList.KOMATIITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> KOMATIITE_BRICK_STAIRS = ITEMS.register("komatiite_brick_stairs", () -> new BlockItem(BlockList.KOMATIITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> KOMATIITE_BRICK_WALL = ITEMS.register("komatiite_brick_wall", () -> new BlockItem(BlockList.KOMATIITE_BRICK_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> CHISELED_KOMATIITE_BRICKS = ITEMS.register("chiseled_komatiite_bricks", () -> new BlockItem(BlockList.CHISELED_KOMATIITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> CRACKED_KOMATIITE_BRICKS = ITEMS.register("cracked_komatiite_bricks", () -> new BlockItem(BlockList.CRACKED_KOMATIITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_KOMATIITE_BRICKS = ITEMS.register("mossy_komatiite_bricks", () -> new BlockItem(BlockList.MOSSY_KOMATIITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_KOMATIITE_BRICK_SLAB = ITEMS.register("mossy_komatiite_brick_slab", () -> new BlockItem(BlockList.MOSSY_KOMATIITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_KOMATIITE_BRICK_STAIRS = ITEMS.register("mossy_komatiite_brick_stairs", () -> new BlockItem(BlockList.MOSSY_KOMATIITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_KOMATIITE_BRICK_WALL = ITEMS.register("mossy_komatiite_brick_wall", () -> new BlockItem(BlockList.MOSSY_KOMATIITE_BRICK_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Polished
+    public static final RegistryObject<Item> POLISHED_KOMATIITE = ITEMS.register("polished_komatiite", () -> new BlockItem(BlockList.POLISHED_KOMATIITE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> POLISHED_KOMATIITE_SLAB = ITEMS.register("polished_komatiite_slab", () -> new BlockItem(BlockList.POLISHED_KOMATIITE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> POLISHED_KOMATIITE_STAIRS = ITEMS.register("polished_komatiite_stairs", () -> new BlockItem(BlockList.POLISHED_KOMATIITE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
     /*-Pahoehoe-*/
     public static final RegistryObject<Item> PAHOEHOE = ITEMS.register("pahoehoe", () -> new BlockItem(BlockList.PAHOEHOE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
     public static final RegistryObject<Item> PAHOEHOE_SLAB = ITEMS.register("pahoehoe_slab", () -> new BlockItem(BlockList.PAHOEHOE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
@@ -229,6 +352,88 @@ public class ItemList
     public static final RegistryObject<Item> POLISHED_PAHOEHOE = ITEMS.register("polished_pahoehoe", () -> new BlockItem(BlockList.POLISHED_PAHOEHOE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
     public static final RegistryObject<Item> POLISHED_PAHOEHOE_SLAB = ITEMS.register("polished_pahoehoe_slab", () -> new BlockItem(BlockList.POLISHED_PAHOEHOE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
     public static final RegistryObject<Item> POLISHED_PAHOEHOE_STAIRS = ITEMS.register("polished_pahoehoe_stairs", () -> new BlockItem(BlockList.POLISHED_PAHOEHOE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    /*-Pegmatite-*/
+    public static final RegistryObject<Item> PEGMATITE = ITEMS.register("pegmatite", () -> new BlockItem(BlockList.PEGMATITE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PEGMATITE_SLAB = ITEMS.register("pegmatite_slab", () -> new BlockItem(BlockList.PEGMATITE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PEGMATITE_STAIRS = ITEMS.register("pegmatite_stairs", () -> new BlockItem(BlockList.PEGMATITE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PEGMATITE_WALL = ITEMS.register("pegmatite_wall", () -> new BlockItem(BlockList.PEGMATITE_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Cobblestone
+    public static final RegistryObject<Item> PEGMATITE_COBBLESTONE = ITEMS.register("pegmatite_cobblestone", () -> new BlockItem(BlockList.PEGMATITE_COBBLESTONE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PEGMATITE_COBBLESTONE_SLAB = ITEMS.register("pegmatite_cobblestone_slab", () -> new BlockItem(BlockList.PEGMATITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PEGMATITE_COBBLESTONE_STAIRS = ITEMS.register("pegmatite_cobblestone_stairs", () -> new BlockItem(BlockList.PEGMATITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PEGMATITE_COBBLESTONE_WALL = ITEMS.register("pegmatite_cobblestone_wall", () -> new BlockItem(BlockList.PEGMATITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Mossy Cobblestone
+    public static final RegistryObject<Item> MOSSY_PEGMATITE_COBBLESTONE = ITEMS.register("mossy_pegmatite_cobblestone", () -> new BlockItem(BlockList.MOSSY_PEGMATITE_COBBLESTONE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_PEGMATITE_COBBLESTONE_SLAB = ITEMS.register("mossy_pegmatite_cobblestone_slab", () -> new BlockItem(BlockList.MOSSY_PEGMATITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_PEGMATITE_COBBLESTONE_STAIRS = ITEMS.register("mossy_pegmatite_cobblestone_stairs", () -> new BlockItem(BlockList.MOSSY_PEGMATITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_PEGMATITE_COBBLESTONE_WALL = ITEMS.register("mossy_pegmatite_cobblestone_wall", () -> new BlockItem(BlockList.MOSSY_PEGMATITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> PEGMATITE_BUTTON = ITEMS.register("pegmatite_button", () -> new BlockItem(BlockList.PEGMATITE_BUTTON.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> PEGMATITE_PRESSURE_PLATE = ITEMS.register("pegmatite_pressure_plate", () -> new BlockItem(BlockList.PEGMATITE_PRESSURE_PLATE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Bricks
+    public static final RegistryObject<Item> PEGMATITE_BRICKS = ITEMS.register("pegmatite_bricks", () -> new BlockItem(BlockList.PEGMATITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PEGMATITE_BRICK_SLAB = ITEMS.register("pegmatite_brick_slab", () -> new BlockItem(BlockList.PEGMATITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PEGMATITE_BRICK_STAIRS = ITEMS.register("pegmatite_brick_stairs", () -> new BlockItem(BlockList.PEGMATITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PEGMATITE_BRICK_WALL = ITEMS.register("pegmatite_brick_wall", () -> new BlockItem(BlockList.PEGMATITE_BRICK_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> CHISELED_PEGMATITE_BRICKS = ITEMS.register("chiseled_pegmatite_bricks", () -> new BlockItem(BlockList.CHISELED_PEGMATITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> CRACKED_PEGMATITE_BRICKS = ITEMS.register("cracked_pegmatite_bricks", () -> new BlockItem(BlockList.CRACKED_PEGMATITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_PEGMATITE_BRICKS = ITEMS.register("mossy_pegmatite_bricks", () -> new BlockItem(BlockList.MOSSY_PEGMATITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_PEGMATITE_BRICK_SLAB = ITEMS.register("mossy_pegmatite_brick_slab", () -> new BlockItem(BlockList.MOSSY_PEGMATITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_PEGMATITE_BRICK_STAIRS = ITEMS.register("mossy_pegmatite_brick_stairs", () -> new BlockItem(BlockList.MOSSY_PEGMATITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_PEGMATITE_BRICK_WALL = ITEMS.register("mossy_pegmatite_brick_wall", () -> new BlockItem(BlockList.MOSSY_PEGMATITE_BRICK_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Polished
+    public static final RegistryObject<Item> POLISHED_PEGMATITE = ITEMS.register("polished_pegmatite", () -> new BlockItem(BlockList.POLISHED_PEGMATITE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> POLISHED_PEGMATITE_SLAB = ITEMS.register("polished_pegmatite_slab", () -> new BlockItem(BlockList.POLISHED_PEGMATITE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> POLISHED_PEGMATITE_STAIRS = ITEMS.register("polished_pegmatite_stairs", () -> new BlockItem(BlockList.POLISHED_PEGMATITE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    /*-Phonolite-*/
+    public static final RegistryObject<Item> PHONOLITE = ITEMS.register("phonolite", () -> new BlockItem(BlockList.PHONOLITE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PHONOLITE_SLAB = ITEMS.register("phonolite_slab", () -> new BlockItem(BlockList.PHONOLITE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PHONOLITE_STAIRS = ITEMS.register("phonolite_stairs", () -> new BlockItem(BlockList.PHONOLITE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PHONOLITE_WALL = ITEMS.register("phonolite_wall", () -> new BlockItem(BlockList.PHONOLITE_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Cobblestone
+    public static final RegistryObject<Item> PHONOLITE_COBBLESTONE = ITEMS.register("phonolite_cobblestone", () -> new BlockItem(BlockList.PHONOLITE_COBBLESTONE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PHONOLITE_COBBLESTONE_SLAB = ITEMS.register("phonolite_cobblestone_slab", () -> new BlockItem(BlockList.PHONOLITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PHONOLITE_COBBLESTONE_STAIRS = ITEMS.register("phonolite_cobblestone_stairs", () -> new BlockItem(BlockList.PHONOLITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PHONOLITE_COBBLESTONE_WALL = ITEMS.register("phonolite_cobblestone_wall", () -> new BlockItem(BlockList.PHONOLITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Mossy Cobblestone
+    public static final RegistryObject<Item> MOSSY_PHONOLITE_COBBLESTONE = ITEMS.register("mossy_phonolite_cobblestone", () -> new BlockItem(BlockList.MOSSY_PHONOLITE_COBBLESTONE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_PHONOLITE_COBBLESTONE_SLAB = ITEMS.register("mossy_phonolite_cobblestone_slab", () -> new BlockItem(BlockList.MOSSY_PHONOLITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_PHONOLITE_COBBLESTONE_STAIRS = ITEMS.register("mossy_phonolite_cobblestone_stairs", () -> new BlockItem(BlockList.MOSSY_PHONOLITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_PHONOLITE_COBBLESTONE_WALL = ITEMS.register("mossy_phonolite_cobblestone_wall", () -> new BlockItem(BlockList.MOSSY_PHONOLITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> PHONOLITE_BUTTON = ITEMS.register("phonolite_button", () -> new BlockItem(BlockList.PHONOLITE_BUTTON.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> PHONOLITE_PRESSURE_PLATE = ITEMS.register("phonolite_pressure_plate", () -> new BlockItem(BlockList.PHONOLITE_PRESSURE_PLATE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Bricks
+    public static final RegistryObject<Item> PHONOLITE_BRICKS = ITEMS.register("phonolite_bricks", () -> new BlockItem(BlockList.PHONOLITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PHONOLITE_BRICK_SLAB = ITEMS.register("phonolite_brick_slab", () -> new BlockItem(BlockList.PHONOLITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PHONOLITE_BRICK_STAIRS = ITEMS.register("phonolite_brick_stairs", () -> new BlockItem(BlockList.PHONOLITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> PHONOLITE_BRICK_WALL = ITEMS.register("phonolite_brick_wall", () -> new BlockItem(BlockList.PHONOLITE_BRICK_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> CHISELED_PHONOLITE_BRICKS = ITEMS.register("chiseled_phonolite_bricks", () -> new BlockItem(BlockList.CHISELED_PHONOLITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> CRACKED_PHONOLITE_BRICKS = ITEMS.register("cracked_phonolite_bricks", () -> new BlockItem(BlockList.CRACKED_PHONOLITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_PHONOLITE_BRICKS = ITEMS.register("mossy_phonolite_bricks", () -> new BlockItem(BlockList.MOSSY_PHONOLITE_BRICKS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_PHONOLITE_BRICK_SLAB = ITEMS.register("mossy_phonolite_brick_slab", () -> new BlockItem(BlockList.MOSSY_PHONOLITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_PHONOLITE_BRICK_STAIRS = ITEMS.register("mossy_phonolite_brick_stairs", () -> new BlockItem(BlockList.MOSSY_PHONOLITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> MOSSY_PHONOLITE_BRICK_WALL = ITEMS.register("mossy_phonolite_brick_wall", () -> new BlockItem(BlockList.MOSSY_PHONOLITE_BRICK_WALL.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+
+    //Polished
+    public static final RegistryObject<Item> POLISHED_PHONOLITE = ITEMS.register("polished_phonolite", () -> new BlockItem(BlockList.POLISHED_PHONOLITE.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> POLISHED_PHONOLITE_SLAB = ITEMS.register("polished_phonolite_slab", () -> new BlockItem(BlockList.POLISHED_PHONOLITE_SLAB.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
+    public static final RegistryObject<Item> POLISHED_PHONOLITE_STAIRS = ITEMS.register("polished_phonolite_stairs", () -> new BlockItem(BlockList.POLISHED_PHONOLITE_STAIRS.get(), new Item.Properties().group(Strata.IGNEOUS_TAB)));
 
     /*Metamorphic Rocks*/
 
@@ -272,7 +477,48 @@ public class ItemList
     public static final RegistryObject<Item> POLISHED_AMPHIBOLITE = ITEMS.register("polished_amphibolite", () -> new BlockItem(BlockList.POLISHED_AMPHIBOLITE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
     public static final RegistryObject<Item> POLISHED_AMPHIBOLITE_SLAB = ITEMS.register("polished_amphibolite_slab", () -> new BlockItem(BlockList.POLISHED_AMPHIBOLITE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
     public static final RegistryObject<Item> POLISHED_AMPHIBOLITE_STAIRS = ITEMS.register("polished_amphibolite_stairs", () -> new BlockItem(BlockList.POLISHED_AMPHIBOLITE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
-    
+
+    /*-Cataclasite-*/
+    public static final RegistryObject<Item> CATACLASITE = ITEMS.register("cataclasite", () -> new BlockItem(BlockList.CATACLASITE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CATACLASITE_SLAB = ITEMS.register("cataclasite_slab", () -> new BlockItem(BlockList.CATACLASITE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CATACLASITE_STAIRS = ITEMS.register("cataclasite_stairs", () -> new BlockItem(BlockList.CATACLASITE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CATACLASITE_WALL = ITEMS.register("cataclasite_wall", () -> new BlockItem(BlockList.CATACLASITE_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Cobblestone
+    public static final RegistryObject<Item> CATACLASITE_COBBLESTONE = ITEMS.register("cataclasite_cobblestone", () -> new BlockItem(BlockList.CATACLASITE_COBBLESTONE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CATACLASITE_COBBLESTONE_SLAB = ITEMS.register("cataclasite_cobblestone_slab", () -> new BlockItem(BlockList.CATACLASITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CATACLASITE_COBBLESTONE_STAIRS = ITEMS.register("cataclasite_cobblestone_stairs", () -> new BlockItem(BlockList.CATACLASITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CATACLASITE_COBBLESTONE_WALL = ITEMS.register("cataclasite_cobblestone_wall", () -> new BlockItem(BlockList.CATACLASITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Mossy Cobblestone
+    public static final RegistryObject<Item> MOSSY_CATACLASITE_COBBLESTONE = ITEMS.register("mossy_cataclasite_cobblestone", () -> new BlockItem(BlockList.MOSSY_CATACLASITE_COBBLESTONE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_CATACLASITE_COBBLESTONE_SLAB = ITEMS.register("mossy_cataclasite_cobblestone_slab", () -> new BlockItem(BlockList.MOSSY_CATACLASITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_CATACLASITE_COBBLESTONE_STAIRS = ITEMS.register("mossy_cataclasite_cobblestone_stairs", () -> new BlockItem(BlockList.MOSSY_CATACLASITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_CATACLASITE_COBBLESTONE_WALL = ITEMS.register("mossy_cataclasite_cobblestone_wall", () -> new BlockItem(BlockList.MOSSY_CATACLASITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> CATACLASITE_BUTTON = ITEMS.register("cataclasite_button", () -> new BlockItem(BlockList.CATACLASITE_BUTTON.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> CATACLASITE_PRESSURE_PLATE = ITEMS.register("cataclasite_pressure_plate", () -> new BlockItem(BlockList.CATACLASITE_PRESSURE_PLATE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Bricks
+    public static final RegistryObject<Item> CATACLASITE_BRICKS = ITEMS.register("cataclasite_bricks", () -> new BlockItem(BlockList.CATACLASITE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CATACLASITE_BRICK_SLAB = ITEMS.register("cataclasite_brick_slab", () -> new BlockItem(BlockList.CATACLASITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CATACLASITE_BRICK_STAIRS = ITEMS.register("cataclasite_brick_stairs", () -> new BlockItem(BlockList.CATACLASITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CATACLASITE_BRICK_WALL = ITEMS.register("cataclasite_brick_wall", () -> new BlockItem(BlockList.CATACLASITE_BRICK_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CHISELED_CATACLASITE_BRICKS = ITEMS.register("chiseled_cataclasite_bricks", () -> new BlockItem(BlockList.CHISELED_CATACLASITE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CRACKED_CATACLASITE_BRICKS = ITEMS.register("cracked_cataclasite_bricks", () -> new BlockItem(BlockList.CRACKED_CATACLASITE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_CATACLASITE_BRICKS = ITEMS.register("mossy_cataclasite_bricks", () -> new BlockItem(BlockList.MOSSY_CATACLASITE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_CATACLASITE_BRICK_SLAB = ITEMS.register("mossy_cataclasite_brick_slab", () -> new BlockItem(BlockList.MOSSY_CATACLASITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_CATACLASITE_BRICK_STAIRS = ITEMS.register("mossy_cataclasite_brick_stairs", () -> new BlockItem(BlockList.MOSSY_CATACLASITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_CATACLASITE_BRICK_WALL = ITEMS.register("mossy_cataclasite_brick_wall", () -> new BlockItem(BlockList.MOSSY_CATACLASITE_BRICK_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Polished
+    public static final RegistryObject<Item> POLISHED_CATACLASITE = ITEMS.register("polished_cataclasite", () -> new BlockItem(BlockList.POLISHED_CATACLASITE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> POLISHED_CATACLASITE_SLAB = ITEMS.register("polished_cataclasite_slab", () -> new BlockItem(BlockList.POLISHED_CATACLASITE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> POLISHED_CATACLASITE_STAIRS = ITEMS.register("polished_cataclasite_stairs", () -> new BlockItem(BlockList.POLISHED_CATACLASITE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
     /*-Eclogite-*/
     public static final RegistryObject<Item> ECLOGITE = ITEMS.register("eclogite", () -> new BlockItem(BlockList.ECLOGITE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
     public static final RegistryObject<Item> ECLOGITE_SLAB = ITEMS.register("eclogite_slab", () -> new BlockItem(BlockList.ECLOGITE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
@@ -396,6 +642,47 @@ public class ItemList
     public static final RegistryObject<Item> POLISHED_MARBLE_SLAB = ITEMS.register("polished_marble_slab", () -> new BlockItem(BlockList.POLISHED_MARBLE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
     public static final RegistryObject<Item> POLISHED_MARBLE_STAIRS = ITEMS.register("polished_marble_stairs", () -> new BlockItem(BlockList.POLISHED_MARBLE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
 
+    /*-Migmatite-*/
+    public static final RegistryObject<Item> MIGMATITE = ITEMS.register("migmatite", () -> new BlockItem(BlockList.MIGMATITE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MIGMATITE_SLAB = ITEMS.register("migmatite_slab", () -> new BlockItem(BlockList.MIGMATITE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MIGMATITE_STAIRS = ITEMS.register("migmatite_stairs", () -> new BlockItem(BlockList.MIGMATITE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MIGMATITE_WALL = ITEMS.register("migmatite_wall", () -> new BlockItem(BlockList.MIGMATITE_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Cobblestone
+    public static final RegistryObject<Item> MIGMATITE_COBBLESTONE = ITEMS.register("migmatite_cobblestone", () -> new BlockItem(BlockList.MIGMATITE_COBBLESTONE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MIGMATITE_COBBLESTONE_SLAB = ITEMS.register("migmatite_cobblestone_slab", () -> new BlockItem(BlockList.MIGMATITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MIGMATITE_COBBLESTONE_STAIRS = ITEMS.register("migmatite_cobblestone_stairs", () -> new BlockItem(BlockList.MIGMATITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MIGMATITE_COBBLESTONE_WALL = ITEMS.register("migmatite_cobblestone_wall", () -> new BlockItem(BlockList.MIGMATITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Mossy Cobblestone
+    public static final RegistryObject<Item> MOSSY_MIGMATITE_COBBLESTONE = ITEMS.register("mossy_migmatite_cobblestone", () -> new BlockItem(BlockList.MOSSY_MIGMATITE_COBBLESTONE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_MIGMATITE_COBBLESTONE_SLAB = ITEMS.register("mossy_migmatite_cobblestone_slab", () -> new BlockItem(BlockList.MOSSY_MIGMATITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_MIGMATITE_COBBLESTONE_STAIRS = ITEMS.register("mossy_migmatite_cobblestone_stairs", () -> new BlockItem(BlockList.MOSSY_MIGMATITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_MIGMATITE_COBBLESTONE_WALL = ITEMS.register("mossy_migmatite_cobblestone_wall", () -> new BlockItem(BlockList.MOSSY_MIGMATITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> MIGMATITE_BUTTON = ITEMS.register("migmatite_button", () -> new BlockItem(BlockList.MIGMATITE_BUTTON.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> MIGMATITE_PRESSURE_PLATE = ITEMS.register("migmatite_pressure_plate", () -> new BlockItem(BlockList.MIGMATITE_PRESSURE_PLATE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Bricks
+    public static final RegistryObject<Item> MIGMATITE_BRICKS = ITEMS.register("migmatite_bricks", () -> new BlockItem(BlockList.MIGMATITE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MIGMATITE_BRICK_SLAB = ITEMS.register("migmatite_brick_slab", () -> new BlockItem(BlockList.MIGMATITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MIGMATITE_BRICK_STAIRS = ITEMS.register("migmatite_brick_stairs", () -> new BlockItem(BlockList.MIGMATITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MIGMATITE_BRICK_WALL = ITEMS.register("migmatite_brick_wall", () -> new BlockItem(BlockList.MIGMATITE_BRICK_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CHISELED_MIGMATITE_BRICKS = ITEMS.register("chiseled_migmatite_bricks", () -> new BlockItem(BlockList.CHISELED_MIGMATITE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CRACKED_MIGMATITE_BRICKS = ITEMS.register("cracked_migmatite_bricks", () -> new BlockItem(BlockList.CRACKED_MIGMATITE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_MIGMATITE_BRICKS = ITEMS.register("mossy_migmatite_bricks", () -> new BlockItem(BlockList.MOSSY_MIGMATITE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_MIGMATITE_BRICK_SLAB = ITEMS.register("mossy_migmatite_brick_slab", () -> new BlockItem(BlockList.MOSSY_MIGMATITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_MIGMATITE_BRICK_STAIRS = ITEMS.register("mossy_migmatite_brick_stairs", () -> new BlockItem(BlockList.MOSSY_MIGMATITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_MIGMATITE_BRICK_WALL = ITEMS.register("mossy_migmatite_brick_wall", () -> new BlockItem(BlockList.MOSSY_MIGMATITE_BRICK_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Polished
+    public static final RegistryObject<Item> POLISHED_MIGMATITE = ITEMS.register("polished_migmatite", () -> new BlockItem(BlockList.POLISHED_MIGMATITE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> POLISHED_MIGMATITE_SLAB = ITEMS.register("polished_migmatite_slab", () -> new BlockItem(BlockList.POLISHED_MIGMATITE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> POLISHED_MIGMATITE_STAIRS = ITEMS.register("polished_migmatite_stairs", () -> new BlockItem(BlockList.POLISHED_MIGMATITE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
     /*-Schist-*/
     public static final RegistryObject<Item> SCHIST = ITEMS.register("schist", () -> new BlockItem(BlockList.SCHIST.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
     public static final RegistryObject<Item> SCHIST_SLAB = ITEMS.register("schist_slab", () -> new BlockItem(BlockList.SCHIST_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
@@ -436,6 +723,129 @@ public class ItemList
     public static final RegistryObject<Item> POLISHED_SCHIST = ITEMS.register("polished_schist", () -> new BlockItem(BlockList.POLISHED_SCHIST.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
     public static final RegistryObject<Item> POLISHED_SCHIST_SLAB = ITEMS.register("polished_schist_slab", () -> new BlockItem(BlockList.POLISHED_SCHIST_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
     public static final RegistryObject<Item> POLISHED_SCHIST_STAIRS = ITEMS.register("polished_schist_stairs", () -> new BlockItem(BlockList.POLISHED_SCHIST_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    /*-Slate-*/
+    public static final RegistryObject<Item> SLATE = ITEMS.register("slate", () -> new BlockItem(BlockList.SLATE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SLATE_SLAB = ITEMS.register("slate_slab", () -> new BlockItem(BlockList.SLATE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SLATE_STAIRS = ITEMS.register("slate_stairs", () -> new BlockItem(BlockList.SLATE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SLATE_WALL = ITEMS.register("slate_wall", () -> new BlockItem(BlockList.SLATE_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Cobblestone
+    public static final RegistryObject<Item> SLATE_COBBLESTONE = ITEMS.register("slate_cobblestone", () -> new BlockItem(BlockList.SLATE_COBBLESTONE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SLATE_COBBLESTONE_SLAB = ITEMS.register("slate_cobblestone_slab", () -> new BlockItem(BlockList.SLATE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SLATE_COBBLESTONE_STAIRS = ITEMS.register("slate_cobblestone_stairs", () -> new BlockItem(BlockList.SLATE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SLATE_COBBLESTONE_WALL = ITEMS.register("slate_cobblestone_wall", () -> new BlockItem(BlockList.SLATE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Mossy Cobblestone
+    public static final RegistryObject<Item> MOSSY_SLATE_COBBLESTONE = ITEMS.register("mossy_slate_cobblestone", () -> new BlockItem(BlockList.MOSSY_SLATE_COBBLESTONE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_SLATE_COBBLESTONE_SLAB = ITEMS.register("mossy_slate_cobblestone_slab", () -> new BlockItem(BlockList.MOSSY_SLATE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_SLATE_COBBLESTONE_STAIRS = ITEMS.register("mossy_slate_cobblestone_stairs", () -> new BlockItem(BlockList.MOSSY_SLATE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_SLATE_COBBLESTONE_WALL = ITEMS.register("mossy_slate_cobblestone_wall", () -> new BlockItem(BlockList.MOSSY_SLATE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> SLATE_BUTTON = ITEMS.register("slate_button", () -> new BlockItem(BlockList.SLATE_BUTTON.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> SLATE_PRESSURE_PLATE = ITEMS.register("slate_pressure_plate", () -> new BlockItem(BlockList.SLATE_PRESSURE_PLATE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Bricks
+    public static final RegistryObject<Item> SLATE_BRICKS = ITEMS.register("slate_bricks", () -> new BlockItem(BlockList.SLATE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SLATE_BRICK_SLAB = ITEMS.register("slate_brick_slab", () -> new BlockItem(BlockList.SLATE_BRICK_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SLATE_BRICK_STAIRS = ITEMS.register("slate_brick_stairs", () -> new BlockItem(BlockList.SLATE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SLATE_BRICK_WALL = ITEMS.register("slate_brick_wall", () -> new BlockItem(BlockList.SLATE_BRICK_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CHISELED_SLATE_BRICKS = ITEMS.register("chiseled_slate_bricks", () -> new BlockItem(BlockList.CHISELED_SLATE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CRACKED_SLATE_BRICKS = ITEMS.register("cracked_slate_bricks", () -> new BlockItem(BlockList.CRACKED_SLATE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_SLATE_BRICKS = ITEMS.register("mossy_slate_bricks", () -> new BlockItem(BlockList.MOSSY_SLATE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_SLATE_BRICK_SLAB = ITEMS.register("mossy_slate_brick_slab", () -> new BlockItem(BlockList.MOSSY_SLATE_BRICK_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_SLATE_BRICK_STAIRS = ITEMS.register("mossy_slate_brick_stairs", () -> new BlockItem(BlockList.MOSSY_SLATE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_SLATE_BRICK_WALL = ITEMS.register("mossy_slate_brick_wall", () -> new BlockItem(BlockList.MOSSY_SLATE_BRICK_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Polished
+    public static final RegistryObject<Item> POLISHED_SLATE = ITEMS.register("polished_slate", () -> new BlockItem(BlockList.POLISHED_SLATE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> POLISHED_SLATE_SLAB = ITEMS.register("polished_slate_slab", () -> new BlockItem(BlockList.POLISHED_SLATE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> POLISHED_SLATE_STAIRS = ITEMS.register("polished_slate_stairs", () -> new BlockItem(BlockList.POLISHED_SLATE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    /*-Soapstone-*/
+    public static final RegistryObject<Item> SOAPSTONE = ITEMS.register("soapstone", () -> new BlockItem(BlockList.SOAPSTONE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SOAPSTONE_SLAB = ITEMS.register("soapstone_slab", () -> new BlockItem(BlockList.SOAPSTONE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SOAPSTONE_STAIRS = ITEMS.register("soapstone_stairs", () -> new BlockItem(BlockList.SOAPSTONE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SOAPSTONE_WALL = ITEMS.register("soapstone_wall", () -> new BlockItem(BlockList.SOAPSTONE_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Cobblestone
+    public static final RegistryObject<Item> SOAPSTONE_COBBLESTONE = ITEMS.register("soapstone_cobblestone", () -> new BlockItem(BlockList.SOAPSTONE_COBBLESTONE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SOAPSTONE_COBBLESTONE_SLAB = ITEMS.register("soapstone_cobblestone_slab", () -> new BlockItem(BlockList.SOAPSTONE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SOAPSTONE_COBBLESTONE_STAIRS = ITEMS.register("soapstone_cobblestone_stairs", () -> new BlockItem(BlockList.SOAPSTONE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SOAPSTONE_COBBLESTONE_WALL = ITEMS.register("soapstone_cobblestone_wall", () -> new BlockItem(BlockList.SOAPSTONE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Mossy Cobblestone
+    public static final RegistryObject<Item> MOSSY_SOAPSTONE_COBBLESTONE = ITEMS.register("mossy_soapstone_cobblestone", () -> new BlockItem(BlockList.MOSSY_SOAPSTONE_COBBLESTONE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_SOAPSTONE_COBBLESTONE_SLAB = ITEMS.register("mossy_soapstone_cobblestone_slab", () -> new BlockItem(BlockList.MOSSY_SOAPSTONE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_SOAPSTONE_COBBLESTONE_STAIRS = ITEMS.register("mossy_soapstone_cobblestone_stairs", () -> new BlockItem(BlockList.MOSSY_SOAPSTONE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_SOAPSTONE_COBBLESTONE_WALL = ITEMS.register("mossy_soapstone_cobblestone_wall", () -> new BlockItem(BlockList.MOSSY_SOAPSTONE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> SOAPSTONE_BUTTON = ITEMS.register("soapstone_button", () -> new BlockItem(BlockList.SOAPSTONE_BUTTON.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> SOAPSTONE_PRESSURE_PLATE = ITEMS.register("soapstone_pressure_plate", () -> new BlockItem(BlockList.SOAPSTONE_PRESSURE_PLATE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Bricks
+    public static final RegistryObject<Item> SOAPSTONE_BRICKS = ITEMS.register("soapstone_bricks", () -> new BlockItem(BlockList.SOAPSTONE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SOAPSTONE_BRICK_SLAB = ITEMS.register("soapstone_brick_slab", () -> new BlockItem(BlockList.SOAPSTONE_BRICK_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SOAPSTONE_BRICK_STAIRS = ITEMS.register("soapstone_brick_stairs", () -> new BlockItem(BlockList.SOAPSTONE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> SOAPSTONE_BRICK_WALL = ITEMS.register("soapstone_brick_wall", () -> new BlockItem(BlockList.SOAPSTONE_BRICK_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CHISELED_SOAPSTONE_BRICKS = ITEMS.register("chiseled_soapstone_bricks", () -> new BlockItem(BlockList.CHISELED_SOAPSTONE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CRACKED_SOAPSTONE_BRICKS = ITEMS.register("cracked_soapstone_bricks", () -> new BlockItem(BlockList.CRACKED_SOAPSTONE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_SOAPSTONE_BRICKS = ITEMS.register("mossy_soapstone_bricks", () -> new BlockItem(BlockList.MOSSY_SOAPSTONE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_SOAPSTONE_BRICK_SLAB = ITEMS.register("mossy_soapstone_brick_slab", () -> new BlockItem(BlockList.MOSSY_SOAPSTONE_BRICK_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_SOAPSTONE_BRICK_STAIRS = ITEMS.register("mossy_soapstone_brick_stairs", () -> new BlockItem(BlockList.MOSSY_SOAPSTONE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_SOAPSTONE_BRICK_WALL = ITEMS.register("mossy_soapstone_brick_wall", () -> new BlockItem(BlockList.MOSSY_SOAPSTONE_BRICK_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Polished
+    public static final RegistryObject<Item> POLISHED_SOAPSTONE = ITEMS.register("polished_soapstone", () -> new BlockItem(BlockList.POLISHED_SOAPSTONE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> POLISHED_SOAPSTONE_SLAB = ITEMS.register("polished_soapstone_slab", () -> new BlockItem(BlockList.POLISHED_SOAPSTONE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> POLISHED_SOAPSTONE_STAIRS = ITEMS.register("polished_soapstone_stairs", () -> new BlockItem(BlockList.POLISHED_SOAPSTONE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    /*-Phyllite-*/
+    public static final RegistryObject<Item> PHYLLITE = ITEMS.register("phyllite", () -> new BlockItem(BlockList.PHYLLITE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> PHYLLITE_SLAB = ITEMS.register("phyllite_slab", () -> new BlockItem(BlockList.PHYLLITE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> PHYLLITE_STAIRS = ITEMS.register("phyllite_stairs", () -> new BlockItem(BlockList.PHYLLITE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> PHYLLITE_WALL = ITEMS.register("phyllite_wall", () -> new BlockItem(BlockList.PHYLLITE_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Cobblestone
+    public static final RegistryObject<Item> PHYLLITE_COBBLESTONE = ITEMS.register("phyllite_cobblestone", () -> new BlockItem(BlockList.PHYLLITE_COBBLESTONE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> PHYLLITE_COBBLESTONE_SLAB = ITEMS.register("phyllite_cobblestone_slab", () -> new BlockItem(BlockList.PHYLLITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> PHYLLITE_COBBLESTONE_STAIRS = ITEMS.register("phyllite_cobblestone_stairs", () -> new BlockItem(BlockList.PHYLLITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> PHYLLITE_COBBLESTONE_WALL = ITEMS.register("phyllite_cobblestone_wall", () -> new BlockItem(BlockList.PHYLLITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Mossy Cobblestone
+    public static final RegistryObject<Item> MOSSY_PHYLLITE_COBBLESTONE = ITEMS.register("mossy_phyllite_cobblestone", () -> new BlockItem(BlockList.MOSSY_PHYLLITE_COBBLESTONE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_PHYLLITE_COBBLESTONE_SLAB = ITEMS.register("mossy_phyllite_cobblestone_slab", () -> new BlockItem(BlockList.MOSSY_PHYLLITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_PHYLLITE_COBBLESTONE_STAIRS = ITEMS.register("mossy_phyllite_cobblestone_stairs", () -> new BlockItem(BlockList.MOSSY_PHYLLITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_PHYLLITE_COBBLESTONE_WALL = ITEMS.register("mossy_phyllite_cobblestone_wall", () -> new BlockItem(BlockList.MOSSY_PHYLLITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> PHYLLITE_BUTTON = ITEMS.register("phyllite_button", () -> new BlockItem(BlockList.PHYLLITE_BUTTON.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> PHYLLITE_PRESSURE_PLATE = ITEMS.register("phyllite_pressure_plate", () -> new BlockItem(BlockList.PHYLLITE_PRESSURE_PLATE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Bricks
+    public static final RegistryObject<Item> PHYLLITE_BRICKS = ITEMS.register("phyllite_bricks", () -> new BlockItem(BlockList.PHYLLITE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> PHYLLITE_BRICK_SLAB = ITEMS.register("phyllite_brick_slab", () -> new BlockItem(BlockList.PHYLLITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> PHYLLITE_BRICK_STAIRS = ITEMS.register("phyllite_brick_stairs", () -> new BlockItem(BlockList.PHYLLITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> PHYLLITE_BRICK_WALL = ITEMS.register("phyllite_brick_wall", () -> new BlockItem(BlockList.PHYLLITE_BRICK_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CHISELED_PHYLLITE_BRICKS = ITEMS.register("chiseled_phyllite_bricks", () -> new BlockItem(BlockList.CHISELED_PHYLLITE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> CRACKED_PHYLLITE_BRICKS = ITEMS.register("cracked_phyllite_bricks", () -> new BlockItem(BlockList.CRACKED_PHYLLITE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_PHYLLITE_BRICKS = ITEMS.register("mossy_phyllite_bricks", () -> new BlockItem(BlockList.MOSSY_PHYLLITE_BRICKS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_PHYLLITE_BRICK_SLAB = ITEMS.register("mossy_phyllite_brick_slab", () -> new BlockItem(BlockList.MOSSY_PHYLLITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_PHYLLITE_BRICK_STAIRS = ITEMS.register("mossy_phyllite_brick_stairs", () -> new BlockItem(BlockList.MOSSY_PHYLLITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> MOSSY_PHYLLITE_BRICK_WALL = ITEMS.register("mossy_phyllite_brick_wall", () -> new BlockItem(BlockList.MOSSY_PHYLLITE_BRICK_WALL.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+
+    //Polished
+    public static final RegistryObject<Item> POLISHED_PHYLLITE = ITEMS.register("polished_phyllite", () -> new BlockItem(BlockList.POLISHED_PHYLLITE.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> POLISHED_PHYLLITE_SLAB = ITEMS.register("polished_phyllite_slab", () -> new BlockItem(BlockList.POLISHED_PHYLLITE_SLAB.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
+    public static final RegistryObject<Item> POLISHED_PHYLLITE_STAIRS = ITEMS.register("polished_phyllite_stairs", () -> new BlockItem(BlockList.POLISHED_PHYLLITE_STAIRS.get(), new Item.Properties().group(Strata.METAMORPHIC_TAB)));
 
     /*Sedimentary Rocks*/
 
@@ -480,6 +890,88 @@ public class ItemList
     public static final RegistryObject<Item> POLISHED_ARGILLITE_SLAB = ITEMS.register("polished_argillite_slab", () -> new BlockItem(BlockList.POLISHED_ARGILLITE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
     public static final RegistryObject<Item> POLISHED_ARGILLITE_STAIRS = ITEMS.register("polished_argillite_stairs", () -> new BlockItem(BlockList.POLISHED_ARGILLITE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
 
+    /*-Arkose-*/
+    public static final RegistryObject<Item> ARKOSE = ITEMS.register("arkose", () -> new BlockItem(BlockList.ARKOSE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> ARKOSE_SLAB = ITEMS.register("arkose_slab", () -> new BlockItem(BlockList.ARKOSE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> ARKOSE_STAIRS = ITEMS.register("arkose_stairs", () -> new BlockItem(BlockList.ARKOSE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> ARKOSE_WALL = ITEMS.register("arkose_wall", () -> new BlockItem(BlockList.ARKOSE_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Cobblestone
+    public static final RegistryObject<Item> ARKOSE_COBBLESTONE = ITEMS.register("arkose_cobblestone", () -> new BlockItem(BlockList.ARKOSE_COBBLESTONE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> ARKOSE_COBBLESTONE_SLAB = ITEMS.register("arkose_cobblestone_slab", () -> new BlockItem(BlockList.ARKOSE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> ARKOSE_COBBLESTONE_STAIRS = ITEMS.register("arkose_cobblestone_stairs", () -> new BlockItem(BlockList.ARKOSE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> ARKOSE_COBBLESTONE_WALL = ITEMS.register("arkose_cobblestone_wall", () -> new BlockItem(BlockList.ARKOSE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Mossy Cobblestone
+    public static final RegistryObject<Item> MOSSY_ARKOSE_COBBLESTONE = ITEMS.register("mossy_arkose_cobblestone", () -> new BlockItem(BlockList.MOSSY_ARKOSE_COBBLESTONE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_ARKOSE_COBBLESTONE_SLAB = ITEMS.register("mossy_arkose_cobblestone_slab", () -> new BlockItem(BlockList.MOSSY_ARKOSE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_ARKOSE_COBBLESTONE_STAIRS = ITEMS.register("mossy_arkose_cobblestone_stairs", () -> new BlockItem(BlockList.MOSSY_ARKOSE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_ARKOSE_COBBLESTONE_WALL = ITEMS.register("mossy_arkose_cobblestone_wall", () -> new BlockItem(BlockList.MOSSY_ARKOSE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> ARKOSE_BUTTON = ITEMS.register("arkose_button", () -> new BlockItem(BlockList.ARKOSE_BUTTON.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> ARKOSE_PRESSURE_PLATE = ITEMS.register("arkose_pressure_plate", () -> new BlockItem(BlockList.ARKOSE_PRESSURE_PLATE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Bricks
+    public static final RegistryObject<Item> ARKOSE_BRICKS = ITEMS.register("arkose_bricks", () -> new BlockItem(BlockList.ARKOSE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> ARKOSE_BRICK_SLAB = ITEMS.register("arkose_brick_slab", () -> new BlockItem(BlockList.ARKOSE_BRICK_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> ARKOSE_BRICK_STAIRS = ITEMS.register("arkose_brick_stairs", () -> new BlockItem(BlockList.ARKOSE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> ARKOSE_BRICK_WALL = ITEMS.register("arkose_brick_wall", () -> new BlockItem(BlockList.ARKOSE_BRICK_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CHISELED_ARKOSE_BRICKS = ITEMS.register("chiseled_arkose_bricks", () -> new BlockItem(BlockList.CHISELED_ARKOSE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CRACKED_ARKOSE_BRICKS = ITEMS.register("cracked_arkose_bricks", () -> new BlockItem(BlockList.CRACKED_ARKOSE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_ARKOSE_BRICKS = ITEMS.register("mossy_arkose_bricks", () -> new BlockItem(BlockList.MOSSY_ARKOSE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_ARKOSE_BRICK_SLAB = ITEMS.register("mossy_arkose_brick_slab", () -> new BlockItem(BlockList.MOSSY_ARKOSE_BRICK_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_ARKOSE_BRICK_STAIRS = ITEMS.register("mossy_arkose_brick_stairs", () -> new BlockItem(BlockList.MOSSY_ARKOSE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_ARKOSE_BRICK_WALL = ITEMS.register("mossy_arkose_brick_wall", () -> new BlockItem(BlockList.MOSSY_ARKOSE_BRICK_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Polished
+    public static final RegistryObject<Item> POLISHED_ARKOSE = ITEMS.register("polished_arkose", () -> new BlockItem(BlockList.POLISHED_ARKOSE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> POLISHED_ARKOSE_SLAB = ITEMS.register("polished_arkose_slab", () -> new BlockItem(BlockList.POLISHED_ARKOSE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> POLISHED_ARKOSE_STAIRS = ITEMS.register("polished_arkose_stairs", () -> new BlockItem(BlockList.POLISHED_ARKOSE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    /*-Breccia-*/
+    public static final RegistryObject<Item> BRECCIA = ITEMS.register("breccia", () -> new BlockItem(BlockList.BRECCIA.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> BRECCIA_SLAB = ITEMS.register("breccia_slab", () -> new BlockItem(BlockList.BRECCIA_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> BRECCIA_STAIRS = ITEMS.register("breccia_stairs", () -> new BlockItem(BlockList.BRECCIA_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> BRECCIA_WALL = ITEMS.register("breccia_wall", () -> new BlockItem(BlockList.BRECCIA_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Cobblestone
+    public static final RegistryObject<Item> BRECCIA_COBBLESTONE = ITEMS.register("breccia_cobblestone", () -> new BlockItem(BlockList.BRECCIA_COBBLESTONE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> BRECCIA_COBBLESTONE_SLAB = ITEMS.register("breccia_cobblestone_slab", () -> new BlockItem(BlockList.BRECCIA_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> BRECCIA_COBBLESTONE_STAIRS = ITEMS.register("breccia_cobblestone_stairs", () -> new BlockItem(BlockList.BRECCIA_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> BRECCIA_COBBLESTONE_WALL = ITEMS.register("breccia_cobblestone_wall", () -> new BlockItem(BlockList.BRECCIA_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Mossy Cobblestone
+    public static final RegistryObject<Item> MOSSY_BRECCIA_COBBLESTONE = ITEMS.register("mossy_breccia_cobblestone", () -> new BlockItem(BlockList.MOSSY_BRECCIA_COBBLESTONE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_BRECCIA_COBBLESTONE_SLAB = ITEMS.register("mossy_breccia_cobblestone_slab", () -> new BlockItem(BlockList.MOSSY_BRECCIA_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_BRECCIA_COBBLESTONE_STAIRS = ITEMS.register("mossy_breccia_cobblestone_stairs", () -> new BlockItem(BlockList.MOSSY_BRECCIA_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_BRECCIA_COBBLESTONE_WALL = ITEMS.register("mossy_breccia_cobblestone_wall", () -> new BlockItem(BlockList.MOSSY_BRECCIA_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> BRECCIA_BUTTON = ITEMS.register("breccia_button", () -> new BlockItem(BlockList.BRECCIA_BUTTON.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> BRECCIA_PRESSURE_PLATE = ITEMS.register("breccia_pressure_plate", () -> new BlockItem(BlockList.BRECCIA_PRESSURE_PLATE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Bricks
+    public static final RegistryObject<Item> BRECCIA_BRICKS = ITEMS.register("breccia_bricks", () -> new BlockItem(BlockList.BRECCIA_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> BRECCIA_BRICK_SLAB = ITEMS.register("breccia_brick_slab", () -> new BlockItem(BlockList.BRECCIA_BRICK_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> BRECCIA_BRICK_STAIRS = ITEMS.register("breccia_brick_stairs", () -> new BlockItem(BlockList.BRECCIA_BRICK_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> BRECCIA_BRICK_WALL = ITEMS.register("breccia_brick_wall", () -> new BlockItem(BlockList.BRECCIA_BRICK_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CHISELED_BRECCIA_BRICKS = ITEMS.register("chiseled_breccia_bricks", () -> new BlockItem(BlockList.CHISELED_BRECCIA_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CRACKED_BRECCIA_BRICKS = ITEMS.register("cracked_breccia_bricks", () -> new BlockItem(BlockList.CRACKED_BRECCIA_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_BRECCIA_BRICKS = ITEMS.register("mossy_breccia_bricks", () -> new BlockItem(BlockList.MOSSY_BRECCIA_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_BRECCIA_BRICK_SLAB = ITEMS.register("mossy_breccia_brick_slab", () -> new BlockItem(BlockList.MOSSY_BRECCIA_BRICK_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_BRECCIA_BRICK_STAIRS = ITEMS.register("mossy_breccia_brick_stairs", () -> new BlockItem(BlockList.MOSSY_BRECCIA_BRICK_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_BRECCIA_BRICK_WALL = ITEMS.register("mossy_breccia_brick_wall", () -> new BlockItem(BlockList.MOSSY_BRECCIA_BRICK_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Polished
+    public static final RegistryObject<Item> POLISHED_BRECCIA = ITEMS.register("polished_breccia", () -> new BlockItem(BlockList.POLISHED_BRECCIA.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> POLISHED_BRECCIA_SLAB = ITEMS.register("polished_breccia_slab", () -> new BlockItem(BlockList.POLISHED_BRECCIA_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> POLISHED_BRECCIA_STAIRS = ITEMS.register("polished_breccia_stairs", () -> new BlockItem(BlockList.POLISHED_BRECCIA_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
     /*-Chalk-*/
     public static final RegistryObject<Item> CHALK = ITEMS.register("chalk", () -> new BlockItem(BlockList.CHALK.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
     public static final RegistryObject<Item> CHALK_SLAB = ITEMS.register("chalk_slab", () -> new BlockItem(BlockList.CHALK_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
@@ -520,6 +1012,88 @@ public class ItemList
     public static final RegistryObject<Item> POLISHED_CHALK = ITEMS.register("polished_chalk", () -> new BlockItem(BlockList.POLISHED_CHALK.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
     public static final RegistryObject<Item> POLISHED_CHALK_SLAB = ITEMS.register("polished_chalk_slab", () -> new BlockItem(BlockList.POLISHED_CHALK_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
     public static final RegistryObject<Item> POLISHED_CHALK_STAIRS = ITEMS.register("polished_chalk_stairs", () -> new BlockItem(BlockList.POLISHED_CHALK_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    /*-Claystone-*/
+    public static final RegistryObject<Item> CLAYSTONE = ITEMS.register("claystone", () -> new BlockItem(BlockList.CLAYSTONE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CLAYSTONE_SLAB = ITEMS.register("claystone_slab", () -> new BlockItem(BlockList.CLAYSTONE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CLAYSTONE_STAIRS = ITEMS.register("claystone_stairs", () -> new BlockItem(BlockList.CLAYSTONE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CLAYSTONE_WALL = ITEMS.register("claystone_wall", () -> new BlockItem(BlockList.CLAYSTONE_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Cobblestone
+    public static final RegistryObject<Item> CLAYSTONE_COBBLESTONE = ITEMS.register("claystone_cobblestone", () -> new BlockItem(BlockList.CLAYSTONE_COBBLESTONE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CLAYSTONE_COBBLESTONE_SLAB = ITEMS.register("claystone_cobblestone_slab", () -> new BlockItem(BlockList.CLAYSTONE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CLAYSTONE_COBBLESTONE_STAIRS = ITEMS.register("claystone_cobblestone_stairs", () -> new BlockItem(BlockList.CLAYSTONE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CLAYSTONE_COBBLESTONE_WALL = ITEMS.register("claystone_cobblestone_wall", () -> new BlockItem(BlockList.CLAYSTONE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Mossy Cobblestone
+    public static final RegistryObject<Item> MOSSY_CLAYSTONE_COBBLESTONE = ITEMS.register("mossy_claystone_cobblestone", () -> new BlockItem(BlockList.MOSSY_CLAYSTONE_COBBLESTONE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_CLAYSTONE_COBBLESTONE_SLAB = ITEMS.register("mossy_claystone_cobblestone_slab", () -> new BlockItem(BlockList.MOSSY_CLAYSTONE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_CLAYSTONE_COBBLESTONE_STAIRS = ITEMS.register("mossy_claystone_cobblestone_stairs", () -> new BlockItem(BlockList.MOSSY_CLAYSTONE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_CLAYSTONE_COBBLESTONE_WALL = ITEMS.register("mossy_claystone_cobblestone_wall", () -> new BlockItem(BlockList.MOSSY_CLAYSTONE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> CLAYSTONE_BUTTON = ITEMS.register("claystone_button", () -> new BlockItem(BlockList.CLAYSTONE_BUTTON.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> CLAYSTONE_PRESSURE_PLATE = ITEMS.register("claystone_pressure_plate", () -> new BlockItem(BlockList.CLAYSTONE_PRESSURE_PLATE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Bricks
+    public static final RegistryObject<Item> CLAYSTONE_BRICKS = ITEMS.register("claystone_bricks", () -> new BlockItem(BlockList.CLAYSTONE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CLAYSTONE_BRICK_SLAB = ITEMS.register("claystone_brick_slab", () -> new BlockItem(BlockList.CLAYSTONE_BRICK_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CLAYSTONE_BRICK_STAIRS = ITEMS.register("claystone_brick_stairs", () -> new BlockItem(BlockList.CLAYSTONE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CLAYSTONE_BRICK_WALL = ITEMS.register("claystone_brick_wall", () -> new BlockItem(BlockList.CLAYSTONE_BRICK_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CHISELED_CLAYSTONE_BRICKS = ITEMS.register("chiseled_claystone_bricks", () -> new BlockItem(BlockList.CHISELED_CLAYSTONE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CRACKED_CLAYSTONE_BRICKS = ITEMS.register("cracked_claystone_bricks", () -> new BlockItem(BlockList.CRACKED_CLAYSTONE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_CLAYSTONE_BRICKS = ITEMS.register("mossy_claystone_bricks", () -> new BlockItem(BlockList.MOSSY_CLAYSTONE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_CLAYSTONE_BRICK_SLAB = ITEMS.register("mossy_claystone_brick_slab", () -> new BlockItem(BlockList.MOSSY_CLAYSTONE_BRICK_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_CLAYSTONE_BRICK_STAIRS = ITEMS.register("mossy_claystone_brick_stairs", () -> new BlockItem(BlockList.MOSSY_CLAYSTONE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_CLAYSTONE_BRICK_WALL = ITEMS.register("mossy_claystone_brick_wall", () -> new BlockItem(BlockList.MOSSY_CLAYSTONE_BRICK_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Polished
+    public static final RegistryObject<Item> POLISHED_CLAYSTONE = ITEMS.register("polished_claystone", () -> new BlockItem(BlockList.POLISHED_CLAYSTONE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> POLISHED_CLAYSTONE_SLAB = ITEMS.register("polished_claystone_slab", () -> new BlockItem(BlockList.POLISHED_CLAYSTONE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> POLISHED_CLAYSTONE_STAIRS = ITEMS.register("polished_claystone_stairs", () -> new BlockItem(BlockList.POLISHED_CLAYSTONE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    /*-Dolomite-*/
+    public static final RegistryObject<Item> DOLOMITE = ITEMS.register("dolomite", () -> new BlockItem(BlockList.DOLOMITE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> DOLOMITE_SLAB = ITEMS.register("dolomite_slab", () -> new BlockItem(BlockList.DOLOMITE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> DOLOMITE_STAIRS = ITEMS.register("dolomite_stairs", () -> new BlockItem(BlockList.DOLOMITE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> DOLOMITE_WALL = ITEMS.register("dolomite_wall", () -> new BlockItem(BlockList.DOLOMITE_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Cobblestone
+    public static final RegistryObject<Item> DOLOMITE_COBBLESTONE = ITEMS.register("dolomite_cobblestone", () -> new BlockItem(BlockList.DOLOMITE_COBBLESTONE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> DOLOMITE_COBBLESTONE_SLAB = ITEMS.register("dolomite_cobblestone_slab", () -> new BlockItem(BlockList.DOLOMITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> DOLOMITE_COBBLESTONE_STAIRS = ITEMS.register("dolomite_cobblestone_stairs", () -> new BlockItem(BlockList.DOLOMITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> DOLOMITE_COBBLESTONE_WALL = ITEMS.register("dolomite_cobblestone_wall", () -> new BlockItem(BlockList.DOLOMITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Mossy Cobblestone
+    public static final RegistryObject<Item> MOSSY_DOLOMITE_COBBLESTONE = ITEMS.register("mossy_dolomite_cobblestone", () -> new BlockItem(BlockList.MOSSY_DOLOMITE_COBBLESTONE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_DOLOMITE_COBBLESTONE_SLAB = ITEMS.register("mossy_dolomite_cobblestone_slab", () -> new BlockItem(BlockList.MOSSY_DOLOMITE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_DOLOMITE_COBBLESTONE_STAIRS = ITEMS.register("mossy_dolomite_cobblestone_stairs", () -> new BlockItem(BlockList.MOSSY_DOLOMITE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_DOLOMITE_COBBLESTONE_WALL = ITEMS.register("mossy_dolomite_cobblestone_wall", () -> new BlockItem(BlockList.MOSSY_DOLOMITE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> DOLOMITE_BUTTON = ITEMS.register("dolomite_button", () -> new BlockItem(BlockList.DOLOMITE_BUTTON.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> DOLOMITE_PRESSURE_PLATE = ITEMS.register("dolomite_pressure_plate", () -> new BlockItem(BlockList.DOLOMITE_PRESSURE_PLATE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Bricks
+    public static final RegistryObject<Item> DOLOMITE_BRICKS = ITEMS.register("dolomite_bricks", () -> new BlockItem(BlockList.DOLOMITE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> DOLOMITE_BRICK_SLAB = ITEMS.register("dolomite_brick_slab", () -> new BlockItem(BlockList.DOLOMITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> DOLOMITE_BRICK_STAIRS = ITEMS.register("dolomite_brick_stairs", () -> new BlockItem(BlockList.DOLOMITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> DOLOMITE_BRICK_WALL = ITEMS.register("dolomite_brick_wall", () -> new BlockItem(BlockList.DOLOMITE_BRICK_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CHISELED_DOLOMITE_BRICKS = ITEMS.register("chiseled_dolomite_bricks", () -> new BlockItem(BlockList.CHISELED_DOLOMITE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CRACKED_DOLOMITE_BRICKS = ITEMS.register("cracked_dolomite_bricks", () -> new BlockItem(BlockList.CRACKED_DOLOMITE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_DOLOMITE_BRICKS = ITEMS.register("mossy_dolomite_bricks", () -> new BlockItem(BlockList.MOSSY_DOLOMITE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_DOLOMITE_BRICK_SLAB = ITEMS.register("mossy_dolomite_brick_slab", () -> new BlockItem(BlockList.MOSSY_DOLOMITE_BRICK_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_DOLOMITE_BRICK_STAIRS = ITEMS.register("mossy_dolomite_brick_stairs", () -> new BlockItem(BlockList.MOSSY_DOLOMITE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_DOLOMITE_BRICK_WALL = ITEMS.register("mossy_dolomite_brick_wall", () -> new BlockItem(BlockList.MOSSY_DOLOMITE_BRICK_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Polished
+    public static final RegistryObject<Item> POLISHED_DOLOMITE = ITEMS.register("polished_dolomite", () -> new BlockItem(BlockList.POLISHED_DOLOMITE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> POLISHED_DOLOMITE_SLAB = ITEMS.register("polished_dolomite_slab", () -> new BlockItem(BlockList.POLISHED_DOLOMITE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> POLISHED_DOLOMITE_STAIRS = ITEMS.register("polished_dolomite_stairs", () -> new BlockItem(BlockList.POLISHED_DOLOMITE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
 
     /*-Jaspillite-*/
     public static final RegistryObject<Item> JASPILLITE = ITEMS.register("jaspillite", () -> new BlockItem(BlockList.JASPILLITE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
@@ -603,6 +1177,47 @@ public class ItemList
     public static final RegistryObject<Item> POLISHED_LIMESTONE = ITEMS.register("polished_limestone", () -> new BlockItem(BlockList.POLISHED_LIMESTONE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
     public static final RegistryObject<Item> POLISHED_LIMESTONE_SLAB = ITEMS.register("polished_limestone_slab", () -> new BlockItem(BlockList.POLISHED_LIMESTONE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
     public static final RegistryObject<Item> POLISHED_LIMESTONE_STAIRS = ITEMS.register("polished_limestone_stairs", () -> new BlockItem(BlockList.POLISHED_LIMESTONE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    /*-Mudstone-*/
+    public static final RegistryObject<Item> MUDSTONE = ITEMS.register("mudstone", () -> new BlockItem(BlockList.MUDSTONE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MUDSTONE_SLAB = ITEMS.register("mudstone_slab", () -> new BlockItem(BlockList.MUDSTONE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MUDSTONE_STAIRS = ITEMS.register("mudstone_stairs", () -> new BlockItem(BlockList.MUDSTONE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MUDSTONE_WALL = ITEMS.register("mudstone_wall", () -> new BlockItem(BlockList.MUDSTONE_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Cobblestone
+    public static final RegistryObject<Item> MUDSTONE_COBBLESTONE = ITEMS.register("mudstone_cobblestone", () -> new BlockItem(BlockList.MUDSTONE_COBBLESTONE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MUDSTONE_COBBLESTONE_SLAB = ITEMS.register("mudstone_cobblestone_slab", () -> new BlockItem(BlockList.MUDSTONE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MUDSTONE_COBBLESTONE_STAIRS = ITEMS.register("mudstone_cobblestone_stairs", () -> new BlockItem(BlockList.MUDSTONE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MUDSTONE_COBBLESTONE_WALL = ITEMS.register("mudstone_cobblestone_wall", () -> new BlockItem(BlockList.MUDSTONE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Mossy Cobblestone
+    public static final RegistryObject<Item> MOSSY_MUDSTONE_COBBLESTONE = ITEMS.register("mossy_mudstone_cobblestone", () -> new BlockItem(BlockList.MOSSY_MUDSTONE_COBBLESTONE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_MUDSTONE_COBBLESTONE_SLAB = ITEMS.register("mossy_mudstone_cobblestone_slab", () -> new BlockItem(BlockList.MOSSY_MUDSTONE_COBBLESTONE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_MUDSTONE_COBBLESTONE_STAIRS = ITEMS.register("mossy_mudstone_cobblestone_stairs", () -> new BlockItem(BlockList.MOSSY_MUDSTONE_COBBLESTONE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_MUDSTONE_COBBLESTONE_WALL = ITEMS.register("mossy_mudstone_cobblestone_wall", () -> new BlockItem(BlockList.MOSSY_MUDSTONE_COBBLESTONE_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Buttons
+    public static final RegistryObject<Item> MUDSTONE_BUTTON = ITEMS.register("mudstone_button", () -> new BlockItem(BlockList.MUDSTONE_BUTTON.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Pressure Plates
+    public static final RegistryObject<Item> MUDSTONE_PRESSURE_PLATE = ITEMS.register("mudstone_pressure_plate", () -> new BlockItem(BlockList.MUDSTONE_PRESSURE_PLATE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Bricks
+    public static final RegistryObject<Item> MUDSTONE_BRICKS = ITEMS.register("mudstone_bricks", () -> new BlockItem(BlockList.MUDSTONE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MUDSTONE_BRICK_SLAB = ITEMS.register("mudstone_brick_slab", () -> new BlockItem(BlockList.MUDSTONE_BRICK_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MUDSTONE_BRICK_STAIRS = ITEMS.register("mudstone_brick_stairs", () -> new BlockItem(BlockList.MUDSTONE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MUDSTONE_BRICK_WALL = ITEMS.register("mudstone_brick_wall", () -> new BlockItem(BlockList.MUDSTONE_BRICK_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CHISELED_MUDSTONE_BRICKS = ITEMS.register("chiseled_mudstone_bricks", () -> new BlockItem(BlockList.CHISELED_MUDSTONE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> CRACKED_MUDSTONE_BRICKS = ITEMS.register("cracked_mudstone_bricks", () -> new BlockItem(BlockList.CRACKED_MUDSTONE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_MUDSTONE_BRICKS = ITEMS.register("mossy_mudstone_bricks", () -> new BlockItem(BlockList.MOSSY_MUDSTONE_BRICKS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_MUDSTONE_BRICK_SLAB = ITEMS.register("mossy_mudstone_brick_slab", () -> new BlockItem(BlockList.MOSSY_MUDSTONE_BRICK_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_MUDSTONE_BRICK_STAIRS = ITEMS.register("mossy_mudstone_brick_stairs", () -> new BlockItem(BlockList.MOSSY_MUDSTONE_BRICK_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> MOSSY_MUDSTONE_BRICK_WALL = ITEMS.register("mossy_mudstone_brick_wall", () -> new BlockItem(BlockList.MOSSY_MUDSTONE_BRICK_WALL.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+
+    //Polished
+    public static final RegistryObject<Item> POLISHED_MUDSTONE = ITEMS.register("polished_mudstone", () -> new BlockItem(BlockList.POLISHED_MUDSTONE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> POLISHED_MUDSTONE_SLAB = ITEMS.register("polished_mudstone_slab", () -> new BlockItem(BlockList.POLISHED_MUDSTONE_SLAB.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
+    public static final RegistryObject<Item> POLISHED_MUDSTONE_STAIRS = ITEMS.register("polished_mudstone_stairs", () -> new BlockItem(BlockList.POLISHED_MUDSTONE_STAIRS.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));
 
     /*-Shale-*/
     public static final RegistryObject<Item> SHALE = ITEMS.register("shale", () -> new BlockItem(BlockList.SHALE.get(), new Item.Properties().group(Strata.SEDIMENTARY_TAB)));

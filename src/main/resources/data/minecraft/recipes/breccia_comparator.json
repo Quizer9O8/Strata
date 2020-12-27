@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_torch"
+    },
+    "X": {
+      "item": "minecraft:quartz"
+    },
+    "I": {
+      "item": "strata:breccia"
+    }
+  },
+  "result": {
+    "item": "minecraft:comparator"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "strata:pegmatite"
+    }
+  ],
+  "result": {
+    "item": "strata:pegmatite_button"
+  }
+}

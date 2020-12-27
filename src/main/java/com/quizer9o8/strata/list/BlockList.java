@@ -150,6 +150,88 @@ public class BlockList
         public static final RegistryObject<Block> POLISHED_BASALT_SLAB = BLOCKS.register("polished_basalt_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_BASALT.get())));
         public static final RegistryObject<Block> POLISHED_BASALT_STAIRS = BLOCKS.register("polished_basalt_stairs", () -> new StrataStairsBlock(POLISHED_BASALT.get().getDefaultState(), Block.Properties.from(POLISHED_BASALT.get())));
 
+        //Dacite
+        public static final RegistryObject<Block> DACITE = BLOCKS.register("dacite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> DACITE_SLAB = BLOCKS.register("dacite_slab", () -> new SlabBlock(Block.Properties.from(DACITE.get())));
+        public static final RegistryObject<Block> DACITE_STAIRS = BLOCKS.register("dacite_stairs", () -> new StrataStairsBlock(DACITE.get().getDefaultState(), Block.Properties.from(DACITE.get())));
+        public static final RegistryObject<Block> DACITE_WALL = BLOCKS.register("dacite_wall", () -> new WallBlock(Block.Properties.from(DACITE.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> DACITE_COBBLESTONE = BLOCKS.register("dacite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> DACITE_COBBLESTONE_SLAB = BLOCKS.register("dacite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(DACITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> DACITE_COBBLESTONE_STAIRS = BLOCKS.register("dacite_cobblestone_stairs", () -> new StrataStairsBlock(DACITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(DACITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> DACITE_COBBLESTONE_WALL = BLOCKS.register("dacite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(DACITE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_DACITE_COBBLESTONE = BLOCKS.register("mossy_dacite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_DACITE_COBBLESTONE_SLAB = BLOCKS.register("mossy_dacite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_DACITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_DACITE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_dacite_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_DACITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_DACITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_DACITE_COBBLESTONE_WALL = BLOCKS.register("mossy_dacite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_DACITE_COBBLESTONE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> DACITE_BUTTON = BLOCKS.register("dacite_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> DACITE_PRESSURE_PLATE = BLOCKS.register("dacite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Bricks
+        public static final RegistryObject<Block> DACITE_BRICKS = BLOCKS.register("dacite_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> DACITE_BRICK_SLAB = BLOCKS.register("dacite_brick_slab", () -> new SlabBlock(Block.Properties.from(DACITE_BRICKS.get())));
+        public static final RegistryObject<Block> DACITE_BRICK_STAIRS = BLOCKS.register("dacite_brick_stairs", () -> new StrataStairsBlock(DACITE_BRICKS.get().getDefaultState(), Block.Properties.from(DACITE_BRICKS.get())));
+        public static final RegistryObject<Block> DACITE_BRICK_WALL = BLOCKS.register("dacite_brick_wall", () -> new WallBlock(Block.Properties.from(DACITE_BRICKS.get())));
+        public static final RegistryObject<Block> CHISELED_DACITE_BRICKS = BLOCKS.register("chiseled_dacite_bricks", () -> new Block(Block.Properties.from(DACITE_BRICKS.get())));
+        public static final RegistryObject<Block> CRACKED_DACITE_BRICKS = BLOCKS.register("cracked_dacite_bricks", () -> new Block(Block.Properties.from(DACITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_DACITE_BRICKS = BLOCKS.register("mossy_dacite_bricks", () -> new Block(Block.Properties.from(DACITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_DACITE_BRICK_SLAB = BLOCKS.register("mossy_dacite_brick_slab", () -> new SlabBlock(Block.Properties.from(DACITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_DACITE_BRICK_STAIRS = BLOCKS.register("mossy_dacite_brick_stairs", () -> new StrataStairsBlock(DACITE_BRICKS.get().getDefaultState(), Block.Properties.from(DACITE.get())));
+        public static final RegistryObject<Block> MOSSY_DACITE_BRICK_WALL = BLOCKS.register("mossy_dacite_brick_wall", () -> new WallBlock(Block.Properties.from(DACITE_BRICKS.get())));
+
+        //Polished
+        public static final RegistryObject<Block> POLISHED_DACITE = BLOCKS.register("polished_dacite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_DACITE_SLAB = BLOCKS.register("polished_dacite_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_DACITE.get())));
+        public static final RegistryObject<Block> POLISHED_DACITE_STAIRS = BLOCKS.register("polished_dacite_stairs", () -> new StrataStairsBlock(POLISHED_DACITE.get().getDefaultState(), Block.Properties.from(POLISHED_DACITE.get())));
+
+        //Dunite
+        public static final RegistryObject<Block> DUNITE = BLOCKS.register("dunite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> DUNITE_SLAB = BLOCKS.register("dunite_slab", () -> new SlabBlock(Block.Properties.from(DUNITE.get())));
+        public static final RegistryObject<Block> DUNITE_STAIRS = BLOCKS.register("dunite_stairs", () -> new StrataStairsBlock(DUNITE.get().getDefaultState(), Block.Properties.from(DUNITE.get())));
+        public static final RegistryObject<Block> DUNITE_WALL = BLOCKS.register("dunite_wall", () -> new WallBlock(Block.Properties.from(DUNITE.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> DUNITE_COBBLESTONE = BLOCKS.register("dunite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> DUNITE_COBBLESTONE_SLAB = BLOCKS.register("dunite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(DUNITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> DUNITE_COBBLESTONE_STAIRS = BLOCKS.register("dunite_cobblestone_stairs", () -> new StrataStairsBlock(DUNITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(DUNITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> DUNITE_COBBLESTONE_WALL = BLOCKS.register("dunite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(DUNITE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_DUNITE_COBBLESTONE = BLOCKS.register("mossy_dunite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_DUNITE_COBBLESTONE_SLAB = BLOCKS.register("mossy_dunite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_DUNITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_DUNITE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_dunite_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_DUNITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_DUNITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_DUNITE_COBBLESTONE_WALL = BLOCKS.register("mossy_dunite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_DUNITE_COBBLESTONE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> DUNITE_BUTTON = BLOCKS.register("dunite_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> DUNITE_PRESSURE_PLATE = BLOCKS.register("dunite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Bricks
+        public static final RegistryObject<Block> DUNITE_BRICKS = BLOCKS.register("dunite_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> DUNITE_BRICK_SLAB = BLOCKS.register("dunite_brick_slab", () -> new SlabBlock(Block.Properties.from(DUNITE_BRICKS.get())));
+        public static final RegistryObject<Block> DUNITE_BRICK_STAIRS = BLOCKS.register("dunite_brick_stairs", () -> new StrataStairsBlock(DUNITE_BRICKS.get().getDefaultState(), Block.Properties.from(DUNITE_BRICKS.get())));
+        public static final RegistryObject<Block> DUNITE_BRICK_WALL = BLOCKS.register("dunite_brick_wall", () -> new WallBlock(Block.Properties.from(DUNITE_BRICKS.get())));
+        public static final RegistryObject<Block> CHISELED_DUNITE_BRICKS = BLOCKS.register("chiseled_dunite_bricks", () -> new Block(Block.Properties.from(DUNITE_BRICKS.get())));
+        public static final RegistryObject<Block> CRACKED_DUNITE_BRICKS = BLOCKS.register("cracked_dunite_bricks", () -> new Block(Block.Properties.from(DUNITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_DUNITE_BRICKS = BLOCKS.register("mossy_dunite_bricks", () -> new Block(Block.Properties.from(DUNITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_DUNITE_BRICK_SLAB = BLOCKS.register("mossy_dunite_brick_slab", () -> new SlabBlock(Block.Properties.from(DUNITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_DUNITE_BRICK_STAIRS = BLOCKS.register("mossy_dunite_brick_stairs", () -> new StrataStairsBlock(DUNITE_BRICKS.get().getDefaultState(), Block.Properties.from(DUNITE.get())));
+        public static final RegistryObject<Block> MOSSY_DUNITE_BRICK_WALL = BLOCKS.register("mossy_dunite_brick_wall", () -> new WallBlock(Block.Properties.from(DUNITE_BRICKS.get())));
+
+        //Polished
+        public static final RegistryObject<Block> POLISHED_DUNITE = BLOCKS.register("polished_dunite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_DUNITE_SLAB = BLOCKS.register("polished_dunite_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_DUNITE.get())));
+        public static final RegistryObject<Block> POLISHED_DUNITE_STAIRS = BLOCKS.register("polished_dunite_stairs", () -> new StrataStairsBlock(POLISHED_DUNITE.get().getDefaultState(), Block.Properties.from(POLISHED_DUNITE.get())));
+
         //Gabbro
         public static final RegistryObject<Block> GABBRO = BLOCKS.register("gabbro", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
         public static final RegistryObject<Block> GABBRO_SLAB = BLOCKS.register("gabbro_slab", () -> new SlabBlock(Block.Properties.from(GABBRO.get())));
@@ -191,6 +273,47 @@ public class BlockList
         public static final RegistryObject<Block> POLISHED_GABBRO_SLAB = BLOCKS.register("polished_gabbro_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_GABBRO.get())));
         public static final RegistryObject<Block> POLISHED_GABBRO_STAIRS = BLOCKS.register("polished_gabbro_stairs", () -> new StrataStairsBlock(POLISHED_GABBRO.get().getDefaultState(), Block.Properties.from(POLISHED_GABBRO.get())));
 
+        //Komatiite
+        public static final RegistryObject<Block> KOMATIITE = BLOCKS.register("komatiite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> KOMATIITE_SLAB = BLOCKS.register("komatiite_slab", () -> new SlabBlock(Block.Properties.from(KOMATIITE.get())));
+        public static final RegistryObject<Block> KOMATIITE_STAIRS = BLOCKS.register("komatiite_stairs", () -> new StrataStairsBlock(KOMATIITE.get().getDefaultState(), Block.Properties.from(KOMATIITE.get())));
+        public static final RegistryObject<Block> KOMATIITE_WALL = BLOCKS.register("komatiite_wall", () -> new WallBlock(Block.Properties.from(KOMATIITE.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> KOMATIITE_COBBLESTONE = BLOCKS.register("komatiite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> KOMATIITE_COBBLESTONE_SLAB = BLOCKS.register("komatiite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(KOMATIITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> KOMATIITE_COBBLESTONE_STAIRS = BLOCKS.register("komatiite_cobblestone_stairs", () -> new StrataStairsBlock(KOMATIITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(KOMATIITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> KOMATIITE_COBBLESTONE_WALL = BLOCKS.register("komatiite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(KOMATIITE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_KOMATIITE_COBBLESTONE = BLOCKS.register("mossy_komatiite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_KOMATIITE_COBBLESTONE_SLAB = BLOCKS.register("mossy_komatiite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_KOMATIITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_KOMATIITE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_komatiite_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_KOMATIITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_KOMATIITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_KOMATIITE_COBBLESTONE_WALL = BLOCKS.register("mossy_komatiite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_KOMATIITE_COBBLESTONE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> KOMATIITE_BUTTON = BLOCKS.register("komatiite_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> KOMATIITE_PRESSURE_PLATE = BLOCKS.register("komatiite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Bricks
+        public static final RegistryObject<Block> KOMATIITE_BRICKS = BLOCKS.register("komatiite_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> KOMATIITE_BRICK_SLAB = BLOCKS.register("komatiite_brick_slab", () -> new SlabBlock(Block.Properties.from(KOMATIITE_BRICKS.get())));
+        public static final RegistryObject<Block> KOMATIITE_BRICK_STAIRS = BLOCKS.register("komatiite_brick_stairs", () -> new StrataStairsBlock(KOMATIITE_BRICKS.get().getDefaultState(), Block.Properties.from(KOMATIITE_BRICKS.get())));
+        public static final RegistryObject<Block> KOMATIITE_BRICK_WALL = BLOCKS.register("komatiite_brick_wall", () -> new WallBlock(Block.Properties.from(KOMATIITE_BRICKS.get())));
+        public static final RegistryObject<Block> CHISELED_KOMATIITE_BRICKS = BLOCKS.register("chiseled_komatiite_bricks", () -> new Block(Block.Properties.from(KOMATIITE_BRICKS.get())));
+        public static final RegistryObject<Block> CRACKED_KOMATIITE_BRICKS = BLOCKS.register("cracked_komatiite_bricks", () -> new Block(Block.Properties.from(KOMATIITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_KOMATIITE_BRICKS = BLOCKS.register("mossy_komatiite_bricks", () -> new Block(Block.Properties.from(KOMATIITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_KOMATIITE_BRICK_SLAB = BLOCKS.register("mossy_komatiite_brick_slab", () -> new SlabBlock(Block.Properties.from(KOMATIITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_KOMATIITE_BRICK_STAIRS = BLOCKS.register("mossy_komatiite_brick_stairs", () -> new StrataStairsBlock(KOMATIITE_BRICKS.get().getDefaultState(), Block.Properties.from(KOMATIITE.get())));
+        public static final RegistryObject<Block> MOSSY_KOMATIITE_BRICK_WALL = BLOCKS.register("mossy_komatiite_brick_wall", () -> new WallBlock(Block.Properties.from(KOMATIITE_BRICKS.get())));
+
+        //Polished
+        public static final RegistryObject<Block> POLISHED_KOMATIITE = BLOCKS.register("polished_komatiite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_KOMATIITE_SLAB = BLOCKS.register("polished_komatiite_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_KOMATIITE.get())));
+        public static final RegistryObject<Block> POLISHED_KOMATIITE_STAIRS = BLOCKS.register("polished_komatiite_stairs", () -> new StrataStairsBlock(POLISHED_KOMATIITE.get().getDefaultState(), Block.Properties.from(POLISHED_KOMATIITE.get())));
+
         //Pahoehoe
         public static final RegistryObject<Block> PAHOEHOE = BLOCKS.register("pahoehoe", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
         public static final RegistryObject<Block> PAHOEHOE_SLAB = BLOCKS.register("pahoehoe_slab", () -> new SlabBlock(Block.Properties.from(PAHOEHOE.get())));
@@ -231,6 +354,88 @@ public class BlockList
         public static final RegistryObject<Block> POLISHED_PAHOEHOE = BLOCKS.register("polished_pahoehoe", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
         public static final RegistryObject<Block> POLISHED_PAHOEHOE_SLAB = BLOCKS.register("polished_pahoehoe_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_PAHOEHOE.get())));
         public static final RegistryObject<Block> POLISHED_PAHOEHOE_STAIRS = BLOCKS.register("polished_pahoehoe_stairs", () -> new StrataStairsBlock(POLISHED_PAHOEHOE.get().getDefaultState(), Block.Properties.from(POLISHED_PAHOEHOE.get())));
+
+        //Pegmatiite
+        public static final RegistryObject<Block> PEGMATITE = BLOCKS.register("pegmatite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> PEGMATITE_SLAB = BLOCKS.register("pegmatite_slab", () -> new SlabBlock(Block.Properties.from(PEGMATITE.get())));
+        public static final RegistryObject<Block> PEGMATITE_STAIRS = BLOCKS.register("pegmatite_stairs", () -> new StrataStairsBlock(PEGMATITE.get().getDefaultState(), Block.Properties.from(PEGMATITE.get())));
+        public static final RegistryObject<Block> PEGMATITE_WALL = BLOCKS.register("pegmatite_wall", () -> new WallBlock(Block.Properties.from(PEGMATITE.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> PEGMATITE_COBBLESTONE = BLOCKS.register("pegmatite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> PEGMATITE_COBBLESTONE_SLAB = BLOCKS.register("pegmatite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(PEGMATITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> PEGMATITE_COBBLESTONE_STAIRS = BLOCKS.register("pegmatite_cobblestone_stairs", () -> new StrataStairsBlock(PEGMATITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(PEGMATITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> PEGMATITE_COBBLESTONE_WALL = BLOCKS.register("pegmatite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(PEGMATITE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_PEGMATITE_COBBLESTONE = BLOCKS.register("mossy_pegmatite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_PEGMATITE_COBBLESTONE_SLAB = BLOCKS.register("mossy_pegmatite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_PEGMATITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_PEGMATITE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_pegmatite_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_PEGMATITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_PEGMATITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_PEGMATITE_COBBLESTONE_WALL = BLOCKS.register("mossy_pegmatite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_PEGMATITE_COBBLESTONE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> PEGMATITE_BUTTON = BLOCKS.register("pegmatite_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> PEGMATITE_PRESSURE_PLATE = BLOCKS.register("pegmatite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Bricks
+        public static final RegistryObject<Block> PEGMATITE_BRICKS = BLOCKS.register("pegmatite_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> PEGMATITE_BRICK_SLAB = BLOCKS.register("pegmatite_brick_slab", () -> new SlabBlock(Block.Properties.from(PEGMATITE_BRICKS.get())));
+        public static final RegistryObject<Block> PEGMATITE_BRICK_STAIRS = BLOCKS.register("pegmatite_brick_stairs", () -> new StrataStairsBlock(PEGMATITE_BRICKS.get().getDefaultState(), Block.Properties.from(PEGMATITE_BRICKS.get())));
+        public static final RegistryObject<Block> PEGMATITE_BRICK_WALL = BLOCKS.register("pegmatite_brick_wall", () -> new WallBlock(Block.Properties.from(PEGMATITE_BRICKS.get())));
+        public static final RegistryObject<Block> CHISELED_PEGMATITE_BRICKS = BLOCKS.register("chiseled_pegmatite_bricks", () -> new Block(Block.Properties.from(PEGMATITE_BRICKS.get())));
+        public static final RegistryObject<Block> CRACKED_PEGMATITE_BRICKS = BLOCKS.register("cracked_pegmatite_bricks", () -> new Block(Block.Properties.from(PEGMATITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_PEGMATITE_BRICKS = BLOCKS.register("mossy_pegmatite_bricks", () -> new Block(Block.Properties.from(PEGMATITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_PEGMATITE_BRICK_SLAB = BLOCKS.register("mossy_pegmatite_brick_slab", () -> new SlabBlock(Block.Properties.from(PEGMATITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_PEGMATITE_BRICK_STAIRS = BLOCKS.register("mossy_pegmatite_brick_stairs", () -> new StrataStairsBlock(PEGMATITE_BRICKS.get().getDefaultState(), Block.Properties.from(PEGMATITE.get())));
+        public static final RegistryObject<Block> MOSSY_PEGMATITE_BRICK_WALL = BLOCKS.register("mossy_pegmatite_brick_wall", () -> new WallBlock(Block.Properties.from(PEGMATITE_BRICKS.get())));
+
+        //Polished
+        public static final RegistryObject<Block> POLISHED_PEGMATITE = BLOCKS.register("polished_pegmatite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_PEGMATITE_SLAB = BLOCKS.register("polished_pegmatite_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_PEGMATITE.get())));
+        public static final RegistryObject<Block> POLISHED_PEGMATITE_STAIRS = BLOCKS.register("polished_pegmatite_stairs", () -> new StrataStairsBlock(POLISHED_PEGMATITE.get().getDefaultState(), Block.Properties.from(POLISHED_PEGMATITE.get())));
+
+        //Phonolite
+        public static final RegistryObject<Block> PHONOLITE = BLOCKS.register("phonolite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> PHONOLITE_SLAB = BLOCKS.register("phonolite_slab", () -> new SlabBlock(Block.Properties.from(PHONOLITE.get())));
+        public static final RegistryObject<Block> PHONOLITE_STAIRS = BLOCKS.register("phonolite_stairs", () -> new StrataStairsBlock(PHONOLITE.get().getDefaultState(), Block.Properties.from(PHONOLITE.get())));
+        public static final RegistryObject<Block> PHONOLITE_WALL = BLOCKS.register("phonolite_wall", () -> new WallBlock(Block.Properties.from(PHONOLITE.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> PHONOLITE_COBBLESTONE = BLOCKS.register("phonolite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> PHONOLITE_COBBLESTONE_SLAB = BLOCKS.register("phonolite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(PHONOLITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> PHONOLITE_COBBLESTONE_STAIRS = BLOCKS.register("phonolite_cobblestone_stairs", () -> new StrataStairsBlock(PHONOLITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(PHONOLITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> PHONOLITE_COBBLESTONE_WALL = BLOCKS.register("phonolite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(PHONOLITE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_PHONOLITE_COBBLESTONE = BLOCKS.register("mossy_phonolite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_PHONOLITE_COBBLESTONE_SLAB = BLOCKS.register("mossy_phonolite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_PHONOLITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_PHONOLITE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_phonolite_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_PHONOLITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_PHONOLITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_PHONOLITE_COBBLESTONE_WALL = BLOCKS.register("mossy_phonolite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_PHONOLITE_COBBLESTONE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> PHONOLITE_BUTTON = BLOCKS.register("phonolite_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> PHONOLITE_PRESSURE_PLATE = BLOCKS.register("phonolite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Bricks
+        public static final RegistryObject<Block> PHONOLITE_BRICKS = BLOCKS.register("phonolite_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> PHONOLITE_BRICK_SLAB = BLOCKS.register("phonolite_brick_slab", () -> new SlabBlock(Block.Properties.from(PHONOLITE_BRICKS.get())));
+        public static final RegistryObject<Block> PHONOLITE_BRICK_STAIRS = BLOCKS.register("phonolite_brick_stairs", () -> new StrataStairsBlock(PHONOLITE_BRICKS.get().getDefaultState(), Block.Properties.from(PHONOLITE_BRICKS.get())));
+        public static final RegistryObject<Block> PHONOLITE_BRICK_WALL = BLOCKS.register("phonolite_brick_wall", () -> new WallBlock(Block.Properties.from(PHONOLITE_BRICKS.get())));
+        public static final RegistryObject<Block> CHISELED_PHONOLITE_BRICKS = BLOCKS.register("chiseled_phonolite_bricks", () -> new Block(Block.Properties.from(PHONOLITE_BRICKS.get())));
+        public static final RegistryObject<Block> CRACKED_PHONOLITE_BRICKS = BLOCKS.register("cracked_phonolite_bricks", () -> new Block(Block.Properties.from(PHONOLITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_PHONOLITE_BRICKS = BLOCKS.register("mossy_phonolite_bricks", () -> new Block(Block.Properties.from(PHONOLITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_PHONOLITE_BRICK_SLAB = BLOCKS.register("mossy_phonolite_brick_slab", () -> new SlabBlock(Block.Properties.from(PHONOLITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_PHONOLITE_BRICK_STAIRS = BLOCKS.register("mossy_phonolite_brick_stairs", () -> new StrataStairsBlock(PHONOLITE_BRICKS.get().getDefaultState(), Block.Properties.from(PHONOLITE.get())));
+        public static final RegistryObject<Block> MOSSY_PHONOLITE_BRICK_WALL = BLOCKS.register("mossy_phonolite_brick_wall", () -> new WallBlock(Block.Properties.from(PHONOLITE_BRICKS.get())));
+
+        //Polished
+        public static final RegistryObject<Block> POLISHED_PHONOLITE = BLOCKS.register("polished_phonolite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_PHONOLITE_SLAB = BLOCKS.register("polished_phonolite_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_PHONOLITE.get())));
+        public static final RegistryObject<Block> POLISHED_PHONOLITE_STAIRS = BLOCKS.register("polished_phonolite_stairs", () -> new StrataStairsBlock(POLISHED_PHONOLITE.get().getDefaultState(), Block.Properties.from(POLISHED_PHONOLITE.get())));
 
         /*Metamorphic Rocks*/
 
@@ -274,6 +479,47 @@ public class BlockList
         public static final RegistryObject<Block> POLISHED_AMPHIBOLITE = BLOCKS.register("polished_amphibolite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
         public static final RegistryObject<Block> POLISHED_AMPHIBOLITE_SLAB = BLOCKS.register("polished_amphibolite_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_AMPHIBOLITE.get())));
         public static final RegistryObject<Block> POLISHED_AMPHIBOLITE_STAIRS = BLOCKS.register("polished_amphibolite_stairs", () -> new StrataStairsBlock(POLISHED_AMPHIBOLITE.get().getDefaultState(), Block.Properties.from(POLISHED_AMPHIBOLITE.get())));
+
+        //Cataclasite
+        public static final RegistryObject<Block> CATACLASITE = BLOCKS.register("cataclasite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> CATACLASITE_SLAB = BLOCKS.register("cataclasite_slab", () -> new SlabBlock(Block.Properties.from(CATACLASITE.get())));
+        public static final RegistryObject<Block> CATACLASITE_STAIRS = BLOCKS.register("cataclasite_stairs", () -> new StrataStairsBlock(CATACLASITE.get().getDefaultState(), Block.Properties.from(CATACLASITE.get())));
+        public static final RegistryObject<Block> CATACLASITE_WALL = BLOCKS.register("cataclasite_wall", () -> new WallBlock(Block.Properties.from(CATACLASITE.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> CATACLASITE_COBBLESTONE = BLOCKS.register("cataclasite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> CATACLASITE_COBBLESTONE_SLAB = BLOCKS.register("cataclasite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(CATACLASITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> CATACLASITE_COBBLESTONE_STAIRS = BLOCKS.register("cataclasite_cobblestone_stairs", () -> new StrataStairsBlock(CATACLASITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(CATACLASITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> CATACLASITE_COBBLESTONE_WALL = BLOCKS.register("cataclasite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(CATACLASITE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_CATACLASITE_COBBLESTONE = BLOCKS.register("mossy_cataclasite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_CATACLASITE_COBBLESTONE_SLAB = BLOCKS.register("mossy_cataclasite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_CATACLASITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_CATACLASITE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_cataclasite_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_CATACLASITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_CATACLASITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_CATACLASITE_COBBLESTONE_WALL = BLOCKS.register("mossy_cataclasite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_CATACLASITE_COBBLESTONE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> CATACLASITE_BUTTON = BLOCKS.register("cataclasite_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> CATACLASITE_PRESSURE_PLATE = BLOCKS.register("cataclasite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Bricks
+        public static final RegistryObject<Block> CATACLASITE_BRICKS = BLOCKS.register("cataclasite_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> CATACLASITE_BRICK_SLAB = BLOCKS.register("cataclasite_brick_slab", () -> new SlabBlock(Block.Properties.from(CATACLASITE_BRICKS.get())));
+        public static final RegistryObject<Block> CATACLASITE_BRICK_STAIRS = BLOCKS.register("cataclasite_brick_stairs", () -> new StrataStairsBlock(CATACLASITE_BRICKS.get().getDefaultState(), Block.Properties.from(CATACLASITE_BRICKS.get())));
+        public static final RegistryObject<Block> CATACLASITE_BRICK_WALL = BLOCKS.register("cataclasite_brick_wall", () -> new WallBlock(Block.Properties.from(CATACLASITE_BRICKS.get())));
+        public static final RegistryObject<Block> CHISELED_CATACLASITE_BRICKS = BLOCKS.register("chiseled_cataclasite_bricks", () -> new Block(Block.Properties.from(CATACLASITE_BRICKS.get())));
+        public static final RegistryObject<Block> CRACKED_CATACLASITE_BRICKS = BLOCKS.register("cracked_cataclasite_bricks", () -> new Block(Block.Properties.from(CATACLASITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_CATACLASITE_BRICKS = BLOCKS.register("mossy_cataclasite_bricks", () -> new Block(Block.Properties.from(CATACLASITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_CATACLASITE_BRICK_SLAB = BLOCKS.register("mossy_cataclasite_brick_slab", () -> new SlabBlock(Block.Properties.from(CATACLASITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_CATACLASITE_BRICK_STAIRS = BLOCKS.register("mossy_cataclasite_brick_stairs", () -> new StrataStairsBlock(CATACLASITE_BRICKS.get().getDefaultState(), Block.Properties.from(CATACLASITE.get())));
+        public static final RegistryObject<Block> MOSSY_CATACLASITE_BRICK_WALL = BLOCKS.register("mossy_cataclasite_brick_wall", () -> new WallBlock(Block.Properties.from(CATACLASITE_BRICKS.get())));
+
+        //Polished
+        public static final RegistryObject<Block> POLISHED_CATACLASITE = BLOCKS.register("polished_cataclasite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_CATACLASITE_SLAB = BLOCKS.register("polished_cataclasite_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_CATACLASITE.get())));
+        public static final RegistryObject<Block> POLISHED_CATACLASITE_STAIRS = BLOCKS.register("polished_cataclasite_stairs", () -> new StrataStairsBlock(POLISHED_CATACLASITE.get().getDefaultState(), Block.Properties.from(POLISHED_CATACLASITE.get())));
 
         //Eclogite
         public static final RegistryObject<Block> ECLOGITE = BLOCKS.register("eclogite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
@@ -398,6 +644,47 @@ public class BlockList
         public static final RegistryObject<Block> POLISHED_MARBLE_SLAB = BLOCKS.register("polished_marble_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_MARBLE.get())));
         public static final RegistryObject<Block> POLISHED_MARBLE_STAIRS = BLOCKS.register("polished_marble_stairs", () -> new StrataStairsBlock(POLISHED_MARBLE.get().getDefaultState(), Block.Properties.from(POLISHED_MARBLE.get())));
 
+        //Migmatite
+        public static final RegistryObject<Block> MIGMATITE = BLOCKS.register("migmatite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MIGMATITE_SLAB = BLOCKS.register("migmatite_slab", () -> new SlabBlock(Block.Properties.from(MIGMATITE.get())));
+        public static final RegistryObject<Block> MIGMATITE_STAIRS = BLOCKS.register("migmatite_stairs", () -> new StrataStairsBlock(MIGMATITE.get().getDefaultState(), Block.Properties.from(MIGMATITE.get())));
+        public static final RegistryObject<Block> MIGMATITE_WALL = BLOCKS.register("migmatite_wall", () -> new WallBlock(Block.Properties.from(MIGMATITE.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> MIGMATITE_COBBLESTONE = BLOCKS.register("migmatite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MIGMATITE_COBBLESTONE_SLAB = BLOCKS.register("migmatite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MIGMATITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MIGMATITE_COBBLESTONE_STAIRS = BLOCKS.register("migmatite_cobblestone_stairs", () -> new StrataStairsBlock(MIGMATITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MIGMATITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MIGMATITE_COBBLESTONE_WALL = BLOCKS.register("migmatite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MIGMATITE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_MIGMATITE_COBBLESTONE = BLOCKS.register("mossy_migmatite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_MIGMATITE_COBBLESTONE_SLAB = BLOCKS.register("mossy_migmatite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_MIGMATITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_MIGMATITE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_migmatite_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_MIGMATITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_MIGMATITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_MIGMATITE_COBBLESTONE_WALL = BLOCKS.register("mossy_migmatite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_MIGMATITE_COBBLESTONE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> MIGMATITE_BUTTON = BLOCKS.register("migmatite_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> MIGMATITE_PRESSURE_PLATE = BLOCKS.register("migmatite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Bricks
+        public static final RegistryObject<Block> MIGMATITE_BRICKS = BLOCKS.register("migmatite_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MIGMATITE_BRICK_SLAB = BLOCKS.register("migmatite_brick_slab", () -> new SlabBlock(Block.Properties.from(MIGMATITE_BRICKS.get())));
+        public static final RegistryObject<Block> MIGMATITE_BRICK_STAIRS = BLOCKS.register("migmatite_brick_stairs", () -> new StrataStairsBlock(MIGMATITE_BRICKS.get().getDefaultState(), Block.Properties.from(MIGMATITE_BRICKS.get())));
+        public static final RegistryObject<Block> MIGMATITE_BRICK_WALL = BLOCKS.register("migmatite_brick_wall", () -> new WallBlock(Block.Properties.from(MIGMATITE_BRICKS.get())));
+        public static final RegistryObject<Block> CHISELED_MIGMATITE_BRICKS = BLOCKS.register("chiseled_migmatite_bricks", () -> new Block(Block.Properties.from(MIGMATITE_BRICKS.get())));
+        public static final RegistryObject<Block> CRACKED_MIGMATITE_BRICKS = BLOCKS.register("cracked_migmatite_bricks", () -> new Block(Block.Properties.from(MIGMATITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_MIGMATITE_BRICKS = BLOCKS.register("mossy_migmatite_bricks", () -> new Block(Block.Properties.from(MIGMATITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_MIGMATITE_BRICK_SLAB = BLOCKS.register("mossy_migmatite_brick_slab", () -> new SlabBlock(Block.Properties.from(MIGMATITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_MIGMATITE_BRICK_STAIRS = BLOCKS.register("mossy_migmatite_brick_stairs", () -> new StrataStairsBlock(MIGMATITE_BRICKS.get().getDefaultState(), Block.Properties.from(MIGMATITE.get())));
+        public static final RegistryObject<Block> MOSSY_MIGMATITE_BRICK_WALL = BLOCKS.register("mossy_migmatite_brick_wall", () -> new WallBlock(Block.Properties.from(MIGMATITE_BRICKS.get())));
+
+        //Polished
+        public static final RegistryObject<Block> POLISHED_MIGMATITE = BLOCKS.register("polished_migmatite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_MIGMATITE_SLAB = BLOCKS.register("polished_migmatite_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_MIGMATITE.get())));
+        public static final RegistryObject<Block> POLISHED_MIGMATITE_STAIRS = BLOCKS.register("polished_migmatite_stairs", () -> new StrataStairsBlock(POLISHED_MIGMATITE.get().getDefaultState(), Block.Properties.from(POLISHED_MIGMATITE.get())));
+
         //Schist
         public static final RegistryObject<Block> SCHIST = BLOCKS.register("schist", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
         public static final RegistryObject<Block> SCHIST_SLAB = BLOCKS.register("schist_slab", () -> new SlabBlock(Block.Properties.from(SCHIST.get())));
@@ -438,6 +725,129 @@ public class BlockList
         public static final RegistryObject<Block> POLISHED_SCHIST = BLOCKS.register("polished_schist", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
         public static final RegistryObject<Block> POLISHED_SCHIST_SLAB = BLOCKS.register("polished_schist_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_SCHIST.get())));
         public static final RegistryObject<Block> POLISHED_SCHIST_STAIRS = BLOCKS.register("polished_schist_stairs", () -> new StrataStairsBlock(POLISHED_SCHIST.get().getDefaultState(), Block.Properties.from(POLISHED_SCHIST.get())));
+
+        //Slate
+        public static final RegistryObject<Block> SLATE = BLOCKS.register("slate", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> SLATE_SLAB = BLOCKS.register("slate_slab", () -> new SlabBlock(Block.Properties.from(SLATE.get())));
+        public static final RegistryObject<Block> SLATE_STAIRS = BLOCKS.register("slate_stairs", () -> new StrataStairsBlock(SLATE.get().getDefaultState(), Block.Properties.from(SLATE.get())));
+        public static final RegistryObject<Block> SLATE_WALL = BLOCKS.register("slate_wall", () -> new WallBlock(Block.Properties.from(SLATE.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> SLATE_COBBLESTONE = BLOCKS.register("slate_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> SLATE_COBBLESTONE_SLAB = BLOCKS.register("slate_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(SLATE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> SLATE_COBBLESTONE_STAIRS = BLOCKS.register("slate_cobblestone_stairs", () -> new StrataStairsBlock(SLATE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(SLATE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> SLATE_COBBLESTONE_WALL = BLOCKS.register("slate_cobblestone_wall", () -> new WallBlock(Block.Properties.from(SLATE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_SLATE_COBBLESTONE = BLOCKS.register("mossy_slate_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_SLATE_COBBLESTONE_SLAB = BLOCKS.register("mossy_slate_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_SLATE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_SLATE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_slate_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_SLATE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_SLATE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_SLATE_COBBLESTONE_WALL = BLOCKS.register("mossy_slate_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_SLATE_COBBLESTONE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> SLATE_BUTTON = BLOCKS.register("slate_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> SLATE_PRESSURE_PLATE = BLOCKS.register("slate_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Bricks
+        public static final RegistryObject<Block> SLATE_BRICKS = BLOCKS.register("slate_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> SLATE_BRICK_SLAB = BLOCKS.register("slate_brick_slab", () -> new SlabBlock(Block.Properties.from(SLATE_BRICKS.get())));
+        public static final RegistryObject<Block> SLATE_BRICK_STAIRS = BLOCKS.register("slate_brick_stairs", () -> new StrataStairsBlock(SLATE_BRICKS.get().getDefaultState(), Block.Properties.from(SLATE_BRICKS.get())));
+        public static final RegistryObject<Block> SLATE_BRICK_WALL = BLOCKS.register("slate_brick_wall", () -> new WallBlock(Block.Properties.from(SLATE_BRICKS.get())));
+        public static final RegistryObject<Block> CHISELED_SLATE_BRICKS = BLOCKS.register("chiseled_slate_bricks", () -> new Block(Block.Properties.from(SLATE_BRICKS.get())));
+        public static final RegistryObject<Block> CRACKED_SLATE_BRICKS = BLOCKS.register("cracked_slate_bricks", () -> new Block(Block.Properties.from(SLATE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_SLATE_BRICKS = BLOCKS.register("mossy_slate_bricks", () -> new Block(Block.Properties.from(SLATE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_SLATE_BRICK_SLAB = BLOCKS.register("mossy_slate_brick_slab", () -> new SlabBlock(Block.Properties.from(SLATE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_SLATE_BRICK_STAIRS = BLOCKS.register("mossy_slate_brick_stairs", () -> new StrataStairsBlock(SLATE_BRICKS.get().getDefaultState(), Block.Properties.from(SLATE.get())));
+        public static final RegistryObject<Block> MOSSY_SLATE_BRICK_WALL = BLOCKS.register("mossy_slate_brick_wall", () -> new WallBlock(Block.Properties.from(SLATE_BRICKS.get())));
+
+        //Polished
+        public static final RegistryObject<Block> POLISHED_SLATE = BLOCKS.register("polished_slate", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_SLATE_SLAB = BLOCKS.register("polished_slate_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_SLATE.get())));
+        public static final RegistryObject<Block> POLISHED_SLATE_STAIRS = BLOCKS.register("polished_slate_stairs", () -> new StrataStairsBlock(POLISHED_SLATE.get().getDefaultState(), Block.Properties.from(POLISHED_SLATE.get())));
+
+        //Soapstone
+        public static final RegistryObject<Block> SOAPSTONE = BLOCKS.register("soapstone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> SOAPSTONE_SLAB = BLOCKS.register("soapstone_slab", () -> new SlabBlock(Block.Properties.from(SOAPSTONE.get())));
+        public static final RegistryObject<Block> SOAPSTONE_STAIRS = BLOCKS.register("soapstone_stairs", () -> new StrataStairsBlock(SOAPSTONE.get().getDefaultState(), Block.Properties.from(SOAPSTONE.get())));
+        public static final RegistryObject<Block> SOAPSTONE_WALL = BLOCKS.register("soapstone_wall", () -> new WallBlock(Block.Properties.from(SOAPSTONE.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> SOAPSTONE_COBBLESTONE = BLOCKS.register("soapstone_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> SOAPSTONE_COBBLESTONE_SLAB = BLOCKS.register("soapstone_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(SOAPSTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> SOAPSTONE_COBBLESTONE_STAIRS = BLOCKS.register("soapstone_cobblestone_stairs", () -> new StrataStairsBlock(SOAPSTONE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(SOAPSTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> SOAPSTONE_COBBLESTONE_WALL = BLOCKS.register("soapstone_cobblestone_wall", () -> new WallBlock(Block.Properties.from(SOAPSTONE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_SOAPSTONE_COBBLESTONE = BLOCKS.register("mossy_soapstone_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_SOAPSTONE_COBBLESTONE_SLAB = BLOCKS.register("mossy_soapstone_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_SOAPSTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_SOAPSTONE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_soapstone_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_SOAPSTONE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_SOAPSTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_SOAPSTONE_COBBLESTONE_WALL = BLOCKS.register("mossy_soapstone_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_SOAPSTONE_COBBLESTONE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> SOAPSTONE_BUTTON = BLOCKS.register("soapstone_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> SOAPSTONE_PRESSURE_PLATE = BLOCKS.register("soapstone_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Bricks
+        public static final RegistryObject<Block> SOAPSTONE_BRICKS = BLOCKS.register("soapstone_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> SOAPSTONE_BRICK_SLAB = BLOCKS.register("soapstone_brick_slab", () -> new SlabBlock(Block.Properties.from(SOAPSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> SOAPSTONE_BRICK_STAIRS = BLOCKS.register("soapstone_brick_stairs", () -> new StrataStairsBlock(SOAPSTONE_BRICKS.get().getDefaultState(), Block.Properties.from(SOAPSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> SOAPSTONE_BRICK_WALL = BLOCKS.register("soapstone_brick_wall", () -> new WallBlock(Block.Properties.from(SOAPSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> CHISELED_SOAPSTONE_BRICKS = BLOCKS.register("chiseled_soapstone_bricks", () -> new Block(Block.Properties.from(SOAPSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> CRACKED_SOAPSTONE_BRICKS = BLOCKS.register("cracked_soapstone_bricks", () -> new Block(Block.Properties.from(SOAPSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_SOAPSTONE_BRICKS = BLOCKS.register("mossy_soapstone_bricks", () -> new Block(Block.Properties.from(SOAPSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_SOAPSTONE_BRICK_SLAB = BLOCKS.register("mossy_soapstone_brick_slab", () -> new SlabBlock(Block.Properties.from(SOAPSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_SOAPSTONE_BRICK_STAIRS = BLOCKS.register("mossy_soapstone_brick_stairs", () -> new StrataStairsBlock(SOAPSTONE_BRICKS.get().getDefaultState(), Block.Properties.from(SOAPSTONE.get())));
+        public static final RegistryObject<Block> MOSSY_SOAPSTONE_BRICK_WALL = BLOCKS.register("mossy_soapstone_brick_wall", () -> new WallBlock(Block.Properties.from(SOAPSTONE_BRICKS.get())));
+
+        //Polished
+        public static final RegistryObject<Block> POLISHED_SOAPSTONE = BLOCKS.register("polished_soapstone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_SOAPSTONE_SLAB = BLOCKS.register("polished_soapstone_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_SOAPSTONE.get())));
+        public static final RegistryObject<Block> POLISHED_SOAPSTONE_STAIRS = BLOCKS.register("polished_soapstone_stairs", () -> new StrataStairsBlock(POLISHED_SOAPSTONE.get().getDefaultState(), Block.Properties.from(POLISHED_SOAPSTONE.get())));
+
+        //Phyllite
+        public static final RegistryObject<Block> PHYLLITE = BLOCKS.register("phyllite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> PHYLLITE_SLAB = BLOCKS.register("phyllite_slab", () -> new SlabBlock(Block.Properties.from(PHYLLITE.get())));
+        public static final RegistryObject<Block> PHYLLITE_STAIRS = BLOCKS.register("phyllite_stairs", () -> new StrataStairsBlock(PHYLLITE.get().getDefaultState(), Block.Properties.from(PHYLLITE.get())));
+        public static final RegistryObject<Block> PHYLLITE_WALL = BLOCKS.register("phyllite_wall", () -> new WallBlock(Block.Properties.from(PHYLLITE.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> PHYLLITE_COBBLESTONE = BLOCKS.register("phyllite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> PHYLLITE_COBBLESTONE_SLAB = BLOCKS.register("phyllite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(PHYLLITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> PHYLLITE_COBBLESTONE_STAIRS = BLOCKS.register("phyllite_cobblestone_stairs", () -> new StrataStairsBlock(PHYLLITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(PHYLLITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> PHYLLITE_COBBLESTONE_WALL = BLOCKS.register("phyllite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(PHYLLITE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_PHYLLITE_COBBLESTONE = BLOCKS.register("mossy_phyllite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_PHYLLITE_COBBLESTONE_SLAB = BLOCKS.register("mossy_phyllite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_PHYLLITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_PHYLLITE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_phyllite_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_PHYLLITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_PHYLLITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_PHYLLITE_COBBLESTONE_WALL = BLOCKS.register("mossy_phyllite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_PHYLLITE_COBBLESTONE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> PHYLLITE_BUTTON = BLOCKS.register("phyllite_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> PHYLLITE_PRESSURE_PLATE = BLOCKS.register("phyllite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Bricks
+        public static final RegistryObject<Block> PHYLLITE_BRICKS = BLOCKS.register("phyllite_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> PHYLLITE_BRICK_SLAB = BLOCKS.register("phyllite_brick_slab", () -> new SlabBlock(Block.Properties.from(PHYLLITE_BRICKS.get())));
+        public static final RegistryObject<Block> PHYLLITE_BRICK_STAIRS = BLOCKS.register("phyllite_brick_stairs", () -> new StrataStairsBlock(PHYLLITE_BRICKS.get().getDefaultState(), Block.Properties.from(PHYLLITE_BRICKS.get())));
+        public static final RegistryObject<Block> PHYLLITE_BRICK_WALL = BLOCKS.register("phyllite_brick_wall", () -> new WallBlock(Block.Properties.from(PHYLLITE_BRICKS.get())));
+        public static final RegistryObject<Block> CHISELED_PHYLLITE_BRICKS = BLOCKS.register("chiseled_phyllite_bricks", () -> new Block(Block.Properties.from(PHYLLITE_BRICKS.get())));
+        public static final RegistryObject<Block> CRACKED_PHYLLITE_BRICKS = BLOCKS.register("cracked_phyllite_bricks", () -> new Block(Block.Properties.from(PHYLLITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_PHYLLITE_BRICKS = BLOCKS.register("mossy_phyllite_bricks", () -> new Block(Block.Properties.from(PHYLLITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_PHYLLITE_BRICK_SLAB = BLOCKS.register("mossy_phyllite_brick_slab", () -> new SlabBlock(Block.Properties.from(PHYLLITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_PHYLLITE_BRICK_STAIRS = BLOCKS.register("mossy_phyllite_brick_stairs", () -> new StrataStairsBlock(PHYLLITE_BRICKS.get().getDefaultState(), Block.Properties.from(PHYLLITE.get())));
+        public static final RegistryObject<Block> MOSSY_PHYLLITE_BRICK_WALL = BLOCKS.register("mossy_phyllite_brick_wall", () -> new WallBlock(Block.Properties.from(PHYLLITE_BRICKS.get())));
+
+        //Polished
+        public static final RegistryObject<Block> POLISHED_PHYLLITE = BLOCKS.register("polished_phyllite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_PHYLLITE_SLAB = BLOCKS.register("polished_phyllite_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_PHYLLITE.get())));
+        public static final RegistryObject<Block> POLISHED_PHYLLITE_STAIRS = BLOCKS.register("polished_phyllite_stairs", () -> new StrataStairsBlock(POLISHED_PHYLLITE.get().getDefaultState(), Block.Properties.from(POLISHED_PHYLLITE.get())));
 
         /*Sedimentary Rocks*/
 
@@ -482,20 +892,102 @@ public class BlockList
         public static final RegistryObject<Block> POLISHED_ARGILLITE_SLAB = BLOCKS.register("polished_argillite_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_ARGILLITE.get())));
         public static final RegistryObject<Block> POLISHED_ARGILLITE_STAIRS = BLOCKS.register("polished_argillite_stairs", () -> new StrataStairsBlock(POLISHED_ARGILLITE.get().getDefaultState(), Block.Properties.from(POLISHED_ARGILLITE.get())));
 
+        //Arkose
+        public static final RegistryObject<Block> ARKOSE = BLOCKS.register("arkose", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> ARKOSE_SLAB = BLOCKS.register("arkose_slab", () -> new SlabBlock(Block.Properties.from(ARKOSE.get())));
+        public static final RegistryObject<Block> ARKOSE_STAIRS = BLOCKS.register("arkose_stairs", () -> new StrataStairsBlock(ARKOSE.get().getDefaultState(), Block.Properties.from(ARKOSE.get())));
+        public static final RegistryObject<Block> ARKOSE_WALL = BLOCKS.register("arkose_wall", () -> new WallBlock(Block.Properties.from(ARKOSE.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> ARKOSE_COBBLESTONE = BLOCKS.register("arkose_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> ARKOSE_COBBLESTONE_SLAB = BLOCKS.register("arkose_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(ARKOSE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> ARKOSE_COBBLESTONE_STAIRS = BLOCKS.register("arkose_cobblestone_stairs", () -> new StrataStairsBlock(ARKOSE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(ARKOSE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> ARKOSE_COBBLESTONE_WALL = BLOCKS.register("arkose_cobblestone_wall", () -> new WallBlock(Block.Properties.from(ARKOSE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_ARKOSE_COBBLESTONE = BLOCKS.register("mossy_arkose_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_ARKOSE_COBBLESTONE_SLAB = BLOCKS.register("mossy_arkose_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_ARKOSE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_ARKOSE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_arkose_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_ARKOSE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_ARKOSE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_ARKOSE_COBBLESTONE_WALL = BLOCKS.register("mossy_arkose_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_ARKOSE_COBBLESTONE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> ARKOSE_BUTTON = BLOCKS.register("arkose_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> ARKOSE_PRESSURE_PLATE = BLOCKS.register("arkose_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Bricks
+        public static final RegistryObject<Block> ARKOSE_BRICKS = BLOCKS.register("arkose_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> ARKOSE_BRICK_SLAB = BLOCKS.register("arkose_brick_slab", () -> new SlabBlock(Block.Properties.from(ARKOSE_BRICKS.get())));
+        public static final RegistryObject<Block> ARKOSE_BRICK_STAIRS = BLOCKS.register("arkose_brick_stairs", () -> new StrataStairsBlock(ARKOSE_BRICKS.get().getDefaultState(), Block.Properties.from(ARKOSE_BRICKS.get())));
+        public static final RegistryObject<Block> ARKOSE_BRICK_WALL = BLOCKS.register("arkose_brick_wall", () -> new WallBlock(Block.Properties.from(ARKOSE_BRICKS.get())));
+        public static final RegistryObject<Block> CHISELED_ARKOSE_BRICKS = BLOCKS.register("chiseled_arkose_bricks", () -> new Block(Block.Properties.from(ARKOSE_BRICKS.get())));
+        public static final RegistryObject<Block> CRACKED_ARKOSE_BRICKS = BLOCKS.register("cracked_arkose_bricks", () -> new Block(Block.Properties.from(ARKOSE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_ARKOSE_BRICKS = BLOCKS.register("mossy_arkose_bricks", () -> new Block(Block.Properties.from(ARKOSE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_ARKOSE_BRICK_SLAB = BLOCKS.register("mossy_arkose_brick_slab", () -> new SlabBlock(Block.Properties.from(ARKOSE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_ARKOSE_BRICK_STAIRS = BLOCKS.register("mossy_arkose_brick_stairs", () -> new StrataStairsBlock(ARKOSE_BRICKS.get().getDefaultState(), Block.Properties.from(ARKOSE.get())));
+        public static final RegistryObject<Block> MOSSY_ARKOSE_BRICK_WALL = BLOCKS.register("mossy_arkose_brick_wall", () -> new WallBlock(Block.Properties.from(ARKOSE_BRICKS.get())));
+
+        //Polished
+        public static final RegistryObject<Block> POLISHED_ARKOSE = BLOCKS.register("polished_arkose", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_ARKOSE_SLAB = BLOCKS.register("polished_arkose_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_ARKOSE.get())));
+        public static final RegistryObject<Block> POLISHED_ARKOSE_STAIRS = BLOCKS.register("polished_arkose_stairs", () -> new StrataStairsBlock(POLISHED_ARKOSE.get().getDefaultState(), Block.Properties.from(POLISHED_ARKOSE.get())));
+
+        //Breccia
+        public static final RegistryObject<Block> BRECCIA = BLOCKS.register("breccia", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> BRECCIA_SLAB = BLOCKS.register("breccia_slab", () -> new SlabBlock(Block.Properties.from(BRECCIA.get())));
+        public static final RegistryObject<Block> BRECCIA_STAIRS = BLOCKS.register("breccia_stairs", () -> new StrataStairsBlock(BRECCIA.get().getDefaultState(), Block.Properties.from(BRECCIA.get())));
+        public static final RegistryObject<Block> BRECCIA_WALL = BLOCKS.register("breccia_wall", () -> new WallBlock(Block.Properties.from(BRECCIA.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> BRECCIA_COBBLESTONE = BLOCKS.register("breccia_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> BRECCIA_COBBLESTONE_SLAB = BLOCKS.register("breccia_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(BRECCIA_COBBLESTONE.get())));
+        public static final RegistryObject<Block> BRECCIA_COBBLESTONE_STAIRS = BLOCKS.register("breccia_cobblestone_stairs", () -> new StrataStairsBlock(BRECCIA_COBBLESTONE.get().getDefaultState(), Block.Properties.from(BRECCIA_COBBLESTONE.get())));
+        public static final RegistryObject<Block> BRECCIA_COBBLESTONE_WALL = BLOCKS.register("breccia_cobblestone_wall", () -> new WallBlock(Block.Properties.from(BRECCIA_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_BRECCIA_COBBLESTONE = BLOCKS.register("mossy_breccia_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_BRECCIA_COBBLESTONE_SLAB = BLOCKS.register("mossy_breccia_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_BRECCIA_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_BRECCIA_COBBLESTONE_STAIRS = BLOCKS.register("mossy_breccia_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_BRECCIA_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_BRECCIA_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_BRECCIA_COBBLESTONE_WALL = BLOCKS.register("mossy_breccia_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_BRECCIA_COBBLESTONE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> BRECCIA_BUTTON = BLOCKS.register("breccia_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> BRECCIA_PRESSURE_PLATE = BLOCKS.register("breccia_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Bricks
+        public static final RegistryObject<Block> BRECCIA_BRICKS = BLOCKS.register("breccia_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> BRECCIA_BRICK_SLAB = BLOCKS.register("breccia_brick_slab", () -> new SlabBlock(Block.Properties.from(BRECCIA_BRICKS.get())));
+        public static final RegistryObject<Block> BRECCIA_BRICK_STAIRS = BLOCKS.register("breccia_brick_stairs", () -> new StrataStairsBlock(BRECCIA_BRICKS.get().getDefaultState(), Block.Properties.from(BRECCIA_BRICKS.get())));
+        public static final RegistryObject<Block> BRECCIA_BRICK_WALL = BLOCKS.register("breccia_brick_wall", () -> new WallBlock(Block.Properties.from(BRECCIA_BRICKS.get())));
+        public static final RegistryObject<Block> CHISELED_BRECCIA_BRICKS = BLOCKS.register("chiseled_breccia_bricks", () -> new Block(Block.Properties.from(BRECCIA_BRICKS.get())));
+        public static final RegistryObject<Block> CRACKED_BRECCIA_BRICKS = BLOCKS.register("cracked_breccia_bricks", () -> new Block(Block.Properties.from(BRECCIA_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_BRECCIA_BRICKS = BLOCKS.register("mossy_breccia_bricks", () -> new Block(Block.Properties.from(BRECCIA_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_BRECCIA_BRICK_SLAB = BLOCKS.register("mossy_breccia_brick_slab", () -> new SlabBlock(Block.Properties.from(BRECCIA_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_BRECCIA_BRICK_STAIRS = BLOCKS.register("mossy_breccia_brick_stairs", () -> new StrataStairsBlock(BRECCIA_BRICKS.get().getDefaultState(), Block.Properties.from(BRECCIA.get())));
+        public static final RegistryObject<Block> MOSSY_BRECCIA_BRICK_WALL = BLOCKS.register("mossy_breccia_brick_wall", () -> new WallBlock(Block.Properties.from(BRECCIA_BRICKS.get())));
+
+        //Polished
+        public static final RegistryObject<Block> POLISHED_BRECCIA = BLOCKS.register("polished_breccia", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_BRECCIA_SLAB = BLOCKS.register("polished_breccia_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_BRECCIA.get())));
+        public static final RegistryObject<Block> POLISHED_BRECCIA_STAIRS = BLOCKS.register("polished_breccia_stairs", () -> new StrataStairsBlock(POLISHED_BRECCIA.get().getDefaultState(), Block.Properties.from(POLISHED_BRECCIA.get())));
+
         //Chalk
-        public static final RegistryObject<Block> CHALK = BLOCKS.register("chalk", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> CHALK = BLOCKS.register("chalk", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(0.4f, 0.4f)));
         public static final RegistryObject<Block> CHALK_SLAB = BLOCKS.register("chalk_slab", () -> new SlabBlock(Block.Properties.from(CHALK.get())));
         public static final RegistryObject<Block> CHALK_STAIRS = BLOCKS.register("chalk_stairs", () -> new StrataStairsBlock(CHALK.get().getDefaultState(), Block.Properties.from(CHALK.get())));
         public static final RegistryObject<Block> CHALK_WALL = BLOCKS.register("chalk_wall", () -> new WallBlock(Block.Properties.from(CHALK.get())));
 
         //Cobblestone
-        public static final RegistryObject<Block> CHALK_COBBLESTONE = BLOCKS.register("chalk_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> CHALK_COBBLESTONE = BLOCKS.register("chalk_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.4f, 1.4f)));
         public static final RegistryObject<Block> CHALK_COBBLESTONE_SLAB = BLOCKS.register("chalk_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(CHALK_COBBLESTONE.get())));
         public static final RegistryObject<Block> CHALK_COBBLESTONE_STAIRS = BLOCKS.register("chalk_cobblestone_stairs", () -> new StrataStairsBlock(CHALK_COBBLESTONE.get().getDefaultState(), Block.Properties.from(CHALK_COBBLESTONE.get())));
         public static final RegistryObject<Block> CHALK_COBBLESTONE_WALL = BLOCKS.register("chalk_cobblestone_wall", () -> new WallBlock(Block.Properties.from(CHALK_COBBLESTONE.get())));
 
         //Mossy Cobblestone
-        public static final RegistryObject<Block> MOSSY_CHALK_COBBLESTONE = BLOCKS.register("mossy_chalk_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_CHALK_COBBLESTONE = BLOCKS.register("mossy_chalk_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.4f, 1.4f)));
         public static final RegistryObject<Block> MOSSY_CHALK_COBBLESTONE_SLAB = BLOCKS.register("mossy_chalk_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_CHALK_COBBLESTONE.get())));
         public static final RegistryObject<Block> MOSSY_CHALK_COBBLESTONE_STAIRS = BLOCKS.register("mossy_chalk_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_CHALK_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_CHALK_COBBLESTONE.get())));
         public static final RegistryObject<Block> MOSSY_CHALK_COBBLESTONE_WALL = BLOCKS.register("mossy_chalk_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_CHALK_COBBLESTONE.get())));
@@ -507,7 +999,7 @@ public class BlockList
         public static final RegistryObject<Block> CHALK_PRESSURE_PLATE = BLOCKS.register("chalk_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
 
         //Bricks
-        public static final RegistryObject<Block> CHALK_BRICKS = BLOCKS.register("chalk_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> CHALK_BRICKS = BLOCKS.register("chalk_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.4f, 1.4f)));
         public static final RegistryObject<Block> CHALK_BRICK_SLAB = BLOCKS.register("chalk_brick_slab", () -> new SlabBlock(Block.Properties.from(CHALK_BRICKS.get())));
         public static final RegistryObject<Block> CHALK_BRICK_STAIRS = BLOCKS.register("chalk_brick_stairs", () -> new StrataStairsBlock(CHALK_BRICKS.get().getDefaultState(), Block.Properties.from(CHALK_BRICKS.get())));
         public static final RegistryObject<Block> CHALK_BRICK_WALL = BLOCKS.register("chalk_brick_wall", () -> new WallBlock(Block.Properties.from(CHALK_BRICKS.get())));
@@ -519,9 +1011,91 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_CHALK_BRICK_WALL = BLOCKS.register("mossy_chalk_brick_wall", () -> new WallBlock(Block.Properties.from(CHALK_BRICKS.get())));
 
         //Polished
-        public static final RegistryObject<Block> POLISHED_CHALK = BLOCKS.register("polished_chalk", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_CHALK = BLOCKS.register("polished_chalk", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.4f, 1.4f)));
         public static final RegistryObject<Block> POLISHED_CHALK_SLAB = BLOCKS.register("polished_chalk_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_CHALK.get())));
         public static final RegistryObject<Block> POLISHED_CHALK_STAIRS = BLOCKS.register("polished_chalk_stairs", () -> new StrataStairsBlock(POLISHED_CHALK.get().getDefaultState(), Block.Properties.from(POLISHED_CHALK.get())));
+
+        //Claystone
+        public static final RegistryObject<Block> CLAYSTONE = BLOCKS.register("claystone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> CLAYSTONE_SLAB = BLOCKS.register("claystone_slab", () -> new SlabBlock(Block.Properties.from(CLAYSTONE.get())));
+        public static final RegistryObject<Block> CLAYSTONE_STAIRS = BLOCKS.register("claystone_stairs", () -> new StrataStairsBlock(CLAYSTONE.get().getDefaultState(), Block.Properties.from(CLAYSTONE.get())));
+        public static final RegistryObject<Block> CLAYSTONE_WALL = BLOCKS.register("claystone_wall", () -> new WallBlock(Block.Properties.from(CLAYSTONE.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> CLAYSTONE_COBBLESTONE = BLOCKS.register("claystone_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> CLAYSTONE_COBBLESTONE_SLAB = BLOCKS.register("claystone_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(CLAYSTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> CLAYSTONE_COBBLESTONE_STAIRS = BLOCKS.register("claystone_cobblestone_stairs", () -> new StrataStairsBlock(CLAYSTONE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(CLAYSTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> CLAYSTONE_COBBLESTONE_WALL = BLOCKS.register("claystone_cobblestone_wall", () -> new WallBlock(Block.Properties.from(CLAYSTONE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_CLAYSTONE_COBBLESTONE = BLOCKS.register("mossy_claystone_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_CLAYSTONE_COBBLESTONE_SLAB = BLOCKS.register("mossy_claystone_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_CLAYSTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_CLAYSTONE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_claystone_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_CLAYSTONE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_CLAYSTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_CLAYSTONE_COBBLESTONE_WALL = BLOCKS.register("mossy_claystone_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_CLAYSTONE_COBBLESTONE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> CLAYSTONE_BUTTON = BLOCKS.register("claystone_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> CLAYSTONE_PRESSURE_PLATE = BLOCKS.register("claystone_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Bricks
+        public static final RegistryObject<Block> CLAYSTONE_BRICKS = BLOCKS.register("claystone_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> CLAYSTONE_BRICK_SLAB = BLOCKS.register("claystone_brick_slab", () -> new SlabBlock(Block.Properties.from(CLAYSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> CLAYSTONE_BRICK_STAIRS = BLOCKS.register("claystone_brick_stairs", () -> new StrataStairsBlock(CLAYSTONE_BRICKS.get().getDefaultState(), Block.Properties.from(CLAYSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> CLAYSTONE_BRICK_WALL = BLOCKS.register("claystone_brick_wall", () -> new WallBlock(Block.Properties.from(CLAYSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> CHISELED_CLAYSTONE_BRICKS = BLOCKS.register("chiseled_claystone_bricks", () -> new Block(Block.Properties.from(CLAYSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> CRACKED_CLAYSTONE_BRICKS = BLOCKS.register("cracked_claystone_bricks", () -> new Block(Block.Properties.from(CLAYSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_CLAYSTONE_BRICKS = BLOCKS.register("mossy_claystone_bricks", () -> new Block(Block.Properties.from(CLAYSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_CLAYSTONE_BRICK_SLAB = BLOCKS.register("mossy_claystone_brick_slab", () -> new SlabBlock(Block.Properties.from(CLAYSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_CLAYSTONE_BRICK_STAIRS = BLOCKS.register("mossy_claystone_brick_stairs", () -> new StrataStairsBlock(CLAYSTONE_BRICKS.get().getDefaultState(), Block.Properties.from(CLAYSTONE.get())));
+        public static final RegistryObject<Block> MOSSY_CLAYSTONE_BRICK_WALL = BLOCKS.register("mossy_claystone_brick_wall", () -> new WallBlock(Block.Properties.from(CLAYSTONE_BRICKS.get())));
+
+        //Polished
+        public static final RegistryObject<Block> POLISHED_CLAYSTONE = BLOCKS.register("polished_claystone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_CLAYSTONE_SLAB = BLOCKS.register("polished_claystone_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_CLAYSTONE.get())));
+        public static final RegistryObject<Block> POLISHED_CLAYSTONE_STAIRS = BLOCKS.register("polished_claystone_stairs", () -> new StrataStairsBlock(POLISHED_CLAYSTONE.get().getDefaultState(), Block.Properties.from(POLISHED_CLAYSTONE.get())));
+
+        //Dolomite
+        public static final RegistryObject<Block> DOLOMITE = BLOCKS.register("dolomite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> DOLOMITE_SLAB = BLOCKS.register("dolomite_slab", () -> new SlabBlock(Block.Properties.from(DOLOMITE.get())));
+        public static final RegistryObject<Block> DOLOMITE_STAIRS = BLOCKS.register("dolomite_stairs", () -> new StrataStairsBlock(DOLOMITE.get().getDefaultState(), Block.Properties.from(DOLOMITE.get())));
+        public static final RegistryObject<Block> DOLOMITE_WALL = BLOCKS.register("dolomite_wall", () -> new WallBlock(Block.Properties.from(DOLOMITE.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> DOLOMITE_COBBLESTONE = BLOCKS.register("dolomite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> DOLOMITE_COBBLESTONE_SLAB = BLOCKS.register("dolomite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(DOLOMITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> DOLOMITE_COBBLESTONE_STAIRS = BLOCKS.register("dolomite_cobblestone_stairs", () -> new StrataStairsBlock(DOLOMITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(DOLOMITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> DOLOMITE_COBBLESTONE_WALL = BLOCKS.register("dolomite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(DOLOMITE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_DOLOMITE_COBBLESTONE = BLOCKS.register("mossy_dolomite_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_DOLOMITE_COBBLESTONE_SLAB = BLOCKS.register("mossy_dolomite_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_DOLOMITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_DOLOMITE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_dolomite_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_DOLOMITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_DOLOMITE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_DOLOMITE_COBBLESTONE_WALL = BLOCKS.register("mossy_dolomite_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_DOLOMITE_COBBLESTONE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> DOLOMITE_BUTTON = BLOCKS.register("dolomite_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> DOLOMITE_PRESSURE_PLATE = BLOCKS.register("dolomite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Bricks
+        public static final RegistryObject<Block> DOLOMITE_BRICKS = BLOCKS.register("dolomite_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> DOLOMITE_BRICK_SLAB = BLOCKS.register("dolomite_brick_slab", () -> new SlabBlock(Block.Properties.from(DOLOMITE_BRICKS.get())));
+        public static final RegistryObject<Block> DOLOMITE_BRICK_STAIRS = BLOCKS.register("dolomite_brick_stairs", () -> new StrataStairsBlock(DOLOMITE_BRICKS.get().getDefaultState(), Block.Properties.from(DOLOMITE_BRICKS.get())));
+        public static final RegistryObject<Block> DOLOMITE_BRICK_WALL = BLOCKS.register("dolomite_brick_wall", () -> new WallBlock(Block.Properties.from(DOLOMITE_BRICKS.get())));
+        public static final RegistryObject<Block> CHISELED_DOLOMITE_BRICKS = BLOCKS.register("chiseled_dolomite_bricks", () -> new Block(Block.Properties.from(DOLOMITE_BRICKS.get())));
+        public static final RegistryObject<Block> CRACKED_DOLOMITE_BRICKS = BLOCKS.register("cracked_dolomite_bricks", () -> new Block(Block.Properties.from(DOLOMITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_DOLOMITE_BRICKS = BLOCKS.register("mossy_dolomite_bricks", () -> new Block(Block.Properties.from(DOLOMITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_DOLOMITE_BRICK_SLAB = BLOCKS.register("mossy_dolomite_brick_slab", () -> new SlabBlock(Block.Properties.from(DOLOMITE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_DOLOMITE_BRICK_STAIRS = BLOCKS.register("mossy_dolomite_brick_stairs", () -> new StrataStairsBlock(DOLOMITE_BRICKS.get().getDefaultState(), Block.Properties.from(DOLOMITE.get())));
+        public static final RegistryObject<Block> MOSSY_DOLOMITE_BRICK_WALL = BLOCKS.register("mossy_dolomite_brick_wall", () -> new WallBlock(Block.Properties.from(DOLOMITE_BRICKS.get())));
+
+        //Polished
+        public static final RegistryObject<Block> POLISHED_DOLOMITE = BLOCKS.register("polished_dolomite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_DOLOMITE_SLAB = BLOCKS.register("polished_dolomite_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_DOLOMITE.get())));
+        public static final RegistryObject<Block> POLISHED_DOLOMITE_STAIRS = BLOCKS.register("polished_dolomite_stairs", () -> new StrataStairsBlock(POLISHED_DOLOMITE.get().getDefaultState(), Block.Properties.from(POLISHED_DOLOMITE.get())));
 
         //Jaspillite
         public static final RegistryObject<Block> JASPILLITE = BLOCKS.register("jaspillite", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
@@ -604,6 +1178,47 @@ public class BlockList
         public static final RegistryObject<Block> POLISHED_LIMESTONE = BLOCKS.register("polished_limestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
         public static final RegistryObject<Block> POLISHED_LIMESTONE_SLAB = BLOCKS.register("polished_limestone_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_LIMESTONE.get())));
         public static final RegistryObject<Block> POLISHED_LIMESTONE_STAIRS = BLOCKS.register("polished_limestone_stairs", () -> new StrataStairsBlock(POLISHED_LIMESTONE.get().getDefaultState(), Block.Properties.from(POLISHED_LIMESTONE.get())));
+
+        //Mudstone
+        public static final RegistryObject<Block> MUDSTONE = BLOCKS.register("mudstone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MUDSTONE_SLAB = BLOCKS.register("mudstone_slab", () -> new SlabBlock(Block.Properties.from(MUDSTONE.get())));
+        public static final RegistryObject<Block> MUDSTONE_STAIRS = BLOCKS.register("mudstone_stairs", () -> new StrataStairsBlock(MUDSTONE.get().getDefaultState(), Block.Properties.from(MUDSTONE.get())));
+        public static final RegistryObject<Block> MUDSTONE_WALL = BLOCKS.register("mudstone_wall", () -> new WallBlock(Block.Properties.from(MUDSTONE.get())));
+
+        //Cobblestone
+        public static final RegistryObject<Block> MUDSTONE_COBBLESTONE = BLOCKS.register("mudstone_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MUDSTONE_COBBLESTONE_SLAB = BLOCKS.register("mudstone_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MUDSTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MUDSTONE_COBBLESTONE_STAIRS = BLOCKS.register("mudstone_cobblestone_stairs", () -> new StrataStairsBlock(MUDSTONE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MUDSTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MUDSTONE_COBBLESTONE_WALL = BLOCKS.register("mudstone_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MUDSTONE_COBBLESTONE.get())));
+
+        //Mossy Cobblestone
+        public static final RegistryObject<Block> MOSSY_MUDSTONE_COBBLESTONE = BLOCKS.register("mossy_mudstone_cobblestone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MOSSY_MUDSTONE_COBBLESTONE_SLAB = BLOCKS.register("mossy_mudstone_cobblestone_slab", () -> new SlabBlock(Block.Properties.from(MOSSY_MUDSTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_MUDSTONE_COBBLESTONE_STAIRS = BLOCKS.register("mossy_mudstone_cobblestone_stairs", () -> new StrataStairsBlock(MOSSY_MUDSTONE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(MOSSY_MUDSTONE_COBBLESTONE.get())));
+        public static final RegistryObject<Block> MOSSY_MUDSTONE_COBBLESTONE_WALL = BLOCKS.register("mossy_mudstone_cobblestone_wall", () -> new WallBlock(Block.Properties.from(MOSSY_MUDSTONE_COBBLESTONE.get())));
+
+        //Buttons
+        public static final RegistryObject<Block> MUDSTONE_BUTTON = BLOCKS.register("mudstone_button", () -> new StrataButtonBlock(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Pressure Plates
+        public static final RegistryObject<Block> MUDSTONE_PRESSURE_PLATE = BLOCKS.register("mudstone_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).doesNotBlockMovement().hardnessAndResistance(0.5f, 0.5f)));
+
+        //Bricks
+        public static final RegistryObject<Block> MUDSTONE_BRICKS = BLOCKS.register("mudstone_bricks", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> MUDSTONE_BRICK_SLAB = BLOCKS.register("mudstone_brick_slab", () -> new SlabBlock(Block.Properties.from(MUDSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> MUDSTONE_BRICK_STAIRS = BLOCKS.register("mudstone_brick_stairs", () -> new StrataStairsBlock(MUDSTONE_BRICKS.get().getDefaultState(), Block.Properties.from(MUDSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> MUDSTONE_BRICK_WALL = BLOCKS.register("mudstone_brick_wall", () -> new WallBlock(Block.Properties.from(MUDSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> CHISELED_MUDSTONE_BRICKS = BLOCKS.register("chiseled_mudstone_bricks", () -> new Block(Block.Properties.from(MUDSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> CRACKED_MUDSTONE_BRICKS = BLOCKS.register("cracked_mudstone_bricks", () -> new Block(Block.Properties.from(MUDSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_MUDSTONE_BRICKS = BLOCKS.register("mossy_mudstone_bricks", () -> new Block(Block.Properties.from(MUDSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_MUDSTONE_BRICK_SLAB = BLOCKS.register("mossy_mudstone_brick_slab", () -> new SlabBlock(Block.Properties.from(MUDSTONE_BRICKS.get())));
+        public static final RegistryObject<Block> MOSSY_MUDSTONE_BRICK_STAIRS = BLOCKS.register("mossy_mudstone_brick_stairs", () -> new StrataStairsBlock(MUDSTONE_BRICKS.get().getDefaultState(), Block.Properties.from(MUDSTONE.get())));
+        public static final RegistryObject<Block> MOSSY_MUDSTONE_BRICK_WALL = BLOCKS.register("mossy_mudstone_brick_wall", () -> new WallBlock(Block.Properties.from(MUDSTONE_BRICKS.get())));
+
+        //Polished
+        public static final RegistryObject<Block> POLISHED_MUDSTONE = BLOCKS.register("polished_mudstone", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+        public static final RegistryObject<Block> POLISHED_MUDSTONE_SLAB = BLOCKS.register("polished_mudstone_slab", () -> new SlabBlock(Block.Properties.from(POLISHED_MUDSTONE.get())));
+        public static final RegistryObject<Block> POLISHED_MUDSTONE_STAIRS = BLOCKS.register("polished_mudstone_stairs", () -> new StrataStairsBlock(POLISHED_MUDSTONE.get().getDefaultState(), Block.Properties.from(POLISHED_MUDSTONE.get())));
 
         //Shale
         public static final RegistryObject<Block> SHALE = BLOCKS.register("shale", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));

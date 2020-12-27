@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "strata:phyllite"
+    }
+  },
+  "result": {
+    "item": "strata:phyllite_pressure_plate"
+  }
+}

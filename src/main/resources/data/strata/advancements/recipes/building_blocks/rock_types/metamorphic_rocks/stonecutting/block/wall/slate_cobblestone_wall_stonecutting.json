@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/stonecutting/block/wall/slate_cobblestone_wall_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_slate_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:slate_cobblestone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:slate_cobblestone_wall_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_slate_cobblestone",
+      "has_the_recipe"
+    ]
+  ]
+}

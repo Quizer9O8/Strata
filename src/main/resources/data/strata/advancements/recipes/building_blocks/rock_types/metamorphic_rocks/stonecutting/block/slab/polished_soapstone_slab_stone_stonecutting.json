@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/stonecutting/block/slab/polished_soapstone_slab_stone_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_soapstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_soapstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:polished_soapstone_slab_stone_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_soapstone",
+      "has_the_recipe"
+    ]
+  ]
+}

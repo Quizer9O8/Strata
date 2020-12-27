@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "strata:cataclasite"
+    }
+  ],
+  "result": {
+    "item": "strata:cataclasite_button"
+  }
+}

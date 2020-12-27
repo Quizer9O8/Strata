@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/sedimentary_rocks/crafting/block/slab/breccia_brick_slab"
+    ]
+  },
+  "criteria": {
+    "has_breccia_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:breccia_bricks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:breccia_brick_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_breccia_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}

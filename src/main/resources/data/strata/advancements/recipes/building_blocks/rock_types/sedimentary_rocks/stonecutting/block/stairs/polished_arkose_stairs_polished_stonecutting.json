@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/sedimentary_rocks/stonecutting/block/stairs/polished_arkose_stairs_polished_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_polished_arkose": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_arkose"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:polished_arkose_stairs_polished_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_arkose",
+      "has_the_recipe"
+    ]
+  ]
+}

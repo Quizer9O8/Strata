@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "strata:dacite"
+    }
+  ],
+  "result": {
+    "item": "strata:dacite_button"
+  }
+}

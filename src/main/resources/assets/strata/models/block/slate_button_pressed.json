@@ -1,0 +1,6 @@
+{
+    "parent": "block/button_pressed",
+    "textures": {
+        "texture": "strata:blocks/metamorphic_rocks/slate"
+  }
+}
