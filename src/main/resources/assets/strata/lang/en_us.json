@@ -1355,6 +1355,34 @@
   "block.strata.phyllite_stairs": "Phyllite Stairs",
   "block.strata.phyllite_wall": "Phyllite Wall",
 
+  "block.strata.phyllite_cobblestone": "Phyllite Cobblestone",
+  "block.strata.phyllite_cobblestone_slab": "Phyllite Cobblestone Slab",
+  "block.strata.phyllite_cobblestone_stairs": "Phyllite Cobblestone Stairs",
+  "block.strata.phyllite_cobblestone_wall": "Phyllite Cobblestone Wall",
+
+  "block.strata.mossy_phyllite_cobblestone": "Mossy Phyllite Cobblestone",
+  "block.strata.mossy_phyllite_cobblestone_slab": "Mossy Phyllite Cobblestone Slab",
+  "block.strata.mossy_phyllite_cobblestone_stairs": "Mossy Phyllite Cobblestone Stairs",
+  "block.strata.mossy_phyllite_cobblestone_wall": "Mossy Phyllite Cobblestone Wall",
+
+  "block.strata.phyllite_button": "Phyllite Button",
+  "block.strata.phyllite_pressure_plate": "Phyllite Pressure Plate",
+
+  "block.strata.phyllite_bricks": "Phyllite Bricks",
+  "block.strata.phyllite_brick_slab": "Phyllite Brick Slab",
+  "block.strata.phyllite_brick_stairs": "Phyllite Brick Stairs",
+  "block.strata.phyllite_brick_wall": "Phyllite Brick Wall",
+  "block.strata.chiseled_phyllite_bricks": "Chiseled Phyllite Bricks",
+  "block.strata.cracked_phyllite_bricks": "Cracked Phyllite Bricks",
+  "block.strata.mossy_phyllite_bricks": "Mossy Phyllite Bricks",
+  "block.strata.mossy_phyllite_brick_slab": "Mossy Phyllite Brick Slab",
+  "block.strata.mossy_phyllite_brick_stairs": "Mossy Phyllite Brick Stairs",
+  "block.strata.mossy_phyllite_brick_wall": "Mossy Phyllite Brick Wall",
+
+  "block.strata.polished_phyllite": "Polished Phyllite",
+  "block.strata.polished_phyllite_slab": "Polished Phyllite Slab",
+  "block.strata.polished_phyllite_stairs": "Polished Phyllite Stairs",
+
   "block.strata.quartzite": "Quartzite",
   "block.strata.quartzite_slab": "Quartzite Slab",
   "block.strata.quartzite_stairs": "Quartzite Stairs",
@@ -1478,39 +1506,6 @@
   "block.strata.polished_soapstone": "Polished Soapstone",
   "block.strata.polished_soapstone_slab": "Polished Soapstone Slab",
   "block.strata.polished_soapstone_stairs": "Polished Soapstone Stairs",
-
-  "block.strata.phyllite": "Phyllite",
-  "block.strata.phyllite_slab": "Phyllite Slab",
-  "block.strata.phyllite_stairs": "Phyllite Stairs",
-  "block.strata.phyllite_wall": "Phyllite Wall",
-  
-  "block.strata.phyllite": "Phyllite",
-  "block.strata.phyllite_slab": "Phyllite Slab",
-  "block.strata.phyllite_stairs": "Phyllite Stairs",
-  "block.strata.phyllite_wall": "Phyllite Wall",
-
-  "block.strata.mossy_phyllite_cobblestone": "Mossy Phyllite Cobblestone",
-  "block.strata.mossy_phyllite_cobblestone_slab": "Mossy Phyllite Cobblestone Slab",
-  "block.strata.mossy_phyllite_cobblestone_stairs": "Mossy Phyllite Cobblestone Stairs",
-  "block.strata.mossy_phyllite_cobblestone_wall": "Mossy Phyllite Cobblestone Wall",
-
-  "block.strata.phyllite_button": "Phyllite Button",
-  "block.strata.phyllite_pressure_plate": "Phyllite Pressure Plate",
-
-  "block.strata.phyllite_bricks": "Phyllite Bricks",
-  "block.strata.phyllite_brick_slab": "Phyllite Brick Slab",
-  "block.strata.phyllite_brick_stairs": "Phyllite Brick Stairs",
-  "block.strata.phyllite_brick_wall": "Phyllite Brick Wall",
-  "block.strata.chiseled_phyllite_bricks": "Chiseled Phyllite Bricks",
-  "block.strata.cracked_phyllite_bricks": "Cracked Phyllite Bricks",
-  "block.strata.mossy_phyllite_bricks": "Mossy Phyllite Bricks",
-  "block.strata.mossy_phyllite_brick_slab": "Mossy Phyllite Brick Slab",
-  "block.strata.mossy_phyllite_brick_stairs": "Mossy Phyllite Brick Stairs",
-  "block.strata.mossy_phyllite_brick_wall": "Mossy Phyllite Brick Wall",
-
-  "block.strata.polished_phyllite": "Polished Phyllite",
-  "block.strata.polished_phyllite_slab": "Polished Phyllite Slab",
-  "block.strata.polished_phyllite_stairs": "Polished Phyllite Stairs",
   
   "block.strata.tectonite": "Tectonite",
   "block.strata.tectonite_slab": "Tectonite Slab",
