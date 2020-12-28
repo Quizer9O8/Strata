@@ -4,18 +4,13 @@
     "strata:aa",
     "strata:adakite",
     "strata:amphibolite",
-    "strata:argillite",
     "strata:basalt",
-    "strata:chalk",
     "strata:eclogite",
     "strata:gabbro",
     "strata:gneiss",
-    "strata:jaspillite",
     "strata:marble",
-    "strata:limestone",
     "strata:pahoehoe",
     "strata:schist",
-    "strata:shale",
     "strata:dacite",
     "strata:dunite",
     "strata:komatiite",
@@ -25,11 +20,6 @@
     "strata:migmatite",
     "strata:slate",
     "strata:soapstone",
-    "strata:phyllite",
-    "strata:arkose",
-    "strata:breccia",
-    "strata:claystone",
-    "strata:dolomite",
-    "strata:mudstone"
+    "strata:phyllite"
   ]
 }
