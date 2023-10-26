@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:argillite"
-  },
-  "result": "strata:polished_argillite_stairs",
-  "count": 1
-}

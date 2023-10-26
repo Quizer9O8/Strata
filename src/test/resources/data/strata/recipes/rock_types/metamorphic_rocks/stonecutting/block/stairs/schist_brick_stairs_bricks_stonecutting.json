@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:schist_bricks"
-  },
-  "result": "strata:schist_brick_stairs",
-  "count": 1
-}

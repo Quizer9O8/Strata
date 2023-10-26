@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "strata:hornblendite_cobblestone"
-  },
-  "result": "strata:hornblendite",
-  "experience": 0.1,
-  "cookingtime": 200
-}

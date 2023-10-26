@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:marble_cobblestone"
-  },
-  "result": "strata:marble_cobblestone_stairs",
-  "count": 1
-}

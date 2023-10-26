@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:mossy_aa_cobblestone"
-  },
-  "result": "strata:mossy_aa_cobblestone_slab",
-  "count": 2
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "strata:blocks/igneous_rocks/mossy_gabbro_bricks"
-  }
-}

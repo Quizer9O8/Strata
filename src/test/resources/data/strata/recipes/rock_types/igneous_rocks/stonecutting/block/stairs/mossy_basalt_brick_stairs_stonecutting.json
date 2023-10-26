@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:mossy_basalt_bricks"
-  },
-  "result": "strata:mossy_basalt_brick_stairs",
-  "count": 1
-}

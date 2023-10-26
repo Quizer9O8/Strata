@@ -1,6 +1,0 @@
-{
-    "parent": "block/button",
-    "textures": {
-        "texture": "strata:blocks/metamorphic_rocks/gneiss"
-    }
-}

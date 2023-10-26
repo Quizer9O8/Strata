@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:argillite_cobblestone"
-  },
-  "result": "strata:argillite_cobblestone_slab",
-  "count": 2
-}

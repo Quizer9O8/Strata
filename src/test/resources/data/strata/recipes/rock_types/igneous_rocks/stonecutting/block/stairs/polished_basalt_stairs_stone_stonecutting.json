@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:basalt"
-  },
-  "result": "strata:polished_basalt_stairs",
-  "count": 1
-}

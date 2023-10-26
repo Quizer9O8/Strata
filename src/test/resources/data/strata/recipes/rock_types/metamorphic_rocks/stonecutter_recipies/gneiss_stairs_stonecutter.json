@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:gneiss"
-  },
-  "result": "strata:gneiss_stairs",
-  "count": 1
-}

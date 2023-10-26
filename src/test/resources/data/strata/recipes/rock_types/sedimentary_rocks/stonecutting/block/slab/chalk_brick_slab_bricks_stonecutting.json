@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:chalk_bricks"
-  },
-  "result": "strata:chalk_brick_slab",
-  "count": 2
-}

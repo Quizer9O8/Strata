@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "strata:porphyry_cobblestone"
-  },
-  "result": "strata:porphyry",
-  "experience": 0.1,
-  "cookingtime": 200
-}

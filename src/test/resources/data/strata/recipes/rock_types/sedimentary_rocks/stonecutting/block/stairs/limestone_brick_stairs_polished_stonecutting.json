@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:polished_limestone"
-  },
-  "result": "strata:limestone_brick_stairs",
-  "count": 1
-}
