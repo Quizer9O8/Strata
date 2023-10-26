@@ -1,8 +1,0 @@
-{
-    "parent": "block/outer_stairs",
-    "textures": {
-        "bottom": "strata:blocks/sedimentary_rocks/polished_mudstone",
-		"top": "strata:blocks/sedimentary_rocks/polished_mudstone",
-		"side": "strata:blocks/sedimentary_rocks/polished_mudstone"
-  }
-}

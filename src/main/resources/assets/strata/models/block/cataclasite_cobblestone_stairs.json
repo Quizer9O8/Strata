@@ -1,8 +1,0 @@
-{
-    "parent": "block/stairs",
-    "textures": {
-        "bottom": "strata:blocks/metamorphic_rocks/cataclasite_cobblestone",
-		"top": "strata:blocks/metamorphic_rocks/cataclasite_cobblestone",
-		"side": "strata:blocks/metamorphic_rocks/cataclasite_cobblestone"
-  }
-}

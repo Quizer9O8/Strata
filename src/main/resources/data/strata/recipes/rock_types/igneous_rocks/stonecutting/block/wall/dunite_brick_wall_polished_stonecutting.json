@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:polished_dunite"
-  },
-  "result": "strata:dunite_brick_wall",
-  "count": 1
-}

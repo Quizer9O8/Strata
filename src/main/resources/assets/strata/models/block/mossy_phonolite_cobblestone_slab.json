@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab",
-    "textures": {
-        "bottom": "strata:blocks/igneous_rocks/mossy_phonolite_cobblestone",
-		"top": "strata:blocks/igneous_rocks/mossy_phonolite_cobblestone",
-		"side": "strata:blocks/igneous_rocks/mossy_phonolite_cobblestone"
-  }
-}

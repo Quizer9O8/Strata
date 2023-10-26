@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "strata:blocks/igneous_rocks/basalt",
-    "top": "strata:blocks/igneous_rocks/basalt",
-    "side": "strata:blocks/igneous_rocks/basalt"
-    }
-}

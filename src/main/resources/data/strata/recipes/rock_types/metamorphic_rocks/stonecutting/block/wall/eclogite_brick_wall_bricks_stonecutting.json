@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:eclogite_bricks"
-  },
-  "result": "strata:eclogite_brick_wall",
-  "count": 1
-}

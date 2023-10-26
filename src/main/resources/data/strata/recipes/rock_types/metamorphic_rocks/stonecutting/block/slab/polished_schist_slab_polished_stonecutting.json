@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:polished_schist"
-  },
-  "result": "strata:polished_schist_slab",
-  "count": 2
-}

@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab",
-    "textures": {
-        "bottom": "strata:blocks/sedimentary_rocks/mossy_jaspillite_cobblestone",
-		"top": "strata:blocks/sedimentary_rocks/mossy_jaspillite_cobblestone",
-		"side": "strata:blocks/sedimentary_rocks/mossy_jaspillite_cobblestone"
-  }
-}

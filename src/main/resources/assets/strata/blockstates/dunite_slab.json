@@ -1,7 +1,0 @@
-{
-   "variants": {
-        "type=bottom": { "model": "strata:block/dunite_slab" },
-        "type=top": { "model": "strata:block/dunite_slab_top" },
-        "type=double": { "model": "strata:block/dunite" }
-    }
-}

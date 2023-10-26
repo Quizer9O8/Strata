@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab_top",
-    "textures": {
-        "bottom": "strata:blocks/sedimentary_rocks/polished_claystone",
-		"top": "strata:blocks/sedimentary_rocks/polished_claystone",
-		"side": "strata:blocks/sedimentary_rocks/polished_claystone"
-  }
-}

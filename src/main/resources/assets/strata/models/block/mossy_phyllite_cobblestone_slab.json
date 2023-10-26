@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab",
-    "textures": {
-        "bottom": "strata:blocks/metamorphic_rocks/mossy_phyllite_cobblestone",
-		"top": "strata:blocks/metamorphic_rocks/mossy_phyllite_cobblestone",
-		"side": "strata:blocks/metamorphic_rocks/mossy_phyllite_cobblestone"
-  }
-}

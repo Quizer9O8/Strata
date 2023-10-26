@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:phyllite"
-  },
-  "result": "strata:chiseled_phyllite_bricks",
-  "count": 1
-}

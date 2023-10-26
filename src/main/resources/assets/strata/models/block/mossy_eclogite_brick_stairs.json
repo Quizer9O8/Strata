@@ -1,8 +1,0 @@
-{
-    "parent": "block/stairs",
-    "textures": {
-        "bottom": "strata:blocks/metamorphic_rocks/mossy_eclogite_bricks",
-		"top": "strata:blocks/metamorphic_rocks/mossy_eclogite_bricks",
-		"side": "strata:blocks/metamorphic_rocks/mossy_eclogite_bricks"
-  }
-}

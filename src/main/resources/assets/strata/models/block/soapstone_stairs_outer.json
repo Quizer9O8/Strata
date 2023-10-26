@@ -1,8 +1,0 @@
-{
-    "parent": "block/outer_stairs",
-    "textures": {
-        "bottom": "strata:blocks/metamorphic_rocks/soapstone",
-		"top": "strata:blocks/metamorphic_rocks/soapstone",
-		"side": "strata:blocks/metamorphic_rocks/soapstone"
-  }
-}

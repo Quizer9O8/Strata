@@ -1,8 +1,0 @@
-{
-    "parent": "block/stairs",
-    "textures": {
-        "bottom": "strata:blocks/sedimentary_rocks/polished_arkose",
-		"top": "strata:blocks/sedimentary_rocks/polished_arkose",
-		"side": "strata:blocks/sedimentary_rocks/polished_arkose"
-  }
-}

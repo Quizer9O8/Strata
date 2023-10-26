@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:soapstone_bricks"
-  },
-  "result": "strata:chiseled_soapstone_bricks",
-  "count": 1
-}

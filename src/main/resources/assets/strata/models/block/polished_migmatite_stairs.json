@@ -1,8 +1,0 @@
-{
-    "parent": "block/stairs",
-    "textures": {
-        "bottom": "strata:blocks/metamorphic_rocks/polished_migmatite",
-		"top": "strata:blocks/metamorphic_rocks/polished_migmatite",
-		"side": "strata:blocks/metamorphic_rocks/polished_migmatite"
-  }
-}

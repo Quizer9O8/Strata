@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab",
-    "textures": {
-        "bottom": "strata:blocks/igneous_rocks/pegmatite_cobblestone",
-		"top": "strata:blocks/igneous_rocks/pegmatite_cobblestone",
-		"side": "strata:blocks/igneous_rocks/pegmatite_cobblestone"
-  }
-}

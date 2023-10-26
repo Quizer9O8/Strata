@@ -1,8 +1,0 @@
-{
-    "parent": "block/inner_stairs",
-    "textures": {
-        "bottom": "strata:blocks/igneous_rocks/pegmatite",
-		"top": "strata:blocks/igneous_rocks/pegmatite",
-		"side": "strata:blocks/igneous_rocks/pegmatite"
-  }
-}

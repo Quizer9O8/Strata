@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:cataclasite_cobblestone"
-  },
-  "result": "strata:cataclasite_cobblestone_slab",
-  "count": 2
-}

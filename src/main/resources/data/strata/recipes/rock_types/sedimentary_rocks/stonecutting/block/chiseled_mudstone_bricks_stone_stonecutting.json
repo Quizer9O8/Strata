@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:mudstone"
-  },
-  "result": "strata:chiseled_mudstone_bricks",
-  "count": 1
-}

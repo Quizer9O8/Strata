@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "strata:dacite_cobblestone"
-  },
-  "result": "strata:dacite",
-  "experience": 0.1,
-  "cookingtime": 200
-}

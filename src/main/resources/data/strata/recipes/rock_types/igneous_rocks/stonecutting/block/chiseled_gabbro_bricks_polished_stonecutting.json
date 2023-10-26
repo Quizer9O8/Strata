@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:polished_gabbro"
-  },
-  "result": "strata:chiseled_gabbro_bricks",
-  "count": 1
-}

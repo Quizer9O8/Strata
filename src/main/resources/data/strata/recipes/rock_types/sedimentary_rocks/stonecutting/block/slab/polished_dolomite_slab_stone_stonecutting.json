@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:dolomite"
-  },
-  "result": "strata:polished_dolomite_slab",
-  "count": 2
-}

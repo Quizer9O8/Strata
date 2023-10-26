@@ -1,8 +1,0 @@
-{
-    "parent": "block/outer_stairs",
-    "textures": {
-        "bottom": "strata:blocks/sedimentary_rocks/polished_jaspillite",
-		"top": "strata:blocks/sedimentary_rocks/polished_jaspillite",
-		"side": "strata:blocks/sedimentary_rocks/polished_jaspillite"
-  }
-}

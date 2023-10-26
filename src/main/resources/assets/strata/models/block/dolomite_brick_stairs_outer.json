@@ -1,8 +1,0 @@
-{
-    "parent": "block/outer_stairs",
-    "textures": {
-        "bottom": "strata:blocks/sedimentary_rocks/dolomite_bricks",
-		"top": "strata:blocks/sedimentary_rocks/dolomite_bricks",
-		"side": "strata:blocks/sedimentary_rocks/dolomite_bricks"
-  }
-}

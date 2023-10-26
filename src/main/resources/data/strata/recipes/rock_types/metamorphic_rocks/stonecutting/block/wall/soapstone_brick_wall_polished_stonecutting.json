@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:polished_soapstone"
-  },
-  "result": "strata:soapstone_brick_wall",
-  "count": 1
-}

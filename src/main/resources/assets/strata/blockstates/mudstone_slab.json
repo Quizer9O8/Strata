@@ -1,7 +1,0 @@
-{
-   "variants": {
-        "type=bottom": { "model": "strata:block/mudstone_slab" },
-        "type=top": { "model": "strata:block/mudstone_slab_top" },
-        "type=double": { "model": "strata:block/mudstone" }
-    }
-}

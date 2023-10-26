@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:polished_adakite"
-  },
-  "result": "strata:polished_adakite_slab",
-  "count": 2
-}

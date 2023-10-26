@@ -1,8 +1,0 @@
-{
-    "parent": "block/inner_stairs",
-    "textures": {
-        "bottom": "strata:blocks/sedimentary_rocks/breccia",
-		"top": "strata:blocks/sedimentary_rocks/breccia",
-		"side": "strata:blocks/sedimentary_rocks/breccia"
-  }
-}

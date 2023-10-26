@@ -1,7 +1,0 @@
-{
-   "variants": {
-        "type=bottom": { "model": "strata:block/polished_phonolite_slab" },
-        "type=top": { "model": "strata:block/polished_phonolite_slab_top" },
-        "type=double": { "model": "strata:block/polished_phonolite" }
-    }
-}

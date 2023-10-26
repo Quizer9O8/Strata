@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab_top",
-    "textures": {
-        "bottom": "strata:blocks/sedimentary_rocks/polished_breccia",
-		"top": "strata:blocks/sedimentary_rocks/polished_breccia",
-		"side": "strata:blocks/sedimentary_rocks/polished_breccia"
-  }
-}

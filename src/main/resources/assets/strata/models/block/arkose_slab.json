@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab",
-    "textures": {
-        "bottom": "strata:blocks/sedimentary_rocks/arkose",
-		"top": "strata:blocks/sedimentary_rocks/arkose",
-		"side": "strata:blocks/sedimentary_rocks/arkose"
-  }
-}

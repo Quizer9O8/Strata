@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:mossy_pegmatite_bricks"
-  },
-  "result": "strata:mossy_pegmatite_brick_wall",
-  "count": 1
-}

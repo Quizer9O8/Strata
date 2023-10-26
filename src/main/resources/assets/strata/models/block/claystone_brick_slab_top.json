@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab_top",
-    "textures": {
-        "bottom": "strata:blocks/sedimentary_rocks/claystone_bricks",
-		"top": "strata:blocks/sedimentary_rocks/claystone_bricks",
-		"side": "strata:blocks/sedimentary_rocks/claystone_bricks"
-  }
-}

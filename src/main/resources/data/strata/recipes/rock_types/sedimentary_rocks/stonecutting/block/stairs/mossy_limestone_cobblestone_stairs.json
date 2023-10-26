@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:mossy_limestone_cobblestone"
-  },
-  "result": "strata:mossy_limestone_cobblestone_stairs",
-  "count": 1
-}

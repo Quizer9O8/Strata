@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:claystone"
-  },
-  "result": "strata:claystone_brick_stairs",
-  "count": 1
-}

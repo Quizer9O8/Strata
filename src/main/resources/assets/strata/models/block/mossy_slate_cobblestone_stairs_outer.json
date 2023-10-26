@@ -1,8 +1,0 @@
-{
-    "parent": "block/outer_stairs",
-    "textures": {
-        "bottom": "strata:blocks/metamorphic_rocks/mossy_slate_cobblestone",
-		"top": "strata:blocks/metamorphic_rocks/mossy_slate_cobblestone",
-		"side": "strata:blocks/metamorphic_rocks/mossy_slate_cobblestone"
-  }
-}

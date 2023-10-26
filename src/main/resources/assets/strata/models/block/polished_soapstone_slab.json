@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab",
-    "textures": {
-        "bottom": "strata:blocks/metamorphic_rocks/polished_soapstone",
-		"top": "strata:blocks/metamorphic_rocks/polished_soapstone",
-		"side": "strata:blocks/metamorphic_rocks/polished_soapstone"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "strata:soapstone_cobblestone"
-  },
-  "result": "strata:soapstone",
-  "experience": 0.1,
-  "cookingtime": 200
-}

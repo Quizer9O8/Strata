@@ -1,8 +1,0 @@
-{
-    "parent": "block/outer_stairs",
-    "textures": {
-        "bottom": "strata:blocks/igneous_rocks/pahoehoe_cobblestone",
-		"top": "strata:blocks/igneous_rocks/pahoehoe_cobblestone",
-		"side": "strata:blocks/igneous_rocks/pahoehoe_cobblestone"
-  }
-}

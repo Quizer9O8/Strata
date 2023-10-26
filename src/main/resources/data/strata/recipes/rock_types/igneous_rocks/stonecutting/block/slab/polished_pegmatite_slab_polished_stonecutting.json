@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:polished_pegmatite"
-  },
-  "result": "strata:polished_pegmatite_slab",
-  "count": 2
-}

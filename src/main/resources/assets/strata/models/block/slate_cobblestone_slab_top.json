@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab_top",
-    "textures": {
-        "bottom": "strata:blocks/metamorphic_rocks/slate_cobblestone",
-		"top": "strata:blocks/metamorphic_rocks/slate_cobblestone",
-		"side": "strata:blocks/metamorphic_rocks/slate_cobblestone"
-  }
-}

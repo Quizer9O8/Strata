@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab",
-    "textures": {
-        "bottom": "strata:blocks/igneous_rocks/pahoehoe_bricks",
-		"top": "strata:blocks/igneous_rocks/pahoehoe_bricks",
-		"side": "strata:blocks/igneous_rocks/pahoehoe_bricks"
-  }
-}

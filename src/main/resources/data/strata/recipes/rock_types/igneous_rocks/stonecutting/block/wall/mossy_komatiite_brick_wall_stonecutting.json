@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:mossy_komatiite_bricks"
-  },
-  "result": "strata:mossy_komatiite_brick_wall",
-  "count": 1
-}

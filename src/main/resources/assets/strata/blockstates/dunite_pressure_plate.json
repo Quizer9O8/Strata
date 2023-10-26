@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "powered=false": { "model": "strata:block/dunite_pressure_plate" },
-		"powered=true": { "model": "strata:block/dunite_pressure_plate_down" }
-    }
-}

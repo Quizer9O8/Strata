@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:mossy_dacite_bricks"
-  },
-  "result": "strata:mossy_dacite_brick_slab",
-  "count": 2
-}

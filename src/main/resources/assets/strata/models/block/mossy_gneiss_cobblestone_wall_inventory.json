@@ -1,6 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "strata:blocks/metamorphic_rocks/mossy_gneiss_cobblestone"
-  }
-}

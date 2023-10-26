@@ -1,8 +1,0 @@
-{
-    "parent": "block/stairs",
-    "textures": {
-        "bottom": "strata:blocks/igneous_rocks/mossy_pegmatite_cobblestone",
-		"top": "strata:blocks/igneous_rocks/mossy_pegmatite_cobblestone",
-		"side": "strata:blocks/igneous_rocks/mossy_pegmatite_cobblestone"
-  }
-}

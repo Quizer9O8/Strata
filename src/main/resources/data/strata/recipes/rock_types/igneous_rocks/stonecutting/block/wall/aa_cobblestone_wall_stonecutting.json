@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:aa_cobblestone"
-  },
-  "result": "strata:aa_cobblestone_wall",
-  "count": 1
-}

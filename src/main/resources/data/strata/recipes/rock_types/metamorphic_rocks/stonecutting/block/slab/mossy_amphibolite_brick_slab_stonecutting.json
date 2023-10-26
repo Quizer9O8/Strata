@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:mossy_amphibolite_bricks"
-  },
-  "result": "strata:mossy_amphibolite_brick_slab",
-  "count": 2
-}
