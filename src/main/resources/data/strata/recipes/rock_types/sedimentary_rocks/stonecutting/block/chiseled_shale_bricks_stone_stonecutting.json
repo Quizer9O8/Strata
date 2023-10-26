@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:shale"
+  },
+  "result": "strata:chiseled_shale_bricks",
+  "count": 1
+}

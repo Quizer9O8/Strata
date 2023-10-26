@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:marble"
+    }
+  },
+  "result": {
+    "item": "strata:marble_slab",
+    "count": 6
+  }
+}

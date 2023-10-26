@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "strata:migmatite_brick_slab"
+    }
+  },
+  "result": {
+    "item": "strata:chiseled_migmatite_bricks",
+    "count": 1
+  }
+}

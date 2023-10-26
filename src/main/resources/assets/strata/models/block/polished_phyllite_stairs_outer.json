@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "strata:blocks/metamorphic_rocks/polished_phyllite",
+		"top": "strata:blocks/metamorphic_rocks/polished_phyllite",
+		"side": "strata:blocks/metamorphic_rocks/polished_phyllite"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "strata:block/basalt_slab" },
+        "type=top": { "model": "strata:block/basalt_slab_top" },
+        "type=double": { "model": "strata:block/basalt" }
+    }
+}

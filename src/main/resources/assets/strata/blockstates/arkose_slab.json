@@ -1,0 +1,7 @@
+{
+   "variants": {
+        "type=bottom": { "model": "strata:block/arkose_slab" },
+        "type=top": { "model": "strata:block/arkose_slab_top" },
+        "type=double": { "model": "strata:block/arkose" }
+    }
+}

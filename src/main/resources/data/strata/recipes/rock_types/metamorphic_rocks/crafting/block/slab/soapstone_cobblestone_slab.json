@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:soapstone_cobblestone"
+    }
+  },
+  "result": {
+    "item": "strata:soapstone_cobblestone_slab",
+    "count": 6
+  }
+}

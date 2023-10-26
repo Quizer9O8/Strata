@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "strata:migmatite_cobblestone"
+    },
+	{
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "item": "strata:mossy_migmatite_cobblestone"
+  }
+}

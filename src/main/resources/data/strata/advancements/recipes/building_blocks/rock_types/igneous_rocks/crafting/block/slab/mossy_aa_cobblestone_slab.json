@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/igneous_rocks/crafting/block/slab/mossy_aa_cobblestone_slab"
+    ]
+  },
+  "criteria": {
+    "has_mossy_aa_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:mossy_aa_cobblestone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:mossy_aa_cobblestone_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mossy_aa_cobblestone",
+      "has_the_recipe"
+    ]
+  ]
+}

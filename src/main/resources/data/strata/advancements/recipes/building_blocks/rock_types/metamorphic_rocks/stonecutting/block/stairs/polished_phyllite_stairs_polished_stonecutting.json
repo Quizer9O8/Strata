@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/stonecutting/block/stairs/polished_phyllite_stairs_polished_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_polished_phyllite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_phyllite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:polished_phyllite_stairs_polished_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_phyllite",
+      "has_the_recipe"
+    ]
+  ]
+}

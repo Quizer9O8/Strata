@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/crafting/button/soapstone_button"
+    ]
+  },
+  "criteria": {
+    "has_soapstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:soapstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:soapstone_button"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_soapstone",
+      "has_the_recipe"
+    ]
+  ]
+}

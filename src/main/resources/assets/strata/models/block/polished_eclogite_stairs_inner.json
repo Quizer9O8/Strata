@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "strata:blocks/metamorphic_rocks/polished_eclogite",
+		"top": "strata:blocks/metamorphic_rocks/polished_eclogite",
+		"side": "strata:blocks/metamorphic_rocks/polished_eclogite"
+  }
+}

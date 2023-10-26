@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "strata:breccia"
+    }
+  ],
+  "result": {
+    "item": "strata:breccia_button"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:mudstone_bricks"
+  },
+  "result": "strata:mudstone_brick_slab",
+  "count": 2
+}

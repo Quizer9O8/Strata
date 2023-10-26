@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:arkose"
+    }
+  },
+  "result": {
+    "item": "strata:arkose_slab",
+    "count": 6
+  }
+}

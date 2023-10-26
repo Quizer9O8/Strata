@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "strata:argillite"
+    }
+  ],
+  "result": {
+    "item": "strata:argillite_button"
+  }
+}

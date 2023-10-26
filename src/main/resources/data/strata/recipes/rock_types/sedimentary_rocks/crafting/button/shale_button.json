@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "strata:shale"
+    }
+  ],
+  "result": {
+    "item": "strata:shale_button"
+  }
+}

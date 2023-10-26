@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side_tall",
+  "textures": {
+    "wall": "strata:blocks/igneous_rocks/mossy_aa_bricks"
+  }
+}

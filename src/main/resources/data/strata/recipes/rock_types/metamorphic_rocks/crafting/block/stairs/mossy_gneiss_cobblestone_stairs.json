@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+	"## ",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:mossy_gneiss_cobblestone"
+    }
+  },
+  "result": {
+    "item": "strata:mossy_gneiss_cobblestone_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "strata:pegmatite_bricks"
+    },
+	{
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "item": "strata:mossy_pegmatite_bricks"
+  }
+}

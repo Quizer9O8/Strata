@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "strata:pahoehoe_brick_slab"
+    }
+  },
+  "result": {
+    "item": "strata:chiseled_pahoehoe_bricks",
+    "count": 1
+  }
+}

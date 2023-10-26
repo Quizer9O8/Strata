@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/igneous_rocks/stonecutting/block/slab/polished_dunite_slab_stone_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_dunite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_dunite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:polished_dunite_slab_stone_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dunite",
+      "has_the_recipe"
+    ]
+  ]
+}

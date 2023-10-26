@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "strata:schist"
+    }
+  ],
+  "result": {
+    "item": "strata:schist_button"
+  }
+}

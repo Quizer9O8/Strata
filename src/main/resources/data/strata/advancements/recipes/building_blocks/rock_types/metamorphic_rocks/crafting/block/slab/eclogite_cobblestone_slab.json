@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/crafting/block/slab/eclogite_cobblestone_slab"
+    ]
+  },
+  "criteria": {
+    "has_eclogite_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:eclogite_cobblestone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:eclogite_cobblestone_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_eclogite_cobblestone",
+      "has_the_recipe"
+    ]
+  ]
+}

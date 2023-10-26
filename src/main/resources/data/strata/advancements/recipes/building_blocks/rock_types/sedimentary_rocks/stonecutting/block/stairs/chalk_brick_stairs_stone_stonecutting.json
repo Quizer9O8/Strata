@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/sedimentary_rocks/stonecutting/block/stairs/chalk_brick_stairs_stone_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_chalk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:chalk"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:chalk_brick_stairs_stone_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chalk",
+      "has_the_recipe"
+    ]
+  ]
+}

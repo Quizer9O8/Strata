@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:cataclasite"
+  },
+  "result": "strata:polished_cataclasite_stairs",
+  "count": 1
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/smelting/block/gneiss"
+    ]
+  },
+  "criteria": {
+    "has_gneiss_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:gneiss_cobblestone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:gneiss"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gneiss_cobblestone",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/sedimentary_rocks/stonecutting/block/stairs/jaspillite_stairs_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_jaspillite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:jaspillite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:jaspillite_stairs_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_jaspillite",
+      "has_the_recipe"
+    ]
+  ]
+}

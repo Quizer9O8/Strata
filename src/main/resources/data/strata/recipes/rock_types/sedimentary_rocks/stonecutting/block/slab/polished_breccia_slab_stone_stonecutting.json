@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:breccia"
+  },
+  "result": "strata:polished_breccia_slab",
+  "count": 2
+}

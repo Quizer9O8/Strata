@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "strata:blocks/igneous_rocks/polished_komatiite",
+		"top": "strata:blocks/igneous_rocks/polished_komatiite",
+		"side": "strata:blocks/igneous_rocks/polished_komatiite"
+  }
+}

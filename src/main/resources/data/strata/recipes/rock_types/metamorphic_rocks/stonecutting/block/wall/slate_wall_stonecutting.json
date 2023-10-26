@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:slate"
+  },
+  "result": "strata:slate_wall",
+  "count": 1
+}

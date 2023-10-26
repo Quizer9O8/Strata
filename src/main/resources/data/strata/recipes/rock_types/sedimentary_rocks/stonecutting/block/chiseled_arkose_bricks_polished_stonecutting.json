@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:polished_arkose"
+  },
+  "result": "strata:chiseled_arkose_bricks",
+  "count": 1
+}

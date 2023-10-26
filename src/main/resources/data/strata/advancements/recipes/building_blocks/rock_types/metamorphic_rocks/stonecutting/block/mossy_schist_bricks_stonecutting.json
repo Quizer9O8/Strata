@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/stonecutting/block/mossy_schist_bricks_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_mossy_schist_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:mossy_schist_bricks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:mossy_schist_bricks_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mossy_schist_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+	"## ",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:dacite_bricks"
+    }
+  },
+  "result": {
+    "item": "strata:dacite_brick_stairs",
+    "count": 4
+  }
+}

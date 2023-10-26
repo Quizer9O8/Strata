@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "strata:blocks/igneous_rocks/polished_dacite",
+		"top": "strata:blocks/igneous_rocks/polished_dacite",
+		"side": "strata:blocks/igneous_rocks/polished_dacite"
+  }
+}

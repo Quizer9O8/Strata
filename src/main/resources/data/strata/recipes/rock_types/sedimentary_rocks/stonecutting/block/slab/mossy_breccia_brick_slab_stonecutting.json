@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:mossy_breccia_bricks"
+  },
+  "result": "strata:mossy_breccia_brick_slab",
+  "count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:polished_claystone"
+  },
+  "result": "strata:chiseled_claystone_bricks",
+  "count": 1
+}

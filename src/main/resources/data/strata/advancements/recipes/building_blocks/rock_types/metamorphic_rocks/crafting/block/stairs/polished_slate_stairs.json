@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/crafting/block/stairs/polished_slate_stairs"
+    ]
+  },
+  "criteria": {
+    "has_polished_slate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_slate"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:polished_slate_stairs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_slate",
+      "has_the_recipe"
+    ]
+  ]
+}

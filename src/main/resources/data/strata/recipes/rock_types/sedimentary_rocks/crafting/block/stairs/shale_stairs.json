@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:shale"
+    }
+  },
+  "result": {
+    "item": "strata:shale_stairs",
+    "count": 4
+  }
+}

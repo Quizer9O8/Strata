@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+	"## ",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:eclogite_cobblestone"
+    }
+  },
+  "result": {
+    "item": "strata:eclogite_cobblestone_stairs",
+    "count": 4
+  }
+}

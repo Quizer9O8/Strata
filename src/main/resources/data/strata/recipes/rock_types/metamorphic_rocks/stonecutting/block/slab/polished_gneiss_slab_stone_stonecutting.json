@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:gneiss"
+  },
+  "result": "strata:polished_gneiss_slab",
+  "count": 2
+}

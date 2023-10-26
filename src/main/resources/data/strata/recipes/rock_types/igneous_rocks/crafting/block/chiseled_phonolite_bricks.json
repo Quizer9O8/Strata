@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "strata:phonolite_brick_slab"
+    }
+  },
+  "result": {
+    "item": "strata:chiseled_phonolite_bricks",
+    "count": 1
+  }
+}

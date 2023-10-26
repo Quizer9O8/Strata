@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "strata:block/aa_pressure_plate" },
+		"powered=true": { "model": "strata:block/aa_pressure_plate_down" }
+    }
+}

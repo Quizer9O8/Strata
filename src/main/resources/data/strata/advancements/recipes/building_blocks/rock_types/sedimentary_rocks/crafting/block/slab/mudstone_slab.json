@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/sedimentary_rocks/crafting/block/slab/mudstone_slab"
+    ]
+  },
+  "criteria": {
+    "has_mudstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:mudstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:mudstone_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mudstone",
+      "has_the_recipe"
+    ]
+  ]
+}

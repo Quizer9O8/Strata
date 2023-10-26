@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "strata:breccia_cobblestone"
+  },
+  "result": "strata:breccia",
+  "experience": 0.1,
+  "cookingtime": 200
+}

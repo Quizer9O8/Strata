@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:komatiite"
+  },
+  "result": "strata:polished_komatiite_stairs",
+  "count": 1
+}

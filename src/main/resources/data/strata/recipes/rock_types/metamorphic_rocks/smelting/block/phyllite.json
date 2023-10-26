@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "strata:phyllite_cobblestone"
+  },
+  "result": "strata:phyllite",
+  "experience": 0.1,
+  "cookingtime": 200
+}

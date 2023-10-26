@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "strata:slate_bricks"
+  },
+  "result": "strata:cracked_slate_bricks",
+  "experience": 0.1,
+  "cookingtime": 200
+}

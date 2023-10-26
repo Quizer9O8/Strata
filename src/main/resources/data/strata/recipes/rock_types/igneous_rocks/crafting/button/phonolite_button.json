@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "strata:phonolite"
+    }
+  ],
+  "result": {
+    "item": "strata:phonolite_button"
+  }
+}

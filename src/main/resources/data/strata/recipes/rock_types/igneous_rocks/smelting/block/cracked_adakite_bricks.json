@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "strata:adakite_bricks"
+  },
+  "result": "strata:cracked_adakite_bricks",
+  "experience": 0.1,
+  "cookingtime": 200
+}

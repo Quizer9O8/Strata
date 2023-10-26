@@ -1,0 +1,7 @@
+{
+   "variants": {
+        "type=bottom": { "model": "strata:block/shale_cobblestone_slab" },
+        "type=top": { "model": "strata:block/shale_cobblestone_slab_top" },
+        "type=double": { "model": "strata:block/shale_cobblestone" }
+    }
+}

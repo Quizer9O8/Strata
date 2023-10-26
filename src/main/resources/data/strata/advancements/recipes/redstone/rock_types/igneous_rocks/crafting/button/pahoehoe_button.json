@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/igneous_rocks/crafting/button/pahoehoe_button"
+    ]
+  },
+  "criteria": {
+    "has_pahoehoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:pahoehoe"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:pahoehoe_button"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pahoehoe",
+      "has_the_recipe"
+    ]
+  ]
+}

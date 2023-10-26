@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:breccia_bricks"
+  },
+  "result": "strata:chiseled_breccia_bricks",
+  "count": 1
+}

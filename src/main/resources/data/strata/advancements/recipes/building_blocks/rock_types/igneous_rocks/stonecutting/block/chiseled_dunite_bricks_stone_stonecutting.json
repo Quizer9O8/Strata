@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/igneous_rocks/stonecutting/block/chiseled_dunite_bricks_stone_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_dunite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:dunite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:chiseled_dunite_bricks_stone_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dunite",
+      "has_the_recipe"
+    ]
+  ]
+}

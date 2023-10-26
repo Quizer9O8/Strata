@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "strata:blocks/metamorphic_rocks/migmatite",
+		"top": "strata:blocks/metamorphic_rocks/migmatite",
+		"side": "strata:blocks/metamorphic_rocks/migmatite"
+  }
+}

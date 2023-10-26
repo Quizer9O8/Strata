@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:polished_gabbro"
+  },
+  "result": "strata:polished_gabbro_stairs",
+  "count": 1
+}

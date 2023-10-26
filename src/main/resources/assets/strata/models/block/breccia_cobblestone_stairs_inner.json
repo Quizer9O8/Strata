@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "strata:blocks/sedimentary_rocks/breccia_cobblestone",
+		"top": "strata:blocks/sedimentary_rocks/breccia_cobblestone",
+		"side": "strata:blocks/sedimentary_rocks/breccia_cobblestone"
+  }
+}

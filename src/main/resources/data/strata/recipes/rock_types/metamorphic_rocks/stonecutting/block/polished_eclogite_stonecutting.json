@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:eclogite"
+  },
+  "result": "strata:polished_eclogite",
+  "count": 1
+}

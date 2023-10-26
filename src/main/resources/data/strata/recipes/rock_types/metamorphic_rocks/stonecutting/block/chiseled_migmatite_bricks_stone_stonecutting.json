@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:migmatite"
+  },
+  "result": "strata:chiseled_migmatite_bricks",
+  "count": 1
+}

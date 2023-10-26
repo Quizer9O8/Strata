@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "strata:polished_shale"
+    }
+  },
+  "result": {
+    "item": "strata:shale_bricks",
+    "count": 4
+  }
+}

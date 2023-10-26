@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "strata:slate"
+  },
+  "result": "strata:chiseled_slate_bricks",
+  "count": 1
+}

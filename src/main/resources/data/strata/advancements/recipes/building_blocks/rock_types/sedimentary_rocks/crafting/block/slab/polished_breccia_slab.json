@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/sedimentary_rocks/crafting/block/slab/polished_breccia_slab"
+    ]
+  },
+  "criteria": {
+    "has_polished_breccia": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_breccia"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:polished_breccia_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_breccia",
+      "has_the_recipe"
+    ]
+  ]
+}

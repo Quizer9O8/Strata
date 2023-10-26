@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/stonecutting/block/wall/chalk_brick_wall_polished_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_polished_chalk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_chalk"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:chalk_brick_wall_polished_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_chalk",
+      "has_the_recipe"
+    ]
+  ]
+}

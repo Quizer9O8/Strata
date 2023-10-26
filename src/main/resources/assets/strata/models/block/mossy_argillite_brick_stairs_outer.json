@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "strata:blocks/sedimentary_rocks/mossy_argillite_bricks",
+		"top": "strata:blocks/sedimentary_rocks/mossy_argillite_bricks",
+		"side": "strata:blocks/sedimentary_rocks/mossy_argillite_bricks"
+  }
+}

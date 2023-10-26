@@ -1,0 +1,7 @@
+{
+   "variants": {
+        "type=bottom": { "model": "strata:block/pahoehoe_slab" },
+        "type=top": { "model": "strata:block/pahoehoe_slab_top" },
+        "type=double": { "model": "strata:block/pahoehoe" }
+    }
+}

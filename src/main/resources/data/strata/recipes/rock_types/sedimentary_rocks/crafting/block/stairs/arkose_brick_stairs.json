@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+	"## ",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:arkose_bricks"
+    }
+  },
+  "result": {
+    "item": "strata:arkose_brick_stairs",
+    "count": 4
+  }
+}

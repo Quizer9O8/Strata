@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "strata:blocks/igneous_rocks/polished_pegmatite",
+		"top": "strata:blocks/igneous_rocks/polished_pegmatite",
+		"side": "strata:blocks/igneous_rocks/polished_pegmatite"
+  }
+}

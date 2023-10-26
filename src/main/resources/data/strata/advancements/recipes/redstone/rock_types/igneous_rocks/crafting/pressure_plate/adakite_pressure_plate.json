@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/igneous_rocks/crafting/button/adakite_pressure_plate"
+    ]
+  },
+  "criteria": {
+    "has_adakite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:adakite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:adakite_pressure_plate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_adakite",
+      "has_the_recipe"
+    ]
+  ]
+}

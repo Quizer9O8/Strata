@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "strata:blocks/metamorphic_rocks/polished_cataclasite",
+		"top": "strata:blocks/metamorphic_rocks/polished_cataclasite",
+		"side": "strata:blocks/metamorphic_rocks/polished_cataclasite"
+  }
+}

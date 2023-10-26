@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/sedimentary_rocks/crafting/block/slab/polished_limestone_slab"
+    ]
+  },
+  "criteria": {
+    "has_polished_limestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_limestone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:polished_limestone_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_limestone",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+	"## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:polished_dolomite"
+    }
+  },
+  "result": {
+    "item": "strata:polished_dolomite_stairs",
+    "count": 4
+  }
+}

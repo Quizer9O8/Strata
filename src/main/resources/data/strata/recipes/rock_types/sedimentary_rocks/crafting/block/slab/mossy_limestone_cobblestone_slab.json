@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "strata:mossy_limestone_cobblestone"
+    }
+  },
+  "result": {
+    "item": "strata:mossy_limestone_cobblestone_slab",
+    "count": 6
+  }
+}
