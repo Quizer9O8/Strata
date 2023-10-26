@@ -2,21 +2,23 @@ package com.quizer9o8.strata;
 
 import com.quizer9o8.strata.list.BlockList;
 import com.quizer9o8.strata.list.ItemList;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+
 import net.minecraft.tags.BlockTags;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.server.FMLServerStartedEvent;
-import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLDedicatedServerSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+
 
 // @Mod tells everything this is the main class.
 @Mod(Strata.MOD_ID)
@@ -31,9 +33,9 @@ public class Strata
 
     //Creative Tab
     //public static final ItemGroup DEBUG_TAB = new Strata.DebugItemGroup("debug");
-    public static final ItemGroup IGNEOUS_TAB = new Strata.IgneousRocksItemGroup("igneous");
-    public static final ItemGroup METAMORPHIC_TAB = new Strata.MetamorphicRocksItemGroup("metamorphic");
-    public static final ItemGroup SEDIMENTARY_TAB = new Strata.SedimentaryRocksItemGroup("sedimentary");
+    public static final CreativeModeTab IGNEOUS_TAB = new Strata.IgneousRocksItemGroup("igneous");
+    public static final CreativeModeTab METAMORPHIC_TAB = new Strata.MetamorphicRocksItemGroup("metamorphic");
+    public static final CreativeModeTab SEDIMENTARY_TAB = new Strata.SedimentaryRocksItemGroup("sedimentary");
     //public static final ItemGroup MISCELLANEOUS_TAB = new Strata.MiscellaneousRocksItemGroup("miscellaneous");
 
     //Logger
@@ -56,7 +58,7 @@ public class Strata
 
     }
 
-    public void onServerStarting(FMLServerStartingEvent event)
+    public void onServerStarting(FMLDedicatedServerSetupEvent event)
     {
 
     }
@@ -85,40 +87,40 @@ public class Strata
 
 
     //Igneous Rocks Creative Tab
-    public static class IgneousRocksItemGroup extends ItemGroup
+    public static class IgneousRocksItemGroup extends CreativeModeTab
     {
         public IgneousRocksItemGroup(String name) {
             super(name);
         }
 
         @Override
-        public ItemStack createIcon(){
+        public ItemStack makeIcon() {
             return new ItemStack(ItemList.DACITE.get());
         }
     }
 
     //Sedimentary Rocks Creative Tab
-    public static class SedimentaryRocksItemGroup extends ItemGroup
+    public static class SedimentaryRocksItemGroup extends CreativeModeTab
     {
         public SedimentaryRocksItemGroup(String name) {
             super(name);
         }
 
         @Override
-        public ItemStack createIcon(){
+        public ItemStack makeIcon(){
             return new ItemStack(ItemList.LIMESTONE.get());
         }
     }
 
     //Metamorphic Rocks Creative Tab
-    public static class MetamorphicRocksItemGroup extends ItemGroup
+    public static class MetamorphicRocksItemGroup extends CreativeModeTab
     {
         public MetamorphicRocksItemGroup(String name) {
             super(name);
         }
 
         @Override
-        public ItemStack createIcon(){
+        public ItemStack makeIcon(){
             return new ItemStack(ItemList.AMPHIBOLITE.get());
         }
     }
