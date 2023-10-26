@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[35,)" 
+loaderVersion="[40,)"
 issueTrackerURL="https://github.com/Quizer9O8/Strata/issues"
 license="MIT"
 
@@ -17,7 +17,7 @@ description='''Strata is a mod that adds various types of rocks into the game. I
 [[dependencies.examplemod]]
     modId="forge"
     mandatory=true
-    versionRange="[35,)"
+    versionRange="[40,)"
     # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
     ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
@@ -26,6 +26,6 @@ description='''Strata is a mod that adds various types of rocks into the game. I
 [[dependencies.examplemod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.4]"
+    versionRange="[1.18.2]"
     ordering="NONE"
     side="BOTH"
