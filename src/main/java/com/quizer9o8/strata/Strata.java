@@ -2,7 +2,6 @@ package com.quizer9o8.strata;
 
 import com.quizer9o8.strata.list.BlockList;
 import com.quizer9o8.strata.list.ItemList;
-import com.quizer9o8.strata.world.gen.StrataGeneration;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tags.BlockTags;
@@ -46,16 +45,10 @@ public class Strata
 
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        modEventBus.addListener(this::setup);
         modEventBus.addListener(this::clientSetup);
 
         BlockList.BLOCKS.register(modEventBus);
         ItemList.ITEMS.register(modEventBus);
-    }
-
-    private void setup(final FMLCommonSetupEvent event)
-    {
-        StrataGeneration.generate();
     }
 
     private void clientSetup(final FMLClientSetupEvent event)
@@ -69,10 +62,10 @@ public class Strata
     }
 
     //Should tell in the logs if the blocks are correctly being read into the tag or not for TerraForged
-    @SubscribeEvent
-    public static void started(FMLServerStartedEvent event) {
-        new BlockTags.Wrapper(new ResourceLocation("forge:wg_stone")).getAllElements().forEach(System.out::println);
-    }
+    //@SubscribeEvent
+    //public static void started(FMLServerStartedEvent event) {
+    //    new BlockTags.Wrapper(new ResourceLocation("reterraforged:rock")).getAllElements().forEach(System.out::println);
+    //}
 
     //Creative Tab Objects
 
@@ -100,7 +93,7 @@ public class Strata
 
         @Override
         public ItemStack createIcon(){
-            return new ItemStack(ItemList.BASALT.get());
+            return new ItemStack(ItemList.DACITE.get());
         }
     }
 
