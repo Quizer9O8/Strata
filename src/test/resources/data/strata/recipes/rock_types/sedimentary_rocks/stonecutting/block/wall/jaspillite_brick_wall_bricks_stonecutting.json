@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:jaspillite_bricks"
-  },
-  "result": "strata:jaspillite_brick_wall",
-  "count": 1
-}

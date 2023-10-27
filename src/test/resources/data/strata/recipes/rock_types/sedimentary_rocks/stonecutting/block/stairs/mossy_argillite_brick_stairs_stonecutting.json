@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:mossy_argillite_bricks"
-  },
-  "result": "strata:mossy_argillite_brick_stairs",
-  "count": 1
-}

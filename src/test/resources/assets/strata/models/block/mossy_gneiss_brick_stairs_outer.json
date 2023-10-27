@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "strata:blocks/metamorphic_rocks/mossy_gneiss_bricks",
-    "top": "strata:blocks/metamorphic_rocks/mossy_gneiss_bricks",
-    "side": "strata:blocks/metamorphic_rocks/mossy_gneiss_bricks"
-    }
-}

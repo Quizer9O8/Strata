@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "strata:hazburgite_cobblestone"
-  },
-  "result": "strata:hazburgite",
-  "experience": 0.1,
-  "cookingtime": 200
-}

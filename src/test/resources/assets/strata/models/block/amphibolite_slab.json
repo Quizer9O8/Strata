@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "strata:blocks/metamorphic_rocks/amphibolite",
-    "top": "strata:blocks/metamorphic_rocks/amphibolite",
-    "side": "strata:blocks/metamorphic_rocks/amphibolite"
-  }
-}

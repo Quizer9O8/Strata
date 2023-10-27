@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:mossy_schist_bricks"
-  },
-  "result": "strata:mossy_schist_brick_wall",
-  "count": 1
-}

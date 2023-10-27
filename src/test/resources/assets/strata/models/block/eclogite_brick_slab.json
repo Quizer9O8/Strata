@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab",
-    "textures": {
-        "bottom": "strata:blocks/metamorphic_rocks/eclogite_bricks"
-		"top": "strata:blocks/metamorphic_rocks/eclogite_bricks"
-		"side": "strata:blocks/metamorphic_rocks/eclogite_bricks"
-  }
-}

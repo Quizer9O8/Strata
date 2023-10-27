@@ -1,6 +1,0 @@
-{
-    "parent": "block/wall_inventory",
-    "textures": {
-        "wall": "strata:blocks/sedimentary_rocks/mossy_argillite_cobblestone"
-  }
-}

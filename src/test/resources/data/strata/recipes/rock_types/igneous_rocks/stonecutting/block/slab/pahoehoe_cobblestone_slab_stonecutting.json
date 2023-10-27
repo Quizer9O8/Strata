@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:pahoehoe_cobblestone"
-  },
-  "result": "strata:pahoehoe_cobblestone_slab",
-  "count": 2
-}

@@ -1,7 +1,0 @@
-{
-   "variants": {
-        "type=bottom": { "model": "strata:block/argillite_brick_slab" },
-        "type=top": { "model": "strata:block/argillite_brick_slab_top" },
-        "type=double": { "model": "strata:block/argillite_bricks" }
-    }
-}

@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "strata:basalt",
     "strata:gabbro",
     "strata:amphibolite",
     "strata:gneiss",

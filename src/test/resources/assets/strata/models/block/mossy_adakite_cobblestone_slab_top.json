@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab_top",
-    "textures": {
-        "bottom": "strata:blocks/igneous_rocks/mossy_adakite_cobblestone"
-		"top": "strata:blocks/igneous_rocks/mossy_adakite_cobblestone"
-		"side": "strata:blocks/igneous_rocks/mossy_adakite_cobblestone"
-  }
-}

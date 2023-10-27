@@ -1,8 +1,0 @@
-{
-    "parent": "block/stairs",
-    "textures": {
-        "bottom": "strata:blocks/sedimentary_rocks/chalk_cobblestone"
-		"top": "strata:blocks/sedimentary_rocks/chalk_cobblestone"
-		"side": "strata:blocks/sedimentary_rocks/chalk_cobblestone"
-  }
-}

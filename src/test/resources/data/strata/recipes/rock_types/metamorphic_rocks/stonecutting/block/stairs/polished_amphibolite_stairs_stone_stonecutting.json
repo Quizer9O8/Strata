@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:amphibolite"
-  },
-  "result": "strata:polished_amphibolite_stairs",
-  "count": 1
-}

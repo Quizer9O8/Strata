@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "strata:polished_aa"
-  },
-  "result": "strata:polished_aa_stairs",
-  "count": 1
-}

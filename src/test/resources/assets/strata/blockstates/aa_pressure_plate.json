@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "powered=false": { "model": "strata:block/jaspillite_pressure_plate" },
-		"powered=true": { "model": "strata:block/jaspillite_pressure_plate_down" }
-    }
-}
