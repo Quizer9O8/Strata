@@ -27,7 +27,7 @@ public class BlockList
         /*Igneous Rocks*/
 
         //Aa
-        public static final RegistryObject<Block> AA = BLOCKS.register("aa", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
+        public static final RegistryObject<Block> AA = BLOCKS.register("aa", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
         public static final RegistryObject<Block> AA_SLAB = BLOCKS.register("aa_slab", () -> new SlabBlock(Block.Properties.copy(AA.get())));
         public static final RegistryObject<Block> AA_STAIRS = BLOCKS.register("aa_stairs", () -> new StrataStairsBlock(AA.get().defaultBlockState(), Block.Properties.copy(AA.get())));
         public static final RegistryObject<Block> AA_WALL = BLOCKS.register("aa_wall", () -> new WallBlock(Block.Properties.copy(AA.get())));

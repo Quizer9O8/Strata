@@ -2,23 +2,19 @@ package com.quizer9o8.strata;
 
 import com.quizer9o8.strata.list.BlockList;
 import com.quizer9o8.strata.list.ItemList;
-
-import net.minecraft.tags.BlockTags;
+//import net.minecraft.data.tags.BlockTagsProvider;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.resources.ResourceLocation;
+//import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
+//import net.minecraftforge.common.Tags;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-
-
+//import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLDedicatedServerSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-
 
 // @Mod tells everything this is the main class.
 @Mod(Strata.MOD_ID)
