@@ -18,6 +18,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+
+
 // @Mod tells everything this is the main class.
 @Mod(Strata.MOD_ID)
 @Mod.EventBusSubscriber(modid = Strata.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
