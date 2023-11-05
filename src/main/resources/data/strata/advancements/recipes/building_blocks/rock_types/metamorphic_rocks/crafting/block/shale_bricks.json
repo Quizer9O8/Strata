@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/metamorphic_rocks/crafting/block/shale_bricks"
+    ]
+  },
+  "criteria": {
+    "has_polished_shale": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:polished_shale"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:shale_bricks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_shale",
+      "has_the_recipe"
+    ]
+  ]
+}

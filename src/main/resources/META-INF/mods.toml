@@ -5,12 +5,12 @@ license="MIT"
 
 [[mods]]
 modId="strata"
-version="1.3.0"
+version="1.3.1"
 displayName="Strata"
-updateJSONURL="http://myurl.me/"
+# updateJSONURL="http://myurl.me/"
 displayURL="https://github.com/Quizer9O8/Strata"
-logoFile="strata.png" #optional
-credits="Quizer9O8,Gaming_Crew" #optional
+logoFile="strata.png"
+credits="Quizer9O8,Gaming_Crew"
 authors="Quizer9O8"
 description='''Strata is a mod that adds various types of rocks into the game. It changes the look and feel of the game and gives you a plethora of blocks to interact with.'''
 
