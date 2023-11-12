@@ -1,8 +1,8 @@
 {
     "parent": "block/slab_top",
     "textures": {
-        "bottom": "strata:blocks/igneous_rocks/polished_adakite",
-		"top": "strata:blocks/igneous_rocks/polished_adakite",
-		"side": "strata:blocks/igneous_rocks/polished_adakite"
+        "bottom": "strata:block/igneous_rocks/polished_adakite",
+		"top": "strata:block/igneous_rocks/polished_adakite",
+		"side": "strata:block/igneous_rocks/polished_adakite"
   }
 }

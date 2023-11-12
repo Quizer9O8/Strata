@@ -1,8 +1,8 @@
 {
     "parent": "block/inner_stairs",
     "textures": {
-        "bottom": "strata:blocks/igneous_rocks/komatiite",
-		"top": "strata:blocks/igneous_rocks/komatiite",
-		"side": "strata:blocks/igneous_rocks/komatiite"
+        "bottom": "strata:block/igneous_rocks/komatiite",
+		"top": "strata:block/igneous_rocks/komatiite",
+		"side": "strata:block/igneous_rocks/komatiite"
   }
 }

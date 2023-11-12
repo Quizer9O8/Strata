@@ -1,8 +1,8 @@
 {
   "parent": "block/stairs",
   "textures": {
-    "bottom": "strata:blocks/metamorphic_rocks/polished_amphibolite",
-    "top": "strata:blocks/metamorphic_rocks/polished_amphibolite",
-    "side": "strata:blocks/metamorphic_rocks/polished_amphibolite"
+    "bottom": "strata:block/metamorphic_rocks/polished_amphibolite",
+    "top": "strata:block/metamorphic_rocks/polished_amphibolite",
+    "side": "strata:block/metamorphic_rocks/polished_amphibolite"
     }
 }

@@ -1,6 +1,6 @@
 {
     "parent": "block/button_inventory",
     "textures": {
-        "texture": "strata:blocks/igneous_rocks/dacite"
+        "texture": "strata:block/igneous_rocks/dacite"
   }
 }

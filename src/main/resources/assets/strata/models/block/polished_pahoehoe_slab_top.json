@@ -1,8 +1,8 @@
 {
     "parent": "block/slab_top",
     "textures": {
-        "bottom": "strata:blocks/igneous_rocks/polished_pahoehoe",
-		"top": "strata:blocks/igneous_rocks/polished_pahoehoe",
-		"side": "strata:blocks/igneous_rocks/polished_pahoehoe"
+        "bottom": "strata:block/igneous_rocks/polished_pahoehoe",
+		"top": "strata:block/igneous_rocks/polished_pahoehoe",
+		"side": "strata:block/igneous_rocks/polished_pahoehoe"
   }
 }

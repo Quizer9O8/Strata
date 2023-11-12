@@ -1,6 +1,6 @@
 {
     "parent": "block/button_pressed",
     "textures": {
-        "texture": "strata:blocks/igneous_rocks/pahoehoe"
+        "texture": "strata:block/igneous_rocks/pahoehoe"
   }
 }

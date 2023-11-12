@@ -1,6 +1,6 @@
 {
     "parent": "block/template_wall_post",
     "textures": {
-        "wall": "strata:blocks/sedimentary_rocks/chalk_bricks"
+        "wall": "strata:block/sedimentary_rocks/chalk_bricks"
   }
 }

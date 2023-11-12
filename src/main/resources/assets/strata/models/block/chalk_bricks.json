@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "strata:blocks/sedimentary_rocks/chalk_bricks"
+        "all": "strata:block/sedimentary_rocks/chalk_bricks"
   }
 }

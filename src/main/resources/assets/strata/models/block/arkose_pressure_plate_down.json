@@ -1,6 +1,6 @@
 {
     "parent": "block/pressure_plate_down",
     "textures": {
-        "texture": "strata:blocks/sedimentary_rocks/arkose"
+        "texture": "strata:block/sedimentary_rocks/arkose"
   }
 }

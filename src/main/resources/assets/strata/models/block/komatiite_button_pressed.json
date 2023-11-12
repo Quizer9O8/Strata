@@ -1,6 +1,6 @@
 {
     "parent": "block/button_pressed",
     "textures": {
-        "texture": "strata:blocks/igneous_rocks/komatiite"
+        "texture": "strata:block/igneous_rocks/komatiite"
   }
 }

@@ -1,6 +1,6 @@
 {
     "parent": "block/template_wall_side",
     "textures": {
-        "wall": "strata:blocks/sedimentary_rocks/argillite_bricks"
+        "wall": "strata:block/sedimentary_rocks/argillite_bricks"
   }
 }

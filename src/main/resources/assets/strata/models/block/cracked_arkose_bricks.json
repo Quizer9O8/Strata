@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "strata:blocks/sedimentary_rocks/cracked_arkose_bricks"
+        "all": "strata:block/sedimentary_rocks/cracked_arkose_bricks"
   }
 }

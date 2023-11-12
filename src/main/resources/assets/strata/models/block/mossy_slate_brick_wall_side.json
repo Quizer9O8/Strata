@@ -1,6 +1,6 @@
 {
     "parent": "block/template_wall_side",
     "textures": {
-        "wall": "strata:blocks/metamorphic_rocks/mossy_slate_bricks"
+        "wall": "strata:block/metamorphic_rocks/mossy_slate_bricks"
   }
 }

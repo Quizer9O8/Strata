@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "strata:blocks/metamorphic_rocks/mossy_gneiss_cobblestone"
+    "all": "strata:block/metamorphic_rocks/mossy_gneiss_cobblestone"
   }
 }
