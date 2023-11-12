@@ -1,6 +1,6 @@
 {
     "parent": "block/template_wall_post",
     "textures": {
-        "wall": "strata:blocks/igneous_rocks/mossy_pegmatite_bricks"
+        "wall": "strata:block/igneous_rocks/mossy_pegmatite_bricks"
   }
 }

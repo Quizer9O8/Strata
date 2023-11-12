@@ -6,7 +6,6 @@ import net.minecraft.world.level.block.state.BlockState;
 
 public class StrataStairsBlock extends StairBlock
 {
-   public StrataStairsBlock(BlockState state, BlockBehaviour.Properties properties) {
-        super(state, properties);
+   public StrataStairsBlock(BlockState state, BlockBehaviour.Properties properties) {super(state, properties);
     }
 }

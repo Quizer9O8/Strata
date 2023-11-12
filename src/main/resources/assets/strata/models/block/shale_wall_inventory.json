@@ -1,6 +1,6 @@
 {
   "parent": "block/wall_inventory",
   "textures": {
-    "wall": "strata:blocks/sedimentary_rocks/shale"
+    "wall": "strata:block/sedimentary_rocks/shale"
   }
 }

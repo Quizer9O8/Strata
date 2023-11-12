@@ -1,8 +1,8 @@
 {
     "parent": "block/slab",
     "textures": {
-        "bottom": "strata:blocks/igneous_rocks/dunite",
-		"top": "strata:blocks/igneous_rocks/dunite",
-		"side": "strata:blocks/igneous_rocks/dunite"
+        "bottom": "strata:block/igneous_rocks/dunite",
+		"top": "strata:block/igneous_rocks/dunite",
+		"side": "strata:block/igneous_rocks/dunite"
   }
 }

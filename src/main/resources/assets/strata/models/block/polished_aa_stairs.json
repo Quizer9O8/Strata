@@ -1,8 +1,8 @@
 {
     "parent": "block/stairs",
     "textures": {
-        "bottom": "strata:blocks/igneous_rocks/polished_aa",
-		"top": "strata:blocks/igneous_rocks/polished_aa",
-		"side": "strata:blocks/igneous_rocks/polished_aa"
+        "bottom": "strata:block/igneous_rocks/polished_aa",
+		"top": "strata:block/igneous_rocks/polished_aa",
+		"side": "strata:block/igneous_rocks/polished_aa"
   }
 }

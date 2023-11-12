@@ -1,6 +1,6 @@
 {
     "parent": "block/wall_inventory",
     "textures": {
-        "wall": "strata:blocks/igneous_rocks/mossy_aa_cobblestone"
+        "wall": "strata:block/igneous_rocks/mossy_aa_cobblestone"
   }
 }

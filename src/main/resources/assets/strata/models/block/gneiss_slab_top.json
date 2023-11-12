@@ -1,8 +1,8 @@
 {
   "parent": "block/slab_top",
   "textures": {
-    "bottom": "strata:blocks/metamorphic_rocks/gneiss",
-    "top": "strata:blocks/metamorphic_rocks/gneiss",
-    "side": "strata:blocks/metamorphic_rocks/gneiss"
+    "bottom": "strata:block/metamorphic_rocks/gneiss",
+    "top": "strata:block/metamorphic_rocks/gneiss",
+    "side": "strata:block/metamorphic_rocks/gneiss"
   }
 }

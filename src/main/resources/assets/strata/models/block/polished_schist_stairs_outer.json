@@ -1,8 +1,8 @@
 {
   "parent": "block/outer_stairs",
   "textures": {
-    "bottom": "strata:blocks/metamorphic_rocks/polished_schist",
-    "top": "strata:blocks/metamorphic_rocks/polished_schist",
-    "side": "strata:blocks/metamorphic_rocks/polished_schist"
+    "bottom": "strata:block/metamorphic_rocks/polished_schist",
+    "top": "strata:block/metamorphic_rocks/polished_schist",
+    "side": "strata:block/metamorphic_rocks/polished_schist"
     }
 }

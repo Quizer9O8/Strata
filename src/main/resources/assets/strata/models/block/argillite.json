@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "strata:blocks/sedimentary_rocks/argillite"
+        "all": "strata:block/sedimentary_rocks/argillite"
   }
 }

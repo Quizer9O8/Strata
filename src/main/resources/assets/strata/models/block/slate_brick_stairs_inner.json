@@ -1,8 +1,8 @@
 {
     "parent": "block/inner_stairs",
     "textures": {
-        "bottom": "strata:blocks/metamorphic_rocks/slate_bricks",
-		"top": "strata:blocks/metamorphic_rocks/slate_bricks",
-		"side": "strata:blocks/metamorphic_rocks/slate_bricks"
+        "bottom": "strata:block/metamorphic_rocks/slate_bricks",
+		"top": "strata:block/metamorphic_rocks/slate_bricks",
+		"side": "strata:block/metamorphic_rocks/slate_bricks"
   }
 }

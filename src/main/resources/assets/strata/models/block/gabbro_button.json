@@ -1,6 +1,6 @@
 {
     "parent": "block/button",
     "textures": {
-        "texture": "strata:blocks/igneous_rocks/gabbro"
+        "texture": "strata:block/igneous_rocks/gabbro"
     }
 }

@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "strata:blocks/sedimentary_rocks/mudstone_cobblestone"
+        "all": "strata:block/sedimentary_rocks/mudstone_cobblestone"
   }
 }

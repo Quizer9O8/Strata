@@ -9,6 +9,7 @@ import net.minecraft.world.level.material.Material;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 
 public class BlockList
 {
@@ -17,7 +18,7 @@ public class BlockList
 
 /*
         //Debug Blocks
-        public static final RegistryObject<Block> DEBUG_BLOCK = BLOCKS.register("debug_block", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).hardnessAndResistance(0.0f, 0.0f).harvestLevel(0)));
+        public static final RegistryObject<Block> DEBUG_BLOCK = BLOCKS.register("debug_block", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).destroyTime(1.5f).explosionResistance(6.0f).harvestLevel(0)));
         public static final RegistryObject<Block> DEBUG_SLAB = BLOCKS.register("debug_slab", () -> new SlabBlock(Block.Properties.copy(DEBUG_BLOCK.get())));
         public static final RegistryObject<Block> DEBUG_STAIRS = BLOCKS.register("debug_stairs", () -> new StrataStairsBlock(DEBUG_BLOCK.get().defaultBlockState(), Block.Properties.copy(DEBUG_BLOCK.get())));
         public static final RegistryObject<Block> DEBUG_WALL = BLOCKS.register("debug_wall", () -> new WallBlock(Block.Properties.copy(DEBUG_BLOCK.get())));
@@ -45,10 +46,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_AA_COBBLESTONE_WALL = BLOCKS.register("mossy_aa_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_AA_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> AA_BUTTON = BLOCKS.register("aa_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> AA_BUTTON = BLOCKS.register("aa_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> AA_PRESSURE_PLATE = BLOCKS.register("aa_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> AA_PRESSURE_PLATE = BLOCKS.register("aa_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> AA_BRICKS = BLOCKS.register("aa_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -86,10 +87,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_ADAKITE_COBBLESTONE_WALL = BLOCKS.register("mossy_adakite_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_ADAKITE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> ADAKITE_BUTTON = BLOCKS.register("adakite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> ADAKITE_BUTTON = BLOCKS.register("adakite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> ADAKITE_PRESSURE_PLATE = BLOCKS.register("adakite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> ADAKITE_PRESSURE_PLATE = BLOCKS.register("adakite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> ADAKITE_BRICKS = BLOCKS.register("adakite_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -127,10 +128,10 @@ public class BlockList
         //public static final RegistryObject<Block> MOSSY_BASALT_COBBLESTONE_WALL = BLOCKS.register("mossy_basalt_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_BASALT_COBBLESTONE.get())));
         
         //Buttons
-        //public static final RegistryObject<Block> BASALT_BUTTON = BLOCKS.register("basalt_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        //public static final RegistryObject<Block> BASALT_BUTTON = BLOCKS.register("basalt_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
         
         //Pressure Plates
-        //public static final RegistryObject<Block> BASALT_PRESSURE_PLATE = BLOCKS.register("basalt_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        //public static final RegistryObject<Block> BASALT_PRESSURE_PLATE = BLOCKS.register("basalt_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
         
         //Bricks
         //public static final RegistryObject<Block> BASALT_BRICKS = BLOCKS.register("basalt_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -168,10 +169,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_DACITE_COBBLESTONE_WALL = BLOCKS.register("mossy_dacite_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_DACITE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> DACITE_BUTTON = BLOCKS.register("dacite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> DACITE_BUTTON = BLOCKS.register("dacite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> DACITE_PRESSURE_PLATE = BLOCKS.register("dacite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> DACITE_PRESSURE_PLATE = BLOCKS.register("dacite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> DACITE_BRICKS = BLOCKS.register("dacite_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -209,10 +210,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_DUNITE_COBBLESTONE_WALL = BLOCKS.register("mossy_dunite_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_DUNITE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> DUNITE_BUTTON = BLOCKS.register("dunite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> DUNITE_BUTTON = BLOCKS.register("dunite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> DUNITE_PRESSURE_PLATE = BLOCKS.register("dunite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> DUNITE_PRESSURE_PLATE = BLOCKS.register("dunite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> DUNITE_BRICKS = BLOCKS.register("dunite_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -250,10 +251,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_GABBRO_COBBLESTONE_WALL = BLOCKS.register("mossy_gabbro_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_GABBRO_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> GABBRO_BUTTON = BLOCKS.register("gabbro_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> GABBRO_BUTTON = BLOCKS.register("gabbro_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> GABBRO_PRESSURE_PLATE = BLOCKS.register("gabbro_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> GABBRO_PRESSURE_PLATE = BLOCKS.register("gabbro_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> GABBRO_BRICKS = BLOCKS.register("gabbro_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -291,10 +292,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_KOMATIITE_COBBLESTONE_WALL = BLOCKS.register("mossy_komatiite_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_KOMATIITE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> KOMATIITE_BUTTON = BLOCKS.register("komatiite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> KOMATIITE_BUTTON = BLOCKS.register("komatiite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> KOMATIITE_PRESSURE_PLATE = BLOCKS.register("komatiite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> KOMATIITE_PRESSURE_PLATE = BLOCKS.register("komatiite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> KOMATIITE_BRICKS = BLOCKS.register("komatiite_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -332,10 +333,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_PAHOEHOE_COBBLESTONE_WALL = BLOCKS.register("mossy_pahoehoe_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_PAHOEHOE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> PAHOEHOE_BUTTON = BLOCKS.register("pahoehoe_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> PAHOEHOE_BUTTON = BLOCKS.register("pahoehoe_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> PAHOEHOE_PRESSURE_PLATE = BLOCKS.register("pahoehoe_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> PAHOEHOE_PRESSURE_PLATE = BLOCKS.register("pahoehoe_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> PAHOEHOE_BRICKS = BLOCKS.register("pahoehoe_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -373,10 +374,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_PEGMATITE_COBBLESTONE_WALL = BLOCKS.register("mossy_pegmatite_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_PEGMATITE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> PEGMATITE_BUTTON = BLOCKS.register("pegmatite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> PEGMATITE_BUTTON = BLOCKS.register("pegmatite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> PEGMATITE_PRESSURE_PLATE = BLOCKS.register("pegmatite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> PEGMATITE_PRESSURE_PLATE = BLOCKS.register("pegmatite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> PEGMATITE_BRICKS = BLOCKS.register("pegmatite_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -414,10 +415,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_PHONOLITE_COBBLESTONE_WALL = BLOCKS.register("mossy_phonolite_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_PHONOLITE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> PHONOLITE_BUTTON = BLOCKS.register("phonolite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> PHONOLITE_BUTTON = BLOCKS.register("phonolite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> PHONOLITE_PRESSURE_PLATE = BLOCKS.register("phonolite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> PHONOLITE_PRESSURE_PLATE = BLOCKS.register("phonolite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> PHONOLITE_BRICKS = BLOCKS.register("phonolite_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -457,10 +458,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_AMPHIBOLITE_COBBLESTONE_WALL = BLOCKS.register("mossy_amphibolite_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_AMPHIBOLITE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> AMPHIBOLITE_BUTTON = BLOCKS.register("amphibolite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> AMPHIBOLITE_BUTTON = BLOCKS.register("amphibolite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> AMPHIBOLITE_PRESSURE_PLATE = BLOCKS.register("amphibolite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> AMPHIBOLITE_PRESSURE_PLATE = BLOCKS.register("amphibolite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> AMPHIBOLITE_BRICKS = BLOCKS.register("amphibolite_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -498,10 +499,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_CATACLASITE_COBBLESTONE_WALL = BLOCKS.register("mossy_cataclasite_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_CATACLASITE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> CATACLASITE_BUTTON = BLOCKS.register("cataclasite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> CATACLASITE_BUTTON = BLOCKS.register("cataclasite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> CATACLASITE_PRESSURE_PLATE = BLOCKS.register("cataclasite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> CATACLASITE_PRESSURE_PLATE = BLOCKS.register("cataclasite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> CATACLASITE_BRICKS = BLOCKS.register("cataclasite_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -539,10 +540,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_ECLOGITE_COBBLESTONE_WALL = BLOCKS.register("mossy_eclogite_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_ECLOGITE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> ECLOGITE_BUTTON = BLOCKS.register("eclogite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> ECLOGITE_BUTTON = BLOCKS.register("eclogite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> ECLOGITE_PRESSURE_PLATE = BLOCKS.register("eclogite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> ECLOGITE_PRESSURE_PLATE = BLOCKS.register("eclogite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> ECLOGITE_BRICKS = BLOCKS.register("eclogite_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -580,10 +581,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_GNEISS_COBBLESTONE_WALL = BLOCKS.register("mossy_gneiss_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_GNEISS_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> GNEISS_BUTTON = BLOCKS.register("gneiss_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> GNEISS_BUTTON = BLOCKS.register("gneiss_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> GNEISS_PRESSURE_PLATE = BLOCKS.register("gneiss_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> GNEISS_PRESSURE_PLATE = BLOCKS.register("gneiss_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> GNEISS_BRICKS = BLOCKS.register("gneiss_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -621,10 +622,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_MARBLE_COBBLESTONE_WALL = BLOCKS.register("mossy_marble_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_MARBLE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> MARBLE_BUTTON = BLOCKS.register("marble_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> MARBLE_BUTTON = BLOCKS.register("marble_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> MARBLE_PRESSURE_PLATE = BLOCKS.register("marble_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> MARBLE_PRESSURE_PLATE = BLOCKS.register("marble_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> MARBLE_BRICKS = BLOCKS.register("marble_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -662,10 +663,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_MIGMATITE_COBBLESTONE_WALL = BLOCKS.register("mossy_migmatite_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_MIGMATITE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> MIGMATITE_BUTTON = BLOCKS.register("migmatite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> MIGMATITE_BUTTON = BLOCKS.register("migmatite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> MIGMATITE_PRESSURE_PLATE = BLOCKS.register("migmatite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> MIGMATITE_PRESSURE_PLATE = BLOCKS.register("migmatite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> MIGMATITE_BRICKS = BLOCKS.register("migmatite_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -703,10 +704,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_SCHIST_COBBLESTONE_WALL = BLOCKS.register("mossy_schist_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_SCHIST_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> SCHIST_BUTTON = BLOCKS.register("schist_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> SCHIST_BUTTON = BLOCKS.register("schist_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> SCHIST_PRESSURE_PLATE = BLOCKS.register("schist_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> SCHIST_PRESSURE_PLATE = BLOCKS.register("schist_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> SCHIST_BRICKS = BLOCKS.register("schist_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -744,10 +745,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_SLATE_COBBLESTONE_WALL = BLOCKS.register("mossy_slate_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_SLATE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> SLATE_BUTTON = BLOCKS.register("slate_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> SLATE_BUTTON = BLOCKS.register("slate_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> SLATE_PRESSURE_PLATE = BLOCKS.register("slate_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> SLATE_PRESSURE_PLATE = BLOCKS.register("slate_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> SLATE_BRICKS = BLOCKS.register("slate_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -785,10 +786,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_SOAPSTONE_COBBLESTONE_WALL = BLOCKS.register("mossy_soapstone_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_SOAPSTONE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> SOAPSTONE_BUTTON = BLOCKS.register("soapstone_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> SOAPSTONE_BUTTON = BLOCKS.register("soapstone_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> SOAPSTONE_PRESSURE_PLATE = BLOCKS.register("soapstone_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> SOAPSTONE_PRESSURE_PLATE = BLOCKS.register("soapstone_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> SOAPSTONE_BRICKS = BLOCKS.register("soapstone_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -826,10 +827,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_PHYLLITE_COBBLESTONE_WALL = BLOCKS.register("mossy_phyllite_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_PHYLLITE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> PHYLLITE_BUTTON = BLOCKS.register("phyllite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> PHYLLITE_BUTTON = BLOCKS.register("phyllite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> PHYLLITE_PRESSURE_PLATE = BLOCKS.register("phyllite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> PHYLLITE_PRESSURE_PLATE = BLOCKS.register("phyllite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> PHYLLITE_BRICKS = BLOCKS.register("phyllite_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -869,10 +870,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_ARGILLITE_COBBLESTONE_WALL = BLOCKS.register("mossy_argillite_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_ARGILLITE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> ARGILLITE_BUTTON = BLOCKS.register("argillite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> ARGILLITE_BUTTON = BLOCKS.register("argillite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> ARGILLITE_PRESSURE_PLATE = BLOCKS.register("argillite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> ARGILLITE_PRESSURE_PLATE = BLOCKS.register("argillite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> ARGILLITE_BRICKS = BLOCKS.register("argillite_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -910,10 +911,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_ARKOSE_COBBLESTONE_WALL = BLOCKS.register("mossy_arkose_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_ARKOSE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> ARKOSE_BUTTON = BLOCKS.register("arkose_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> ARKOSE_BUTTON = BLOCKS.register("arkose_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> ARKOSE_PRESSURE_PLATE = BLOCKS.register("arkose_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> ARKOSE_PRESSURE_PLATE = BLOCKS.register("arkose_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> ARKOSE_BRICKS = BLOCKS.register("arkose_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -951,10 +952,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_BRECCIA_COBBLESTONE_WALL = BLOCKS.register("mossy_breccia_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_BRECCIA_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> BRECCIA_BUTTON = BLOCKS.register("breccia_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> BRECCIA_BUTTON = BLOCKS.register("breccia_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> BRECCIA_PRESSURE_PLATE = BLOCKS.register("breccia_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> BRECCIA_PRESSURE_PLATE = BLOCKS.register("breccia_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> BRECCIA_BRICKS = BLOCKS.register("breccia_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -992,10 +993,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_CHALK_COBBLESTONE_WALL = BLOCKS.register("mossy_chalk_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_CHALK_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> CHALK_BUTTON = BLOCKS.register("chalk_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> CHALK_BUTTON = BLOCKS.register("chalk_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> CHALK_PRESSURE_PLATE = BLOCKS.register("chalk_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> CHALK_PRESSURE_PLATE = BLOCKS.register("chalk_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> CHALK_BRICKS = BLOCKS.register("chalk_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.4f).explosionResistance(1.4f)));
@@ -1033,10 +1034,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_CLAYSTONE_COBBLESTONE_WALL = BLOCKS.register("mossy_claystone_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_CLAYSTONE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> CLAYSTONE_BUTTON = BLOCKS.register("claystone_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> CLAYSTONE_BUTTON = BLOCKS.register("claystone_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> CLAYSTONE_PRESSURE_PLATE = BLOCKS.register("claystone_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> CLAYSTONE_PRESSURE_PLATE = BLOCKS.register("claystone_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> CLAYSTONE_BRICKS = BLOCKS.register("claystone_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -1074,10 +1075,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_DOLOMITE_COBBLESTONE_WALL = BLOCKS.register("mossy_dolomite_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_DOLOMITE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> DOLOMITE_BUTTON = BLOCKS.register("dolomite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> DOLOMITE_BUTTON = BLOCKS.register("dolomite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> DOLOMITE_PRESSURE_PLATE = BLOCKS.register("dolomite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> DOLOMITE_PRESSURE_PLATE = BLOCKS.register("dolomite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> DOLOMITE_BRICKS = BLOCKS.register("dolomite_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -1115,10 +1116,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_JASPILLITE_COBBLESTONE_WALL = BLOCKS.register("mossy_jaspillite_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_JASPILLITE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> JASPILLITE_BUTTON = BLOCKS.register("jaspillite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> JASPILLITE_BUTTON = BLOCKS.register("jaspillite_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> JASPILLITE_PRESSURE_PLATE = BLOCKS.register("jaspillite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> JASPILLITE_PRESSURE_PLATE = BLOCKS.register("jaspillite_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> JASPILLITE_BRICKS = BLOCKS.register("jaspillite_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -1156,10 +1157,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_LIMESTONE_COBBLESTONE_WALL = BLOCKS.register("mossy_limestone_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_LIMESTONE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> LIMESTONE_BUTTON = BLOCKS.register("limestone_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> LIMESTONE_BUTTON = BLOCKS.register("limestone_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> LIMESTONE_PRESSURE_PLATE = BLOCKS.register("limestone_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> LIMESTONE_PRESSURE_PLATE = BLOCKS.register("limestone_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> LIMESTONE_BRICKS = BLOCKS.register("limestone_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -1197,10 +1198,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_MUDSTONE_COBBLESTONE_WALL = BLOCKS.register("mossy_mudstone_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_MUDSTONE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> MUDSTONE_BUTTON = BLOCKS.register("mudstone_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> MUDSTONE_BUTTON = BLOCKS.register("mudstone_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> MUDSTONE_PRESSURE_PLATE = BLOCKS.register("mudstone_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> MUDSTONE_PRESSURE_PLATE = BLOCKS.register("mudstone_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> MUDSTONE_BRICKS = BLOCKS.register("mudstone_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));
@@ -1238,10 +1239,10 @@ public class BlockList
         public static final RegistryObject<Block> MOSSY_SHALE_COBBLESTONE_WALL = BLOCKS.register("mossy_shale_cobblestone_wall", () -> new WallBlock(Block.Properties.copy(MOSSY_SHALE_COBBLESTONE.get())));
 
         //Buttons
-        public static final RegistryObject<Block> SHALE_BUTTON = BLOCKS.register("shale_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> SHALE_BUTTON = BLOCKS.register("shale_button", () -> new StrataButtonBlock(Block.Properties.of(Material.STONE).sound(SoundType.STONE).noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE, 20, false));
 
         //Pressure Plates
-        public static final RegistryObject<Block> SHALE_PRESSURE_PLATE = BLOCKS.register("shale_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f)));
+        public static final RegistryObject<Block> SHALE_PRESSURE_PLATE = BLOCKS.register("shale_pressure_plate", () -> new StrataPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission().destroyTime(0.5f).explosionResistance(0.5f), BlockSetType.STONE));
 
         //Bricks
         public static final RegistryObject<Block> SHALE_BRICKS = BLOCKS.register("shale_bricks", () -> new Block(Block.Properties.of(Material.STONE).sound(SoundType.STONE).requiresCorrectToolForDrops().destroyTime(1.5f).explosionResistance(6.0f)));

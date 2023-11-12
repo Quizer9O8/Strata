@@ -1,8 +1,8 @@
 {
     "parent": "block/slab",
     "textures": {
-        "bottom": "strata:blocks/sedimentary_rocks/mossy_mudstone_bricks",
-		"top": "strata:blocks/sedimentary_rocks/mossy_mudstone_bricks",
-		"side": "strata:blocks/sedimentary_rocks/mossy_mudstone_bricks"
+        "bottom": "strata:block/sedimentary_rocks/mossy_mudstone_bricks",
+		"top": "strata:block/sedimentary_rocks/mossy_mudstone_bricks",
+		"side": "strata:block/sedimentary_rocks/mossy_mudstone_bricks"
   }
 }
