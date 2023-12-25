@@ -17,7 +17,7 @@ description='''Strata is a mod that adds various types of rocks into the game. I
 [[dependencies.examplemod]]
     modId="forge"
     mandatory=true
-    versionRange="[47,)"
+    versionRange="[46,)"
     # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
     ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
