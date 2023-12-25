@@ -1,8 +1,8 @@
 {
     "parent": "block/stairs",
     "textures": {
-        "bottom": "strata:blocks/metamorphic_rocks/phyllite_bricks",
-		"top": "strata:blocks/metamorphic_rocks/phyllite_bricks",
-		"side": "strata:blocks/metamorphic_rocks/phyllite_bricks"
+        "bottom": "strata:block/metamorphic_rocks/phyllite_bricks",
+		"top": "strata:block/metamorphic_rocks/phyllite_bricks",
+		"side": "strata:block/metamorphic_rocks/phyllite_bricks"
   }
 }

@@ -1,6 +1,6 @@
 {
     "parent": "block/wall_inventory",
     "textures": {
-        "wall": "strata:blocks/igneous_rocks/mossy_aa_bricks"
+        "wall": "strata:block/igneous_rocks/mossy_aa_bricks"
   }
 }

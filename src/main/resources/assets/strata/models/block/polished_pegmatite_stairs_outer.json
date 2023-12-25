@@ -1,8 +1,8 @@
 {
     "parent": "block/outer_stairs",
     "textures": {
-        "bottom": "strata:blocks/igneous_rocks/polished_pegmatite",
-		"top": "strata:blocks/igneous_rocks/polished_pegmatite",
-		"side": "strata:blocks/igneous_rocks/polished_pegmatite"
+        "bottom": "strata:block/igneous_rocks/polished_pegmatite",
+		"top": "strata:block/igneous_rocks/polished_pegmatite",
+		"side": "strata:block/igneous_rocks/polished_pegmatite"
   }
 }

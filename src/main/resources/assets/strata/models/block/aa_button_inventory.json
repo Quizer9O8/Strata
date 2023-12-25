@@ -1,6 +1,6 @@
 {
     "parent": "block/button_inventory",
     "textures": {
-        "texture": "strata:blocks/igneous_rocks/aa"
+        "texture": "strata:block/igneous_rocks/aa"
   }
 }

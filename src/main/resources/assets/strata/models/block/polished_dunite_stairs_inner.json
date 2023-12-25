@@ -1,8 +1,8 @@
 {
     "parent": "block/stairs",
     "textures": {
-        "bottom": "strata:blocks/igneous_rocks/polished_dunite",
-		"top": "strata:blocks/igneous_rocks/polished_dunite",
-		"side": "strata:blocks/igneous_rocks/polished_dunite"
+        "bottom": "strata:block/igneous_rocks/polished_dunite",
+		"top": "strata:block/igneous_rocks/polished_dunite",
+		"side": "strata:block/igneous_rocks/polished_dunite"
   }
 }

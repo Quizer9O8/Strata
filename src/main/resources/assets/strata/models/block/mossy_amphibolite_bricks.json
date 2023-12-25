@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "strata:blocks/metamorphic_rocks/mossy_amphibolite_bricks"
+    "all": "strata:block/metamorphic_rocks/mossy_amphibolite_bricks"
   }
 }

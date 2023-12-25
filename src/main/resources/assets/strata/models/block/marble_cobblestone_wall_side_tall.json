@@ -1,6 +1,6 @@
 {
   "parent": "block/template_wall_side_tall",
   "textures": {
-    "wall": "strata:blocks/metamorphic_rocks/marble_cobblestone"
+    "wall": "strata:block/metamorphic_rocks/marble_cobblestone"
   }
 }

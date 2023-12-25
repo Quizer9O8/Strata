@@ -1,6 +1,6 @@
 {
     "parent": "block/template_wall_side",
     "textures": {
-        "wall": "strata:blocks/igneous_rocks/dacite"
+        "wall": "strata:block/igneous_rocks/dacite"
   }
 }

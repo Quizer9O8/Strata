@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "strata:rock_types/sedimentary_rocks/stonecutting/block/stairs/shale_cobblestone_stairs_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_shale_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strata:shale_cobblestone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "strata:shale_cobblestone_stairs_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_shale_cobblestone",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,8 +1,8 @@
 {
     "parent": "block/stairs",
     "textures": {
-        "bottom": "strata:blocks/sedimentary_rocks/polished_claystone",
-		"top": "strata:blocks/sedimentary_rocks/polished_claystone",
-		"side": "strata:blocks/sedimentary_rocks/polished_claystone"
+        "bottom": "strata:block/sedimentary_rocks/polished_claystone",
+		"top": "strata:block/sedimentary_rocks/polished_claystone",
+		"side": "strata:block/sedimentary_rocks/polished_claystone"
   }
 }

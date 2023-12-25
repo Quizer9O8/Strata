@@ -1,6 +1,6 @@
 {
     "parent": "block/wall_inventory",
     "textures": {
-        "wall": "strata:blocks/sedimentary_rocks/dolomite_bricks"
+        "wall": "strata:block/sedimentary_rocks/dolomite_bricks"
   }
 }

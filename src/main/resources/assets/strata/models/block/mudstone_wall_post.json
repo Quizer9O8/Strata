@@ -1,6 +1,6 @@
 {
     "parent": "block/template_wall_post",
     "textures": {
-        "wall": "strata:blocks/sedimentary_rocks/mudstone"
+        "wall": "strata:block/sedimentary_rocks/mudstone"
   }
 }
