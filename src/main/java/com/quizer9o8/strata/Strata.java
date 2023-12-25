@@ -32,6 +32,8 @@ public class Strata
 
         modEventBus.addListener(this::clientSetup);
 
+        CreativeTabs.register(modEventBus);
+
         BlockList.BLOCKS.register(modEventBus);
         ItemList.ITEMS.register(modEventBus);
     }

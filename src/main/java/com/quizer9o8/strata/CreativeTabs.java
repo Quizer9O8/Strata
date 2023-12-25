@@ -1,24 +1,23 @@
 package com.quizer9o8.strata;
 
+import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.event.CreativeModeTabEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.RegistryObject;
+
 import static com.quizer9o8.strata.list.BlockList.*;
 
-@Mod.EventBusSubscriber(modid = Strata.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class CreativeTabs {
-    public static CreativeModeTab IGNEOUS_TAB;
-    public static CreativeModeTab METAMORPHIC_TAB;
-    public static CreativeModeTab SEDIMENTARY_TAB;
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Strata.MOD_ID);
 
     //This registers the Creative tabs
-    @SubscribeEvent
-    public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
-        IGNEOUS_TAB = event.registerCreativeModeTab(new ResourceLocation(Strata.MOD_ID, "igneous"), builder -> builder
+    public static final RegistryObject<CreativeModeTab>
+            IGNEOUS_TAB = CREATIVE_MODE_TABS.register("igneous", ()-> CreativeModeTab.builder()
                 .icon(() -> new ItemStack(AA.get()))
                 .title(Component.translatable("itemGroup.igneous"))
                 .displayItems((featureFlags, output) -> {
@@ -374,8 +373,10 @@ public class CreativeTabs {
                     output.accept(POLISHED_PHONOLITE_SLAB.get());
                     output.accept(POLISHED_PHONOLITE_STAIRS.get());
                 })
-        );
-        METAMORPHIC_TAB = event.registerCreativeModeTab(new ResourceLocation(Strata.MOD_ID, "metamorphic"), builder -> builder
+            .build());
+
+    public static final RegistryObject<CreativeModeTab>
+            METAMORPHIC_TAB = CREATIVE_MODE_TABS.register("metamorphic", ()-> CreativeModeTab.builder()
                 .icon(() -> new ItemStack(AMPHIBOLITE.get()))
                 .title(Component.translatable("itemGroup.metamorphic"))
                 .displayItems((featureFlags, output) -> {
@@ -770,8 +771,10 @@ public class CreativeTabs {
                     output.accept(POLISHED_SOAPSTONE_SLAB.get());
                     output.accept(POLISHED_SOAPSTONE_STAIRS.get());
                 })
-        );
-        SEDIMENTARY_TAB = event.registerCreativeModeTab(new ResourceLocation(Strata.MOD_ID, "sedimentary"), builder -> builder
+            .build());
+
+    public static final RegistryObject<CreativeModeTab>
+            SEDIMENTARY_TAB = CREATIVE_MODE_TABS.register("sedimentary", ()-> CreativeModeTab.builder()
                 .icon(() -> new ItemStack(LIMESTONE.get()))
                 .title(Component.translatable("itemGroup.sedimentary"))
                 .displayItems((featureFlags, output) -> {
@@ -1166,6 +1169,9 @@ public class CreativeTabs {
                     output.accept(POLISHED_SHALE_SLAB.get());
                     output.accept(POLISHED_SHALE_STAIRS.get());
                 })
-        );
+            .build());
+
+    public static void register(IEventBus eventBus) {
+        CREATIVE_MODE_TABS.register(eventBus);
     }
 }
